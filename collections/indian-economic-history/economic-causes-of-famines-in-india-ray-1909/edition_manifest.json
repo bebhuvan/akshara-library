@@ -1,0 +1,278 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "economic-causes-of-famines-in-india-ray-1909",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 99.6,
+  "cover_archetype": "political_economy_ledger",
+  "cover_palette": "Charcoal Balance",
+  "edition_root": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/book_ast.json",
+    "rubric_score": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/cover.svg",
+    "cover_webp": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/cover.webp",
+    "web_index": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/web/index.html",
+    "hugo_dir": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/epub/economic-causes-of-famines-in-india-ray-1909.epub",
+    "markdown": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/markdown/economic-causes-of-famines-in-india-ray-1909.md",
+    "tei_xml": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/tei/economic-causes-of-famines-in-india-ray-1909.tei.xml",
+    "print_html": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/print/economic-causes-of-famines-in-india-ray-1909.print.html",
+    "pdf": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/print/economic-causes-of-famines-in-india-ray-1909.pdf",
+    "datasets": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (89/89 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/economic-causes-of-famines-in-india-ray-1909.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 11 pp. checked",
+        "detail": "0 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 89 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 2/2 Arithmetic-Checked",
+        "detail": "2 of 2 tables pass arithmetic & column checks"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 2 footnotes and 26 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1860-1908",
+      "regions": [
+        "All-India",
+        "Bengal"
+      ],
+      "subjects": [
+        "Famine Economics",
+        "Grain Exports",
+        "Rural Credit",
+        "Land Revenue"
+      ],
+      "artifacts": [
+        "4 Statistical Tables",
+        "1 Archival Plates",
+        "2 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 2,
+      "extracted_page_count": 89,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 11,
+      "machine_reread_page_count": 11,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        1,
+        9,
+        13,
+        15,
+        27,
+        42,
+        43,
+        50,
+        61,
+        76,
+        83
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (2 open review items); 11 of 89 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 2,
+      "informational": 2,
+      "total": 4
+    },
+    "corrections": {
+      "applied": 0,
+      "unmatched": 0,
+      "details": []
+    },
+    "review_items": [
+      {
+        "page_number": 1,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>Economic</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0001-b0002"
+      },
+      {
+        "page_number": 83,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>i</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0083-b0003"
+      },
+      {
+        "page_number": 15,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'æ' (U+00E6 LATIN SMALL LETTER AE) appears only 1 time(s) in this book, here in 'formulæ.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0015-b0002"
+      },
+      {
+        "page_number": 27,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'é' (U+00E9 LATIN SMALL LETTER E WITH ACUTE) appears only 1 time(s) in this book, here in 'resumé'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0027-b0003"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (89/89 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/economic-causes-of-famines-in-india-ray-1909.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 11 pp. checked",
+          "detail": "0 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 89 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 2/2 Arithmetic-Checked",
+          "detail": "2 of 2 tables pass arithmetic & column checks"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 2 footnotes and 26 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1860-1908",
+        "regions": [
+          "All-India",
+          "Bengal"
+        ],
+        "subjects": [
+          "Famine Economics",
+          "Grain Exports",
+          "Rural Credit",
+          "Land Revenue"
+        ],
+        "artifacts": [
+          "4 Statistical Tables",
+          "1 Archival Plates",
+          "2 Footnotes"
+        ]
+      }
+    }
+  }
+}

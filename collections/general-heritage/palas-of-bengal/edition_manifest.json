@@ -1,0 +1,984 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "palas-of-bengal",
+  "run_id": "g38-canonical-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "community",
+  "rubric_score": 80.2,
+  "cover_archetype": "court_and_chronicle",
+  "cover_palette": "Lapis Chronicle",
+  "edition_root": "library/general-heritage/palas-of-bengal",
+  "outputs": {
+    "book_ast": "library/general-heritage/palas-of-bengal/book_ast.json",
+    "rubric_score": "library/general-heritage/palas-of-bengal/rubric_score.json",
+    "editorial_note": "library/general-heritage/palas-of-bengal/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/palas-of-bengal/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/palas-of-bengal/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/palas-of-bengal/cover.svg",
+    "cover_webp": "library/general-heritage/palas-of-bengal/cover.webp",
+    "web_index": "library/general-heritage/palas-of-bengal/web/index.html",
+    "hugo_dir": "library/general-heritage/palas-of-bengal/web/hugo",
+    "hugo_manifest": "library/general-heritage/palas-of-bengal/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/palas-of-bengal/epub/palas-of-bengal.epub",
+    "markdown": "library/general-heritage/palas-of-bengal/markdown/palas-of-bengal.md",
+    "tei_xml": "library/general-heritage/palas-of-bengal/tei/palas-of-bengal.tei.xml",
+    "print_html": "library/general-heritage/palas-of-bengal/print/palas-of-bengal.print.html",
+    "pdf": "library/general-heritage/palas-of-bengal/print/palas-of-bengal.pdf",
+    "datasets": null,
+    "datapackage": null
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/palas-of-bengal",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (105/105 pp.) · reader_profile=transliteration"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/palas-of-bengal.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 29 fixes",
+        "detail": "29 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 105 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:devanagari",
+        "axis": "diplomatic",
+        "label": "Script: Devanagari",
+        "detail": "Declared script: Devanagari"
+      },
+      {
+        "id": "script:bengali",
+        "axis": "diplomatic",
+        "label": "Script: Bengali",
+        "detail": "Declared script: Bengali"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 277 footnotes and 98 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "750-1175",
+      "regions": [
+        "Bengal",
+        "Bihar",
+        "Magadha",
+        "Gauda"
+      ],
+      "subjects": [
+        "Pala Dynasty",
+        "Sanskrit Epigraphy",
+        "Copper-Plate Grants",
+        "Medieval Indian History"
+      ],
+      "artifacts": [
+        "39 Archival Plates",
+        "277 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 38,
+      "extracted_page_count": 105,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 0,
+      "machine_reread_page_count": 0,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (38 open review items); 0 of 105 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 38,
+      "informational": 20,
+      "total": 58
+    },
+    "corrections": {
+      "applied": 29,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "palas-p0026-verse13-hrta-darppam",
+          "page_number": 26,
+          "matched_block_id": "p0026-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0028-verse8-jayapalatah",
+          "page_number": 28,
+          "matched_block_id": "p0028-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0031-brahmanical-dehyphen",
+          "page_number": 31,
+          "matched_block_id": "p0031-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0031-genealogy-bbox",
+          "page_number": 31,
+          "matched_block_id": "p0031-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0074-fn2-merge1",
+          "page_number": 74,
+          "matched_block_id": "p0074-b0012",
+          "op": "merge_with_next",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0074-fn2-merge2",
+          "page_number": 74,
+          "matched_block_id": "p0074-b0012",
+          "op": "merge_with_next",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0089-b0001-orient",
+          "page_number": 89,
+          "matched_block_id": "p0089-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0091-b0001-orient",
+          "page_number": 91,
+          "matched_block_id": "p0091-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0093-b0001-orient",
+          "page_number": 93,
+          "matched_block_id": "p0093-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0095-b0003-orient",
+          "page_number": 95,
+          "matched_block_id": "p0095-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0099-b0003-orient",
+          "page_number": 99,
+          "matched_block_id": "p0099-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0101-b0004-orient",
+          "page_number": 101,
+          "matched_block_id": "p0101-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0101-b0006-orient",
+          "page_number": 101,
+          "matched_block_id": "p0101-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0101-b0008-orient",
+          "page_number": 101,
+          "matched_block_id": "p0101-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0101-b0010-orient",
+          "page_number": 101,
+          "matched_block_id": "p0101-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0101-b0011-orient",
+          "page_number": 101,
+          "matched_block_id": "p0101-b0011",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0103-b0004-orient",
+          "page_number": 103,
+          "matched_block_id": "p0103-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0103-b0006-orient",
+          "page_number": 103,
+          "matched_block_id": "p0103-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0103-b0008-orient",
+          "page_number": 103,
+          "matched_block_id": "p0103-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0103-b0010-orient",
+          "page_number": 103,
+          "matched_block_id": "p0103-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0107-b0002-orient",
+          "page_number": 107,
+          "matched_block_id": "p0107-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0109-b0001-orient",
+          "page_number": 109,
+          "matched_block_id": "p0109-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0111-b0003-orient",
+          "page_number": 111,
+          "matched_block_id": "p0111-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0111-b0005-orient",
+          "page_number": 111,
+          "matched_block_id": "p0111-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0111-b0007-orient",
+          "page_number": 111,
+          "matched_block_id": "p0111-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0111-b0009-orient",
+          "page_number": 111,
+          "matched_block_id": "p0111-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0113-b0003-orient",
+          "page_number": 113,
+          "matched_block_id": "p0113-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0113-b0005-orient",
+          "page_number": 113,
+          "matched_block_id": "p0113-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "palas-p0113-b0007-orient",
+          "page_number": 113,
+          "matched_block_id": "p0113-b0007",
+          "op": "set_type",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 16,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Sastri' appears without diacritics here, whereas this volume consistently prints 'Śāstrī' (24 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0016-b0003"
+      },
+      {
+        "page_number": 16,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Prasada' appears without diacritics here, whereas this volume consistently prints 'Prasāda' (19 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0016-b0003"
+      },
+      {
+        "page_number": 26,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Kambojas' appears without diacritics here, whereas this volume consistently prints 'Kāmbojas' (8 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0026-b0007"
+      },
+      {
+        "page_number": 28,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Brahmana' appears without diacritics here, whereas this volume consistently prints 'Brāhmaṇa' (15 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0028-b0003"
+      },
+      {
+        "page_number": 28,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Palas' appears without diacritics here, whereas this volume consistently prints 'Pālas' (47 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0028-b0007"
+      },
+      {
+        "page_number": 31,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Sahitya' appears without diacritics here, whereas this volume consistently prints 'Sāhitya' (4 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0031-b0007"
+      },
+      {
+        "page_number": 31,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Patrika' appears without diacritics here, whereas this volume consistently prints 'Patrikā' (3 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0031-b0007"
+      },
+      {
+        "page_number": 32,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Rajendra' appears without diacritics here, whereas this volume consistently prints 'Rājendra' (14 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0032-b0008"
+      },
+      {
+        "page_number": 34,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 34 has inline note callout(s) ['1', '3', '4'] vs. labelled footnote(s) ['1', '2', '3', '4'].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0034-b0012"
+      },
+      {
+        "page_number": 36,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>p</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0036-b0004"
+      },
+      {
+        "page_number": 36,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Vigrahapala' appears without diacritics here, whereas this volume consistently prints 'Vigrahapāla' (49 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0036-b0005"
+      },
+      {
+        "page_number": 41,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Uddandapura' appears without diacritics here, whereas this volume consistently prints 'Uddaṇḍapura' (9 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0041-b0007"
+      },
+      {
+        "page_number": 43,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Rajendra' appears without diacritics here, whereas this volume consistently prints 'Rājendra' (14 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0043-b0007"
+      },
+      {
+        "page_number": 46,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Tirabhukti' appears without diacritics here, whereas this volume consistently prints 'Tīrabhūkti' (12 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0046-b0003"
+      },
+      {
+        "page_number": 46,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Tirabhukti' appears without diacritics here, whereas this volume consistently prints 'Tīrabhūkti' (12 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0046-b0004"
+      },
+      {
+        "page_number": 51,
+        "severity": "review",
+        "category": "script_anomaly",
+        "message": "Out-of-alphabet Latin character U+0131 LATIN SMALL LETTER DOTLESS I (likely meant 'i').",
+        "expected_action": "Compare glyph against source scan.",
+        "validator": "script_validator",
+        "block_id": "p0051-b0007"
+      },
+      {
+        "page_number": 62,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Ramapala' appears without diacritics here, whereas this volume consistently prints 'Rāmapāla' (105 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0062-b0013"
+      },
+      {
+        "page_number": 65,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 65 has inline note callout(s) ['1', '2', '3', '4', '5', '6', '7', '8', '9'] vs. labelled footnote(s) ['1', '2', '5', '4', '6', '6', '7', '8', '9'].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0065-b0005"
+      },
+      {
+        "page_number": 69,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Sastri' appears without diacritics here, whereas this volume consistently prints 'Śāstrī' (24 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0069-b0004"
+      },
+      {
+        "page_number": 69,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Ramacarita' appears without diacritics here, whereas this volume consistently prints 'Rāmacarita' (27 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0069-b0005"
+      },
+      {
+        "page_number": 69,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Somesvara' appears without diacritics here, whereas this volume consistently prints 'Someśvara' (4 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0069-b0006"
+      },
+      {
+        "page_number": 71,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Tingyadeva' appears without diacritics here, whereas this volume consistently prints 'Tiṅgyadeva' (4 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0071-b0004"
+      },
+      {
+        "page_number": 75,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Mithila' appears without diacritics here, whereas this volume consistently prints 'Mithilā' (18 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0075-b0004"
+      },
+      {
+        "page_number": 76,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Calukya' appears without diacritics here, whereas this volume consistently prints 'Cālukya' (9 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0076-b0004"
+      },
+      {
+        "page_number": 82,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Prajnaparamita' appears without diacritics here, whereas this volume consistently prints 'Prajñāpāramitā' (18 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0082-b0012"
+      },
+      {
+        "page_number": 86,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Ramacarita' appears without diacritics here, whereas this volume consistently prints 'Rāmacarita' (27 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0086-b0016"
+      },
+      {
+        "page_number": 86,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Sandhyakara' appears without diacritics here, whereas this volume consistently prints 'Sandhyākara' (6 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0086-b0016"
+      },
+      {
+        "page_number": 105,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ry.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0105-b0003"
+      },
+      {
+        "page_number": 105,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>tic Society.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0105-b0005"
+      },
+      {
+        "page_number": 105,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>n.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0105-b0007"
+      },
+      {
+        "page_number": 117,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Bhuvanesvara' appears without diacritics here, whereas this volume consistently prints 'Bhuvaneśvara' (3 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0117-b0012"
+      },
+      {
+        "page_number": 117,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Narasimha' appears without diacritics here, whereas this volume consistently prints 'Narasiṁha' (14 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0117-b0039"
+      },
+      {
+        "page_number": 117,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Kambojas' appears without diacritics here, whereas this volume consistently prints 'Kāmbojas' (8 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0117-b0074"
+      },
+      {
+        "page_number": 118,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Umapati' appears without diacritics here, whereas this volume consistently prints 'Umāpati' (4 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0118-b0052"
+      },
+      {
+        "page_number": 120,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Devagrama' appears without diacritics here, whereas this volume consistently prints 'Devagrāma' (7 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0120-b0005"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Devakhadga' appears without diacritics here, whereas this volume consistently prints 'Devakhaḍga' (4 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0121-b0009"
+      },
+      {
+        "page_number": 122,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Ramacarita' appears without diacritics here, whereas this volume consistently prints 'Rāmacarita' (27 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0122-b0016"
+      },
+      {
+        "page_number": 122,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Sandhyakara' appears without diacritics here, whereas this volume consistently prints 'Sandhyākara' (6 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0122-b0016"
+      },
+      {
+        "page_number": 19,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'Hœrnle.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0019-b0003"
+      },
+      {
+        "page_number": 28,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṭ' (U+1E6C LATIN CAPITAL LETTER T WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ṭabaqāt-i-Nāṣirī'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0028-b0003"
+      },
+      {
+        "page_number": 39,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ḻ' (U+1E3B LATIN SMALL LETTER L WITH LINE BELOW) appears only 1 time(s) in this book, here in 'Coḻa'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0039-b0006"
+      },
+      {
+        "page_number": 40,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'̣' (U+0323 COMBINING DOT BELOW) appears only 1 time(s) in this book, here in 'vāhu-darp̣pād=anadhikṛta-viluptaṁ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0040-b0007"
+      },
+      {
+        "page_number": 48,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ñ' (U+00D1 LATIN CAPITAL LETTER N WITH TILDE) appears only 1 time(s) in this book, here in 'PAÑCA-DAŚAME'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0048-b0004"
+      },
+      {
+        "page_number": 48,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ḥ' (U+1E24 LATIN CAPITAL LETTER H WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Śrī-mad-GADĀDHĀRIṆAḤ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0048-b0004"
+      },
+      {
+        "page_number": 48,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṇ' (U+1E46 LATIN CAPITAL LETTER N WITH DOT BELOW) appears only 2 time(s) in this book, here in 'ŚRI-VAJRAPAṆINĀ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0048-b0004"
+      },
+      {
+        "page_number": 49,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ü' (U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Bühler—Über'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0049-b0017"
+      },
+      {
+        "page_number": 51,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ı' (U+0131 LATIN SMALL LETTER DOTLESS I) appears only 1 time(s) in this book, here in 'sı'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0051-b0007"
+      },
+      {
+        "page_number": 52,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ō' (U+014D LATIN SMALL LETTER O WITH MACRON) appears only 1 time(s) in this book, here in 'iv-ōropitaḥ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0052-b0003"
+      },
+      {
+        "page_number": 66,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṝ' (U+1E5D LATIN SMALL LETTER R WITH DOT BELOW AND MACRON) appears only 1 time(s) in this book, here in 'gantṝṇāṁ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0066-b0005"
+      },
+      {
+        "page_number": 68,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ē' (U+0113 LATIN SMALL LETTER E WITH MACRON) appears only 1 time(s) in this book, here in 'Bhuvanēśvara'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0068-b0006"
+      },
+      {
+        "page_number": 74,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṣ' (U+1E62 LATIN CAPITAL LETTER S WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Ṣaṣṭhī'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0074-b0005"
+      },
+      {
+        "page_number": 77,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṭ' (U+1E6C LATIN CAPITAL LETTER T WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ṭhakkura'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0077-b0003"
+      },
+      {
+        "page_number": 79,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'̐' (U+0310 COMBINING CANDRABINDU) appears only 1 time(s) in this book, here in 'om̐'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0079-b0006"
+      },
+      {
+        "page_number": 86,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 2 time(s) in this book, here in 'Cirrhipèdes'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0086-b0004"
+      },
+      {
+        "page_number": 122,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 2 time(s) in this book, here in 'Cirrhipèdes'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0122-b0004"
+      },
+      {
+        "page_number": 122,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'î' (U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Jîmûtavâhana.—By'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0122-b0020"
+      },
+      {
+        "page_number": 122,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Jîmûtavâhana.—By'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0122-b0020"
+      },
+      {
+        "page_number": 122,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ő' (U+0151 LATIN SMALL LETTER O WITH DOUBLE ACUTE) appears only 1 time(s) in this book, here in 'Kőrös.—Edited'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0122-b0027"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (105/105 pp.) · reader_profile=transliteration"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/palas-of-bengal.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 29 fixes",
+          "detail": "29 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 105 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:devanagari",
+          "axis": "diplomatic",
+          "label": "Script: Devanagari",
+          "detail": "Declared script: Devanagari"
+        },
+        {
+          "id": "script:bengali",
+          "axis": "diplomatic",
+          "label": "Script: Bengali",
+          "detail": "Declared script: Bengali"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 277 footnotes and 98 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "750-1175",
+        "regions": [
+          "Bengal",
+          "Bihar",
+          "Magadha",
+          "Gauda"
+        ],
+        "subjects": [
+          "Pala Dynasty",
+          "Sanskrit Epigraphy",
+          "Copper-Plate Grants",
+          "Medieval Indian History"
+        ],
+        "artifacts": [
+          "39 Archival Plates",
+          "277 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

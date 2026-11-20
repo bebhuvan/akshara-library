@@ -1,0 +1,2086 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "report-past-famines-bombay-etheridge-1868",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 87.0,
+  "cover_archetype": "political_economy_ledger",
+  "cover_palette": "Prussian Treasury",
+  "edition_root": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/book_ast.json",
+    "rubric_score": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/cover.svg",
+    "cover_webp": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/cover.webp",
+    "web_index": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/web/index.html",
+    "hugo_dir": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/epub/report-past-famines-bombay-etheridge-1868.epub",
+    "markdown": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/markdown/report-past-famines-bombay-etheridge-1868.md",
+    "tei_xml": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/tei/report-past-famines-bombay-etheridge-1868.tei.xml",
+    "print_html": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/print/report-past-famines-bombay-etheridge-1868.print.html",
+    "pdf": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/print/report-past-famines-bombay-etheridge-1868.pdf",
+    "datasets": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (273/273 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/report-past-famines-bombay-etheridge-1868.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 87 fixes · 36 pp. checked",
+        "detail": "87 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 273 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 31/31 Arithmetic-Checked",
+        "detail": "31 of 31 tables pass arithmetic & column checks; 57 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 63 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 17 footnotes and 143 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1396-1868",
+      "regions": [
+        "Bombay Presidency",
+        "Deccan",
+        "Gujarat",
+        "Konkan",
+        "Sind"
+      ],
+      "subjects": [
+        "Famine History",
+        "Doji Bara 1791",
+        "Grain Prices",
+        "Famine Relief",
+        "District Chronicles"
+      ],
+      "artifacts": [
+        "63 Statistical Tables",
+        "17 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 51,
+      "extracted_page_count": 273,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 36,
+      "machine_reread_page_count": 36,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        15,
+        32,
+        33,
+        35,
+        40,
+        41,
+        42,
+        43,
+        69,
+        98,
+        101,
+        111,
+        142,
+        174,
+        176,
+        178,
+        179,
+        181,
+        182,
+        183,
+        184,
+        188,
+        192,
+        195,
+        196,
+        197,
+        198,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        251,
+        260,
+        263
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (51 open review items); 36 of 273 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 51,
+      "informational": 80,
+      "total": 131
+    },
+    "corrections": {
+      "applied": 87,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "eth-p0034-b0008-001",
+          "page_number": 34,
+          "matched_block_id": "p0034-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0052-b0004-002",
+          "page_number": 52,
+          "matched_block_id": "p0052-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0068-b0006-003",
+          "page_number": 68,
+          "matched_block_id": "p0068-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0098-b0010-004",
+          "page_number": 98,
+          "matched_block_id": "p0098-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0102-b0004-005",
+          "page_number": 102,
+          "matched_block_id": "p0102-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0130-b0004-006",
+          "page_number": 130,
+          "matched_block_id": "p0130-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0137-b0004-007",
+          "page_number": 137,
+          "matched_block_id": "p0137-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0180-b0003-008",
+          "page_number": 180,
+          "matched_block_id": "p0180-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0196-b0003-009",
+          "page_number": 196,
+          "matched_block_id": "p0196-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0253-b0005-010",
+          "page_number": 253,
+          "matched_block_id": "p0253-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0188-b0010-011",
+          "page_number": 188,
+          "matched_block_id": "p0188-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0198-b0046-012",
+          "page_number": 198,
+          "matched_block_id": "p0198-b0046",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0260-b0005-013",
+          "page_number": 260,
+          "matched_block_id": "p0260-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0009-014",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0010-015",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0011-016",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0012-017",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0013-018",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0014-019",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0015-020",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0020-021",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0020",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0021-022",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0029-b0022-023",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0022",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0050-b0006-024",
+          "page_number": 50,
+          "matched_block_id": "p0050-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0050-b0008-025",
+          "page_number": 50,
+          "matched_block_id": "p0050-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0059-b0015-026",
+          "page_number": 59,
+          "matched_block_id": "p0059-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0067-b0004-027",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0067-b0007-028",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0067-b0011-029",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0067-b0014-030",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0097-b0005-031",
+          "page_number": 97,
+          "matched_block_id": "p0097-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0127-b0002-032",
+          "page_number": 127,
+          "matched_block_id": "p0127-b0002",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0174-b0005-033",
+          "page_number": 174,
+          "matched_block_id": "p0174-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0174-b0006-034",
+          "page_number": 174,
+          "matched_block_id": "p0174-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0181-b0001-035",
+          "page_number": 181,
+          "matched_block_id": "p0181-b0001",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0181-b0003-036",
+          "page_number": 181,
+          "matched_block_id": "p0181-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0183-b0005-037",
+          "page_number": 183,
+          "matched_block_id": "p0183-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0183-b0007-038",
+          "page_number": 183,
+          "matched_block_id": "p0183-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0183-b0015-039",
+          "page_number": 183,
+          "matched_block_id": "p0183-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0184-b0006-040",
+          "page_number": 184,
+          "matched_block_id": "p0184-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0184-b0007-041",
+          "page_number": 184,
+          "matched_block_id": "p0184-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0184-b0008-042",
+          "page_number": 184,
+          "matched_block_id": "p0184-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0187-b0001-043",
+          "page_number": 187,
+          "matched_block_id": "p0187-b0001",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0187-b0003-044",
+          "page_number": 187,
+          "matched_block_id": "p0187-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0189-b0001-045",
+          "page_number": 189,
+          "matched_block_id": "p0189-b0001",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0189-b0003-046",
+          "page_number": 189,
+          "matched_block_id": "p0189-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0194-b0005-047",
+          "page_number": 194,
+          "matched_block_id": "p0194-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0194-b0007-048",
+          "page_number": 194,
+          "matched_block_id": "p0194-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0194-b0008-049",
+          "page_number": 194,
+          "matched_block_id": "p0194-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0195-b0005-050",
+          "page_number": 195,
+          "matched_block_id": "p0195-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0195-b0007-051",
+          "page_number": 195,
+          "matched_block_id": "p0195-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0195-b0011-052",
+          "page_number": 195,
+          "matched_block_id": "p0195-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0195-b0012-053",
+          "page_number": 195,
+          "matched_block_id": "p0195-b0012",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0195-b0013-054",
+          "page_number": 195,
+          "matched_block_id": "p0195-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0195-b0014-055",
+          "page_number": 195,
+          "matched_block_id": "p0195-b0014",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0198-b0001-056",
+          "page_number": 198,
+          "matched_block_id": "p0198-b0001",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0198-b0002-057",
+          "page_number": 198,
+          "matched_block_id": "p0198-b0002",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0198-b0003-058",
+          "page_number": 198,
+          "matched_block_id": "p0198-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0003-059",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0004-060",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0005-061",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0006-062",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0007-063",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0008-064",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0009-065",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0010-066",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0011-067",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0203-b0012-068",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0003-069",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0004-070",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0005-071",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0006-072",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0007-073",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0008-074",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0009-075",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0010-076",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0011-077",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0012-078",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0204-b0013-079",
+          "page_number": 204,
+          "matched_block_id": "p0204-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0225-b0008-080",
+          "page_number": 225,
+          "matched_block_id": "p0225-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0225-b0016-081",
+          "page_number": 225,
+          "matched_block_id": "p0225-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0252-b0008-082",
+          "page_number": 252,
+          "matched_block_id": "p0252-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0252-b0009-083",
+          "page_number": 252,
+          "matched_block_id": "p0252-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0252-b0010-084",
+          "page_number": 252,
+          "matched_block_id": "p0252-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0252-b0012-085",
+          "page_number": 252,
+          "matched_block_id": "p0252-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0252-b0011-086",
+          "page_number": 252,
+          "matched_block_id": "p0252-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eth-p0259-b0012-087",
+          "page_number": 259,
+          "matched_block_id": "p0259-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 15,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>w</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0015-b0002"
+      },
+      {
+        "page_number": 15,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>nti</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0015-b0002"
+      },
+      {
+        "page_number": 69,
+        "severity": "review",
+        "category": "unlabelled_footnote",
+        "message": "Footnote has no note_label and is not marked continues_from_prev.",
+        "expected_action": "Check whether this note continues from the previous page or missed its symbol.",
+        "validator": "apparatus_parity",
+        "block_id": "p0069-b0016"
+      },
+      {
+        "page_number": 80,
+        "severity": "review",
+        "category": "column_reading_order_zigzag",
+        "message": "Page 80 body blocks alternate left-right-left horizontally across columns.",
+        "expected_action": "Verify column reading order on scan.",
+        "validator": "layout_order",
+        "block_id": null
+      },
+      {
+        "page_number": 83,
+        "severity": "review",
+        "category": "column_reading_order_zigzag",
+        "message": "Page 83 body blocks alternate left-right-left horizontally across columns.",
+        "expected_action": "Verify column reading order on scan.",
+        "validator": "layout_order",
+        "block_id": null
+      },
+      {
+        "page_number": 84,
+        "severity": "review",
+        "category": "column_reading_order_zigzag",
+        "message": "Page 84 body blocks alternate left-right-left horizontally across columns.",
+        "expected_action": "Verify column reading order on scan.",
+        "validator": "layout_order",
+        "block_id": null
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>om</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0002"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>nts</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0002"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ain</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0003"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ed</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0004"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ed</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>nd</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>he</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>l</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ld</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>or</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>- selves</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>le</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>r</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0006"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>It</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0007"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>to</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0007"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>A</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0007"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>e.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0007"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ts.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0007"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>h</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0007"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ie</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0008"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>re</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0008"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>a</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0008"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>n.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0009"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>4</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0009"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>f</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0009"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>nt</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0010"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>e</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0011"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>y</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0011"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>t</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0011"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>s</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0011"
+      },
+      {
+        "page_number": 98,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>to</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0098-b0011"
+      },
+      {
+        "page_number": 101,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>for</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0101-b0002"
+      },
+      {
+        "page_number": 101,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>186</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0101-b0002"
+      },
+      {
+        "page_number": 241,
+        "severity": "review",
+        "category": "column_reading_order_zigzag",
+        "message": "Page 241 body blocks alternate left-right-left horizontally across columns.",
+        "expected_action": "Verify column reading order on scan.",
+        "validator": "layout_order",
+        "block_id": null
+      },
+      {
+        "page_number": 255,
+        "severity": "review",
+        "category": "column_reading_order_zigzag",
+        "message": "Page 255 body blocks alternate left-right-left horizontally across columns.",
+        "expected_action": "Verify column reading order on scan.",
+        "validator": "layout_order",
+        "block_id": null
+      },
+      {
+        "page_number": 261,
+        "severity": "review",
+        "category": "column_reading_order_zigzag",
+        "message": "Page 261 body blocks alternate left-right-left horizontally across columns.",
+        "expected_action": "Verify column reading order on scan.",
+        "validator": "layout_order",
+        "block_id": null
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>r</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>w</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>were</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ch</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>bu</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>dis</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>and r</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 263,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>t of t</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0263-b0006"
+      },
+      {
+        "page_number": 32,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 32 has inline note callout(s) ['*', '*'] vs. labelled footnote(s) [].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0032-b0007"
+      },
+      {
+        "page_number": 33,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'દ' (U+0AA6 GUJARATI LETTER DA) appears only 1 time(s) in this book, here in 'દુખે.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0033-b0005"
+      },
+      {
+        "page_number": 33,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'શ' (U+0AB6 GUJARATI LETTER SHA) appears only 1 time(s) in this book, here in 'માણશેા'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0033-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ઉ' (U+0A89 GUJARATI LETTER U) appears only 1 time(s) in this book, here in 'ગઉત.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'એ' (U+0A8F GUJARATI LETTER E) appears only 2 time(s) in this book, here in 'પાત્રીએ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'જ' (U+0A9C GUJARATI LETTER JA) appears only 2 time(s) in this book, here in 'જે'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ટ' (U+0A9F GUJARATI LETTER TTA) appears only 2 time(s) in this book, here in 'મનમોટ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ઠ' (U+0AA0 GUJARATI LETTER TTHA) appears only 2 time(s) in this book, here in 'નવસોરઠ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ઢ' (U+0AA2 GUJARATI LETTER DDHA) appears only 1 time(s) in this book, here in 'મઢિઆન'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ધ' (U+0AA7 GUJARATI LETTER DHA) appears only 1 time(s) in this book, here in 'સાધણ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ય' (U+0AAF GUJARATI LETTER YA) appears only 1 time(s) in this book, here in 'ચડાયા'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ષ' (U+0AB7 GUJARATI LETTER SSA) appears only 2 time(s) in this book, here in 'ષતો'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'િ' (U+0ABF GUJARATI VOWEL SIGN I) appears only 2 time(s) in this book, here in 'મઢિઆન'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ૂ' (U+0AC2 GUJARATI VOWEL SIGN UU) appears only 1 time(s) in this book, here in 'છોરૂ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'્' (U+0ACD GUJARATI SIGN VIRAMA) appears only 2 time(s) in this book, here in 'પાત્રીસો'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0005"
+      },
+      {
+        "page_number": 40,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 40 has inline note callout(s) ['*', '*', '*'] vs. labelled footnote(s) ['*', '†'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0040-b0023"
+      },
+      {
+        "page_number": 41,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 41 has inline note callout(s) ['*', '*', '*'] vs. labelled footnote(s) [].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0041-b0001"
+      },
+      {
+        "page_number": 42,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 42 has inline note callout(s) ['*', '*', '*', '*'] vs. labelled footnote(s) [].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0042-b0001"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 43 has inline note callout(s) ['*', '*', '*', '*', '*', '*', '†'] vs. labelled footnote(s) [].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 111 has inline note callout(s) ['*', '*'] vs. labelled footnote(s) [].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0111-b0007"
+      },
+      {
+        "page_number": 142,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Depot' appears without diacritics here, whereas this volume consistently prints 'Depôt' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0142-b0004"
+      },
+      {
+        "page_number": 174,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 10 states total 33 but its 23 contributing cells sum to 159 (difference 126).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0174-b0033"
+      },
+      {
+        "page_number": 174,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 13 states total 29 but its 23 contributing cells sum to 266 (difference 237).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0174-b0033"
+      },
+      {
+        "page_number": 176,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['32 : : : 32 : : : : : : : : : : : Rs.', 'Percentage.', 'ers. \" \" \" \" \"', 'to the'] vs. full-page pass ['2,77,472', '78,834', '28', '1,84,586', '52,766', '29', '4,161', '1,344', '32']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0176-b0029"
+      },
+      {
+        "page_number": 176,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 1 states total 277472 but its 47 contributing cells sum to 2037472 (difference 1760000).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0176-b0029"
+      },
+      {
+        "page_number": 176,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 78834 but its 47 contributing cells sum to 886192 (difference 807358).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0176-b0029"
+      },
+      {
+        "page_number": 176,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 184586 but its 47 contributing cells sum to 1646440 (difference 1461854).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0176-b0029"
+      },
+      {
+        "page_number": 176,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 52766 but its 47 contributing cells sum to 737658 (difference 684892).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0176-b0029"
+      },
+      {
+        "page_number": 176,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 4161 but its 47 contributing cells sum to 668231 (difference 664070).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0176-b0029"
+      },
+      {
+        "page_number": 176,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 1344 but its 47 contributing cells sum to 215104 (difference 213760).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0176-b0029"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 1 states total 55001 but its 46 contributing cells sum to 542647 (difference 487646).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0178-b0028"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 29169 but its 46 contributing cells sum to 247473 (difference 218304).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0178-b0028"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 55824 but its 46 contributing cells sum to 130112 (difference 74288).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0178-b0028"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 35333 but its 46 contributing cells sum to 57483 (difference 22150).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0178-b0028"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 326028 but its 46 contributing cells sum to 496166 (difference 170138).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0178-b0028"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 257582 but its 46 contributing cells sum to 355164 (difference 97582).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0178-b0028"
+      },
+      {
+        "page_number": 179,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 134030 but its 21 contributing cells sum to 130030 (difference -4000).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0179-b0031"
+      },
+      {
+        "page_number": 181,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['4,37,041', '1,30,849', '30', '2,01,090', '14,689', '7', '5,57,135', '80,162', '1', '4', '10,36,125', '3,41,520', '33'] vs. full-page pass ['4,37,041', '1,30,849', '30', '2,01,090', '14,689', '7', '5,57,135', '80,162', '14', '10,36,125', '3,41,520', '33']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0181-b0016"
+      },
+      {
+        "page_number": 182,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['6,90,036', '1,14,865', '17', '2,04,959', '45,059', '22', '3,51,056', '1,59,157', '45', '1,56,120', '1,32,385', '85'] vs. full-page pass ['6,90,036', '1,14,865', '17', '2,04,959', '45,058', '22', '3,51,056', '1,59,157', '45', '1,56,120', '1,32,385', '85']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0182-b0021"
+      },
+      {
+        "page_number": 183,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 454220 but its 13 contributing cells sum to 454170 (difference -50).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0183-b0023"
+      },
+      {
+        "page_number": 188,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 136325 but its 12 contributing cells sum to 282765 (difference 146440).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0188-b0011"
+      },
+      {
+        "page_number": 188,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 109904 but its 12 contributing cells sum to 173472 (difference 63568).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0188-b0011"
+      },
+      {
+        "page_number": 188,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 118510 but its 12 contributing cells sum to 280558 (difference 162048).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0188-b0011"
+      },
+      {
+        "page_number": 192,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 1 states total 303935 but its 11 contributing cells sum to 451737 (difference 147802).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0192-b0011"
+      },
+      {
+        "page_number": 192,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 154395 but its 11 contributing cells sum to 230417 (difference 76022).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0192-b0011"
+      },
+      {
+        "page_number": 192,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 130098 but its 11 contributing cells sum to 292138 (difference 162040).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0192-b0011"
+      },
+      {
+        "page_number": 192,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 60672 but its 11 contributing cells sum to 125234 (difference 64562).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0192-b0011"
+      },
+      {
+        "page_number": 192,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 290078 but its 11 contributing cells sum to 773306 (difference 483228).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0192-b0011"
+      },
+      {
+        "page_number": 192,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 122657 but its 11 contributing cells sum to 337339 (difference 214682).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0192-b0011"
+      },
+      {
+        "page_number": 195,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 6 states total 2 but its 3 contributing cells sum to 7 (difference 5).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0195-b0013"
+      },
+      {
+        "page_number": 195,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 9 states total 5 but its 3 contributing cells sum to 22 (difference 17).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0195-b0013"
+      },
+      {
+        "page_number": 196,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 27 but its 20 contributing cells sum to 72 (difference 45).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0196-b0050"
+      },
+      {
+        "page_number": 196,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 10 states total 12 but its 20 contributing cells sum to 40 (difference 28).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0196-b0050"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 1 states total 1191225 but its 78 contributing cells sum to 2284607 (difference 1093382).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 332429 but its 78 contributing cells sum to 426344 (difference 93915).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 28 but its 78 contributing cells sum to 643 (difference 615).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 678857 but its 78 contributing cells sum to 2225109 (difference 1546252).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 168307 but its 78 contributing cells sum to 330529 (difference 162222).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 6 states total 25 but its 78 contributing cells sum to 306 (difference 281).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 482685 but its 78 contributing cells sum to 1319915 (difference 837230).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 134661 but its 78 contributing cells sum to 225341 (difference 90680).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 198,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 9 states total 16 but its 78 contributing cells sum to 366 (difference 350).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0198-b0046"
+      },
+      {
+        "page_number": 200,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['3,07,490', '8,683', '16', '6,06,173', '1,79,521', '30', '2,05,3<unclear>8</unclear>'] vs. full-page pass ['3,07,490', '8,683', '16', '6,06,173', '1,79,521', '30', '2,05,354', '30,143', '15']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0200-b0026"
+      },
+      {
+        "page_number": 200,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 1 states total 307490 but its 59 contributing cells sum to 787114 (difference 479624).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0200-b0026"
+      },
+      {
+        "page_number": 200,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 8683 but its 59 contributing cells sum to 273559 (difference 264876).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0200-b0026"
+      },
+      {
+        "page_number": 200,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 606173 but its 59 contributing cells sum to 1837155 (difference 1230982).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0200-b0026"
+      },
+      {
+        "page_number": 200,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 179521 but its 59 contributing cells sum to 402991 (difference 223470).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0200-b0026"
+      },
+      {
+        "page_number": 200,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 205354 but its 59 contributing cells sum to 2777078 (difference 2571724).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0200-b0026"
+      },
+      {
+        "page_number": 200,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 30143 but its 59 contributing cells sum to 946427 (difference 916284).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0200-b0026"
+      },
+      {
+        "page_number": 201,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['....', '....', '..', '....', '....', '..', '....', '....', '..', '39,161', '21,897', '56', '....', '....', '..'] vs. full-page pass ['4,02,455', '65,846', '16', '2,42,697', '45,669', '19', '6,78,277', '2,56,879', '38', '1,73,190', '50,952', '29', '4,82,609', '1,72,669', '36']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0201-b0051"
+      },
+      {
+        "page_number": 201,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 256879 but its 41 contributing cells sum to 256859 (difference -20).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0201-b0051"
+      },
+      {
+        "page_number": 202,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 2 time(s) in this book, here in 'Nèral'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0202-b0012"
+      },
+      {
+        "page_number": 202,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 2 time(s) in this book, here in 'Bèllapoor'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0202-b0014"
+      },
+      {
+        "page_number": 202,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 13 states total 32 but its 20 contributing cells sum to 241 (difference 209).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0202-b0031"
+      },
+      {
+        "page_number": 203,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 291220 but its 29 contributing cells sum to 291369 (difference 149).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0203-b0035"
+      },
+      {
+        "page_number": 203,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 6 states total 27 but its 29 contributing cells sum to 279 (difference 252).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0203-b0035"
+      },
+      {
+        "page_number": 204,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 125563 but its 30 contributing cells sum to 125686 (difference 123).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0204-b0036"
+      },
+      {
+        "page_number": 204,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 6 states total 20 but its 30 contributing cells sum to 142 (difference 122).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0204-b0036"
+      },
+      {
+        "page_number": 205,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['80,743', '..', '37,495', '..', '46', '..', '47,284', '9,503', '5,103', '1,037', '11', '11', '..', '1,902', '..', '583', '..', '31'] vs. full-page pass ['80,743', '‥', '37,495', '‥', '46', '‥', '47,284', '9,503', '5,103', '1,037', '11', '11', '‥', '1,902', '‥', '583', '‥', '31']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0205-b0028"
+      },
+      {
+        "page_number": 251,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 64 but its 2 contributing cells sum to 6 (difference -58).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0251-b0009"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (273/273 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/report-past-famines-bombay-etheridge-1868.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 87 fixes · 36 pp. checked",
+          "detail": "87 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 273 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 31/31 Arithmetic-Checked",
+          "detail": "31 of 31 tables pass arithmetic & column checks; 57 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 63 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 17 footnotes and 143 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1396-1868",
+        "regions": [
+          "Bombay Presidency",
+          "Deccan",
+          "Gujarat",
+          "Konkan",
+          "Sind"
+        ],
+        "subjects": [
+          "Famine History",
+          "Doji Bara 1791",
+          "Grain Prices",
+          "Famine Relief",
+          "District Chronicles"
+        ],
+        "artifacts": [
+          "63 Statistical Tables",
+          "17 Footnotes"
+        ]
+      }
+    }
+  }
+}

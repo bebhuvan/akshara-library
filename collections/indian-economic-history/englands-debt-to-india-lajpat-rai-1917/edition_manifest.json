@@ -1,0 +1,550 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "englands-debt-to-india-lajpat-rai-1917",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 99.0,
+  "cover_archetype": "political_economy_ledger",
+  "cover_palette": "Charcoal Balance",
+  "edition_root": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/book_ast.json",
+    "rubric_score": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/cover.svg",
+    "cover_webp": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/cover.webp",
+    "web_index": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/web/index.html",
+    "hugo_dir": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/epub/englands-debt-to-india-lajpat-rai-1917.epub",
+    "markdown": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/markdown/englands-debt-to-india-lajpat-rai-1917.md",
+    "tei_xml": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/tei/englands-debt-to-india-lajpat-rai-1917.tei.xml",
+    "print_html": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/print/englands-debt-to-india-lajpat-rai-1917.print.html",
+    "pdf": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/print/englands-debt-to-india-lajpat-rai-1917.pdf",
+    "datasets": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/englands-debt-to-india-lajpat-rai-1917",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (403/403 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/englands-debt-to-india-lajpat-rai-1917.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 18 fixes · 5 pp. checked",
+        "detail": "18 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 403 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 15/15 Arithmetic-Checked",
+        "detail": "15 of 15 tables pass arithmetic & column checks; 7 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 73 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 173 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1757-1917",
+      "regions": [
+        "All-India",
+        "Bengal",
+        "Madras",
+        "Bombay",
+        "Punjab",
+        "United Provinces",
+        "Central Provinces"
+      ],
+      "subjects": [
+        "Drain Of Wealth",
+        "Fiscal Policy",
+        "Public Debt",
+        "Cotton Industry",
+        "Shipping",
+        "Land Revenue",
+        "Famines",
+        "Railways Vs Irrigation",
+        "Military Expenditure"
+      ],
+      "artifacts": [
+        "73 Statistical Tables",
+        "1 Archival Plates",
+        "173 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 6,
+      "extracted_page_count": 403,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 5,
+      "machine_reread_page_count": 5,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        134,
+        223,
+        315,
+        346,
+        355
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (6 open review items); 5 of 403 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 6,
+      "informational": 11,
+      "total": 17
+    },
+    "corrections": {
+      "applied": 18,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "ld-p0007-b0004-tear",
+          "page_number": 7,
+          "matched_block_id": "p0007-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0042-b0001-blockquote",
+          "page_number": 42,
+          "matched_block_id": "p0042-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0042-b0002-blockquote",
+          "page_number": 42,
+          "matched_block_id": "p0042-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0137-b0006-sup",
+          "page_number": 137,
+          "matched_block_id": "p0137-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0137-b0007-sup",
+          "page_number": 137,
+          "matched_block_id": "p0137-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0137-b0008-sup",
+          "page_number": 137,
+          "matched_block_id": "p0137-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0137-b0012-pad",
+          "page_number": 137,
+          "matched_block_id": "p0137-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0137-b0025-pad",
+          "page_number": 137,
+          "matched_block_id": "p0137-b0025",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0168-b0008-fractions",
+          "page_number": 168,
+          "matched_block_id": "p0168-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0315-b0011-span",
+          "page_number": 315,
+          "matched_block_id": "p0315-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0324-b0015-span",
+          "page_number": 324,
+          "matched_block_id": "p0324-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0324-b0016-span",
+          "page_number": 324,
+          "matched_block_id": "p0324-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0346-b0008-span",
+          "page_number": 346,
+          "matched_block_id": "p0346-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0346-b0009-span",
+          "page_number": 346,
+          "matched_block_id": "p0346-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0346-b0010-span",
+          "page_number": 346,
+          "matched_block_id": "p0346-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0388-b0022-span",
+          "page_number": 388,
+          "matched_block_id": "p0388-b0022",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0388-b0023-span",
+          "page_number": 388,
+          "matched_block_id": "p0388-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ld-p0388-b0024-span",
+          "page_number": 388,
+          "matched_block_id": "p0388-b0024",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 7,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>n</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0007-b0004"
+      },
+      {
+        "page_number": 7,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>g</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0007-b0004"
+      },
+      {
+        "page_number": 7,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>d</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0007-b0004"
+      },
+      {
+        "page_number": 7,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>RK</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0007-b0007"
+      },
+      {
+        "page_number": 7,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>BSCH</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0007-b0007"
+      },
+      {
+        "page_number": 168,
+        "severity": "review",
+        "category": "control_characters_removed",
+        "message": "Page 168: the reader's output held invisible control characters, which were removed.",
+        "expected_action": "Compare the page with the scan in case a letter was lost where they stood.",
+        "validator": "page_integrity",
+        "block_id": null
+      },
+      {
+        "page_number": 12,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Trübner'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0012-b0002"
+      },
+      {
+        "page_number": 134,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['£6,080,172,021\"'] vs. full-page pass ['', '£6,080,172,021’']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0134-b0012"
+      },
+      {
+        "page_number": 223,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 162966000 but its 4 contributing cells sum to 162857000 (difference -109000).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0223-b0011"
+      },
+      {
+        "page_number": 315,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['188,145', '13,116'] vs. full-page pass ['Average: less than 8%']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0315-b0011"
+      },
+      {
+        "page_number": 346,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['Total number institutions', '23,394'] vs. full-page pass ['Total number pupils .....................................', '490,504']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0346-b0010"
+      },
+      {
+        "page_number": 346,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 490504 but its 3 contributing cells sum to 27366 (difference -463138).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0346-b0010"
+      },
+      {
+        "page_number": 355,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 85207175 but its 10 breakdown rows sum to 84908535 (difference -298640).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0355-b0009"
+      },
+      {
+        "page_number": 355,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 95107348 but its 3 breakdown rows sum to 178285036 (difference 83177688).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0355-b0026"
+      },
+      {
+        "page_number": 364,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'manœuvres'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0364-b0006"
+      },
+      {
+        "page_number": 366,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'rôle'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0366-b0005"
+      },
+      {
+        "page_number": 368,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'rôle'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0368-b0004"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (403/403 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/englands-debt-to-india-lajpat-rai-1917.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 18 fixes · 5 pp. checked",
+          "detail": "18 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 403 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 15/15 Arithmetic-Checked",
+          "detail": "15 of 15 tables pass arithmetic & column checks; 7 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 73 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 173 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1757-1917",
+        "regions": [
+          "All-India",
+          "Bengal",
+          "Madras",
+          "Bombay",
+          "Punjab",
+          "United Provinces",
+          "Central Provinces"
+        ],
+        "subjects": [
+          "Drain Of Wealth",
+          "Fiscal Policy",
+          "Public Debt",
+          "Cotton Industry",
+          "Shipping",
+          "Land Revenue",
+          "Famines",
+          "Railways Vs Irrigation",
+          "Military Expenditure"
+        ],
+        "artifacts": [
+          "73 Statistical Tables",
+          "1 Archival Plates",
+          "173 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

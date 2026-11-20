@@ -1,0 +1,385 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "india-at-the-death-of-akbar",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "court_and_chronicle",
+  "cover_palette": "Imperial Cinnabar",
+  "edition_root": "library/indian-economic-history/india-at-the-death-of-akbar",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/india-at-the-death-of-akbar/book_ast.json",
+    "rubric_score": "library/indian-economic-history/india-at-the-death-of-akbar/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/india-at-the-death-of-akbar/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/india-at-the-death-of-akbar/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/india-at-the-death-of-akbar/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/india-at-the-death-of-akbar/cover.svg",
+    "cover_webp": "library/indian-economic-history/india-at-the-death-of-akbar/cover.webp",
+    "web_index": "library/indian-economic-history/india-at-the-death-of-akbar/web/index.html",
+    "hugo_dir": "library/indian-economic-history/india-at-the-death-of-akbar/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/india-at-the-death-of-akbar/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/india-at-the-death-of-akbar/epub/india-at-the-death-of-akbar.epub",
+    "markdown": "library/indian-economic-history/india-at-the-death-of-akbar/markdown/india-at-the-death-of-akbar.md",
+    "tei_xml": "library/indian-economic-history/india-at-the-death-of-akbar/tei/india-at-the-death-of-akbar.tei.xml",
+    "print_html": "library/indian-economic-history/india-at-the-death-of-akbar/print/india-at-the-death-of-akbar.print.html",
+    "pdf": "library/indian-economic-history/india-at-the-death-of-akbar/print/india-at-the-death-of-akbar.pdf",
+    "datasets": "library/indian-economic-history/india-at-the-death-of-akbar/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/india-at-the-death-of-akbar/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/india-at-the-death-of-akbar",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (352/353 pp.), gemini-3.6-flash (1/353 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/india-at-the-death-of-akbar.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 7 fixes · 17 pp. checked",
+        "detail": "7 anchored emendation(s) applied; 17 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 353 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 1/1 Arithmetic-Checked",
+        "detail": "1 of 1 tables pass arithmetic & column checks"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 158 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1556–1605",
+      "regions": [
+        "Mughal Empire",
+        "Northern India",
+        "Deccan",
+        "South India",
+        "Bengal",
+        "Gujarat"
+      ],
+      "subjects": [
+        "Mughal Economic History",
+        "Agrarian Production",
+        "Maritime & Foreign Trade",
+        "Taxation & Revenue",
+        "Wages & Standard of Living"
+      ],
+      "artifacts": [
+        "5 Statistical Tables",
+        "2 Archival Plates",
+        "158 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 353,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 17,
+      "machine_reread_page_count": 17,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        12,
+        30,
+        45,
+        49,
+        59,
+        90,
+        116,
+        121,
+        226,
+        277,
+        326,
+        327,
+        332,
+        337,
+        338,
+        341,
+        345
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 17 of 353 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 7,
+      "total": 7
+    },
+    "corrections": {
+      "applied": 7,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "corr-p0016-engraver-in-plate",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0220-map2-orient",
+          "page_number": 220,
+          "matched_block_id": "p0220-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0220-engraver-in-plate",
+          "page_number": 220,
+          "matched_block_id": "p0220-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0326-fernandus",
+          "page_number": 326,
+          "matched_block_id": "p0326-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0327-fernandus",
+          "page_number": 327,
+          "matched_block_id": "p0327-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0345-subas",
+          "page_number": 345,
+          "matched_block_id": "p0345-b0023",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0345-suwar",
+          "page_number": 345,
+          "matched_block_id": "p0345-b0030",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 29,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ö' (U+00F6 LATIN SMALL LETTER O WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Handwörterbuch'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0029-b0005"
+      },
+      {
+        "page_number": 325,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ú' (U+00FA LATIN SMALL LETTER U WITH ACUTE) appears only 2 time(s) in this book, here in 'Fernandús,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0325-b0003"
+      },
+      {
+        "page_number": 325,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ú' (U+00FA LATIN SMALL LETTER U WITH ACUTE) appears only 2 time(s) in this book, here in 'Fernandús'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0325-b0004"
+      },
+      {
+        "page_number": 331,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 2 time(s) in this book, here in 'Collecção'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0331-b0011"
+      },
+      {
+        "page_number": 331,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'õ' (U+00F5 LATIN SMALL LETTER O WITH TILDE) appears only 1 time(s) in this book, here in 'Nações'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0331-b0011"
+      },
+      {
+        "page_number": 332,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 2 time(s) in this book, here in 'Falcão.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0332-b0018"
+      },
+      {
+        "page_number": 337,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ā' (U+0100 LATIN CAPITAL LETTER A WITH MACRON) appears only 1 time(s) in this book, here in 'Āl,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0337-b0021"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (352/353 pp.), gemini-3.6-flash (1/353 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/india-at-the-death-of-akbar.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 7 fixes · 17 pp. checked",
+          "detail": "7 anchored emendation(s) applied; 17 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 353 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 1/1 Arithmetic-Checked",
+          "detail": "1 of 1 tables pass arithmetic & column checks"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 158 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1556–1605",
+        "regions": [
+          "Mughal Empire",
+          "Northern India",
+          "Deccan",
+          "South India",
+          "Bengal",
+          "Gujarat"
+        ],
+        "subjects": [
+          "Mughal Economic History",
+          "Agrarian Production",
+          "Maritime & Foreign Trade",
+          "Taxation & Revenue",
+          "Wages & Standard of Living"
+        ],
+        "artifacts": [
+          "5 Statistical Tables",
+          "2 Archival Plates",
+          "158 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

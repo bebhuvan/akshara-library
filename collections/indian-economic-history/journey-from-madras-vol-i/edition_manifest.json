@@ -1,0 +1,775 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "journey-from-madras-vol-i",
+  "run_id": "g4-hydrogen-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 79.9,
+  "cover_archetype": "survey_and_gazetteer",
+  "cover_palette": "Topographic Umber",
+  "edition_root": "library/indian-economic-history/journey-from-madras-vol-i",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/journey-from-madras-vol-i/book_ast.json",
+    "rubric_score": "library/indian-economic-history/journey-from-madras-vol-i/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/journey-from-madras-vol-i/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/journey-from-madras-vol-i/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/journey-from-madras-vol-i/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/journey-from-madras-vol-i/cover.svg",
+    "cover_webp": "library/indian-economic-history/journey-from-madras-vol-i/cover.webp",
+    "web_index": "library/indian-economic-history/journey-from-madras-vol-i/web/index.html",
+    "hugo_dir": "library/indian-economic-history/journey-from-madras-vol-i/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/journey-from-madras-vol-i/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/journey-from-madras-vol-i/epub/journey-from-madras-vol-i.epub",
+    "markdown": "library/indian-economic-history/journey-from-madras-vol-i/markdown/journey-from-madras-vol-i.md",
+    "tei_xml": "library/indian-economic-history/journey-from-madras-vol-i/tei/journey-from-madras-vol-i.tei.xml",
+    "print_html": "library/indian-economic-history/journey-from-madras-vol-i/print/journey-from-madras-vol-i.print.html",
+    "pdf": "library/indian-economic-history/journey-from-madras-vol-i/print/journey-from-madras-vol-i.pdf",
+    "datasets": "library/indian-economic-history/journey-from-madras-vol-i/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/journey-from-madras-vol-i/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/journey-from-madras-vol-i",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-4-hydrogen",
+        "axis": "provenance",
+        "label": "Read: Gemini 4 Hydrogen",
+        "detail": "Models: gemini-4-hydrogen (457/457 pp.) · reader_profile=transliteration"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/journey-from-madras-vol-i.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 3 fixes · 22 pp. checked",
+        "detail": "3 anchored emendation(s) applied; 22 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 457 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 5/16 Arithmetic-Checked",
+        "detail": "5 of 16 tables pass arithmetic & column checks; 11 flagged for scan review"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 43 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 1 footnotes and 996 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1800-1801",
+      "regions": [
+        "Madras",
+        "Mysore",
+        "Canara",
+        "Malabar"
+      ],
+      "subjects": [
+        "Agrarian Survey",
+        "Weights And Measures",
+        "Coinage",
+        "Irrigation",
+        "Artisans",
+        "Wages And Prices"
+      ],
+      "artifacts": [
+        "43 Statistical Tables",
+        "37 Archival Plates",
+        "1 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 22,
+      "extracted_page_count": 457,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 22,
+      "machine_reread_page_count": 22,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        47,
+        49,
+        82,
+        103,
+        107,
+        117,
+        158,
+        274,
+        286,
+        290,
+        319,
+        350,
+        351,
+        359,
+        361,
+        363,
+        365,
+        382,
+        383,
+        447,
+        448,
+        464
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (22 open review items); 22 of 457 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 22,
+      "informational": 30,
+      "total": 52
+    },
+    "corrections": {
+      "applied": 3,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "scan-audit-v1-p0051-b0010",
+          "page_number": 51,
+          "matched_block_id": "p0051-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-audit-v1-p0144-b0005",
+          "page_number": 144,
+          "matched_block_id": "p0144-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-audit-v1-p0144-b0009",
+          "page_number": 144,
+          "matched_block_id": "p0144-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 21,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>Str</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0021-b0003"
+      },
+      {
+        "page_number": 94,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>C. Blair sc.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0094-b0003"
+      },
+      {
+        "page_number": 126,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>b</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0126-b0006"
+      },
+      {
+        "page_number": 162,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>e</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0162-b0016"
+      },
+      {
+        "page_number": 182,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 3 states total 11 but its 6 contributing cells sum to 31 (difference 20).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0182-b0013"
+      },
+      {
+        "page_number": 182,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 4 states total 5 but its 6 contributing cells sum to 12 (difference 7).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0182-b0013"
+      },
+      {
+        "page_number": 182,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 5 states total 2 but its 6 contributing cells sum to 4 (difference 2).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0182-b0013"
+      },
+      {
+        "page_number": 182,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 6 states total 11 but its 6 contributing cells sum to 31 (difference 20).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0182-b0013"
+      },
+      {
+        "page_number": 185,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 3 states total 4 but its 3 contributing cells sum to 16 (difference 12).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0185-b0011"
+      },
+      {
+        "page_number": 216,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 2 states total 1004 but its 5 contributing cells sum to 6676 (difference 5672).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0216-b0011"
+      },
+      {
+        "page_number": 217,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 2 states total 565 but its 4 contributing cells sum to 6666 (difference 6101).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0217-b0023"
+      },
+      {
+        "page_number": 261,
+        "severity": "review",
+        "category": "table_ragged_columns",
+        "message": "Table row p0261-b0005 expands to 14 columns vs. table body width 13 (even after accounting for colspan/rowspan).",
+        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
+        "validator": "table_geometry",
+        "block_id": "p0261-b0005"
+      },
+      {
+        "page_number": 280,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>an</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0280-b0005"
+      },
+      {
+        "page_number": 280,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ay</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0280-b0005"
+      },
+      {
+        "page_number": 280,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>ey</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0280-b0005"
+      },
+      {
+        "page_number": 290,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>h</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0290-b0006"
+      },
+      {
+        "page_number": 310,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 2 states total 169 but its 4 contributing cells sum to 120 (difference -49).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0310-b0021"
+      },
+      {
+        "page_number": 345,
+        "severity": "review",
+        "category": "table_blind_total_disagreement",
+        "message": "Isolated 450-DPI TOTAL strip read ['<i>Sēers</i>', '51'] vs. full-page pass ['<i>Seers</i>', '51']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Inspect the TOTAL row and column addends against the high-DPI scan.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0345-b0021"
+      },
+      {
+        "page_number": 424,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 4 states total 33736542 but its 3 contributing cells sum to 29338269 (difference -4398273).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0424-b0009"
+      },
+      {
+        "page_number": 425,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 4 states total 2776642 but its 2 contributing cells sum to 27766420 (difference 24989778).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0425-b0008"
+      },
+      {
+        "page_number": 430,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 2 states total 1481 but its 2 contributing cells sum to 14810 (difference 13329).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0430-b0011"
+      },
+      {
+        "page_number": 430,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 4 states total 26655384 but its 2 contributing cells sum to 22258111 (difference -4397273).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0430-b0011"
+      },
+      {
+        "page_number": 47,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sudra' appears without diacritics here, whereas this volume consistently prints 'Súdra' (37 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0047-b0005"
+      },
+      {
+        "page_number": 49,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Satghadam' appears without diacritics here, whereas this volume consistently prints 'Sátghadam' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0049-b0006"
+      },
+      {
+        "page_number": 82,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Zenana' appears without diacritics here, whereas this volume consistently prints 'Zenána' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0082-b0013"
+      },
+      {
+        "page_number": 103,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahman' appears without diacritics here, whereas this volume consistently prints 'Bráhman' (73 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0103-b0003"
+      },
+      {
+        "page_number": 107,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Devanga' appears without diacritics here, whereas this volume consistently prints 'Dévánga' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0107-b0015"
+      },
+      {
+        "page_number": 117,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Ashadha' appears without diacritics here, whereas this volume consistently prints 'Ashádha' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0117-b0006"
+      },
+      {
+        "page_number": 158,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Panchanga' appears without diacritics here, whereas this volume consistently prints 'Panchánga' (38 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0158-b0004"
+      },
+      {
+        "page_number": 167,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Beü'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0167-b0006"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ă' (U+0103 LATIN SMALL LETTER A WITH BREVE) appears only 2 time(s) in this book, here in 'Brahmă,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0178-b0004"
+      },
+      {
+        "page_number": 274,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Amavasya' appears without diacritics here, whereas this volume consistently prints 'Amávásya' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0274-b0009"
+      },
+      {
+        "page_number": 274,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sravana' appears without diacritics here, whereas this volume consistently prints 'Srávana' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0274-b0039"
+      },
+      {
+        "page_number": 286,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahantina' appears without diacritics here, whereas this volume consistently prints 'Mahántina' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0286-b0008"
+      },
+      {
+        "page_number": 290,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sannyasis' appears without diacritics here, whereas this volume consistently prints 'Sannyásis' (17 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0290-b0005"
+      },
+      {
+        "page_number": 319,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Daseri' appears without diacritics here, whereas this volume consistently prints 'Dáséri' (28 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0319-b0005"
+      },
+      {
+        "page_number": 350,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Daseri' appears without diacritics here, whereas this volume consistently prints 'Dáséri' (28 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0350-b0004"
+      },
+      {
+        "page_number": 350,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 1 time(s) in this book, here in 'Brahmā;'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0350-b0007"
+      },
+      {
+        "page_number": 350,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ă' (U+0103 LATIN SMALL LETTER A WITH BREVE) appears only 2 time(s) in this book, here in 'Brahmă,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0350-b0007"
+      },
+      {
+        "page_number": 351,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vedas' appears without diacritics here, whereas this volume consistently prints 'Védas' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0351-b0006"
+      },
+      {
+        "page_number": 359,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahmans' appears without diacritics here, whereas this volume consistently prints 'Bráhmans' (200 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0359-b0006"
+      },
+      {
+        "page_number": 359,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sudra' appears without diacritics here, whereas this volume consistently prints 'Súdra' (37 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0359-b0006"
+      },
+      {
+        "page_number": 361,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Daseri' appears without diacritics here, whereas this volume consistently prints 'Dáséri' (28 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0361-b0004"
+      },
+      {
+        "page_number": 363,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Narayana' appears without diacritics here, whereas this volume consistently prints 'Náráyana' (10 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0363-b0006"
+      },
+      {
+        "page_number": 365,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Pujari' appears without diacritics here, whereas this volume consistently prints 'Pujári' (10 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0365-b0005"
+      },
+      {
+        "page_number": 382,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahmans' appears without diacritics here, whereas this volume consistently prints 'Bráhmans' (200 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0382-b0004"
+      },
+      {
+        "page_number": 382,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahman' appears without diacritics here, whereas this volume consistently prints 'Bráhman' (73 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0382-b0004"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Panchanga' appears without diacritics here, whereas this volume consistently prints 'Panchánga' (38 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0383-b0004"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Amavasya' appears without diacritics here, whereas this volume consistently prints 'Amávásya' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0383-b0004"
+      },
+      {
+        "page_number": 447,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Cavery' appears without diacritics here, whereas this volume consistently prints 'Cávery' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0447-b0005"
+      },
+      {
+        "page_number": 448,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Cavery' appears without diacritics here, whereas this volume consistently prints 'Cávery' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0448-b0006"
+      },
+      {
+        "page_number": 464,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kalyana' appears without diacritics here, whereas this volume consistently prints 'Kalyána' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0464-b0004"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-4-hydrogen",
+          "axis": "provenance",
+          "label": "Read: Gemini 4 Hydrogen",
+          "detail": "Models: gemini-4-hydrogen (457/457 pp.) · reader_profile=transliteration"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/journey-from-madras-vol-i.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 3 fixes · 22 pp. checked",
+          "detail": "3 anchored emendation(s) applied; 22 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 457 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 5/16 Arithmetic-Checked",
+          "detail": "5 of 16 tables pass arithmetic & column checks; 11 flagged for scan review"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 43 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 1 footnotes and 996 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1800-1801",
+        "regions": [
+          "Madras",
+          "Mysore",
+          "Canara",
+          "Malabar"
+        ],
+        "subjects": [
+          "Agrarian Survey",
+          "Weights And Measures",
+          "Coinage",
+          "Irrigation",
+          "Artisans",
+          "Wages And Prices"
+        ],
+        "artifacts": [
+          "43 Statistical Tables",
+          "37 Archival Plates",
+          "1 Footnotes"
+        ]
+      }
+    }
+  }
+}

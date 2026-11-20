@@ -1,0 +1,290 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "mughal-administration",
+  "run_id": "g4-hydrogen-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "court_and_chronicle",
+  "cover_palette": "Imperial Cinnabar",
+  "edition_root": "library/general-heritage/mughal-administration",
+  "outputs": {
+    "book_ast": "library/general-heritage/mughal-administration/book_ast.json",
+    "rubric_score": "library/general-heritage/mughal-administration/rubric_score.json",
+    "editorial_note": "library/general-heritage/mughal-administration/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/mughal-administration/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/mughal-administration/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/mughal-administration/cover.svg",
+    "cover_webp": "library/general-heritage/mughal-administration/cover.webp",
+    "web_index": "library/general-heritage/mughal-administration/web/index.html",
+    "hugo_dir": "library/general-heritage/mughal-administration/web/hugo",
+    "hugo_manifest": "library/general-heritage/mughal-administration/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/mughal-administration/epub/mughal-administration.epub",
+    "markdown": "library/general-heritage/mughal-administration/markdown/mughal-administration.md",
+    "tei_xml": "library/general-heritage/mughal-administration/tei/mughal-administration.tei.xml",
+    "print_html": "library/general-heritage/mughal-administration/print/mughal-administration.print.html",
+    "pdf": "library/general-heritage/mughal-administration/print/mughal-administration.pdf",
+    "datasets": null,
+    "datapackage": null
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/mughal-administration",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-4-hydrogen",
+        "axis": "provenance",
+        "label": "Read: Gemini 4 Hydrogen",
+        "detail": "Models: gemini-4-hydrogen (88/88 pp.) · reader_profile=transliteration"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/mughal-administration.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 2 fixes · 7 pp. checked",
+        "detail": "2 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 88 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:arabic",
+        "axis": "diplomatic",
+        "label": "Script: Perso-Arabic",
+        "detail": "Declared script: Perso-Arabic"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 23 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1526-1707",
+      "regions": [
+        "North India",
+        "Deccan",
+        "Mughal Empire"
+      ],
+      "subjects": [
+        "Mughal Administration",
+        "Imperial Bureaucracy",
+        "Land Revenue",
+        "Indo-Persian Historiography"
+      ],
+      "artifacts": [
+        "23 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 88,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 7,
+      "machine_reread_page_count": 7,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        35,
+        46,
+        48,
+        64,
+        70,
+        74,
+        83
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 7 of 88 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 3,
+      "total": 3
+    },
+    "corrections": {
+      "applied": 2,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "mughal-p0040-b0003-arzi",
+          "page_number": 40,
+          "matched_block_id": "p0040-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "mughal-p0047-b0007-karkhanahs",
+          "page_number": 47,
+          "matched_block_id": "p0047-b0007",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 46,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 1 time(s) in this book, here in 'kārkhanahs.]'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0046-b0013"
+      },
+      {
+        "page_number": 48,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in '(sarânjám)'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0048-b0007"
+      },
+      {
+        "page_number": 77,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'Phœnicians'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0077-b0004"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-4-hydrogen",
+          "axis": "provenance",
+          "label": "Read: Gemini 4 Hydrogen",
+          "detail": "Models: gemini-4-hydrogen (88/88 pp.) · reader_profile=transliteration"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/mughal-administration.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 2 fixes · 7 pp. checked",
+          "detail": "2 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 88 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:arabic",
+          "axis": "diplomatic",
+          "label": "Script: Perso-Arabic",
+          "detail": "Declared script: Perso-Arabic"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 23 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1526-1707",
+        "regions": [
+          "North India",
+          "Deccan",
+          "Mughal Empire"
+        ],
+        "subjects": [
+          "Mughal Administration",
+          "Imperial Bureaucracy",
+          "Land Revenue",
+          "Indo-Persian Historiography"
+        ],
+        "artifacts": [
+          "23 Footnotes"
+        ]
+      }
+    }
+  }
+}

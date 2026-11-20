@@ -1,0 +1,590 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "english-factories-india-1624-1629-vol-03",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 100.0,
+  "cover_archetype": "maritime_company_records",
+  "cover_palette": "Pelagic Indigo",
+  "edition_root": "library/indian-economic-history/english-factories-india-1624-1629-vol-03",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/book_ast.json",
+    "rubric_score": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/cover.svg",
+    "cover_webp": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/cover.webp",
+    "web_index": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/web/index.html",
+    "hugo_dir": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/epub/english-factories-india-1624-1629-vol-03.epub",
+    "markdown": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/markdown/english-factories-india-1624-1629-vol-03.md",
+    "tei_xml": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/tei/english-factories-india-1624-1629-vol-03.tei.xml",
+    "print_html": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/print/english-factories-india-1624-1629-vol-03.print.html",
+    "pdf": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/print/english-factories-india-1624-1629-vol-03.pdf",
+    "datasets": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/english-factories-india-1624-1629-vol-03/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/english-factories-india-1624-1629-vol-03",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (439/442 pp.), gemini-3.6-flash (3/442 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/english-factories-india-1624-1629-vol-03.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 15 fixes · 12 pp. checked",
+        "detail": "15 anchored emendation(s) applied; 12 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 442 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:structured",
+        "axis": "provenance",
+        "label": "Tables: 1 Structured (No Printed Totals)",
+        "detail": "1 structured table(s) extracted; none carry printed summation rows"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "typography:17c_record_type",
+        "axis": "diplomatic",
+        "label": "17th-c. Record Type",
+        "detail": "Reproduces early modern Record-Type contractions, superior letters, and period orthography"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 432 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1624-1629",
+      "regions": [
+        "Surat",
+        "Agra",
+        "Ahmadabad",
+        "Masulipatam",
+        "Armagon"
+      ],
+      "subjects": [
+        "Factory Records",
+        "Saltpetre",
+        "Indigo Prices",
+        "Shroff Credit",
+        "Dutch Competition"
+      ],
+      "artifacts": [
+        "1 Statistical Tables",
+        "2 Archival Plates",
+        "432 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 1,
+      "extracted_page_count": 442,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 12,
+      "machine_reread_page_count": 12,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        76,
+        147,
+        150,
+        210,
+        230,
+        286,
+        296,
+        327,
+        329,
+        382,
+        397,
+        431
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (1 open review item); 12 of 442 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 1,
+      "informational": 22,
+      "total": 23
+    },
+    "corrections": {
+      "applied": 15,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "ef3-p0064-b0004",
+          "page_number": 64,
+          "matched_block_id": "p0064-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0064-b0005",
+          "page_number": 64,
+          "matched_block_id": "p0064-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0064-b0006",
+          "page_number": 64,
+          "matched_block_id": "p0064-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0079-b0010",
+          "page_number": 79,
+          "matched_block_id": "p0079-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0107-b0003",
+          "page_number": 107,
+          "matched_block_id": "p0107-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0165-b0007",
+          "page_number": 165,
+          "matched_block_id": "p0165-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0187-b0003",
+          "page_number": 187,
+          "matched_block_id": "p0187-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0192-b0003",
+          "page_number": 192,
+          "matched_block_id": "p0192-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0192-b0005",
+          "page_number": 192,
+          "matched_block_id": "p0192-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0210-b0003",
+          "page_number": 210,
+          "matched_block_id": "p0210-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0221-b0007",
+          "page_number": 221,
+          "matched_block_id": "p0221-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0227-b0003",
+          "page_number": 227,
+          "matched_block_id": "p0227-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0230-b0006",
+          "page_number": 230,
+          "matched_block_id": "p0230-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0280-b0003",
+          "page_number": 280,
+          "matched_block_id": "p0280-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef3-p0287-b0003",
+          "page_number": 287,
+          "matched_block_id": "p0287-b0003",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 64,
+        "severity": "review",
+        "category": "control_characters_removed",
+        "message": "Page 64: the reader's output held invisible control characters, which were removed.",
+        "expected_action": "Compare the page with the scan in case a letter was lost where they stood.",
+        "validator": "page_integrity",
+        "block_id": null
+      },
+      {
+        "page_number": 76,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Shiraz' appears without diacritics here, whereas this volume consistently prints 'Shīrāz' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0076-b0003"
+      },
+      {
+        "page_number": 76,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Shiraz' appears without diacritics here, whereas this volume consistently prints 'Shīrāz' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0076-b0003"
+      },
+      {
+        "page_number": 100,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'manœuvring.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0100-b0004"
+      },
+      {
+        "page_number": 147,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nadir' appears without diacritics here, whereas this volume consistently prints 'Nādir' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0147-b0005"
+      },
+      {
+        "page_number": 147,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Zaman' appears without diacritics here, whereas this volume consistently prints 'Zamān' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0147-b0005"
+      },
+      {
+        "page_number": 150,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kashmir' appears without diacritics here, whereas this volume consistently prints 'Kashmīr' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0150-b0006"
+      },
+      {
+        "page_number": 152,
+        "severity": "informational",
+        "category": "overlong_heading",
+        "message": "Block p0152-b0003 is classified as a heading (241 chars) but contains multi-sentence body prose; compiler will demote to paragraph.",
+        "expected_action": "Confirm whether block is a bold-lead paragraph rather than a display heading.",
+        "validator": "layout_order",
+        "block_id": "p0152-b0003"
+      },
+      {
+        "page_number": 210,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 210 has inline note callout(s) [] vs. labelled footnote(s) ['1'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0210-b0005"
+      },
+      {
+        "page_number": 230,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nizam' appears without diacritics here, whereas this volume consistently prints 'Nizām' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0230-b0003"
+      },
+      {
+        "page_number": 286,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrzā' (25 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0286-b0003"
+      },
+      {
+        "page_number": 296,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Abbas' appears without diacritics here, whereas this volume consistently prints 'Abbās' (12 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0296-b0003"
+      },
+      {
+        "page_number": 327,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrzā' (25 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0327-b0008"
+      },
+      {
+        "page_number": 328,
+        "severity": "informational",
+        "category": "overlong_heading",
+        "message": "Block p0328-b0009 is classified as a heading (235 chars) but contains multi-sentence body prose; compiler will demote to paragraph.",
+        "expected_action": "Confirm whether block is a bold-lead paragraph rather than a display heading.",
+        "validator": "layout_order",
+        "block_id": "p0328-b0009"
+      },
+      {
+        "page_number": 329,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrzā' (25 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0329-b0007"
+      },
+      {
+        "page_number": 331,
+        "severity": "informational",
+        "category": "overlong_heading",
+        "message": "Block p0331-b0006 is classified as a heading (232 chars) but contains multi-sentence body prose; compiler will demote to paragraph.",
+        "expected_action": "Confirm whether block is a bold-lead paragraph rather than a display heading.",
+        "validator": "layout_order",
+        "block_id": "p0331-b0006"
+      },
+      {
+        "page_number": 382,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Daman' appears without diacritics here, whereas this volume consistently prints 'Damān' (23 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0382-b0003"
+      },
+      {
+        "page_number": 397,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Thome' appears without diacritics here, whereas this volume consistently prints 'Thomé' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0397-b0003"
+      },
+      {
+        "page_number": 405,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ï' (U+00EF LATIN SMALL LETTER I WITH DIAERESIS) appears only 2 time(s) in this book, here in '[Taïz],'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0405-b0003"
+      },
+      {
+        "page_number": 421,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'º' (U+00BA MASCULINE ORDINAL INDICATOR) appears only 1 time(s) in this book, here in '‘Canº,’'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0421-b0045"
+      },
+      {
+        "page_number": 431,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Razzaq' appears without diacritics here, whereas this volume consistently prints 'Razzāq' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0431-b0033"
+      },
+      {
+        "page_number": 433,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ō' (U+014C LATIN CAPITAL LETTER O WITH MACRON) appears only 1 time(s) in this book, here in 'Ōlai,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0433-b0023"
+      },
+      {
+        "page_number": 440,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ï' (U+00EF LATIN SMALL LETTER I WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Taïz,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0440-b0014"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (439/442 pp.), gemini-3.6-flash (3/442 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/english-factories-india-1624-1629-vol-03.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 15 fixes · 12 pp. checked",
+          "detail": "15 anchored emendation(s) applied; 12 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 442 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:structured",
+          "axis": "provenance",
+          "label": "Tables: 1 Structured (No Printed Totals)",
+          "detail": "1 structured table(s) extracted; none carry printed summation rows"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "typography:17c_record_type",
+          "axis": "diplomatic",
+          "label": "17th-c. Record Type",
+          "detail": "Reproduces early modern Record-Type contractions, superior letters, and period orthography"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 432 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1624-1629",
+        "regions": [
+          "Surat",
+          "Agra",
+          "Ahmadabad",
+          "Masulipatam",
+          "Armagon"
+        ],
+        "subjects": [
+          "Factory Records",
+          "Saltpetre",
+          "Indigo Prices",
+          "Shroff Credit",
+          "Dutch Competition"
+        ],
+        "artifacts": [
+          "1 Statistical Tables",
+          "2 Archival Plates",
+          "432 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

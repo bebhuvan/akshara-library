@@ -1,0 +1,49 @@
+{
+  "version": "rubric-v2",
+  "book_id": "famines-and-land-assessments",
+  "run_id": "g38-batch-v1",
+  "total_score": 89.4,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 23.0,
+      "max": 25.0,
+      "deductions": [
+        "-2.0: 1 multi-column zig-zag reading order warning(s)"
+      ]
+    },
+    "apparatus_fidelity": {
+      "score": 19.0,
+      "max": 25.0,
+      "deductions": [
+        "-6.0: 2 unresolved footnote callout/body mismatch(es)"
+      ]
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 22.4,
+      "max": 25.0,
+      "deductions": [
+        "-2.6: 13 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "footnote_marker_mismatch": 2,
+    "column_reading_order_zigzag": 1,
+    "unclear_ink_span": 13,
+    "rare_character": 8,
+    "table_compositor_arithmetic_variant": 18,
+    "table_blind_total_confirmed": 2
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0231,
+  "next_actions": [
+    "Resolve 2 unmatched footnote marker(s) via anchor-matched corrections."
+  ]
+}

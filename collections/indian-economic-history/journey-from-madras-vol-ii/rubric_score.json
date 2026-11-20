@@ -1,0 +1,49 @@
+{
+  "version": "rubric-v2",
+  "book_id": "journey-from-madras-vol-ii",
+  "run_id": "g4-hydrogen-batch-v1",
+  "total_score": 75.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 8.0,
+      "max": 25.0,
+      "deductions": [
+        "-5.0: 1 Blind Totals Strip disagreement(s)",
+        "-12.0: 26 column total arithmetic mismatch(es)"
+      ]
+    },
+    "orthographic_fidelity": {
+      "score": 17.0,
+      "max": 25.0,
+      "deductions": [
+        "-6.0: 2 script/codepoint anomaly(ies)",
+        "-2.0: 10 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "table_total_mismatch": 26,
+    "script_anomaly": 2,
+    "unclear_ink_span": 10,
+    "table_blind_total_disagreement": 1,
+    "orthographic_compositor_variant": 15,
+    "rare_character": 23
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0377,
+  "next_actions": [
+    "Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes')."
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "guide-to-india-office-records-1919",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "epistolary_and_speeches",
+  "cover_palette": "Porcelain & Cinnabar",
+  "edition_root": "library/indian-economic-history/guide-to-india-office-records-1919",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/guide-to-india-office-records-1919/book_ast.json",
+    "rubric_score": "library/indian-economic-history/guide-to-india-office-records-1919/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/guide-to-india-office-records-1919/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/guide-to-india-office-records-1919/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/guide-to-india-office-records-1919/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/guide-to-india-office-records-1919/cover.svg",
+    "cover_webp": "library/indian-economic-history/guide-to-india-office-records-1919/cover.webp",
+    "web_index": "library/indian-economic-history/guide-to-india-office-records-1919/web/index.html",
+    "hugo_dir": "library/indian-economic-history/guide-to-india-office-records-1919/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/guide-to-india-office-records-1919/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/guide-to-india-office-records-1919/epub/guide-to-india-office-records-1919.epub",
+    "markdown": "library/indian-economic-history/guide-to-india-office-records-1919/markdown/guide-to-india-office-records-1919.md",
+    "tei_xml": "library/indian-economic-history/guide-to-india-office-records-1919/tei/guide-to-india-office-records-1919.tei.xml",
+    "print_html": "library/indian-economic-history/guide-to-india-office-records-1919/print/guide-to-india-office-records-1919.print.html",
+    "pdf": "library/indian-economic-history/guide-to-india-office-records-1919/print/guide-to-india-office-records-1919.pdf",
+    "datasets": "library/indian-economic-history/guide-to-india-office-records-1919/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/guide-to-india-office-records-1919/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/guide-to-india-office-records-1919",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (151/151 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/guide-to-india-office-records-1919.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 1 fixes",
+        "detail": "1 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 151 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:structured",
+        "axis": "provenance",
+        "label": "Tables: 13 Structured (No Printed Totals)",
+        "detail": "13 structured table(s) extracted; none carry printed summation rows"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 13 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 91 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1600-1858",
+      "regions": [
+        "All-India",
+        "London",
+        "Surat",
+        "Madras",
+        "Bombay",
+        "Bengal"
+      ],
+      "subjects": [
+        "Archival Guide",
+        "East India Company",
+        "Factory Records",
+        "Court Minutes",
+        "Despatches"
+      ],
+      "artifacts": [
+        "13 Statistical Tables",
+        "2 Archival Plates",
+        "91 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 151,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 0,
+      "machine_reread_page_count": 0,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 0 of 151 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 5,
+      "total": 5
+    },
+    "corrections": {
+      "applied": 1,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "scan-check-2026-11-17-p0063-b0003",
+          "page_number": 63,
+          "matched_block_id": "p0063-b0003",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 116,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 2 time(s) in this book, here in 'françaises,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0116-b0009"
+      },
+      {
+        "page_number": 120,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ç' (U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'MONÇOES).'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0120-b0014"
+      },
+      {
+        "page_number": 121,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 1 time(s) in this book, here in 'Collecção'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0121-b0017"
+      },
+      {
+        "page_number": 121,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 2 time(s) in this book, here in 'Collecção'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0121-b0017"
+      },
+      {
+        "page_number": 154,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Trübner'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0154-b0005"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (151/151 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/guide-to-india-office-records-1919.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 1 fixes",
+          "detail": "1 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 151 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:structured",
+          "axis": "provenance",
+          "label": "Tables: 13 Structured (No Printed Totals)",
+          "detail": "13 structured table(s) extracted; none carry printed summation rows"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 13 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 91 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1600-1858",
+        "regions": [
+          "All-India",
+          "London",
+          "Surat",
+          "Madras",
+          "Bombay",
+          "Bengal"
+        ],
+        "subjects": [
+          "Archival Guide",
+          "East India Company",
+          "Factory Records",
+          "Court Minutes",
+          "Despatches"
+        ],
+        "artifacts": [
+          "13 Statistical Tables",
+          "2 Archival Plates",
+          "91 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": "rubric-v2",
+  "book_id": "musalmans-and-money-lenders",
+  "run_id": "g38-batch-v1",
+  "total_score": 99.4,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 24.4,
+      "max": 25.0,
+      "deductions": [
+        "-0.6: 3 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "unclear_ink_span": 3,
+    "rare_character": 5,
+    "table_blind_total_confirmed": 2
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0097,
+  "next_actions": [
+    "Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 1.0%) toward Source-Certified."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": "rubric-v2",
+  "book_id": "englands-debt-to-india-lajpat-rai-1917",
+  "run_id": "g38-batch-v1",
+  "total_score": 99.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 24.0,
+      "max": 25.0,
+      "deductions": [
+        "-1.0: 5 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "unclear_ink_span": 5,
+    "control_characters_removed": 1,
+    "rare_character": 4,
+    "table_blind_total_confirmed": 3,
+    "table_compositor_arithmetic_variant": 4
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0124,
+  "next_actions": [
+    "Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 1.2%) toward Source-Certified."
+  ]
+}

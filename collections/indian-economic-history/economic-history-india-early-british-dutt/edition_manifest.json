@@ -1,0 +1,610 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "economic-history-india-early-british-dutt",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "political_economy_ledger",
+  "cover_palette": "Oxblood Ledger",
+  "edition_root": "library/indian-economic-history/economic-history-india-early-british-dutt",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/economic-history-india-early-british-dutt/book_ast.json",
+    "rubric_score": "library/indian-economic-history/economic-history-india-early-british-dutt/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/economic-history-india-early-british-dutt/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/economic-history-india-early-british-dutt/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/economic-history-india-early-british-dutt/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/economic-history-india-early-british-dutt/cover.svg",
+    "cover_webp": "library/indian-economic-history/economic-history-india-early-british-dutt/cover.webp",
+    "web_index": "library/indian-economic-history/economic-history-india-early-british-dutt/web/index.html",
+    "hugo_dir": "library/indian-economic-history/economic-history-india-early-british-dutt/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/economic-history-india-early-british-dutt/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/economic-history-india-early-british-dutt/epub/economic-history-india-early-british-dutt.epub",
+    "markdown": "library/indian-economic-history/economic-history-india-early-british-dutt/markdown/economic-history-india-early-british-dutt.md",
+    "tei_xml": "library/indian-economic-history/economic-history-india-early-british-dutt/tei/economic-history-india-early-british-dutt.tei.xml",
+    "print_html": "library/indian-economic-history/economic-history-india-early-british-dutt/print/economic-history-india-early-british-dutt.print.html",
+    "pdf": "library/indian-economic-history/economic-history-india-early-british-dutt/print/economic-history-india-early-british-dutt.pdf",
+    "datasets": "library/indian-economic-history/economic-history-india-early-british-dutt/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/economic-history-india-early-british-dutt/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/economic-history-india-early-british-dutt",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (466/466 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/economic-history-india-early-british-dutt.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 15 fixes · 8 pp. checked",
+        "detail": "15 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 466 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 10/10 Arithmetic-Checked",
+        "detail": "10 of 10 tables pass arithmetic & column checks; 24 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 27 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 345 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1757-1837",
+      "regions": [
+        "All-India",
+        "Bengal",
+        "Madras",
+        "Bombay",
+        "North-Western Provinces"
+      ],
+      "subjects": [
+        "Land Revenue",
+        "Deindustrialization",
+        "Permanent Settlement",
+        "Ryotwari",
+        "Economic Drain",
+        "Company Trade"
+      ],
+      "artifacts": [
+        "27 Statistical Tables",
+        "345 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 466,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 8,
+      "machine_reread_page_count": 8,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        141,
+        164,
+        251,
+        291,
+        389,
+        428,
+        429,
+        433
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 8 of 466 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 27,
+      "total": 27
+    },
+    "corrections": {
+      "applied": 15,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "eb-p0026-b0004-bbox",
+          "page_number": 26,
+          "matched_block_id": "p0026-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0026-b0008-bbox",
+          "page_number": 26,
+          "matched_block_id": "p0026-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0076-b0003-investment",
+          "page_number": 76,
+          "matched_block_id": "p0076-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0179-b0003-sheristadars",
+          "page_number": 179,
+          "matched_block_id": "p0179-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0298-b0003-eastern",
+          "page_number": 298,
+          "matched_block_id": "p0298-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0291-b0015-pad",
+          "page_number": 291,
+          "matched_block_id": "p0291-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0325-b0010-silk",
+          "page_number": 325,
+          "matched_block_id": "p0325-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0325-b0011-silk",
+          "page_number": 325,
+          "matched_block_id": "p0325-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0325-b0012-silk",
+          "page_number": 325,
+          "matched_block_id": "p0325-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0419-b0003-span",
+          "page_number": 419,
+          "matched_block_id": "p0419-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0419-b0018-span",
+          "page_number": 419,
+          "matched_block_id": "p0419-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0419-b0024-span",
+          "page_number": 419,
+          "matched_block_id": "p0419-b0024",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0429-b0032-restore-bottom",
+          "page_number": 429,
+          "matched_block_id": "p0429-b0032",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0291-b0016-span",
+          "page_number": 291,
+          "matched_block_id": "p0291-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "eb-p0291-b0017-span",
+          "page_number": 291,
+          "matched_block_id": "p0291-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 7,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ü' (U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'TRÜBNER'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0007-b0013"
+      },
+      {
+        "page_number": 35,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'manœuvres,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0035-b0004"
+      },
+      {
+        "page_number": 141,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 897642 but its 12 contributing cells sum to 901636 (difference 3994).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0141-b0018"
+      },
+      {
+        "page_number": 164,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 33.75 but its 3 contributing cells sum to 133.75 (difference 100).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0164-b0007"
+      },
+      {
+        "page_number": 251,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 2 but its 7 contributing cells sum to 0 (difference -2).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0251-b0013"
+      },
+      {
+        "page_number": 251,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 3 but its 7 contributing cells sum to 40 (difference 37).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0251-b0013"
+      },
+      {
+        "page_number": 251,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 5.50 but its 7 contributing cells sum to 41.50 (difference 36).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0251-b0013"
+      },
+      {
+        "page_number": 251,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 3 but its 6 contributing cells sum to 1 (difference -2).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0251-b0022"
+      },
+      {
+        "page_number": 251,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 10 but its 6 contributing cells sum to 48 (difference 38).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0251-b0022"
+      },
+      {
+        "page_number": 251,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 8.75 but its 6 contributing cells sum to 32.75 (difference 24).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0251-b0022"
+      },
+      {
+        "page_number": 291,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 25134672 but its 10 contributing cells sum to 8744689 (difference -16389983).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0291-b0016"
+      },
+      {
+        "page_number": 389,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 12 but its 8 contributing cells sum to 8 (difference -4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0389-b0015"
+      },
+      {
+        "page_number": 389,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 2 but its 8 contributing cells sum to 82 (difference 80).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0389-b0015"
+      },
+      {
+        "page_number": 416,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'd’être'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0416-b0004"
+      },
+      {
+        "page_number": 428,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['ven', '931\\n182\\n480', '593', '694\\n804\\n596', '994', '906\\n828\\n937', '171', '141'] vs. full-page pass ['Total . . .', '4,197,137', '8,026,193', '6,567,808']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0428-b0009"
+      },
+      {
+        "page_number": 428,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['38', '', 'Gr', 'F'] vs. full-page pass ['Total . . .', '4,123,982', '7,866,094', '6,888,997']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0428-b0014"
+      },
+      {
+        "page_number": 428,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['<unclear>T</unclear>OTAL ... Rs.', '£', '58,235', '97,891', '30,70', '23,297', '18,303', '39,292', '64,'] vs. full-page pass ['Total . . .', '4,058,814', '8,016,171', '7,508,038']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0428-b0019"
+      },
+      {
+        "page_number": 428,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['<unclear>H</unclear>', '', '. . . . . . . . . .'] vs. full-page pass ['Total . . .', '3,869,298', '8,059,880.', '8,015,327']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0428-b0024"
+      },
+      {
+        "page_number": 428,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['Total', 'Total as', 'May', 'Total', 'Total as', 'May', 'Total', 'Total as', 'May'] vs. full-page pass ['Total . . .', '4,128,133', '9,736,672', '9,955,390']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0428-b0034"
+      },
+      {
+        "page_number": 428,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['40', '', ''] vs. full-page pass ['Total . . .', '4,221,695', '10,485,059', '11,468,185']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0428-b0039"
+      },
+      {
+        "page_number": 429,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['<unclear>Beng</unclear>al . . . .', '3,225,436', '9,336,707', '7,464,29<unclear></unclear>'] vs. full-page pass ['Total . . .', '4,296,884', '13,464,537', '12,326,880']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0429-b0009"
+      },
+      {
+        "page_number": 429,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['1806-7. · · ·', '4,880,433', '15,403,409', '17,421,41<unclear>1</unclear>'] vs. full-page pass ['Total . . .', '4,480,128', '13,271,385', '14,395,405']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0429-b0014"
+      },
+      {
+        "page_number": 429,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['<unclear>...</unclear>al · · · ·', '3,729,098', '9,971,695', '7,760,92<unclear>...</unclear>'] vs. full-page pass ['Total . . .', '4,604,025', '14,949,395', '16,115,183']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0429-b0019"
+      },
+      {
+        "page_number": 429,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['1809-10. · · · 5,35,789', '15,525,055', '15,392,88'] vs. full-page pass ['Total . . .', '4,880,433', '15,403,409', '17,421,418']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0429-b0024"
+      },
+      {
+        "page_number": 433,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 20858820 but its 160 breakdown rows sum to 1478359217 (difference 1457500397).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0433-b0027"
+      },
+      {
+        "page_number": 433,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 17553525 but its 160 breakdown rows sum to 1407295313 (difference 1389741788).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0433-b0027"
+      },
+      {
+        "page_number": 433,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 12671743 but its 5 contributing cells sum to 12158666 (difference -513077).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0433-b0027"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (466/466 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/economic-history-india-early-british-dutt.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 15 fixes · 8 pp. checked",
+          "detail": "15 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 466 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 10/10 Arithmetic-Checked",
+          "detail": "10 of 10 tables pass arithmetic & column checks; 24 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 27 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 345 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1757-1837",
+        "regions": [
+          "All-India",
+          "Bengal",
+          "Madras",
+          "Bombay",
+          "North-Western Provinces"
+        ],
+        "subjects": [
+          "Land Revenue",
+          "Deindustrialization",
+          "Permanent Settlement",
+          "Ryotwari",
+          "Economic Drain",
+          "Company Trade"
+        ],
+        "artifacts": [
+          "27 Statistical Tables",
+          "345 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

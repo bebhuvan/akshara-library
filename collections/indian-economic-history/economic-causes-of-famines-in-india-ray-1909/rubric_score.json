@@ -1,0 +1,41 @@
+{
+  "version": "rubric-v2",
+  "book_id": "economic-causes-of-famines-in-india-ray-1909",
+  "run_id": "g38-batch-v1",
+  "total_score": 99.6,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 24.6,
+      "max": 25.0,
+      "deductions": [
+        "-0.4: 2 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "unclear_ink_span": 2,
+    "rare_character": 2
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.1236,
+  "next_actions": [
+    "Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 12.4%) toward Source-Certified."
+  ]
+}

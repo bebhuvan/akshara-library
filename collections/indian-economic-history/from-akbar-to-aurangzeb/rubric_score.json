@@ -1,0 +1,42 @@
+{
+  "version": "rubric-v2",
+  "book_id": "from-akbar-to-aurangzeb",
+  "run_id": "g38-batch-v1",
+  "total_score": 96.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 21.0,
+      "max": 25.0,
+      "deductions": [
+        "-4.0: 1 column total arithmetic mismatch(es)"
+      ]
+    },
+    "orthographic_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    }
+  },
+  "issue_counts_by_code": {
+    "table_total_mismatch": 1,
+    "rare_character": 8,
+    "orthographic_compositor_variant": 2
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0777,
+  "next_actions": [
+    "Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes')."
+  ]
+}

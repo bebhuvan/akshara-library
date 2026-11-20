@@ -1,0 +1,436 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "economic-history-india-victorian-age-dutt",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 95.5,
+  "cover_archetype": "political_economy_ledger",
+  "cover_palette": "Oxblood Ledger",
+  "edition_root": "library/indian-economic-history/economic-history-india-victorian-age-dutt",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/economic-history-india-victorian-age-dutt/book_ast.json",
+    "rubric_score": "library/indian-economic-history/economic-history-india-victorian-age-dutt/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/economic-history-india-victorian-age-dutt/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/economic-history-india-victorian-age-dutt/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/economic-history-india-victorian-age-dutt/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/economic-history-india-victorian-age-dutt/cover.svg",
+    "cover_webp": "library/indian-economic-history/economic-history-india-victorian-age-dutt/cover.webp",
+    "web_index": "library/indian-economic-history/economic-history-india-victorian-age-dutt/web/index.html",
+    "hugo_dir": "library/indian-economic-history/economic-history-india-victorian-age-dutt/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/economic-history-india-victorian-age-dutt/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/economic-history-india-victorian-age-dutt/epub/economic-history-india-victorian-age-dutt.epub",
+    "markdown": "library/indian-economic-history/economic-history-india-victorian-age-dutt/markdown/economic-history-india-victorian-age-dutt.md",
+    "tei_xml": "library/indian-economic-history/economic-history-india-victorian-age-dutt/tei/economic-history-india-victorian-age-dutt.tei.xml",
+    "print_html": "library/indian-economic-history/economic-history-india-victorian-age-dutt/print/economic-history-india-victorian-age-dutt.print.html",
+    "pdf": "library/indian-economic-history/economic-history-india-victorian-age-dutt/print/economic-history-india-victorian-age-dutt.pdf",
+    "datasets": "library/indian-economic-history/economic-history-india-victorian-age-dutt/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/economic-history-india-victorian-age-dutt/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/economic-history-india-victorian-age-dutt",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (651/651 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/economic-history-india-victorian-age-dutt.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 6 fixes · 3 pp. checked",
+        "detail": "6 anchored emendation(s) applied; 3 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 651 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 20/20 Arithmetic-Checked",
+        "detail": "20 of 20 tables pass arithmetic & column checks; 5 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 74 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 513 footnotes and 1 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1837-1900",
+      "regions": [
+        "All-India",
+        "Bengal",
+        "Bombay",
+        "Madras",
+        "Punjab",
+        "Central Provinces"
+      ],
+      "subjects": [
+        "Land Revenue",
+        "Railways Vs Irrigation",
+        "Public Debt",
+        "Tariffs",
+        "Famines",
+        "Currency"
+      ],
+      "artifacts": [
+        "74 Statistical Tables",
+        "513 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 2,
+      "extracted_page_count": 651,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 3,
+      "machine_reread_page_count": 3,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        119,
+        519,
+        632
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (2 open review items); 3 of 651 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 2,
+      "informational": 13,
+      "total": 15
+    },
+    "corrections": {
+      "applied": 6,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "vic-0001",
+          "page_number": 136,
+          "matched_block_id": "p0136-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "vic-0002",
+          "page_number": 136,
+          "matched_block_id": "p0136-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "vic-0003",
+          "page_number": 173,
+          "matched_block_id": "p0173-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "vic-0004",
+          "page_number": 335,
+          "matched_block_id": "p0335-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "vic-0005",
+          "page_number": 650,
+          "matched_block_id": "p0650-b0040",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "vic-0006",
+          "page_number": 650,
+          "matched_block_id": "p0650-b0082",
+          "op": "split_block",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 227,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 227 has inline note callout(s) ['2'] vs. labelled footnote(s) ['1'].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0227-b0005"
+      },
+      {
+        "page_number": 627,
+        "severity": "review",
+        "category": "table_ragged_columns",
+        "message": "Table row p0627-b0020 expands to 4 columns vs. table body width 3 (even after accounting for colspan/rowspan).",
+        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
+        "validator": "table_geometry",
+        "block_id": "p0627-b0020"
+      },
+      {
+        "page_number": 9,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ü' (U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'TRÜBNER'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0009-b0012"
+      },
+      {
+        "page_number": 42,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Blücher'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0042-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 2 time(s) in this book, here in 'Pancháyets'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 119,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 1018502 but its 18 contributing cells sum to 1018501 (difference -1).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0119-b0024"
+      },
+      {
+        "page_number": 119,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 1060989 but its 18 contributing cells sum to 1060988 (difference -1).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0119-b0024"
+      },
+      {
+        "page_number": 276,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'depôts'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0276-b0003"
+      },
+      {
+        "page_number": 295,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'æ' (U+00E6 LATIN SMALL LETTER AE) appears only 1 time(s) in this book, here in 'penitentiæ,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0295-b0005"
+      },
+      {
+        "page_number": 317,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'grâce'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0317-b0005"
+      },
+      {
+        "page_number": 359,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'd’être.”'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0359-b0006"
+      },
+      {
+        "page_number": 519,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 1446600 but its 15 contributing cells sum to 1446630 (difference 30).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0519-b0020"
+      },
+      {
+        "page_number": 519,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 1886854 but its 15 contributing cells sum to 1810954 (difference -75900).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0519-b0020"
+      },
+      {
+        "page_number": 632,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 17368655 but its 8 contributing cells sum to 17359705 (difference -8950).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0632-b0013"
+      },
+      {
+        "page_number": 655,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṭ' (U+1E6D LATIN SMALL LETTER T WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Venkataraṭnam,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0655-b0089"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (651/651 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/economic-history-india-victorian-age-dutt.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 6 fixes · 3 pp. checked",
+          "detail": "6 anchored emendation(s) applied; 3 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 651 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 20/20 Arithmetic-Checked",
+          "detail": "20 of 20 tables pass arithmetic & column checks; 5 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 74 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 513 footnotes and 1 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1837-1900",
+        "regions": [
+          "All-India",
+          "Bengal",
+          "Bombay",
+          "Madras",
+          "Punjab",
+          "Central Provinces"
+        ],
+        "subjects": [
+          "Land Revenue",
+          "Railways Vs Irrigation",
+          "Public Debt",
+          "Tariffs",
+          "Famines",
+          "Currency"
+        ],
+        "artifacts": [
+          "74 Statistical Tables",
+          "513 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

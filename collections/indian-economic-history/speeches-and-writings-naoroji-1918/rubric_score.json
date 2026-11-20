@@ -1,0 +1,46 @@
+{
+  "version": "rubric-v2",
+  "book_id": "speeches-and-writings-naoroji-1918",
+  "run_id": "g38-batch-v1",
+  "total_score": 92.4,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 19.0,
+      "max": 25.0,
+      "deductions": [
+        "-6.0: 2 unresolved footnote callout/body mismatch(es)"
+      ]
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 23.4,
+      "max": 25.0,
+      "deductions": [
+        "-1.6: 8 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "unclear_ink_span": 8,
+    "footnote_marker_mismatch": 2,
+    "table_compositor_arithmetic_variant": 3,
+    "rare_character": 7,
+    "table_blind_total_confirmed": 2
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0065,
+  "next_actions": [
+    "Resolve 2 unmatched footnote marker(s) via anchor-matched corrections."
+  ]
+}

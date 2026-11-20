@@ -1,0 +1,54 @@
+{
+  "version": "rubric-v2",
+  "book_id": "poverty-and-un-british-rule",
+  "run_id": "g4-hydrogen-batch-v1",
+  "total_score": 75.6,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 20.0,
+      "max": 25.0,
+      "deductions": [
+        "-5.0: 3 multi-column zig-zag reading order warning(s)"
+      ]
+    },
+    "apparatus_fidelity": {
+      "score": 10.0,
+      "max": 25.0,
+      "deductions": [
+        "-15.0: 8 unresolved footnote callout/body mismatch(es)"
+      ]
+    },
+    "tabular_accuracy": {
+      "score": 22.0,
+      "max": 25.0,
+      "deductions": [
+        "-3.0: 2 ragged table geometry warning(s)"
+      ]
+    },
+    "orthographic_fidelity": {
+      "score": 23.6,
+      "max": 25.0,
+      "deductions": [
+        "-1.4: 7 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "unclear_ink_span": 7,
+    "column_reading_order_zigzag": 3,
+    "footnote_marker_mismatch": 8,
+    "table_ragged_columns": 2,
+    "table_blind_total_confirmed": 15,
+    "table_compositor_arithmetic_variant": 47,
+    "rare_character": 6,
+    "orthographic_compositor_variant": 2
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0521,
+  "next_actions": [
+    "Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes').",
+    "Resolve 8 unmatched footnote marker(s) via anchor-matched corrections."
+  ]
+}

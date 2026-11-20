@@ -1,0 +1,43 @@
+{
+  "version": "rubric-v2",
+  "book_id": "periplus-erythraean-sea",
+  "run_id": "g38-batch-v1",
+  "total_score": 98.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 23.0,
+      "max": 25.0,
+      "deductions": [
+        "-2.0: 1 intra-book diacritic drift cluster(s)"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "orthographic_diacritic_drift": 1,
+    "orthographic_compositor_variant": 9,
+    "overlong_heading": 3,
+    "rare_character": 12
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.1239,
+  "next_actions": [
+    "Standardize or verify 1 proper-noun diacritic drift cluster(s)."
+  ]
+}

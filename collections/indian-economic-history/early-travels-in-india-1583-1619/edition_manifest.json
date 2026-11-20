@@ -1,0 +1,853 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "early-travels-in-india-1583-1619",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 100.0,
+  "cover_archetype": "maritime_company_records",
+  "cover_palette": "Admiralty Slate",
+  "edition_root": "library/indian-economic-history/early-travels-in-india-1583-1619",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/early-travels-in-india-1583-1619/book_ast.json",
+    "rubric_score": "library/indian-economic-history/early-travels-in-india-1583-1619/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/early-travels-in-india-1583-1619/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/early-travels-in-india-1583-1619/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/early-travels-in-india-1583-1619/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/early-travels-in-india-1583-1619/cover.svg",
+    "cover_webp": "library/indian-economic-history/early-travels-in-india-1583-1619/cover.webp",
+    "web_index": "library/indian-economic-history/early-travels-in-india-1583-1619/web/index.html",
+    "hugo_dir": "library/indian-economic-history/early-travels-in-india-1583-1619/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/early-travels-in-india-1583-1619/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/early-travels-in-india-1583-1619/epub/early-travels-in-india-1583-1619.epub",
+    "markdown": "library/indian-economic-history/early-travels-in-india-1583-1619/markdown/early-travels-in-india-1583-1619.md",
+    "tei_xml": "library/indian-economic-history/early-travels-in-india-1583-1619/tei/early-travels-in-india-1583-1619.tei.xml",
+    "print_html": "library/indian-economic-history/early-travels-in-india-1583-1619/print/early-travels-in-india-1583-1619.print.html",
+    "pdf": "library/indian-economic-history/early-travels-in-india-1583-1619/print/early-travels-in-india-1583-1619.pdf",
+    "datasets": "library/indian-economic-history/early-travels-in-india-1583-1619/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/early-travels-in-india-1583-1619/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/early-travels-in-india-1583-1619",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (377/378 pp.), gemini-3.6-flash (1/378 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/early-travels-in-india-1583-1619.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 15 fixes · 9 pp. checked",
+        "detail": "15 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 378 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 614 footnotes and 1 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1583-1619",
+      "regions": [
+        "Mughal Empire",
+        "Gujarat",
+        "Agra",
+        "Lahore",
+        "Burhanpur",
+        "Bengal"
+      ],
+      "subjects": [
+        "Trade Routes",
+        "Indigo",
+        "Textiles",
+        "Mughal Court",
+        "Weights And Coins",
+        "Caravan Commerce"
+      ],
+      "artifacts": [
+        "10 Archival Plates",
+        "614 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 2,
+      "extracted_page_count": 378,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 9,
+      "machine_reread_page_count": 9,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        22,
+        71,
+        120,
+        129,
+        131,
+        161,
+        215,
+        358,
+        381
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (2 open review items); 9 of 378 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 2,
+      "informational": 53,
+      "total": 55
+    },
+    "corrections": {
+      "applied": 15,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "et-p0062-b0005-text",
+          "page_number": 62,
+          "matched_block_id": "p0062-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0064-b0005-text",
+          "page_number": 64,
+          "matched_block_id": "p0064-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0073-b0008-text",
+          "page_number": 73,
+          "matched_block_id": "p0073-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0121-b0005-text",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0134-b0003-text",
+          "page_number": 134,
+          "matched_block_id": "p0134-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0207-b0004-text",
+          "page_number": 207,
+          "matched_block_id": "p0207-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0215-b0008-text",
+          "page_number": 215,
+          "matched_block_id": "p0215-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0220-b0005-text",
+          "page_number": 220,
+          "matched_block_id": "p0220-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0277-b0005-type",
+          "page_number": 277,
+          "matched_block_id": "p0277-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0361-b0004-text",
+          "page_number": 361,
+          "matched_block_id": "p0361-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0388-b0074-text",
+          "page_number": 388,
+          "matched_block_id": "p0388-b0074",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0010-fig001-orient",
+          "page_number": 10,
+          "matched_block_id": "p0010-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0165-fig006-orient",
+          "page_number": 165,
+          "matched_block_id": "p0165-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0205-fig008-orient",
+          "page_number": 205,
+          "matched_block_id": "p0205-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "et-p0285-fig009-orient",
+          "page_number": 285,
+          "matched_block_id": "p0285-b0001",
+          "op": "set_type",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 62,
+        "severity": "review",
+        "category": "control_characters_removed",
+        "message": "Page 62: the reader's output held invisible control characters, which were removed.",
+        "expected_action": "Compare the page with the scan in case a letter was lost where they stood.",
+        "validator": "page_integrity",
+        "block_id": null
+      },
+      {
+        "page_number": 64,
+        "severity": "review",
+        "category": "control_characters_removed",
+        "message": "Page 64: the reader's output held invisible control characters, which were removed.",
+        "expected_action": "Compare the page with the scan in case a letter was lost where they stood.",
+        "validator": "page_integrity",
+        "block_id": null
+      },
+      {
+        "page_number": 14,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 2 time(s) in this book, here in 'Bibliothèque'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0014-b0006"
+      },
+      {
+        "page_number": 19,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 2 time(s) in this book, here in 'Bibliothèque'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0019-b0004"
+      },
+      {
+        "page_number": 22,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Allahabad' appears without diacritics here, whereas this volume consistently prints 'Allahābād' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0022-b0016"
+      },
+      {
+        "page_number": 42,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ú' (U+00FA LATIN SMALL LETTER U WITH ACUTE) appears only 1 time(s) in this book, here in 'júst'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0042-b0007"
+      },
+      {
+        "page_number": 71,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 71 has inline note callout(s) ['1', '1'] vs. labelled footnote(s) ['1', '2'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0071-b0007"
+      },
+      {
+        "page_number": 120,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Jahan' appears without diacritics here, whereas this volume consistently prints 'Jahān' (18 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0120-b0004"
+      },
+      {
+        "page_number": 129,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Jahan' appears without diacritics here, whereas this volume consistently prints 'Jahān' (18 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0129-b0003"
+      },
+      {
+        "page_number": 131,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Hakim' appears without diacritics here, whereas this volume consistently prints 'Hakīm' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0131-b0003"
+      },
+      {
+        "page_number": 158,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 2 time(s) in this book, here in 'Mendonça.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0158-b0008"
+      },
+      {
+        "page_number": 161,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 161 has inline note callout(s) ['1', '3', '4', '5', '6'] vs. labelled footnote(s) ['1', '2', '3', '4', '5', '6'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0161-b0008"
+      },
+      {
+        "page_number": 196,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Cuttûp'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0196-b0003"
+      },
+      {
+        "page_number": 203,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Chia-yü-kuan,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0203-b0005"
+      },
+      {
+        "page_number": 204,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṇ' (U+1E47 LATIN SMALL LETTER N WITH DOT BELOW) appears only 1 time(s) in this book, here in '[Sikaṇdarābād],'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0204-b0004"
+      },
+      {
+        "page_number": 215,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kashgar' appears without diacritics here, whereas this volume consistently prints 'Kāshgar' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0215-b0003"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ί' (U+03AF GREEK SMALL LETTER IOTA WITH TONOS) appears only 2 time(s) in this book, here in 'ἐρείπια'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0003"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἐ' (U+1F10 GREEK SMALL LETTER EPSILON WITH PSILI) appears only 1 time(s) in this book, here in 'ἐρείπια'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0003"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ζ' (U+0396 GREEK CAPITAL LETTER ZETA) appears only 1 time(s) in this book, here in 'Ζεὺς'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ή' (U+03AE GREEK SMALL LETTER ETA WITH TONOS) appears only 1 time(s) in this book, here in 'θήσει'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'β' (U+03B2 GREEK SMALL LETTER BETA) appears only 1 time(s) in this book, here in 'ὑψιβρεμέτης.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'η' (U+03B7 GREEK SMALL LETTER ETA) appears only 1 time(s) in this book, here in 'ὑψιβρεμέτης.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'θ' (U+03B8 GREEK SMALL LETTER THETA) appears only 2 time(s) in this book, here in 'θήσει'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'σ' (U+03C3 GREEK SMALL LETTER SIGMA) appears only 2 time(s) in this book, here in 'θήσει'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ψ' (U+03C8 GREEK SMALL LETTER PSI) appears only 2 time(s) in this book, here in 'ὑψιβρεμέτης.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὑ' (U+1F51 GREEK SMALL LETTER UPSILON WITH DASIA) appears only 2 time(s) in this book, here in 'ὑπέρτερα'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὰ' (U+1F70 GREEK SMALL LETTER ALPHA WITH VARIA) appears only 2 time(s) in this book, here in 'τὰ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 278,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὺ' (U+1F7A GREEK SMALL LETTER UPSILON WITH VARIA) appears only 1 time(s) in this book, here in 'Ζεὺς'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0278-b0006"
+      },
+      {
+        "page_number": 288,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Spasheê'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0288-b0003"
+      },
+      {
+        "page_number": 290,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'θ' (U+03B8 GREEK SMALL LETTER THETA) appears only 2 time(s) in this book, here in '(θεοῦ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0290-b0004"
+      },
+      {
+        "page_number": 290,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ο' (U+03BF GREEK SMALL LETTER OMICRON) appears only 2 time(s) in this book, here in '(θεοῦ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0290-b0004"
+      },
+      {
+        "page_number": 290,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ό' (U+03CC GREEK SMALL LETTER OMICRON WITH TONOS) appears only 1 time(s) in this book, here in 'διδόντος)'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0290-b0004"
+      },
+      {
+        "page_number": 290,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῦ' (U+1FE6 GREEK SMALL LETTER UPSILON WITH PERISPOMENI) appears only 1 time(s) in this book, here in '(θεοῦ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0290-b0004"
+      },
+      {
+        "page_number": 294,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὶ' (U+1F76 GREEK SMALL LETTER IOTA WITH VARIA) appears only 2 time(s) in this book, here in 'χεὶρ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0294-b0006"
+      },
+      {
+        "page_number": 294,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ί' (U+03AF GREEK SMALL LETTER IOTA WITH TONOS) appears only 2 time(s) in this book, here in 'νίζει.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0294-b0008"
+      },
+      {
+        "page_number": 294,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ζ' (U+03B6 GREEK SMALL LETTER ZETA) appears only 1 time(s) in this book, here in 'νίζει.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0294-b0008"
+      },
+      {
+        "page_number": 294,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὰ' (U+1F70 GREEK SMALL LETTER ALPHA WITH VARIA) appears only 2 time(s) in this book, here in 'τὰν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0294-b0008"
+      },
+      {
+        "page_number": 294,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὶ' (U+1F76 GREEK SMALL LETTER IOTA WITH VARIA) appears only 2 time(s) in this book, here in 'χεὶρ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0294-b0008"
+      },
+      {
+        "page_number": 295,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'cœlestial'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0295-b0003"
+      },
+      {
+        "page_number": 296,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Æ' (U+00C6 LATIN CAPITAL LETTER AE) appears only 2 time(s) in this book, here in 'Æquinoctiall'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0296-b0007"
+      },
+      {
+        "page_number": 301,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ō' (U+014D LATIN SMALL LETTER O WITH MACRON) appears only 1 time(s) in this book, here in 'Istambōl'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0301-b0006"
+      },
+      {
+        "page_number": 301,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ẕ' (U+1E95 LATIN SMALL LETTER Z WITH LINE BELOW) appears only 2 time(s) in this book, here in 'maẕkūr'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0301-b0006"
+      },
+      {
+        "page_number": 320,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Æ' (U+00C6 LATIN CAPITAL LETTER AE) appears only 2 time(s) in this book, here in 'Æthiopia,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0320-b0005"
+      },
+      {
+        "page_number": 329,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'à' (U+00E0 LATIN SMALL LETTER A WITH GRAVE) appears only 1 time(s) in this book, here in 'à'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0329-b0005"
+      },
+      {
+        "page_number": 355,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'̱' (U+0331 COMBINING MACRON BELOW) appears only 1 time(s) in this book, here in 'H̱azarat'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0355-b0007"
+      },
+      {
+        "page_number": 358,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Ibrahim' appears without diacritics here, whereas this volume consistently prints 'Ibrāhīm' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0358-b0004"
+      },
+      {
+        "page_number": 364,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'σ' (U+03C3 GREEK SMALL LETTER SIGMA) appears only 2 time(s) in this book, here in 'μετεμψύχωσις'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0364-b0003"
+      },
+      {
+        "page_number": 364,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ψ' (U+03C8 GREEK SMALL LETTER PSI) appears only 2 time(s) in this book, here in 'μετεμψύχωσις'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0364-b0003"
+      },
+      {
+        "page_number": 364,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ω' (U+03C9 GREEK SMALL LETTER OMEGA) appears only 1 time(s) in this book, here in 'μετεμψύχωσις'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0364-b0003"
+      },
+      {
+        "page_number": 364,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ύ' (U+03CD GREEK SMALL LETTER UPSILON WITH TONOS) appears only 1 time(s) in this book, here in 'μετεμψύχωσις'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0364-b0003"
+      },
+      {
+        "page_number": 370,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'suâ.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0370-b0003"
+      },
+      {
+        "page_number": 377,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Chia-yü-kuan,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0377-b0021"
+      },
+      {
+        "page_number": 378,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 2 time(s) in this book, here in 'Mendoça,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0378-b0028"
+      },
+      {
+        "page_number": 381,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Firoz' appears without diacritics here, whereas this volume consistently prints 'Fīroz' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0381-b0050"
+      },
+      {
+        "page_number": 389,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ē' (U+0113 LATIN SMALL LETTER E WITH MACRON) appears only 1 time(s) in this book, here in 'Shwē'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0389-b0034"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (377/378 pp.), gemini-3.6-flash (1/378 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/early-travels-in-india-1583-1619.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 15 fixes · 9 pp. checked",
+          "detail": "15 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 378 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 614 footnotes and 1 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1583-1619",
+        "regions": [
+          "Mughal Empire",
+          "Gujarat",
+          "Agra",
+          "Lahore",
+          "Burhanpur",
+          "Bengal"
+        ],
+        "subjects": [
+          "Trade Routes",
+          "Indigo",
+          "Textiles",
+          "Mughal Court",
+          "Weights And Coins",
+          "Caravan Commerce"
+        ],
+        "artifacts": [
+          "10 Archival Plates",
+          "614 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

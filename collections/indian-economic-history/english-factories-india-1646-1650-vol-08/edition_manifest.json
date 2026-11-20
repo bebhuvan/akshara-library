@@ -1,0 +1,349 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "english-factories-india-1646-1650-vol-08",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "maritime_company_records",
+  "cover_palette": "Pelagic Indigo",
+  "edition_root": "library/indian-economic-history/english-factories-india-1646-1650-vol-08",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/book_ast.json",
+    "rubric_score": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/cover.svg",
+    "cover_webp": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/cover.webp",
+    "web_index": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/web/index.html",
+    "hugo_dir": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/epub/english-factories-india-1646-1650-vol-08.epub",
+    "markdown": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/markdown/english-factories-india-1646-1650-vol-08.md",
+    "tei_xml": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/tei/english-factories-india-1646-1650-vol-08.tei.xml",
+    "print_html": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/print/english-factories-india-1646-1650-vol-08.print.html",
+    "pdf": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/print/english-factories-india-1646-1650-vol-08.pdf",
+    "datasets": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/english-factories-india-1646-1650-vol-08/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/english-factories-india-1646-1650-vol-08",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (397/400 pp.), gemini-3.6-flash (3/400 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/english-factories-india-1646-1650-vol-08.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 2 fixes · 4 pp. checked",
+        "detail": "2 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 400 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "typography:17c_record_type",
+        "axis": "diplomatic",
+        "label": "17th-c. Record Type",
+        "detail": "Reproduces early modern Record-Type contractions, superior letters, and period orthography"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 342 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1646-1650",
+      "regions": [
+        "Surat",
+        "Agra",
+        "Madras",
+        "Masulipatam",
+        "Balasore"
+      ],
+      "subjects": [
+        "Factory Records",
+        "Coromandel Famine",
+        "Cloth Investments",
+        "Bullion Supplies"
+      ],
+      "artifacts": [
+        "2 Archival Plates",
+        "342 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 400,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 4,
+      "machine_reread_page_count": 4,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        114,
+        262,
+        290,
+        296
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 4 of 400 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 9,
+      "total": 9
+    },
+    "corrections": {
+      "applied": 2,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "ef8-p0077-b0003",
+          "page_number": 77,
+          "matched_block_id": "p0077-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "ef8-p0210-b0005",
+          "page_number": 210,
+          "matched_block_id": "p0210-b0005",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 85,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Ḥaṣêgê,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0085-b0004"
+      },
+      {
+        "page_number": 85,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ḥ' (U+1E24 LATIN CAPITAL LETTER H WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Ḥaṣêgê,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0085-b0004"
+      },
+      {
+        "page_number": 85,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṣ' (U+1E63 LATIN SMALL LETTER S WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Ḥaṣêgê,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0085-b0004"
+      },
+      {
+        "page_number": 114,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Biana' appears without diacritics here, whereas this volume consistently prints 'Biāna' (15 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0114-b0003"
+      },
+      {
+        "page_number": 147,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'̲' (U+0332 COMBINING LOW LINE) appears only 2 time(s) in this book, here in 'Gog̲h̲ā'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0147-b0004"
+      },
+      {
+        "page_number": 262,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Shiraz' appears without diacritics here, whereas this volume consistently prints 'Shīrāz' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0262-b0003"
+      },
+      {
+        "page_number": 290,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0290-b0003"
+      },
+      {
+        "page_number": 296,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0296-b0003"
+      },
+      {
+        "page_number": 374,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'manœuvre,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0374-b0003"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (397/400 pp.), gemini-3.6-flash (3/400 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/english-factories-india-1646-1650-vol-08.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 2 fixes · 4 pp. checked",
+          "detail": "2 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 400 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "typography:17c_record_type",
+          "axis": "diplomatic",
+          "label": "17th-c. Record Type",
+          "detail": "Reproduces early modern Record-Type contractions, superior letters, and period orthography"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 342 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1646-1650",
+        "regions": [
+          "Surat",
+          "Agra",
+          "Madras",
+          "Masulipatam",
+          "Balasore"
+        ],
+        "subjects": [
+          "Factory Records",
+          "Coromandel Famine",
+          "Cloth Investments",
+          "Bullion Supplies"
+        ],
+        "artifacts": [
+          "2 Archival Plates",
+          "342 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

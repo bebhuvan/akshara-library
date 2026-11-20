@@ -1,0 +1,40 @@
+{
+  "version": "rubric-v2",
+  "book_id": "english-factories-india-1665-1667-vol-12",
+  "run_id": "g38-batch-v1",
+  "total_score": 100.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    }
+  },
+  "issue_counts_by_code": {
+    "control_characters_removed": 1,
+    "rare_character": 10,
+    "orthographic_compositor_variant": 6
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0163,
+  "next_actions": [
+    "Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 1.6%) toward Source-Certified."
+  ]
+}

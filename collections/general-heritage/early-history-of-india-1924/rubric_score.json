@@ -1,0 +1,51 @@
+{
+  "version": "rubric-v2",
+  "book_id": "early-history-of-india-1924",
+  "run_id": "g38-batch-v1",
+  "total_score": 88.8,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 19.0,
+      "max": 25.0,
+      "deductions": [
+        "-6.0: 2 unresolved footnote callout/body mismatch(es)"
+      ]
+    },
+    "tabular_accuracy": {
+      "score": 20.0,
+      "max": 25.0,
+      "deductions": [
+        "-5.0: 4 ragged table geometry warning(s)"
+      ]
+    },
+    "orthographic_fidelity": {
+      "score": 24.8,
+      "max": 25.0,
+      "deductions": [
+        "-0.2: 1 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "table_ragged_columns": 4,
+    "unlabelled_footnote": 2,
+    "control_characters_removed": 1,
+    "unclear_ink_span": 1,
+    "orthographic_compositor_variant": 98,
+    "rare_character": 48,
+    "table_blind_total_confirmed": 1
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.24,
+  "next_actions": [
+    "Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes').",
+    "Resolve 2 unmatched footnote marker(s) via anchor-matched corrections."
+  ]
+}

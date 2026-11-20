@@ -1,0 +1,51 @@
+{
+  "version": "rubric-v2",
+  "book_id": "report-past-famines-bombay-etheridge-1868",
+  "run_id": "g38-batch-v1",
+  "total_score": 87.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 20.0,
+      "max": 25.0,
+      "deductions": [
+        "-5.0: 6 multi-column zig-zag reading order warning(s)"
+      ]
+    },
+    "apparatus_fidelity": {
+      "score": 22.0,
+      "max": 25.0,
+      "deductions": [
+        "-3.0: 1 unresolved footnote callout/body mismatch(es)"
+      ]
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 20.0,
+      "max": 25.0,
+      "deductions": [
+        "-5.0: 44 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "unclear_ink_span": 44,
+    "unlabelled_footnote": 1,
+    "column_reading_order_zigzag": 6,
+    "footnote_compositor_variant": 6,
+    "rare_character": 16,
+    "orthographic_compositor_variant": 1,
+    "table_compositor_arithmetic_variant": 51,
+    "table_blind_total_confirmed": 6
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.1319,
+  "next_actions": [
+    "Resolve 1 unmatched footnote marker(s) via anchor-matched corrections."
+  ]
+}

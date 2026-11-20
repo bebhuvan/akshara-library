@@ -1,0 +1,41 @@
+{
+  "version": "rubric-v2",
+  "book_id": "english-factories-india-1655-1660-vol-10",
+  "run_id": "g38-batch-v1",
+  "total_score": 100.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    }
+  },
+  "issue_counts_by_code": {
+    "control_characters_removed": 1,
+    "orthographic_compositor_variant": 11,
+    "rare_character": 2,
+    "footnote_compositor_variant": 1
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0267,
+  "next_actions": [
+    "Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 2.7%) toward Source-Certified."
+  ]
+}

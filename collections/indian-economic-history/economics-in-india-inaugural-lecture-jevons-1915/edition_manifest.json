@@ -1,0 +1,187 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "economics-in-india-inaugural-lecture-jevons-1915",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "epistolary_and_speeches",
+  "cover_palette": "Porcelain & Cinnabar",
+  "edition_root": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/book_ast.json",
+    "rubric_score": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/cover.svg",
+    "cover_webp": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/cover.webp",
+    "web_index": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/web/index.html",
+    "hugo_dir": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/epub/economics-in-india-inaugural-lecture-jevons-1915.epub",
+    "markdown": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/markdown/economics-in-india-inaugural-lecture-jevons-1915.md",
+    "tei_xml": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/tei/economics-in-india-inaugural-lecture-jevons-1915.tei.xml",
+    "print_html": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/print/economics-in-india-inaugural-lecture-jevons-1915.print.html",
+    "pdf": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/print/economics-in-india-inaugural-lecture-jevons-1915.pdf",
+    "datasets": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (45/45 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/economics-in-india-inaugural-lecture-jevons-1915.originals.pdf"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 45 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1900-1915",
+      "regions": [
+        "All-India",
+        "United Provinces"
+      ],
+      "subjects": [
+        "Economic Methodology",
+        "Indian Economic Research",
+        "Pamphlet"
+      ],
+      "artifacts": [
+        "7 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 45,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 0,
+      "machine_reread_page_count": 0,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 0 of 45 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 0,
+      "total": 0
+    },
+    "corrections": {
+      "applied": 0,
+      "unmatched": 0,
+      "details": []
+    },
+    "review_items": [],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (45/45 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/economics-in-india-inaugural-lecture-jevons-1915.originals.pdf"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 45 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1900-1915",
+        "regions": [
+          "All-India",
+          "United Provinces"
+        ],
+        "subjects": [
+          "Economic Methodology",
+          "Indian Economic Research",
+          "Pamphlet"
+        ],
+        "artifacts": [
+          "7 Footnotes"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": "rubric-v2",
+  "book_id": "economics-in-india-inaugural-lecture-jevons-1915",
+  "run_id": "g38-batch-v1",
+  "total_score": 100.0,
+  "max_score": 100.0,
+  "recommended_gate": "machine_checked",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    }
+  },
+  "issue_counts_by_code": {},
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0,
+  "next_actions": [
+    "Ready to ship as Machine-Checked Edition (no open validator hotspots; 0.0% of pages re-read; 0.0% verified by a person toward Source-Certified)."
+  ]
+}

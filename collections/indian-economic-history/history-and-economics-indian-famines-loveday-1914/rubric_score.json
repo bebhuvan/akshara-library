@@ -1,0 +1,42 @@
+{
+  "version": "rubric-v2",
+  "book_id": "history-and-economics-indian-famines-loveday-1914",
+  "run_id": "g38-batch-v1",
+  "total_score": 85.0,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 10.0,
+      "max": 25.0,
+      "deductions": [
+        "-15.0: 57 unresolved footnote callout/body mismatch(es)"
+      ]
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    }
+  },
+  "issue_counts_by_code": {
+    "footnote_marker_mismatch": 57,
+    "footnote_compositor_variant": 6,
+    "rare_character": 7
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0847,
+  "next_actions": [
+    "Resolve 57 unmatched footnote marker(s) via anchor-matched corrections."
+  ]
+}

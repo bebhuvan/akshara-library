@@ -1,0 +1,296 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "early-history-tea-industry",
+  "run_id": "g38-canonical-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 97.0,
+  "cover_archetype": "survey_and_gazetteer",
+  "cover_palette": "Survey Olive",
+  "edition_root": "library/indian-economic-history/early-history-tea-industry",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/early-history-tea-industry/book_ast.json",
+    "rubric_score": "library/indian-economic-history/early-history-tea-industry/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/early-history-tea-industry/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/early-history-tea-industry/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/early-history-tea-industry/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/early-history-tea-industry/cover.svg",
+    "cover_webp": "library/indian-economic-history/early-history-tea-industry/cover.webp",
+    "web_index": "library/indian-economic-history/early-history-tea-industry/web/index.html",
+    "hugo_dir": "library/indian-economic-history/early-history-tea-industry/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/early-history-tea-industry/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/early-history-tea-industry/epub/early-history-tea-industry.epub",
+    "markdown": "library/indian-economic-history/early-history-tea-industry/markdown/early-history-tea-industry.md",
+    "tei_xml": "library/indian-economic-history/early-history-tea-industry/tei/early-history-tea-industry.tei.xml",
+    "print_html": "library/indian-economic-history/early-history-tea-industry/print/early-history-tea-industry.print.html",
+    "pdf": "library/indian-economic-history/early-history-tea-industry/print/early-history-tea-industry.pdf",
+    "datasets": "library/indian-economic-history/early-history-tea-industry/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/early-history-tea-industry/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/early-history-tea-industry",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (40/40 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/early-history-tea-industry.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
+        "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 40 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:structured",
+        "axis": "provenance",
+        "label": "Tables: 3 Structured (No Printed Totals)",
+        "detail": "3 structured table(s) extracted; none carry printed summation rows"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 45 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1815-1856",
+      "regions": [
+        "Assam",
+        "Bengal",
+        "North-East India"
+      ],
+      "subjects": [
+        "Tea Industry",
+        "Plantation Economy",
+        "Assam Company",
+        "Colonial Botany"
+      ],
+      "artifacts": [
+        "3 Statistical Tables",
+        "45 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 1,
+      "extracted_page_count": 40,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 4,
+      "machine_reread_page_count": 4,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 36,
+      "reread_pages": [
+        29,
+        30,
+        36,
+        38
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (1 open review item); 4 of 40 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 1,
+      "informational": 1,
+      "total": 2
+    },
+    "corrections": {
+      "applied": 6,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "surg-surgical-verify-v1-p0029-b0002",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "surg-surgical-verify-v1-p0038-b0006",
+          "page_number": 38,
+          "matched_block_id": "p0038-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "surg-surgical-verify-v1-p0038-b0010",
+          "page_number": 38,
+          "matched_block_id": "p0038-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "surg-surgical-verify-v1-p0036-b0014-split",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0014",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "dipl-mann-p0017-b0002-twentynine",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "dipl-mann-p0028-b0005-poorah-italic",
+          "page_number": 28,
+          "matched_block_id": "p0028-b0005",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 36,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 36 has inline note callout(s) ['19', '20', '21'] vs. labelled footnote(s) ['19', '20'].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0036-b0012"
+      },
+      {
+        "page_number": 15,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'é' (U+00E9 LATIN SMALL LETTER E WITH ACUTE) appears only 1 time(s) in this book, here in 'débris'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0015-b0002"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (40/40 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/early-history-tea-industry.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
+          "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 40 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:structured",
+          "axis": "provenance",
+          "label": "Tables: 3 Structured (No Printed Totals)",
+          "detail": "3 structured table(s) extracted; none carry printed summation rows"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 45 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1815-1856",
+        "regions": [
+          "Assam",
+          "Bengal",
+          "North-East India"
+        ],
+        "subjects": [
+          "Tea Industry",
+          "Plantation Economy",
+          "Assam Company",
+          "Colonial Botany"
+        ],
+        "artifacts": [
+          "3 Statistical Tables",
+          "45 Footnotes"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "speeches-and-writings-naoroji-1918",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 92.4,
+  "cover_archetype": "epistolary_and_speeches",
+  "cover_palette": "Fitzcarraldo Ultramarine",
+  "edition_root": "library/indian-economic-history/speeches-and-writings-naoroji-1918",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/speeches-and-writings-naoroji-1918/book_ast.json",
+    "rubric_score": "library/indian-economic-history/speeches-and-writings-naoroji-1918/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/speeches-and-writings-naoroji-1918/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/speeches-and-writings-naoroji-1918/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/speeches-and-writings-naoroji-1918/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/speeches-and-writings-naoroji-1918/cover.svg",
+    "cover_webp": "library/indian-economic-history/speeches-and-writings-naoroji-1918/cover.webp",
+    "web_index": "library/indian-economic-history/speeches-and-writings-naoroji-1918/web/index.html",
+    "hugo_dir": "library/indian-economic-history/speeches-and-writings-naoroji-1918/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/speeches-and-writings-naoroji-1918/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/speeches-and-writings-naoroji-1918/epub/speeches-and-writings-naoroji-1918.epub",
+    "markdown": "library/indian-economic-history/speeches-and-writings-naoroji-1918/markdown/speeches-and-writings-naoroji-1918.md",
+    "tei_xml": "library/indian-economic-history/speeches-and-writings-naoroji-1918/tei/speeches-and-writings-naoroji-1918.tei.xml",
+    "print_html": "library/indian-economic-history/speeches-and-writings-naoroji-1918/print/speeches-and-writings-naoroji-1918.print.html",
+    "pdf": "library/indian-economic-history/speeches-and-writings-naoroji-1918/print/speeches-and-writings-naoroji-1918.pdf",
+    "datasets": "library/indian-economic-history/speeches-and-writings-naoroji-1918/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/speeches-and-writings-naoroji-1918/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/speeches-and-writings-naoroji-1918",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (920/920 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/speeches-and-writings-naoroji-1918.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 37 fixes · 6 pp. checked",
+        "detail": "37 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 920 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 14/14 Arithmetic-Checked",
+        "detail": "14 of 14 tables pass arithmetic & column checks; 5 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 39 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 144 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1866-1906",
+      "regions": [
+        "All-India",
+        "London",
+        "Bombay",
+        "Calcutta",
+        "Lahore"
+      ],
+      "subjects": [
+        "Drain Of Wealth",
+        "East India Finance Committee 1871",
+        "Swaraj 1906",
+        "Curzon Regime",
+        "Welby Commission",
+        "Currency Committee 1898",
+        "Cotton Excise"
+      ],
+      "artifacts": [
+        "39 Statistical Tables",
+        "3 Archival Plates",
+        "144 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 10,
+      "extracted_page_count": 920,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 6,
+      "machine_reread_page_count": 6,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        323,
+        381,
+        599,
+        846,
+        853,
+        863
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (10 open review items); 6 of 920 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 10,
+      "informational": 12,
+      "total": 22
+    },
+    "corrections": {
+      "applied": 37,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "n18-0001",
+          "page_number": 190,
+          "matched_block_id": "p0190-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0002",
+          "page_number": 354,
+          "matched_block_id": "p0354-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0003",
+          "page_number": 513,
+          "matched_block_id": "p0513-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0004",
+          "page_number": 574,
+          "matched_block_id": "p0574-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0005",
+          "page_number": 915,
+          "matched_block_id": "p0915-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0006",
+          "page_number": 323,
+          "matched_block_id": "p0323-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0007",
+          "page_number": 323,
+          "matched_block_id": "p0323-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0008",
+          "page_number": 323,
+          "matched_block_id": "p0323-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0009",
+          "page_number": 323,
+          "matched_block_id": "p0323-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0010",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0011",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0012",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0013",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0014",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0015",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0016",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0017",
+          "page_number": 381,
+          "matched_block_id": "p0381-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0018",
+          "page_number": 599,
+          "matched_block_id": "p0599-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0019",
+          "page_number": 599,
+          "matched_block_id": "p0599-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0020",
+          "page_number": 599,
+          "matched_block_id": "p0599-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0021",
+          "page_number": 599,
+          "matched_block_id": "p0599-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0022",
+          "page_number": 599,
+          "matched_block_id": "p0599-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0023",
+          "page_number": 599,
+          "matched_block_id": "p0599-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0024",
+          "page_number": 599,
+          "matched_block_id": "p0599-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0025",
+          "page_number": 600,
+          "matched_block_id": "p0600-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0026",
+          "page_number": 600,
+          "matched_block_id": "p0600-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0027",
+          "page_number": 600,
+          "matched_block_id": "p0600-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0028",
+          "page_number": 600,
+          "matched_block_id": "p0600-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0029",
+          "page_number": 604,
+          "matched_block_id": "p0604-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0030",
+          "page_number": 604,
+          "matched_block_id": "p0604-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0031",
+          "page_number": 606,
+          "matched_block_id": "p0606-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0032",
+          "page_number": 621,
+          "matched_block_id": "p0621-b0013",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0033",
+          "page_number": 764,
+          "matched_block_id": "p0764-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0034",
+          "page_number": 764,
+          "matched_block_id": "p0764-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0035",
+          "page_number": 764,
+          "matched_block_id": "p0764-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0036",
+          "page_number": 764,
+          "matched_block_id": "p0764-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "n18-0037",
+          "page_number": 764,
+          "matched_block_id": "p0764-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 436,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>all</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0436-b0009"
+      },
+      {
+        "page_number": 600,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 600 has inline note callout(s) ['†'] vs. labelled footnote(s) [].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0600-b0011"
+      },
+      {
+        "page_number": 601,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 601 has inline note callout(s) ['*', '*', '†', '†', '*', '*', '†', '*', '†', '*', '†', '†', '†', '*'] vs. labelled footnote(s) [].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0601-b0006"
+      },
+      {
+        "page_number": 889,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>p</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0889-b0004"
+      },
+      {
+        "page_number": 889,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>st</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0889-b0004"
+      },
+      {
+        "page_number": 889,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>s</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0889-b0004"
+      },
+      {
+        "page_number": 889,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>by</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0889-b0004"
+      },
+      {
+        "page_number": 889,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>Ind</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0889-b0004"
+      },
+      {
+        "page_number": 889,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>e.</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0889-b0004"
+      },
+      {
+        "page_number": 889,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>un</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0889-b0004"
+      },
+      {
+        "page_number": 381,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 17638505 but its 2 contributing cells sum to 54404107 (difference 36765602).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0381-b0021"
+      },
+      {
+        "page_number": 543,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Müller'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0543-b0004"
+      },
+      {
+        "page_number": 557,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 2 time(s) in this book, here in 'sádhirè,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0557-b0008"
+      },
+      {
+        "page_number": 557,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'sádhirè,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0557-b0008"
+      },
+      {
+        "page_number": 566,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 2 time(s) in this book, here in 'Phœnicians,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0566-b0006"
+      },
+      {
+        "page_number": 599,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 27800000 but its 7 contributing cells sum to 138600000 (difference 110800000).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0599-b0013"
+      },
+      {
+        "page_number": 846,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['Total ... £3,842,647'] vs. full-page pass ['Total', '£3,842,647']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0846-b0018"
+      },
+      {
+        "page_number": 853,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 0 but its 7 contributing cells sum to 3 (difference 3).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0853-b0016"
+      },
+      {
+        "page_number": 863,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['Total...', '35-27', 'Total...', '29 77'] vs. full-page pass ['Total...', '35–27', 'Total...', '29 77']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0863-b0012"
+      },
+      {
+        "page_number": 900,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 2 time(s) in this book, here in 'Dakshinámurti;'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0900-b0004"
+      },
+      {
+        "page_number": 902,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Müller'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0902-b0004"
+      },
+      {
+        "page_number": 918,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 2 time(s) in this book, here in 'Phœnix.—Prof.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0918-b0010"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (920/920 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/speeches-and-writings-naoroji-1918.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 37 fixes · 6 pp. checked",
+          "detail": "37 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 920 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 14/14 Arithmetic-Checked",
+          "detail": "14 of 14 tables pass arithmetic & column checks; 5 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 39 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 144 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1866-1906",
+        "regions": [
+          "All-India",
+          "London",
+          "Bombay",
+          "Calcutta",
+          "Lahore"
+        ],
+        "subjects": [
+          "Drain Of Wealth",
+          "East India Finance Committee 1871",
+          "Swaraj 1906",
+          "Curzon Regime",
+          "Welby Commission",
+          "Currency Committee 1898",
+          "Cotton Excise"
+        ],
+        "artifacts": [
+          "39 Statistical Tables",
+          "3 Archival Plates",
+          "144 Footnotes"
+        ]
+      }
+    }
+  }
+}

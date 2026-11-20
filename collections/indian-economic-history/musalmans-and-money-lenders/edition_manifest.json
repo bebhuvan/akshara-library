@@ -1,0 +1,481 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "musalmans-and-money-lenders",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 99.4,
+  "cover_archetype": "currency_and_finance",
+  "cover_palette": "Reserve Plum",
+  "edition_root": "library/indian-economic-history/musalmans-and-money-lenders",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/musalmans-and-money-lenders/book_ast.json",
+    "rubric_score": "library/indian-economic-history/musalmans-and-money-lenders/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/musalmans-and-money-lenders/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/musalmans-and-money-lenders/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/musalmans-and-money-lenders/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/musalmans-and-money-lenders/cover.svg",
+    "cover_webp": "library/indian-economic-history/musalmans-and-money-lenders/cover.webp",
+    "web_index": "library/indian-economic-history/musalmans-and-money-lenders/web/index.html",
+    "hugo_dir": "library/indian-economic-history/musalmans-and-money-lenders/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/musalmans-and-money-lenders/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/musalmans-and-money-lenders/epub/musalmans-and-money-lenders.epub",
+    "markdown": "library/indian-economic-history/musalmans-and-money-lenders/markdown/musalmans-and-money-lenders.md",
+    "tei_xml": "library/indian-economic-history/musalmans-and-money-lenders/tei/musalmans-and-money-lenders.tei.xml",
+    "print_html": "library/indian-economic-history/musalmans-and-money-lenders/print/musalmans-and-money-lenders.print.html",
+    "pdf": "library/indian-economic-history/musalmans-and-money-lenders/print/musalmans-and-money-lenders.pdf",
+    "datasets": "library/indian-economic-history/musalmans-and-money-lenders/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/musalmans-and-money-lenders/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/musalmans-and-money-lenders",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (207/207 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/musalmans-and-money-lenders.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 19 fixes · 2 pp. checked",
+        "detail": "19 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 207 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 10/10 Arithmetic-Checked",
+        "detail": "10 of 10 tables pass arithmetic & column checks; 2 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 13 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 75 footnotes and 303 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1849-1886",
+      "regions": [
+        "Punjab",
+        "Frontier Districts"
+      ],
+      "subjects": [
+        "Rural Indebtedness",
+        "Agrarian Credit",
+        "Land Alienation",
+        "Civil Courts"
+      ],
+      "artifacts": [
+        "13 Statistical Tables",
+        "75 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 3,
+      "extracted_page_count": 207,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 2,
+      "machine_reread_page_count": 2,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        125,
+        191
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (3 open review items); 2 of 207 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 3,
+      "informational": 7,
+      "total": 10
+    },
+    "corrections": {
+      "applied": 19,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "scan-check-2026-11-17-p0062-b0008",
+          "page_number": 62,
+          "matched_block_id": "p0062-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0198-b0004",
+          "page_number": 198,
+          "matched_block_id": "p0198-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0120-b0008",
+          "page_number": 120,
+          "matched_block_id": "p0120-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0120-b0014",
+          "page_number": 120,
+          "matched_block_id": "p0120-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0120-b0015",
+          "page_number": 120,
+          "matched_block_id": "p0120-b0015",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0125-b0004",
+          "page_number": 125,
+          "matched_block_id": "p0125-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0125-b0006",
+          "page_number": 125,
+          "matched_block_id": "p0125-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0125-b0012",
+          "page_number": 125,
+          "matched_block_id": "p0125-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0147-b0009",
+          "page_number": 147,
+          "matched_block_id": "p0147-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0147-b0010",
+          "page_number": 147,
+          "matched_block_id": "p0147-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0147-b0015",
+          "page_number": 147,
+          "matched_block_id": "p0147-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0191-b0007",
+          "page_number": 191,
+          "matched_block_id": "p0191-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0191-b0008",
+          "page_number": 191,
+          "matched_block_id": "p0191-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0191-b0009",
+          "page_number": 191,
+          "matched_block_id": "p0191-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0191-b0010",
+          "page_number": 191,
+          "matched_block_id": "p0191-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0017-b0003",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0019-b0008",
+          "page_number": 19,
+          "matched_block_id": "p0019-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0028-b0005",
+          "page_number": 28,
+          "matched_block_id": "p0028-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "mus-p0003-drop-barcode",
+          "page_number": 3,
+          "matched_block_id": "p0003-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 79,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>l</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0079-b0004"
+      },
+      {
+        "page_number": 79,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>edness</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0079-b0008"
+      },
+      {
+        "page_number": 79,
+        "severity": "review",
+        "category": "unclear_ink_span",
+        "message": "Uncertain glyph reading marked <unclear>for the first time discussed</unclear>.",
+        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
+        "validator": "unclear_detector",
+        "block_id": "p0079-b0008"
+      },
+      {
+        "page_number": 46,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ú' (U+00FA LATIN SMALL LETTER U WITH ACUTE) appears only 1 time(s) in this book, here in 'Hindús,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0046-b0011"
+      },
+      {
+        "page_number": 93,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'é' (U+00E9 LATIN SMALL LETTER E WITH ACUTE) appears only 1 time(s) in this book, here in 'levée'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0093-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 1 time(s) in this book, here in 'lekha-mukhídirs,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0009"
+      },
+      {
+        "page_number": 125,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['Total ...', '...', '1,081', '6,31,069', 'These figure<unclear>s</unclear><br>tion'] vs. full-page pass ['Total ...', '...', '1,081', '6,31,069']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0125-b0012"
+      },
+      {
+        "page_number": 140,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'rôle'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0140-b0004"
+      },
+      {
+        "page_number": 162,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'À' (U+00C0 LATIN CAPITAL LETTER A WITH GRAVE) appears only 1 time(s) in this book, here in 'À'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0162-b0004"
+      },
+      {
+        "page_number": 191,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['...', 'Bannu', '4', '4,22,659', '548', '92', '14'] vs. full-page pass ['', 'TOTAL ...', '68,55,161', '5,064', '1,131', '3,254', '47,799', '57,248', '2,825', '1,719', '4,544', '61,792', '']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0191-b0025"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (207/207 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/musalmans-and-money-lenders.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 19 fixes · 2 pp. checked",
+          "detail": "19 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 207 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 10/10 Arithmetic-Checked",
+          "detail": "10 of 10 tables pass arithmetic & column checks; 2 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 13 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 75 footnotes and 303 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1849-1886",
+        "regions": [
+          "Punjab",
+          "Frontier Districts"
+        ],
+        "subjects": [
+          "Rural Indebtedness",
+          "Agrarian Credit",
+          "Land Alienation",
+          "Civil Courts"
+        ],
+        "artifacts": [
+          "13 Statistical Tables",
+          "75 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

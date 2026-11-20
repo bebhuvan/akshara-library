@@ -1,0 +1,546 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "economic-life-bengal-district-faridpur-1916",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "survey_and_gazetteer",
+  "cover_palette": "Topographic Umber",
+  "edition_root": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/book_ast.json",
+    "rubric_score": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/cover.svg",
+    "cover_webp": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/cover.webp",
+    "web_index": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/web/index.html",
+    "hugo_dir": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/epub/economic-life-bengal-district-faridpur-1916.epub",
+    "markdown": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/markdown/economic-life-bengal-district-faridpur-1916.md",
+    "tei_xml": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/tei/economic-life-bengal-district-faridpur-1916.tei.xml",
+    "print_html": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/print/economic-life-bengal-district-faridpur-1916.print.html",
+    "pdf": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/print/economic-life-bengal-district-faridpur-1916.pdf",
+    "datasets": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (162/162 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/economic-life-bengal-district-faridpur-1916.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 32 fixes · 7 pp. checked",
+        "detail": "32 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 162 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 9/9 Arithmetic-Checked",
+        "detail": "9 of 9 tables pass arithmetic & column checks; 8 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 20 structured historical tables exported to CSV"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1906-1915",
+      "regions": [
+        "Bengal",
+        "Faridpur"
+      ],
+      "subjects": [
+        "Household Budgets",
+        "Rural Indebtedness",
+        "Peasant Standard Of Living",
+        "Agricultural Statistics",
+        "Taxation"
+      ],
+      "artifacts": [
+        "20 Statistical Tables",
+        "2 Archival Plates",
+        "2 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 162,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 7,
+      "machine_reread_page_count": 7,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        92,
+        121,
+        123,
+        155,
+        156,
+        157,
+        158
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 7 of 162 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 9,
+      "total": 9
+    },
+    "corrections": {
+      "applied": 32,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "scan-check-2026-11-17-p0092-b0014",
+          "page_number": 92,
+          "matched_block_id": "p0092-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0121-b0005",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0121-b0011",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0121-b0015",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0154-b0005",
+          "page_number": 154,
+          "matched_block_id": "p0154-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0154-b0011",
+          "page_number": 154,
+          "matched_block_id": "p0154-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0154-b0014",
+          "page_number": 154,
+          "matched_block_id": "p0154-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0154-b0017",
+          "page_number": 154,
+          "matched_block_id": "p0154-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0154-b0020",
+          "page_number": 154,
+          "matched_block_id": "p0154-b0020",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0154-b0023",
+          "page_number": 154,
+          "matched_block_id": "p0154-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0006",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0011",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0013",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0024",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0024",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0025",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0025",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0014",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0017",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0023",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0015",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0016",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0018",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0019",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0019",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0020",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0020",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0021",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0159-b0022",
+          "page_number": 159,
+          "matched_block_id": "p0159-b0022",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0160-b0004",
+          "page_number": 160,
+          "matched_block_id": "p0160-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0160-b0005",
+          "page_number": 160,
+          "matched_block_id": "p0160-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0160-b0006",
+          "page_number": 160,
+          "matched_block_id": "p0160-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0160-b0009",
+          "page_number": 160,
+          "matched_block_id": "p0160-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-17-p0160-b0012",
+          "page_number": 160,
+          "matched_block_id": "p0160-b0012",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "far-p0028-fig001-orient-bbox",
+          "page_number": 28,
+          "matched_block_id": "p0028-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "far-p0029-drop-oxford-imprint-cap",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0002",
+          "op": "drop_residue",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 40,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 1 time(s) in this book, here in 'pān'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0040-b0003"
+      },
+      {
+        "page_number": 92,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 60000000 but its 8 contributing cells sum to 60037000 (difference 37000).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0092-b0014"
+      },
+      {
+        "page_number": 121,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 3 but its 9 contributing cells sum to 1 (difference -2).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0017"
+      },
+      {
+        "page_number": 121,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 8.25 but its 9 contributing cells sum to 32.25 (difference 24).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0017"
+      },
+      {
+        "page_number": 123,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['Local', ',,', '.', '.', '.', '6¾', ',,', ',,', '4', ',,', ',,'] vs. full-page pass ['Total       „', '15¼   „     „', '8¾    „     „']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0123-b0012"
+      },
+      {
+        "page_number": 155,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['<unclear>6 16</unclear>', '841 167', '237 58', '928 901 12', '819 837 1', '189 918', '118 840 98', '281 198 1'] vs. full-page pass ['Total', '342,108', '1,861,183', '96,378,355\\n(£6,425,223)', '256,681', '1,429,630', '71,326,876\\n(£4,755,125)', '85,427', '431,553', '25,051,479\\n(£1,670,098)']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0155-b0011"
+      },
+      {
+        "page_number": 156,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['Total'] vs. full-page pass ['Total', '215,733', '1,164,824', '58,511,452', '194,975', '1,067,835', '53,785,210', '20,758', '96,989', '4,726,242']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0156-b0010"
+      },
+      {
+        "page_number": 157,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['January', '2,010'] vs. full-page pass ['Total', '699', '4,391', '208,336', '608', '3,871', '185,105', '91', '520', '23,231']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0157-b0010"
+      },
+      {
+        "page_number": 158,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['41\\n33', '43\\n31', '43\\n33', '38\\n30'] vs. full-page pass ['Average of all\\nclasses', '282', '18 16', '52', '69', '50', '67', '58', '77', '50', '49', '49', '61', '48', '45']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0158-b0012"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (162/162 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/economic-life-bengal-district-faridpur-1916.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 32 fixes · 7 pp. checked",
+          "detail": "32 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 162 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 9/9 Arithmetic-Checked",
+          "detail": "9 of 9 tables pass arithmetic & column checks; 8 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 20 structured historical tables exported to CSV"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1906-1915",
+        "regions": [
+          "Bengal",
+          "Faridpur"
+        ],
+        "subjects": [
+          "Household Budgets",
+          "Rural Indebtedness",
+          "Peasant Standard Of Living",
+          "Agricultural Statistics",
+          "Taxation"
+        ],
+        "artifacts": [
+          "20 Statistical Tables",
+          "2 Archival Plates",
+          "2 Footnotes"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "rubric-v2",
+  "book_id": "eic-first-letter-book-1600-1619",
+  "run_id": "g38-batch-v1",
+  "total_score": 97.8,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 22.8,
+      "max": 25.0,
+      "deductions": [
+        "-2.0: 1 intra-book diacritic drift cluster(s)",
+        "-0.2: 1 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "control_characters_removed": 1,
+    "unclear_ink_span": 1,
+    "orthographic_diacritic_drift": 1,
+    "rare_character": 47,
+    "orthographic_compositor_variant": 5,
+    "footnote_compositor_variant": 5,
+    "table_compositor_arithmetic_variant": 2,
+    "table_blind_total_confirmed": 1,
+    "overlong_heading": 1
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0241,
+  "next_actions": [
+    "Standardize or verify 1 proper-noun diacritic drift cluster(s)."
+  ]
+}

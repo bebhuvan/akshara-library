@@ -1,0 +1,565 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "from-akbar-to-aurangzeb",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 96.0,
+  "cover_archetype": "court_and_chronicle",
+  "cover_palette": "Imperial Cinnabar",
+  "edition_root": "library/indian-economic-history/from-akbar-to-aurangzeb",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/from-akbar-to-aurangzeb/book_ast.json",
+    "rubric_score": "library/indian-economic-history/from-akbar-to-aurangzeb/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/from-akbar-to-aurangzeb/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/from-akbar-to-aurangzeb/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/from-akbar-to-aurangzeb/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/from-akbar-to-aurangzeb/cover.svg",
+    "cover_webp": "library/indian-economic-history/from-akbar-to-aurangzeb/cover.webp",
+    "web_index": "library/indian-economic-history/from-akbar-to-aurangzeb/web/index.html",
+    "hugo_dir": "library/indian-economic-history/from-akbar-to-aurangzeb/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/from-akbar-to-aurangzeb/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/from-akbar-to-aurangzeb/epub/from-akbar-to-aurangzeb.epub",
+    "markdown": "library/indian-economic-history/from-akbar-to-aurangzeb/markdown/from-akbar-to-aurangzeb.md",
+    "tei_xml": "library/indian-economic-history/from-akbar-to-aurangzeb/tei/from-akbar-to-aurangzeb.tei.xml",
+    "print_html": "library/indian-economic-history/from-akbar-to-aurangzeb/print/from-akbar-to-aurangzeb.print.html",
+    "pdf": "library/indian-economic-history/from-akbar-to-aurangzeb/print/from-akbar-to-aurangzeb.pdf",
+    "datasets": "library/indian-economic-history/from-akbar-to-aurangzeb/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/from-akbar-to-aurangzeb/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/from-akbar-to-aurangzeb",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (385/386 pp.), gemini-3.6-flash (1/386 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/from-akbar-to-aurangzeb.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 24 fixes · 30 pp. checked",
+        "detail": "24 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 386 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 10/11 Arithmetic-Checked",
+        "detail": "10 of 11 tables pass arithmetic & column checks; 1 flagged for scan review"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 27 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 195 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1605–1658",
+      "regions": [
+        "Mughal Empire",
+        "Gujarat",
+        "Coromandel Coast",
+        "Bengal",
+        "Deccan",
+        "Indian Ocean"
+      ],
+      "subjects": [
+        "Mughal Economic History",
+        "Dutch & English East India Companies",
+        "Indigo & Cotton Trade",
+        "Famine of 1630–31",
+        "Mughal Land Revenue & Taxation"
+      ],
+      "artifacts": [
+        "27 Statistical Tables",
+        "2 Archival Plates",
+        "195 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 1,
+      "extracted_page_count": 386,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 30,
+      "machine_reread_page_count": 30,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 1,
+      "reread_pages": [
+        18,
+        31,
+        73,
+        87,
+        93,
+        123,
+        126,
+        133,
+        153,
+        155,
+        164,
+        165,
+        171,
+        172,
+        175,
+        177,
+        183,
+        209,
+        218,
+        221,
+        257,
+        269,
+        288,
+        340,
+        366,
+        377,
+        381,
+        382,
+        383,
+        384
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (1 open review item); 30 of 386 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 1,
+      "informational": 10,
+      "total": 11
+    },
+    "corrections": {
+      "applied": 24,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "corr-p0022-drop-title1",
+          "page_number": 22,
+          "matched_block_id": "p0022-b0001",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0022-drop-title2",
+          "page_number": 22,
+          "matched_block_id": "p0022-b0002",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0022-drop-scale",
+          "page_number": 22,
+          "matched_block_id": "p0022-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0022-map1-orient",
+          "page_number": 22,
+          "matched_block_id": "p0022-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0022-drop-engraver",
+          "page_number": 22,
+          "matched_block_id": "p0022-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0022-caption",
+          "page_number": 22,
+          "matched_block_id": "p0022-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0039-map2-orient",
+          "page_number": 39,
+          "matched_block_id": "p0039-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0039-caption",
+          "page_number": 39,
+          "matched_block_id": "p0039-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0039-drop-engraver",
+          "page_number": 39,
+          "matched_block_id": "p0039-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-top-footer-span",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-b0017-cells",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-b0018-cells",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-b0019-cells",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0019",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-b0020-cells",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0020",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-b0021-cells",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-b0022-cells",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0022",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0115-b0023-cells",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0153-subheader-span",
+          "page_number": 153,
+          "matched_block_id": "p0153-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0154-row1-split",
+          "page_number": 154,
+          "matched_block_id": "p0154-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0171-mir-jumla",
+          "page_number": 171,
+          "matched_block_id": "p0171-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0172-fraction-15-3-16",
+          "page_number": 172,
+          "matched_block_id": "p0172-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0175-virji-vora",
+          "page_number": 175,
+          "matched_block_id": "p0175-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0347-ain",
+          "page_number": 347,
+          "matched_block_id": "p0347-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "corr-p0358-header-spans",
+          "page_number": 358,
+          "matched_block_id": "p0358-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 151,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 2 states total 66641 but its 5 contributing cells sum to 66631 (difference -10).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0151-b0012"
+      },
+      {
+        "page_number": 178,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'manœuvres'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0178-b0005"
+      },
+      {
+        "page_number": 218,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mardan' appears without diacritics here, whereas this volume consistently prints 'Mardān' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0218-b0005"
+      },
+      {
+        "page_number": 221,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Diwan' appears without diacritics here, whereas this volume consistently prints 'Dīwān' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0221-b0003"
+      },
+      {
+        "page_number": 273,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ū' (U+016B LATIN SMALL LETTER U WITH MACRON) appears only 2 time(s) in this book, here in 'Mūsa],'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0273-b0003"
+      },
+      {
+        "page_number": 366,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ā' (U+0100 LATIN CAPITAL LETTER A WITH MACRON) appears only 2 time(s) in this book, here in 'Āīn-i'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0366-b0005"
+      },
+      {
+        "page_number": 366,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 1 time(s) in this book, here in 'Collecção'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0366-b0011"
+      },
+      {
+        "page_number": 366,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'õ' (U+00F5 LATIN SMALL LETTER O WITH TILDE) appears only 1 time(s) in this book, here in 'Nações'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0366-b0011"
+      },
+      {
+        "page_number": 371,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ë' (U+00EB LATIN SMALL LETTER E WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Arabië,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0371-b0011"
+      },
+      {
+        "page_number": 373,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ā' (U+0100 LATIN CAPITAL LETTER A WITH MACRON) appears only 2 time(s) in this book, here in 'Āhadi,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0373-b0016"
+      },
+      {
+        "page_number": 381,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ū' (U+016B LATIN SMALL LETTER U WITH MACRON) appears only 2 time(s) in this book, here in 'Mūsa,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0381-b0037"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (385/386 pp.), gemini-3.6-flash (1/386 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/from-akbar-to-aurangzeb.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 24 fixes · 30 pp. checked",
+          "detail": "24 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 386 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 10/11 Arithmetic-Checked",
+          "detail": "10 of 11 tables pass arithmetic & column checks; 1 flagged for scan review"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 27 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 195 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1605–1658",
+        "regions": [
+          "Mughal Empire",
+          "Gujarat",
+          "Coromandel Coast",
+          "Bengal",
+          "Deccan",
+          "Indian Ocean"
+        ],
+        "subjects": [
+          "Mughal Economic History",
+          "Dutch & English East India Companies",
+          "Indigo & Cotton Trade",
+          "Famine of 1630–31",
+          "Mughal Land Revenue & Taxation"
+        ],
+        "artifacts": [
+          "27 Statistical Tables",
+          "2 Archival Plates",
+          "195 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}
