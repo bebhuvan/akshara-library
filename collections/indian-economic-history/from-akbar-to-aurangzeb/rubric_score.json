@@ -37,6 +37,6 @@
   "human_proof_coverage": 0.0,
   "scan_audit_coverage": 0.0777,
   "next_actions": [
-    "Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes')."
+    "Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio."
   ]
 }

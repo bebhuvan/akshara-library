@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Recent Economic Developments in the Punjab*
 
 - **Book ID**: `recent-economic-developments-punjab-wilson-1910` | **Run ID**: `g4-hydrogen-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`machine_checked`** | **Rubric Score**: **`100.0 / 100`** (`machine_checked`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`88.0 / 100`** (`community`)
 - **Reader**: Read by gemini-4-hydrogen on 60 of 60 pages. Declared reader profile: tables (new readings use gemini-4-hydrogen).
 - **Pages**: `60` extracted, `2` blank/tissue, `0` failed (of `62` PDF leaves)
 - **Tracked API Spend**: **`$1.3091`** (`2.4%` cached input tokens: `18,312` / `779,093` in, `114,592` out, `72,605` thoughts)
@@ -14,11 +14,11 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
-| **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
+| **3. Tabular & Numerical Accuracy** | **13.0 / 25.0** | -12.0: 4 column total arithmetic mismatch(es) |
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Ready to ship as Machine-Checked Edition (no open validator hotspots; 5.0% of pages re-read; 0.0% verified by a person toward Source-Certified).
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
 
 ---
 

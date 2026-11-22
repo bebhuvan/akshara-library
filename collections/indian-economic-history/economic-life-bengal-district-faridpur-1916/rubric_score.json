@@ -29,12 +29,12 @@
   },
   "issue_counts_by_code": {
     "rare_character": 1,
-    "table_compositor_arithmetic_variant": 3,
+    "table_compositor_arithmetic_variant": 5,
     "table_blind_total_confirmed": 5
   },
   "human_proof_coverage": 0.0,
-  "scan_audit_coverage": 0.0432,
+  "scan_audit_coverage": 0.0494,
   "next_actions": [
-    "Ready to ship as Machine-Checked Edition (no open validator hotspots; 4.3% of pages re-read; 0.0% verified by a person toward Source-Certified)."
+    "Ready to ship as Machine-Checked Edition (no open validator hotspots; 4.9% of pages re-read; 0.0% verified by a person toward Source-Certified)."
   ]
 }

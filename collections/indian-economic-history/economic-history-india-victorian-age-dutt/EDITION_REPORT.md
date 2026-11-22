@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Economic History of India in the Victorian Age*
 
 - **Book ID**: `economic-history-india-victorian-age-dutt` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`95.5 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`98.5 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 651 of 651 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `651` extracted, `9` blank/tissue, `0` failed (of `660` PDF leaves)
 - **Tracked API Spend**: **`$2.7009`** (`74.0%` cached input tokens: `5,153,316` / `6,962,174` in, `954,143` out, `0` thoughts)
@@ -13,13 +13,12 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
-| **2. Scholarly Apparatus & Continuation** | **22.0 / 25.0** | -3.0: 1 unresolved footnote callout/body mismatch(es) |
+| **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **23.5 / 25.0** | -1.5: 1 ragged table geometry warning(s) |
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes').
-- Resolve 1 unmatched footnote marker(s) via anchor-matched corrections.
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
 
 ---
 

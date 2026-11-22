@@ -4,7 +4,7 @@
 - **Publication Year**: 1912
 - **Imprint**: New York: Longmans, Green, and Co.
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**98.0 / 100**)
+- **Edition Tier**: `machine_checked` (**100.0 / 100**)
 - **Internet Archive Source**: https://archive.org/details/b29353051
 
 ## Files in This Folder

@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 691 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **75.6 / 100** (`community`)
+- **Current Edition Score**: **71.6 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 691** leaves verified
 - **Original Camera Scans**: [Internet Archive (`povertyunbritish00naoruoft`)](https://archive.org/details/povertyunbritish00naoruoft)
 
@@ -37,11 +37,8 @@ Welcome! You do **not** need to read all 691 leaves from start to finish to make
 - [ ] Leaf **139**: Page 139 body blocks alternate left-right-left horizontally across columns.
 - [ ] Leaf **142**: Page 142 body blocks alternate left-right-left horizontally across columns.
 - [ ] Leaf **180** (`p0180-b0042`): Page 180 has inline note callout(s) [] vs. labelled footnote(s) ['1'].
-- [ ] Leaf **184** (`p0184-b0044`): Page 184 has inline note callout(s) ['3', '1', '1', '1', '1', '1', '1', '1', '1', '3', '1', '3'] vs. labelled footnote(s) ['1', '2'].
 - [ ] Leaf **275** (`p0275-b0006`): Page 275 has inline note callout(s) ['*', '*', '†', '†', '*', '*', '†', '*', '†', '*', '†', '†', '†', '*'] vs. labelled footnote(s) [].
-- [ ] Leaf **333** (`p0333-b0010`): Page 333 has inline note callout(s) ['1', '1'] vs. labelled footnote(s) ['1', '2'].
 - [ ] Leaf **542** (`p0542-b0007`): Page 542 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) [].
-- [ ] Leaf **543** (`p0543-b0009`): Page 543 has inline note callout(s) ['3', '4'] vs. labelled footnote(s) ['1', '2', '3', '4'].
 - [ ] Leaf **544** (`p0544-b0007`): Page 544 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) [].
 - [ ] Leaf **545** (`p0545-b0015`): Page 545 has inline note callout(s) [] vs. labelled footnote(s) ['1', '2'].
 - [ ] Leaves **184 -> 185**: Confirm cross-page footnote `2` joins smoothly across the page turn.
@@ -53,6 +50,7 @@ Welcome! You do **not** need to read all 691 leaves from start to finish to make
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
 - [ ] Leaf **55**: Uncertain glyph reading marked <unclear>o</unclear>.
+- [ ] Leaf **171**: Table row p0171-b0038 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
 - [ ] Leaf **359**: Uncertain glyph reading marked <unclear>3</unclear>.
 - [ ] Leaf **581**: Uncertain glyph reading marked <unclear>y</unclear>.
 - [ ] Leaf **581**: Uncertain glyph reading marked <unclear>t</unclear>.
@@ -76,7 +74,6 @@ Welcome! You do **not** need to read all 691 leaves from start to finish to make
 - [ ] Leaf **48**: Column 3 states total 7 but its 6 contributing cells sum to 5 (difference -2).
 - [ ] Leaf **48**: Column 4 states total 10 but its 6 contributing cells sum to 42 (difference 32).
 - [ ] Leaf **49**: Column 3 states total 8 but its 21 contributing cells sum to 9 (difference 1).
-- [ ] Leaf **85**: Compound GBP_s_d columns 2..4 state a total of £ 3-11-0, but the 6 contributing rows sum to £ 17-15-0.
 - [ ] Leaf **55** (`p0055-b0002`): Faded ink `<unclear>o</unclear>` in *"…ts, as will be seen further o from the official opinions…"*
 - [ ] Leaf **359** (`p0359-b0002`): Faded ink `<unclear>3</unclear>` in *"…341…"*
 - [ ] Leaf **581** (`p0581-b0005`): Faded ink `<unclear>y</unclear>` in *"…he Anglo-Indian a clear reply that he will do nothing of…"*
@@ -99,7 +96,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | INTRODUCTION | `9–18` | 10 | 0 | 0 / 10 |
 | POVERTY OF INDIA | `19–145` | 126 | 27 | 0 / 126 |
 | MR. DADABHAI NAOROJI'S REPLY TO CRITICISMS ON "THE POVERTY | `146–165` | 19 | 3 | 0 / 19 |
-| PREFATORY NOTE | `165–190` | 26 | 19 | 0 / 26 |
+| PREFATORY NOTE | `165–190` | 26 | 20 | 0 / 26 |
 | PUNJAB, 1876-7 | `191–223` | 33 | 14 | 0 / 33 |
 | MEMORANDUM No. 2 | `223–240` | 18 | 0 | 0 / 18 |
 | MEMORANDUM ON A FEW STATEMENTS IN THE REPORT OF THE INDIAN | `240–250` | 11 | 0 | 0 / 11 |

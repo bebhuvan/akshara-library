@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The East India Trade in the XVIIth Century, in Its Political and Economic Aspects*
 
 - **Book ID**: `east-india-trade-17th-century-khan` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`100.0 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`92.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 336 of 336 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `336` extracted, `6` blank/tissue, `0` failed (of `342` PDF leaves)
 - **Tracked API Spend**: **`$1.3875`** (`75.7%` cached input tokens: `2,659,776` / `3,515,207` in, `506,374` out, `0` thoughts)
@@ -14,11 +14,11 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
-| **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
+| **3. Tabular & Numerical Accuracy** | **17.0 / 25.0** | -8.0: 2 collapsed/jammed table row warning(s) |
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 2.1%) toward Source-Certified.
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
 
 ---
 

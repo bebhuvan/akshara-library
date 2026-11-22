@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 2 fixes · 4 pp. checked",
-        "detail": "2 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 11 fixes · 4 pp. checked",
+        "detail": "11 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -156,9 +156,72 @@
       "total": 9
     },
     "corrections": {
-      "applied": 2,
+      "applied": 11,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0088-b0003-tok",
+          "page_number": 88,
+          "matched_block_id": "p0088-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0088-b0007-tok",
+          "page_number": 88,
+          "matched_block_id": "p0088-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0089-b0003-tok",
+          "page_number": 89,
+          "matched_block_id": "p0089-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0097-b0003-tok",
+          "page_number": 97,
+          "matched_block_id": "p0097-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0106-b0003-tok",
+          "page_number": 106,
+          "matched_block_id": "p0106-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0137-b0003-tok",
+          "page_number": 137,
+          "matched_block_id": "p0137-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0210-b0006-tok",
+          "page_number": 210,
+          "matched_block_id": "p0210-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0311-b0003-tok",
+          "page_number": 311,
+          "matched_block_id": "p0311-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0311-b0007-tok",
+          "page_number": 311,
+          "matched_block_id": "p0311-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
         {
           "correction_id": "ef8-p0077-b0003",
           "page_number": 77,
@@ -281,8 +344,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 2 fixes · 4 pp. checked",
-          "detail": "2 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 11 fixes · 4 pp. checked",
+          "detail": "11 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

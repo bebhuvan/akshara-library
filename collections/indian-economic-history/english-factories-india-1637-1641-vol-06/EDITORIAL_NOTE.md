@@ -15,7 +15,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
-- **Modernized (Presentation Only)**: Running heads and institutional library stamps (79 flyleaf/stamp block(s)) are excluded from reading prose; **164** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **4** cross-page split footnotes and **0** multi-page tables were stitched; and **648** end-of-line hyphens were resolved against intra-book attestation.
+- **Modernized (Presentation Only)**: Running heads and institutional library stamps (79 flyleaf/stamp block(s)) are excluded from reading prose; **163** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **4** cross-page split footnotes and **0** multi-page tables were stitched; and **648** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (26 distinct non-ASCII characters across 270 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
 
 ## 3. Transcription Provenance & Remaining Open Checks

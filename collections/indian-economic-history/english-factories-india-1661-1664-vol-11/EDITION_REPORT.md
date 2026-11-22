@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The English Factories in India, 1661–1664*
 
 - **Book ID**: `english-factories-india-1661-1664-vol-11` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`machine_checked`** | **Rubric Score**: **`100.0 / 100`** (`machine_checked`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`94.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 438 of 438 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `438` extracted, `8` blank/tissue, `0` failed (of `446` PDF leaves)
 - **Tracked API Spend**: **`$2.0249`** (`74.4%` cached input tokens: `3,502,686` / `4,707,611` in, `711,865` out, `0` thoughts)
@@ -15,10 +15,10 @@
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
-| **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
+| **4. Orthographic, Script & Diacritics** | **19.0 / 25.0** | -6.0: 2 script/codepoint anomaly(ies) |
 
 ### Recommended Operator Next Actions
-- Ready to ship as Machine-Checked Edition (no open validator hotspots; 2.3% of pages re-read; 0.0% verified by a person toward Source-Certified).
+- Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 2.3%) toward Source-Certified.
 
 ---
 
@@ -95,4 +95,4 @@
 
 - **Detected Scripts**: `latin`: 835,567 chars
 - **Distinct Non-ASCII Glyphs (`27` across `306` leaves)**: ­ À à ã ç é í ó ô õ Ā ā ē Ġ ġ Ī ī ı ō ū ſ ′ ⁄ ⅔ ⅛ ⅜ ⅝
-- **Corrections Replayed**: `11` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `18` applied, `0` orphaned/unmatched

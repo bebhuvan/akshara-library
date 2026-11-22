@@ -13,12 +13,12 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
-| **2. Scholarly Apparatus & Continuation** | **10.0 / 25.0** | -15.0: 57 unresolved footnote callout/body mismatch(es) |
+| **2. Scholarly Apparatus & Continuation** | **10.0 / 25.0** | -15.0: 37 unresolved footnote callout/body mismatch(es) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Resolve 57 unmatched footnote marker(s) via anchor-matched corrections.
+- Resolve 37 unmatched footnote marker(s) via anchor-matched corrections.
 
 ---
 

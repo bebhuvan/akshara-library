@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 19 fixes · 6 pp. checked",
-        "detail": "19 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 20 fixes · 6 pp. checked",
+        "detail": "20 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -163,11 +163,11 @@
     "validation_summary": {
       "critical": 0,
       "review": 1,
-      "informational": 16,
-      "total": 17
+      "informational": 17,
+      "total": 18
     },
     "corrections": {
-      "applied": 19,
+      "applied": 20,
       "unmatched": 0,
       "details": [
         {
@@ -302,6 +302,13 @@
           "matched_block_id": "p0364-b0038",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "d48-p0163-gout-scan",
+          "page_number": 163,
+          "matched_block_id": "p0163-b0008",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -341,6 +348,15 @@
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0146-b0004"
+      },
+      {
+        "page_number": 163,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Goût,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0163-b0008"
       },
       {
         "page_number": 186,
@@ -418,7 +434,7 @@
         "page_number": 356,
         "severity": "informational",
         "category": "rare_character",
-        "message": "'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Goût,'.",
+        "message": "'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Goût,'.",
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0356-b0040"
@@ -483,8 +499,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 19 fixes · 6 pp. checked",
-          "detail": "19 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 20 fixes · 6 pp. checked",
+          "detail": "20 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -1,0 +1,46 @@
+{
+  "version": "rubric-v2",
+  "book_id": "imperial-gazetteer-of-india-vol-02-historical",
+  "run_id": "g4-hydrogen-batch-v1",
+  "total_score": 96.8,
+  "max_score": 100.0,
+  "recommended_gate": "community",
+  "pillars": {
+    "structural_completeness": {
+      "score": 22.0,
+      "max": 25.0,
+      "deductions": [
+        "-3.0: 1 suspected text omission page(s) vs. OCR witness"
+      ]
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 24.8,
+      "max": 25.0,
+      "deductions": [
+        "-0.2: 1 `<unclear>` ink span(s) awaiting scan check"
+      ]
+    }
+  },
+  "issue_counts_by_code": {
+    "unclear_ink_span": 1,
+    "suspected_text_omission": 1,
+    "orthographic_compositor_variant": 72,
+    "footnote_compositor_variant": 1,
+    "rare_character": 38
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0733,
+  "next_actions": [
+    "Audit 1 page(s) flagged for low alphabetic coverage vs. OCR witness."
+  ]
+}

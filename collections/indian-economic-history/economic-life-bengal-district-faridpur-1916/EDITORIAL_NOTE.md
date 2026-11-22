@@ -22,12 +22,12 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.8-flash` (162 pp.).
 - **Reader**: Read by gemini-3.8-flash on 162 of 162 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 32 replayed correction(s). Machine-checked; 7 of 162 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 32 replayed correction(s). Machine-checked; 8 of 162 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
+- **5 finding(s) across 3 leaf(s)** (pp. 92, 121, 162): table compositor arithmetic variant.
 - **5 finding(s) across 5 leaf(s)** (pp. 123, 155, 156, 157, 158): table blind total confirmed.
-- **3 finding(s) across 2 leaf(s)** (pp. 92, 121): table compositor arithmetic variant.
 - **1 finding(s) across 1 leaf(s)** (pp. 40): rare character.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

@@ -22,7 +22,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.8-flash` (40 pp.).
 - **Reader**: Read by gemini-3.8-flash on 40 of 40 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 6 replayed correction(s). Automated reading (1 open review item); 4 of 40 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 7 replayed correction(s). Automated reading (1 open review item); 4 of 40 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 

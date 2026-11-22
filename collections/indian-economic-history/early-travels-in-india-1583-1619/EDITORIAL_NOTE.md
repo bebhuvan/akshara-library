@@ -15,14 +15,14 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
-- **Modernized (Presentation Only)**: Running heads and institutional library stamps (53 flyleaf/stamp block(s)) are excluded from reading prose; **251** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **13** cross-page split footnotes and **0** multi-page tables were stitched; and **406** end-of-line hyphens were resolved against intra-book attestation.
+- **Modernized (Presentation Only)**: Running heads and institutional library stamps (53 flyleaf/stamp block(s)) are excluded from reading prose; **255** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **13** cross-page split footnotes and **0** multi-page tables were stitched; and **406** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (74 distinct non-ASCII characters across 250 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
 - **Models**: `gemini-3.6-flash` (1 pp.), `gemini-3.8-flash` (377 pp.).
 - **Reader**: Read by gemini-3.8-flash on 377 of 378 pages, gemini-3.6-flash on 1 of 378 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 15 replayed correction(s). Automated reading (2 open review items); 9 of 378 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 19 replayed correction(s). Automated reading (2 open review items); 9 of 378 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 

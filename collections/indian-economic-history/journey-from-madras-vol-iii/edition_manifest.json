@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 8 fixes · 36 pp. checked",
-        "detail": "8 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 11 fixes · 37 pp. checked",
+        "detail": "11 anchored emendation(s) applied; 37 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -73,7 +73,7 @@
         "id": "tables:arithmetic",
         "axis": "provenance",
         "label": "Tables: 8/26 Arithmetic-Checked",
-        "detail": "8 of 26 tables pass arithmetic & column checks; 6 printed compositor discrepancy(ies) confirmed on scan; 18 flagged for scan review"
+        "detail": "8 of 26 tables pass arithmetic & column checks; 7 printed compositor discrepancy(ies) confirmed on scan; 18 flagged for scan review"
       }
     ],
     "diplomatic_and_script_tags": [
@@ -111,7 +111,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 2 footnotes and 1179 margin/shoulder notes"
+        "detail": "Linked apparatus with 2 footnotes and 1191 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -149,11 +149,11 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 180,
+      "open_hotspots": 177,
       "extracted_page_count": 570,
       "p1_proofed_page_count": 0,
-      "reread_page_count": 36,
-      "machine_reread_page_count": 36,
+      "reread_page_count": 37,
+      "machine_reread_page_count": 37,
       "human_verified_page_count": 0,
       "two_person_verified_page_count": 0,
       "unevidenced_stamp_count": 0,
@@ -179,6 +179,7 @@
         453,
         454,
         459,
+        493,
         522,
         525,
         564,
@@ -197,18 +198,39 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (180 open review items); 36 of 570 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (177 open review items); 37 of 570 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 180,
-      "informational": 58,
-      "total": 238
+      "review": 177,
+      "informational": 59,
+      "total": 236
     },
     "corrections": {
-      "applied": 8,
+      "applied": 11,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0522-b0013-1",
+          "page_number": 522,
+          "matched_block_id": "p0522-b0013",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0537-b0026-tok",
+          "page_number": 537,
+          "matched_block_id": "p0537-b0026",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0537-b0037-tok",
+          "page_number": 537,
+          "matched_block_id": "p0537-b0037",
+          "op": "set_cells",
+          "status": "applied"
+        },
         {
           "correction_id": "scan-audit-v1-p0013-b0094",
           "page_number": 13,
@@ -1091,15 +1113,6 @@
         "page_number": 493,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 3 states total 2.50 but its 7 contributing cells sum to 2 (difference -0.50).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0493-b0015"
-      },
-      {
-        "page_number": 493,
-        "severity": "review",
-        "category": "table_total_mismatch",
         "message": "Column 2 states total 1225 but its 7 breakdown rows sum to 3946 (difference 2721).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
@@ -1301,15 +1314,6 @@
         "message": "Uncertain glyph reading marked <unclear>o</unclear>.",
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
-        "block_id": "p0537-b0026"
-      },
-      {
-        "page_number": 537,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>o</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
         "block_id": "p0537-b0027"
       },
       {
@@ -1392,15 +1396,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0537-b0036"
-      },
-      {
-        "page_number": 537,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>o</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0537-b0037"
       },
       {
         "page_number": 537,
@@ -2222,6 +2217,15 @@
         "block_id": "p0459-b0010"
       },
       {
+        "page_number": 493,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 2.50 but its 7 contributing cells sum to 2 (difference -0.50).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0493-b0015"
+      },
+      {
         "page_number": 522,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
@@ -2434,8 +2438,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 8 fixes · 36 pp. checked",
-          "detail": "8 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 11 fixes · 37 pp. checked",
+          "detail": "11 anchored emendation(s) applied; 37 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -2447,7 +2451,7 @@
           "id": "tables:arithmetic",
           "axis": "provenance",
           "label": "Tables: 8/26 Arithmetic-Checked",
-          "detail": "8 of 26 tables pass arithmetic & column checks; 6 printed compositor discrepancy(ies) confirmed on scan; 18 flagged for scan review"
+          "detail": "8 of 26 tables pass arithmetic & column checks; 7 printed compositor discrepancy(ies) confirmed on scan; 18 flagged for scan review"
         }
       ],
       "diplomatic_and_script_tags": [
@@ -2485,7 +2489,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 2 footnotes and 1179 margin/shoulder notes"
+          "detail": "Linked apparatus with 2 footnotes and 1191 margin/shoulder notes"
         }
       ],
       "archival_tags": {

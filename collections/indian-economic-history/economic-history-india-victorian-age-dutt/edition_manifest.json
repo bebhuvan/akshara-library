@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 95.5,
+  "rubric_score": 98.5,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Oxblood Ledger",
   "edition_root": "library/indian-economic-history/economic-history-india-victorian-age-dutt",
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 6 fixes · 3 pp. checked",
-        "detail": "6 anchored emendation(s) applied; 3 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
+        "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -134,27 +134,28 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 2,
+      "open_hotspots": 1,
       "extracted_page_count": 651,
       "p1_proofed_page_count": 0,
-      "reread_page_count": 3,
-      "machine_reread_page_count": 3,
+      "reread_page_count": 4,
+      "machine_reread_page_count": 4,
       "human_verified_page_count": 0,
       "two_person_verified_page_count": 0,
       "unevidenced_stamp_count": 0,
       "reread_pages": [
         119,
+        227,
         519,
         632
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (2 open review items); 3 of 651 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (1 open review item); 4 of 651 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 2,
-      "informational": 13,
+      "review": 1,
+      "informational": 14,
       "total": 15
     },
     "corrections": {
@@ -206,15 +207,6 @@
       ]
     },
     "review_items": [
-      {
-        "page_number": 227,
-        "severity": "review",
-        "category": "footnote_marker_mismatch",
-        "message": "Page 227 has inline note callout(s) ['2'] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
-        "validator": "apparatus_parity",
-        "block_id": "p0227-b0005"
-      },
       {
         "page_number": 627,
         "severity": "review",
@@ -268,6 +260,15 @@
         "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
         "validator": "table_arithmetic",
         "block_id": "p0119-b0024"
+      },
+      {
+        "page_number": 227,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 227 has inline note callout(s) ['2'] vs. labelled footnote(s) ['1'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0227-b0005"
       },
       {
         "page_number": 276,
@@ -365,8 +366,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 6 fixes · 3 pp. checked",
-          "detail": "6 anchored emendation(s) applied; 3 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
+          "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

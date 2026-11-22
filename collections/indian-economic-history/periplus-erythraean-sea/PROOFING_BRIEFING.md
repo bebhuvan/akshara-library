@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 331 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **98.0 / 100** (`community`)
+- **Current Edition Score**: **100.0 / 100** (`machine_checked`)
 - **Human Leaf Sign-Off Progress**: **0 / 331** leaves verified
 - **Original Camera Scans**: [Internet Archive (`b29353051`)](https://archive.org/details/b29353051)
 
@@ -37,10 +37,7 @@ All footnote callouts and cross-page continuations linked cleanly!
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
-- [ ] Leaf **162**: Token 'Mahanadi' appears without diacritics here, whereas this volume consistently prints 'Mahānadī' (4 occurrences).
 - [ ] Leaf **20**: Token 'Kathiawar' appears without diacritics here, whereas this volume consistently prints 'Kāthiāwār' (6 occurrences).
-- [ ] Leaf **30**: Block p0030-b0005 is classified as a heading (284 chars) but contains multi-sentence body prose; compiler will demote to paragraph.
-- [ ] Leaf **30**: Block p0030-b0009 is classified as a heading (225 chars) but contains multi-sentence body prose; compiler will demote to paragraph.
 - [ ] Leaf **61**: 'ý' (U+00FD LATIN SMALL LETTER Y WITH ACUTE) appears only 1 time(s) in this book, here in 'Erýthra'.
 - [ ] Leaf **80**: Token 'Kathiawar' appears without diacritics here, whereas this volume consistently prints 'Kāthiāwār' (6 occurrences).
 - [ ] Leaf **85**: 'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 2 time(s) in this book, here in 'João'.
@@ -48,18 +45,16 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **153**: 'õ' (U+00F5 LATIN SMALL LETTER O WITH TILDE) appears only 2 time(s) in this book, here in 'Camões'.
 - [ ] Leaf **161**: Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (8 occurrences).
 - [ ] Leaf **162**: Token 'Ghats' appears without diacritics here, whereas this volume consistently prints 'Ghāts' (8 occurrences).
-- [ ] Leaf **166**: Block p0166-b0006 is classified as a heading (772 chars) but contains multi-sentence body prose; compiler will demote to paragraph.
+- [ ] Leaf **162**: Token 'Mahanadi' appears without diacritics here, whereas this volume consistently prints 'Mahānadī' (4 occurrences).
 - [ ] Leaf **184**: Token 'Purana' appears without diacritics here, whereas this volume consistently prints 'Purāna' (6 occurrences).
 - [ ] Leaf **210**: 'Ç' (U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'Çaka,'.
 - [ ] Leaf **212**: Token 'Puranas' appears without diacritics here, whereas this volume consistently prints 'Purānas' (7 occurrences).
 - [ ] Leaf **236**: 'ṭ' (U+1E6D LATIN SMALL LETTER T WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Jaṭāyu,'.
-- [ ] Leaf **259**: 'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Pālisġmanta,'.
-- [ ] Leaf **259**: 'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Sġtā'.
 - [ ] Leaf **265**: 'ṅ' (U+1E45 LATIN SMALL LETTER N WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Gaṅgā-Sāgar'.
 - [ ] Leaf **291**: Token 'Pandyas' appears without diacritics here, whereas this volume consistently prints 'Pāndyas' (4 occurrences).
 - [ ] Leaf **291**: Token 'Cheras' appears without diacritics here, whereas this volume consistently prints 'Chēras' (3 occurrences).
 - [ ] Leaf **306**: 'ʼ' (U+02BC MODIFIER LETTER APOSTROPHE) appears only 1 time(s) in this book, here in 'ʼAm'.
-- [ ] Leaf **306**: Token 'Uraiyur' appears without diacritics here, whereas this volume consistently prints 'Uraiyūr' (4 occurrences).
+- [ ] Leaf **306**: Token 'Uraiyur' appears without diacritics here, whereas this volume consistently prints 'Uraiyūr' (5 occurrences).
 - [ ] Leaf **309**: 'õ' (U+00F5 LATIN SMALL LETTER O WITH TILDE) appears only 2 time(s) in this book, here in 'Camões,'.
 - [ ] Leaf **318**: 'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 2 time(s) in this book, here in 'João'.
 - [ ] Leaf **237** (`p0237-b0007`): Faded ink `<unclear>India and</unclear>` in *"…he thinks sea-trade between India and…"*
@@ -77,9 +72,9 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CONTENTS | `9–11` | 2 | 0 | 0 / 2 |
 | INTRODUCTION | `13–17` | 5 | 0 | 0 / 5 |
 | DATE AND AUTHORSHIP OF THE PERIPLUS | `17–26` | 10 | 1 | 0 / 10 |
-| BIBLIOGRAPHY OF THE PERIPLUS | `27–31` | 5 | 2 | 0 / 5 |
+| BIBLIOGRAPHY OF THE PERIPLUS | `27–31` | 5 | 0 | 0 / 5 |
 | THE PERIPLUS OF THE ERYTHRÆAN SEA | `32–59` | 28 | 0 | 0 / 28 |
-| NOTES | `60–293` | 234 | 18 | 0 / 234 |
+| NOTES | `60–293` | 234 | 15 | 0 / 234 |
 | ARTICLES OF TRADE MENTIONED IN THE PERIPLUS | `294–298` | 5 | 0 | 0 / 5 |
 | ARTICLES SUBJECT TO DUTY AT ALEXANDRIA | `299–299` | 1 | 0 | 0 / 1 |
 | DATE OF THE PERIPLUS AS DETERMINED BY VARIOUS COMMENTATORS | `300–303` | 4 | 0 | 0 / 4 |

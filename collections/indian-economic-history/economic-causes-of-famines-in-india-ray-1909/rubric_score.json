@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "economic-causes-of-famines-in-india-ray-1909",
   "run_id": "g38-batch-v1",
-  "total_score": 99.6,
+  "total_score": 99.8,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -22,15 +22,15 @@
       "deductions": []
     },
     "orthographic_fidelity": {
-      "score": 24.6,
+      "score": 24.8,
       "max": 25.0,
       "deductions": [
-        "-0.4: 2 `<unclear>` ink span(s) awaiting scan check"
+        "-0.2: 1 `<unclear>` ink span(s) awaiting scan check"
       ]
     }
   },
   "issue_counts_by_code": {
-    "unclear_ink_span": 2,
+    "unclear_ink_span": 1,
     "rare_character": 2
   },
   "human_proof_coverage": 0.0,

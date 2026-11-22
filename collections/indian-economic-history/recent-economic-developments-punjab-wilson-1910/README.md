@@ -4,7 +4,7 @@
 - **Publication Year**: 1910
 - **Imprint**: London: Campfield Press
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `machine_checked` (**100.0 / 100**)
+- **Edition Tier**: `community` (**88.0 / 100**)
 - **Internet Archive Source**: https://archive.org/details/recenteconomicde00wilsrich
 
 ## Files in This Folder

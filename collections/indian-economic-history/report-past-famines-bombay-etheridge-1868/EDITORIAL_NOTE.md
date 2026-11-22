@@ -11,7 +11,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 - **Source File**: `report-past-famines-bombay-etheridge-1868.originals.pdf`
 - **Source SHA-256**: `718a56ee1ce35795b9d12aaee4621ea2369ca73be56b1301be2d31e99d4ac83e`
 - **Leaf Accounting**: 282 PDF leaves — **273** content leaves transcribed, **9** blank/tissue leaves (`4, 6, 7, 10, 276, 278, 279, 280, 281`), **0** failed leaves.
-- **Edition Status**: `community` (**87.0 / 100** Rubric Score)
+- **Edition Status**: `community` (**90.0 / 100** Rubric Score)
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
@@ -22,7 +22,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.8-flash` (273 pp.).
 - **Reader**: Read by gemini-3.8-flash on 273 of 273 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 87 replayed correction(s). Automated reading (51 open review items); 36 of 273 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 88 replayed correction(s). Automated reading (50 open review items); 36 of 273 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
@@ -32,7 +32,6 @@ Rather than pretend machine transcription is infallible, here is what our valida
 - **6 finding(s) across 6 leaf(s)** (pp. 80, 83, 84, 241, 255, 261): multi-column pages flagged for reading-order verification.
 - **6 finding(s) across 6 leaf(s)** (pp. 32, 40, 41, 42, 43, 111): attested compositor footnote callout/note variants preserved diplomatically from the scan.
 - **6 finding(s) across 6 leaf(s)** (pp. 176, 181, 182, 200, 201, 205): table blind total confirmed.
-- **1 finding(s) across 1 leaf(s)** (pp. 69): footnote blocks without an explicit printed marker.
 - **1 finding(s) across 1 leaf(s)** (pp. 142): attested compositor spelling variants preserved diplomatically from the scan.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

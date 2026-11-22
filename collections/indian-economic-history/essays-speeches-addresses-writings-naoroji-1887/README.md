@@ -4,7 +4,7 @@
 - **Publication Year**: 1887
 - **Imprint**: Bombay: Caxton Printing Works
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**89.4 / 100**)
+- **Edition Tier**: `community` (**83.9 / 100**)
 - **Internet Archive Source**: https://archive.org/details/essaysspeechesa00paregoog
 
 ## Files in This Folder

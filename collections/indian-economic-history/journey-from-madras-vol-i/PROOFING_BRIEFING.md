@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 457 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **79.9 / 100** (`community`)
+- **Current Edition Score**: **81.8 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 457** leaves verified
 - **Original Camera Scans**: [Internet Archive (`journeyfrommadra01hami_2`)](https://archive.org/details/journeyfrommadra01hami_2)
 
@@ -18,7 +18,6 @@ Welcome! You do **not** need to read all 457 leaves from start to finish to make
 - [ ] Leaf **185** (`p0185-b0011`): Column 3 states total 4 but its 3 contributing cells sum to 16 (difference 12).
 - [ ] Leaf **216** (`p0216-b0011`): Column 2 states total 1004 but its 5 contributing cells sum to 6676 (difference 5672).
 - [ ] Leaf **217** (`p0217-b0023`): Column 2 states total 565 but its 4 contributing cells sum to 6666 (difference 6101).
-- [ ] Leaf **261** (`p0261-b0005`): Table row p0261-b0005 expands to 14 columns vs. table body width 13 (even after accounting for colspan/rowspan).
 - [ ] Leaf **310** (`p0310-b0021`): Column 2 states total 169 but its 4 contributing cells sum to 120 (difference -49).
 - [ ] Leaf **345** (`p0345-b0021`): Isolated 450-DPI TOTAL strip read ['<i>Sēers</i>', '51'] vs. full-page pass ['<i>Seers</i>', '51']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **424** (`p0424-b0009`): Column 4 states total 33736542 but its 3 contributing cells sum to 29338269 (difference -4398273).
@@ -53,12 +52,10 @@ All footnote callouts and cross-page continuations linked cleanly!
 
 - [ ] Leaf **21**: Uncertain glyph reading marked <unclear>Str</unclear>.
 - [ ] Leaf **94**: Uncertain glyph reading marked <unclear>C. Blair sc.</unclear>.
-- [ ] Leaf **126**: Uncertain glyph reading marked <unclear>b</unclear>.
 - [ ] Leaf **162**: Uncertain glyph reading marked <unclear>e</unclear>.
 - [ ] Leaf **280**: Uncertain glyph reading marked <unclear>an</unclear>.
 - [ ] Leaf **280**: Uncertain glyph reading marked <unclear>ay</unclear>.
 - [ ] Leaf **280**: Uncertain glyph reading marked <unclear>ey</unclear>.
-- [ ] Leaf **290**: Uncertain glyph reading marked <unclear>h</unclear>.
 - [ ] Leaf **47**: Token 'Sudra' appears without diacritics here, whereas this volume consistently prints 'Súdra' (37 occurrences).
 - [ ] Leaf **49**: Token 'Satghadam' appears without diacritics here, whereas this volume consistently prints 'Sátghadam' (5 occurrences).
 - [ ] Leaf **82**: Token 'Zenana' appears without diacritics here, whereas this volume consistently prints 'Zenána' (3 occurrences).
@@ -76,6 +73,8 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **350**: Token 'Daseri' appears without diacritics here, whereas this volume consistently prints 'Dáséri' (28 occurrences).
 - [ ] Leaf **350**: 'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 1 time(s) in this book, here in 'Brahmā;'.
 - [ ] Leaf **350**: 'ă' (U+0103 LATIN SMALL LETTER A WITH BREVE) appears only 2 time(s) in this book, here in 'Brahmă,'.
+- [ ] Leaf **351**: Token 'Vedas' appears without diacritics here, whereas this volume consistently prints 'Védas' (7 occurrences).
+- [ ] Leaf **359**: Token 'Brahmans' appears without diacritics here, whereas this volume consistently prints 'Bráhmans' (200 occurrences).
 - [ ] Leaf **21** (`p0021-b0003`): Faded ink `<unclear>Str</unclear>` in *"…Neele. sculp. 352 Str…"*
 - [ ] Leaf **94** (`p0094-b0003`): Faded ink `<unclear>C. Blair sc.</unclear>` in *"…C. Blair sc.…"*
 - [ ] Leaf **126** (`p0126-b0006`): Faded ink `<unclear>b</unclear>` in *"…eparated by small trenches (b), which are about fourteen…"*
@@ -98,8 +97,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | INTRODUCTION | `11–17` | 7 | 0 | 0 / 7 |
 | CONTENTS | `19–21` | 3 | 1 | 0 / 3 |
 | CHAPTER I: From Madras to Conjeveram, Arcot, Vellore, Pali | `23–85` | 61 | 3 | 0 / 61 |
-| CHAPTER II: Seringapatam, and its Vicinity | `86–170` | 81 | 8 | 0 / 81 |
+| CHAPTER II: Seringapatam, and its Vicinity | `86–170` | 81 | 7 | 0 / 81 |
 | CHAPTER III: From Seringapatam to Bangalore | `171–232` | 59 | 8 | 0 / 59 |
-| CHAPTER IV: Bangalore | `233–308` | 74 | 9 | 0 / 74 |
+| CHAPTER IV: Bangalore | `233–308` | 74 | 7 | 0 / 74 |
 | CHAPTER V: From Bangalore to Doda Bala-pura | `309–393` | 83 | 16 | 0 / 83 |
 | CHAPTER VI: From Doda Bala-pura to Sira | `394–476` | 81 | 7 | 0 / 81 |

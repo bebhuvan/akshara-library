@@ -4,7 +4,7 @@
 - **Publication Year**: 1901
 - **Imprint**: London: Swan Sonnenschein & Co.
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**75.6 / 100**)
+- **Edition Tier**: `community` (**71.6 / 100**)
 - **Internet Archive Source**: https://archive.org/details/povertyunbritish00naoruoft
 
 ## Files in This Folder

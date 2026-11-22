@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Poverty and Un-British Rule in India*
 
 - **Book ID**: `poverty-and-un-british-rule` | **Run ID**: `g4-hydrogen-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`75.6 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`71.6 / 100`** (`community`)
 - **Reader**: Read by gemini-4-hydrogen on 691 of 691 pages. Declared reader profile: tables (new readings use gemini-4-hydrogen).
 - **Pages**: `691` extracted, `9` blank/tissue, `0` failed (of `700` PDF leaves)
 - **Tracked API Spend**: **`$15.3241`** (`8.3%` cached input tokens: `747,901` / `9,044,911` in, `1,322,354` out, `931,541` thoughts)
@@ -13,13 +13,13 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **20.0 / 25.0** | -5.0: 3 multi-column zig-zag reading order warning(s) |
-| **2. Scholarly Apparatus & Continuation** | **10.0 / 25.0** | -15.0: 8 unresolved footnote callout/body mismatch(es) |
-| **3. Tabular & Numerical Accuracy** | **22.0 / 25.0** | -3.0: 2 ragged table geometry warning(s) |
+| **2. Scholarly Apparatus & Continuation** | **10.0 / 25.0** | -15.0: 5 unresolved footnote callout/body mismatch(es) |
+| **3. Tabular & Numerical Accuracy** | **18.0 / 25.0** | -4.0: 1 collapsed/jammed table row warning(s); -3.0: 2 ragged table geometry warning(s) |
 | **4. Orthographic, Script & Diacritics** | **23.6 / 25.0** | -1.4: 7 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes').
-- Resolve 8 unmatched footnote marker(s) via anchor-matched corrections.
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
+- Resolve 5 unmatched footnote marker(s) via anchor-matched corrections.
 
 ---
 

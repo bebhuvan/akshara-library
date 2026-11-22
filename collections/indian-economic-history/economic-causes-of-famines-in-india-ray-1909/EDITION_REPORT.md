@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *An Essay on the Economic Causes of Famines in India*
 
 - **Book ID**: `economic-causes-of-famines-in-india-ray-1909` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`99.6 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`99.8 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 89 of 89 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `89` extracted, `7` blank/tissue, `0` failed (of `96` PDF leaves)
 - **Tracked API Spend**: **`$0.3075`** (`76.3%` cached input tokens: `704,524` / `923,354` in, `104,058` out, `0` thoughts)
@@ -15,7 +15,7 @@
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
-| **4. Orthographic, Script & Diacritics** | **24.6 / 25.0** | -0.4: 2 `<unclear>` ink span(s) awaiting scan check |
+| **4. Orthographic, Script & Diacritics** | **24.8 / 25.0** | -0.2: 1 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
 - Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 12.4%) toward Source-Certified.
@@ -50,7 +50,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `53` prose joins, `0` split footnotes stitched, `0` multi-page tables unified, `2` total footnotes.
+- **Cross-Page Assembly**: `52` prose joins, `0` split footnotes stitched, `0` multi-page tables unified, `2` total footnotes.
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`22` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 01733801 3"*
   - Leaf `1` `p0001-b0003` (`scanner_residue`): *"HC 439 .R39 1909 c.1 ROBARTS"*
@@ -72,4 +72,4 @@
 
 - **Detected Scripts**: `latin`: 165,418 chars
 - **Distinct Non-ASCII Glyphs (`5` across `7` leaves)**: · æ é „ ⅓
-- **Corrections Replayed**: `0` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `4` applied, `0` orphaned/unmatched

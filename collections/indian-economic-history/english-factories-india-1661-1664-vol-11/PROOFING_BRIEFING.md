@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 438 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **100.0 / 100** (`machine_checked`)
+- **Current Edition Score**: **94.0 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 438** leaves verified
 - **Original Camera Scans**: [Internet Archive (`englishfactories11fost`)](https://archive.org/details/englishfactories11fost)
 
@@ -42,11 +42,14 @@ Welcome! You do **not** need to read all 438 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
+- [ ] Leaf **84**: Out-of-alphabet Latin character U+0121 LATIN SMALL LETTER G WITH DOT ABOVE (likely meant 'ī').
+- [ ] Leaf **311**: Out-of-alphabet Latin character U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE (likely meant 'Ī').
 - [ ] Leaf **13**: Token 'Sivaji' appears without diacritics here, whereas this volume consistently prints 'Sivāji' (79 occurrences).
 - [ ] Leaf **23**: Token 'Rajapur' appears without diacritics here, whereas this volume consistently prints 'Rājāpur' (42 occurrences).
 - [ ] Leaf **23**: Token 'Bijapur' appears without diacritics here, whereas this volume consistently prints 'Bījāpur' (35 occurrences).
 - [ ] Leaf **69**: Token 'Diwan' appears without diacritics here, whereas this volume consistently prints 'Dīwān' (14 occurrences).
 - [ ] Leaf **79**: Token 'Hugly' appears without diacritics here, whereas this volume consistently prints 'Hūgly' (5 occurrences).
+- [ ] Leaf **84**: 'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Mġr'.
 - [ ] Leaf **101**: Token 'Sivaji' appears without diacritics here, whereas this volume consistently prints 'Sivāji' (79 occurrences).
 - [ ] Leaf **150**: 'õ' (U+00F5 LATIN SMALL LETTER O WITH TILDE) appears only 1 time(s) in this book, here in 'Possessões'.
 - [ ] Leaf **161**: 'ó' (U+00F3 LATIN SMALL LETTER O WITH ACUTE) appears only 2 time(s) in this book, here in 'mór).'.
@@ -59,11 +62,11 @@ Welcome! You do **not** need to read all 438 leaves from start to finish to make
 - [ ] Leaf **244**: Token 'Kalyan' appears without diacritics here, whereas this volume consistently prints 'Kalyān' (5 occurrences).
 - [ ] Leaf **276**: 'ō' (U+014D LATIN SMALL LETTER O WITH MACRON) appears only 1 time(s) in this book, here in 'ōla,'.
 - [ ] Leaf **354**: Token 'Ahmadabad' appears without diacritics here, whereas this volume consistently prints 'Ahmadābād' (26 occurrences).
-- [ ] Leaf **411**: Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrza' (7 occurrences).
+- [ ] Leaf **411**: Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrza' (8 occurrences).
 - [ ] Leaf **424**: Token 'Bahadur' appears without diacritics here, whereas this volume consistently prints 'Bahādur' (6 occurrences).
 - [ ] Leaf **426**: 'ó' (U+00F3 LATIN SMALL LETTER O WITH ACUTE) appears only 2 time(s) in this book, here in 'mór,'.
 - [ ] Leaf **441**: 'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Vendôme,'.
-- [ ] Leaf **442**: Token 'Virji' appears without diacritics here, whereas this volume consistently prints 'Vīrji' (7 occurrences).
+- [ ] Leaf **442**: Token 'Virji' appears without diacritics here, whereas this volume consistently prints 'Vīrji' (10 occurrences).
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `Manuscripts` (leaf 12), `chyrurgion` (leaf 25), `disguised` (leaf 29), `feasibility` (leaf 30), `comparison` (leaf 31), `Precidency` (leaf 33), `dominereing` (leaf 36), `treacherously` (leaf 52), `dispeopled` (leaf 54), `ungrateful` (leaf 54), `conjectured` (leaf 72), `preposterous` (leaf 73), `procurie` (leaf 76), `enterteined` (leaf 81), `frightful` (leaf 83).
 
 ---
@@ -79,7 +82,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CONTENTS | `13–13` | 1 | 1 | 0 / 1 |
 | 1661. The Surat Presidency | `15–46` | 32 | 2 | 0 / 32 |
 | The Madras Agency | `46–73` | 28 | 1 | 0 / 28 |
-| The Bengal Agency | `74–85` | 12 | 1 | 0 / 12 |
+| The Bengal Agency | `74–85` | 12 | 3 | 0 / 12 |
 | 1662. The Close of Andrews's Administration at Surat | `86–105` | 20 | 1 | 0 / 20 |
 | Sir George Oxenden, President | `106–136` | 31 | 0 | 0 / 31 |
 | The Expedition to Bombay | `137–158` | 22 | 1 | 0 / 22 |
@@ -89,7 +92,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | The Malabar Coast | `242–279` | 38 | 6 | 0 / 38 |
 | The Coromandel Coast | `280–300` | 21 | 0 | 0 / 21 |
 | The Bengal Factories | `301–309` | 9 | 0 | 0 / 9 |
-| 1664. Sivaji's attack upon Surat | `310–330` | 21 | 0 | 0 / 21 |
+| 1664. Sivaji's attack upon Surat | `310–330` | 21 | 1 | 0 / 21 |
 | Other Events at Surat | `330–346` | 17 | 0 | 0 / 17 |
 | The Expeditionary Force at Anjidiv | `346–355` | 10 | 1 | 0 / 10 |
 | The Malabar Coast | `355–373` | 19 | 0 | 0 / 19 |

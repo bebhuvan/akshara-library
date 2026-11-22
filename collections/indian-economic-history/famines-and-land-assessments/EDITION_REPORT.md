@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Famines and Land Assessments in India*
 
 - **Book ID**: `famines-and-land-assessments` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`89.4 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`85.4 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 347 of 347 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `347` extracted, `5` blank/tissue, `0` failed (of `352` PDF leaves)
 - **Tracked API Spend**: **`$1.3052`** (`73.3%` cached input tokens: `2,764,108` / `3,771,184` in, `405,766` out, `0` thoughts)
@@ -14,10 +14,11 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **23.0 / 25.0** | -2.0: 1 multi-column zig-zag reading order warning(s) |
 | **2. Scholarly Apparatus & Continuation** | **19.0 / 25.0** | -6.0: 2 unresolved footnote callout/body mismatch(es) |
-| **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
+| **3. Tabular & Numerical Accuracy** | **21.0 / 25.0** | -4.0: 1 collapsed/jammed table row warning(s) |
 | **4. Orthographic, Script & Diacritics** | **22.4 / 25.0** | -2.6: 13 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
 - Resolve 2 unmatched footnote marker(s) via anchor-matched corrections.
 
 ---
@@ -91,4 +92,4 @@
 
 - **Detected Scripts**: `latin`: 409,511 chars
 - **Distinct Non-ASCII Glyphs (`17` across `31` leaves)**: · Â Ü á â é ê î ô õ ü ā œ Ś ś ˙ „
-- **Corrections Replayed**: `62` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `67` applied, `0` orphaned/unmatched

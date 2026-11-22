@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 651 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **95.5 / 100** (`community`)
+- **Current Edition Score**: **98.5 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 651** leaves verified
 - **Original Camera Scans**: [Internet Archive (`indiainvictorian00duttuoft`)](https://archive.org/details/indiainvictorian00duttuoft)
 
@@ -32,7 +32,6 @@ Welcome! You do **not** need to read all 651 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
-- [ ] Leaf **227** (`p0227-b0005`): Page 227 has inline note callout(s) ['2'] vs. labelled footnote(s) ['1'].
 - [ ] Leaves **61 -> 62**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **119 -> 120**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **198 -> 199**: Confirm cross-page footnote `4` joins smoothly across the page turn.
@@ -47,6 +46,7 @@ Welcome! You do **not** need to read all 651 leaves from start to finish to make
 - [ ] Leaf **43**: 'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 2 time(s) in this book, here in 'Pancháyets'.
 - [ ] Leaf **119**: Column 3 states total 1018502 but its 18 contributing cells sum to 1018501 (difference -1).
 - [ ] Leaf **119**: Column 4 states total 1060989 but its 18 contributing cells sum to 1060988 (difference -1).
+- [ ] Leaf **227**: Page 227 has inline note callout(s) ['2'] vs. labelled footnote(s) ['1'].
 - [ ] Leaf **276**: 'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'depôts'.
 - [ ] Leaf **295**: 'æ' (U+00E6 LATIN SMALL LETTER AE) appears only 1 time(s) in this book, here in 'penitentiæ,'.
 - [ ] Leaf **317**: 'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'grâce'.

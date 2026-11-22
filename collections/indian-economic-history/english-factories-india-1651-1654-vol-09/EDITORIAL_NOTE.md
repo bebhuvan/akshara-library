@@ -22,11 +22,11 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.6-flash` (1 pp.), `gemini-3.8-flash` (367 pp.).
 - **Reader**: Read by gemini-3.8-flash on 367 of 368 pages, gemini-3.6-flash on 1 of 368 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 2 replayed correction(s). Machine-checked; 5 of 368 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 7 replayed correction(s). Machine-checked; 5 of 368 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
-- **9 finding(s) across 8 leaf(s)** (pp. 9, 10, 125, 148, 264, 285, 321, 361): rare character.
+- **8 finding(s) across 7 leaf(s)** (pp. 9, 10, 125, 264, 285, 321, 361): rare character.
 - **5 finding(s) across 5 leaf(s)** (pp. 130, 158, 227, 283, 286): attested compositor spelling variants preserved diplomatically from the scan.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Report on Past Famines in the Bombay Presidency*
 
 - **Book ID**: `report-past-famines-bombay-etheridge-1868` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`87.0 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`90.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 273 of 273 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `273` extracted, `9` blank/tissue, `0` failed (of `282` PDF leaves)
 - **Tracked API Spend**: **`$1.6604`** (`66.6%` cached input tokens: `2,168,622` / `3,254,960` in, `569,488` out, `0` thoughts)
@@ -13,12 +13,12 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **20.0 / 25.0** | -5.0: 6 multi-column zig-zag reading order warning(s) |
-| **2. Scholarly Apparatus & Continuation** | **22.0 / 25.0** | -3.0: 1 unresolved footnote callout/body mismatch(es) |
+| **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
 | **4. Orthographic, Script & Diacritics** | **20.0 / 25.0** | -5.0: 44 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Resolve 1 unmatched footnote marker(s) via anchor-matched corrections.
+- Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 13.2%) toward Source-Certified.
 
 ---
 
@@ -96,4 +96,4 @@
 
 - **Detected Scripts**: `latin`: 432,158 chars, `gujarati`: 113 chars
 - **Distinct Non-ASCII Glyphs (`69` across `60` leaves)**: ´ · à á â è é ó ô ú ü ˙ ં આ ઉ એ ક ખ ગ ચ છ જ ટ ઠ ડ ઢ ણ ત દ ધ ન પ ભ મ ય ર લ વ શ ષ સ હ ા િ ી ુ ૂ ે ો ્ ૦ ૧ ૨ ૩ ૬ ૭ ૮ ૯ ṣ „
-- **Corrections Replayed**: `87` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `88` applied, `0` orphaned/unmatched

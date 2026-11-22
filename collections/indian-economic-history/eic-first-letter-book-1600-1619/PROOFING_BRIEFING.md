@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 622 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **97.8 / 100** (`community`)
+- **Current Edition Score**: **96.8 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 622** leaves verified
 - **Original Camera Scans**: [Internet Archive (`registerofletter00eastuoft`)](https://archive.org/details/registerofletter00eastuoft)
 
@@ -52,8 +52,8 @@ Welcome! You do **not** need to read all 622 leaves from start to finish to make
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
 - [ ] Leaf **75**: Page 75: the reader's output held invisible control characters, which were removed.
+- [ ] Leaf **94**: Out-of-alphabet Latin character U+0127 LATIN SMALL LETTER H WITH STROKE (likely meant 'ī').
 - [ ] Leaf **290**: Uncertain glyph reading marked <unclear>d</unclear>.
-- [ ] Leaf **534**: Token 'Expedicon' appears without diacritics here, whereas this volume consistently prints 'Expedicoñ' (4 occurrences).
 - [ ] Leaf **7**: 'Δ' (U+0394 GREEK CAPITAL LETTER DELTA) appears only 2 time(s) in this book, here in 'Διὸς'.
 - [ ] Leaf **35**: 'ἰ' (U+1F30 GREEK SMALL LETTER IOTA WITH PSILI) appears only 2 time(s) in this book, here in '[ἰνδικός]'.
 - [ ] Leaf **36**: 'ἕ' (U+1F15 GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA) appears only 1 time(s) in this book, here in 'ἕρματα'.
@@ -68,7 +68,7 @@ Welcome! You do **not** need to read all 622 leaves from start to finish to make
 - [ ] Leaf **70**: 'Κ' (U+039A GREEK CAPITAL LETTER KAPPA) appears only 1 time(s) in this book, here in 'Κολοφῶνα'.
 - [ ] Leaf **70**: 'ῶ' (U+1FF6 GREEK SMALL LETTER OMEGA WITH PERISPOMENI) appears only 2 time(s) in this book, here in 'Κολοφῶνα'.
 - [ ] Leaf **71**: 'ῆ' (U+1FC6 GREEK SMALL LETTER ETA WITH PERISPOMENI) appears only 1 time(s) in this book, here in 'κῆπος'.
-- [ ] Leaf **94**: 'ħ' (U+0127 LATIN SMALL LETTER H WITH STROKE) appears only 2 time(s) in this book, here in 'ħte'.
+- [ ] Leaf **94**: 'ħ' (U+0127 LATIN SMALL LETTER H WITH STROKE) appears only 1 time(s) in this book, here in 'ħte'.
 - [ ] Leaf **100**: 'ꝛ' (U+A75B LATIN SMALL LETTER R ROTUNDA) appears only 2 time(s) in this book, here in 'ordenanꝛe'.
 - [ ] Leaf **130**: 'ᵈ' (U+1D48 MODIFIER LETTER SMALL D) appears only 1 time(s) in this book, here in 'recᵈ'.
 - [ ] Leaf **136**: 'ᵖ' (U+1D56 MODIFIER LETTER SMALL P) appears only 1 time(s) in this book, here in 'lᵖˢ'.
@@ -110,7 +110,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | INTRODUCTION | `13–79` | 67 | 14 | 0 / 67 |
 | CONTENTS | `79–91` | 13 | 0 | 0 / 13 |
 | COUNCIL Order for the payment of overdue subscriptions, 11 | `93–93` | 1 | 0 | 0 / 1 |
-| Commission from Queen Elizabeth to Captain Lancaster for t | `94–96` | 3 | 1 | 0 / 3 |
+| Commission from Queen Elizabeth to Captain Lancaster for t | `94–96` | 3 | 2 | 0 / 3 |
 | The Company's Commission for the same voyage [February 160 | `96–101` | 6 | 1 | 0 / 6 |
 | Letter from the Council to the Adventurers, encouraging th | `101–102` | 2 | 0 | 0 / 2 |
 | Warrant from the Lord Treasurer for passage of victuals fr | `103–103` | 1 | 0 | 0 / 1 |
@@ -196,7 +196,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Outline of a safe conduct which the Company desired should | `358–360` | 3 | 0 | 0 / 3 |
 | Letter from the Adventurers of the Fourth Voyage to Humphr | `360–361` | 2 | 0 | 0 / 2 |
 | Bill of Adventure to Philip de Graeffe, for the Fourth Voy | `361–365` | 5 | 1 | 0 / 5 |
-| Draft Bill of Adventure to be given by a subscriber to the | `365–366` | 2 | 3 | 0 / 2 |
+| Draft Bill of Adventure to be given by a subscriber to the | `365–365` | 1 | 1 | 0 / 1 |
 | Bill of Adventure to the subscribers of the Third Voyage,  | `366–366` | 1 | 2 | 0 / 1 |
 | List of persons to whom bills of adventure for the Third V | `367–373` | 7 | 0 | 0 / 7 |
 | Warrant from the Lord Treasurer for the transportation of  | `374–376` | 3 | 0 | 0 / 3 |
@@ -219,7 +219,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Warrant from the Lord Treasurer for the transportation of  | `447–448` | 2 | 1 | 0 / 2 |
 | Royal Commission to Sir Henry Middleton for the Sixth Voya | `448–451` | 4 | 0 | 0 / 4 |
 | Royal Commission to Anthony Hippon for the Seventh Voyage, | `451–454` | 4 | 1 | 0 / 4 |
-| Agreement between the Company on the one part and Peter Fl | `455–513` | 59 | 9 | 0 / 59 |
+| Agreement between the Company on the one part and Peter Fl | `455–513` | 59 | 7 | 0 / 59 |
 | Royal letters carried out in the Eighth Voyage [1611] . 38 | `514–518` | 5 | 0 | 0 / 5 |
 | Statement by Peter Floris and Lucas Antheumis of their pla | `519–520` | 2 | 0 | 0 / 2 |
 | Petition to the Lord Treasurer complaining of the wrongs d | `521–523` | 3 | 0 | 0 / 3 |
@@ -227,7 +227,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Letter from Samuel Pasfyld at Amsterdam to Robert Middleto | `526–528` | 3 | 0 | 0 / 3 |
 | Royal Commission to Thomas Best and Thomas Aldworth for th | `529–532` | 4 | 0 | 0 / 4 |
 | Royal Commission to Thomas Best to conclude a treaty with  | `533–533` | 1 | 0 | 0 / 1 |
-| Royal Commission to Christopher Newport and Joseph Salbanc | `534–537` | 4 | 1 | 0 / 4 |
+| Royal Commission to Christopher Newport and Joseph Salbanc | `534–537` | 4 | 0 | 0 / 4 |
 | Agreement between the Company and Sir Thomas Roe, ambassad | `538–540` | 3 | 0 | 0 / 3 |
 | Royal Commission to Nicholas Downton for a voyage on accou | `541–544` | 4 | 0 | 0 / 4 |
 | Royal Commission to David Middleton for a voyage on accoun | `544–547` | 4 | 0 | 0 / 4 |

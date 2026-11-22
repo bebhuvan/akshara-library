@@ -28,7 +28,7 @@
     }
   },
   "issue_counts_by_code": {
-    "rare_character": 9,
+    "rare_character": 8,
     "orthographic_compositor_variant": 5
   },
   "human_proof_coverage": 0.0,

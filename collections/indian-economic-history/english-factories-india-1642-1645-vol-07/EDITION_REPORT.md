@@ -102,4 +102,4 @@
 
 - **Detected Scripts**: `latin`: 708,754 chars, `han`: 2 chars
 - **Distinct Non-ASCII Glyphs (`40` across `238` leaves)**: Ã à ã ä ç è é ó Ā ā ē ġ ĩ Ī ī ō Ś ū ſ ʀ ʙ ᴀ ᴄ ᴇ ᴍ ᴏ ᴛ Ṣ ṭ „ ′ ⅓ ⅔ ⅕ ⅘ ⅛ ⅝ ⅞ 料 無
-- **Corrections Replayed**: `8` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `10` applied, `0` orphaned/unmatched

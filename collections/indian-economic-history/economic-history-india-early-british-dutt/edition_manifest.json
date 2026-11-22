@@ -6,8 +6,8 @@
   "is_partial_pages": false,
   "is_preview": false,
   "collection": "indian-economic-history",
-  "edition_tier": "machine_checked",
-  "rubric_score": 100.0,
+  "edition_tier": "community",
+  "rubric_score": 92.0,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Oxblood Ledger",
   "edition_root": "library/indian-economic-history/economic-history-india-early-british-dutt",
@@ -40,9 +40,9 @@
   "taxonomy": {
     "version": "taxonomy-v1",
     "tier": {
-      "code": "machine_checked",
-      "label": "Machine-Checked",
-      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
     },
     "provenance_tags": [
       {
@@ -128,12 +128,12 @@
   },
   "quality_summary": {
     "readiness": {
-      "eligible_tier": "machine_checked",
+      "eligible_tier": "community",
       "community_edition_ready": true,
-      "machine_checked_ready": true,
+      "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 0,
+      "open_hotspots": 2,
       "extracted_page_count": 466,
       "p1_proofed_page_count": 0,
       "reread_page_count": 8,
@@ -153,13 +153,13 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Machine-checked; 8 of 466 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (2 open review items); 8 of 466 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 0,
+      "review": 2,
       "informational": 27,
-      "total": 27
+      "total": 29
     },
     "corrections": {
       "applied": 15,
@@ -273,6 +273,24 @@
       ]
     },
     "review_items": [
+      {
+        "page_number": 259,
+        "severity": "review",
+        "category": "table_collapsed_rows",
+        "message": "Table row p0259-b0005 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
+        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "validator": "table_geometry",
+        "block_id": "p0259-b0005"
+      },
+      {
+        "page_number": 430,
+        "severity": "review",
+        "category": "table_collapsed_rows",
+        "message": "Table row p0430-b0006 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
+        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "validator": "table_geometry",
+        "block_id": "p0430-b0006"
+      },
       {
         "page_number": 7,
         "severity": "informational",
@@ -520,9 +538,9 @@
     "taxonomy": {
       "version": "taxonomy-v1",
       "tier": {
-        "code": "machine_checked",
-        "label": "Machine-Checked",
-        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
       },
       "provenance_tags": [
         {

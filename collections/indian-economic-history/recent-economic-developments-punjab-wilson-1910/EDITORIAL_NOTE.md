@@ -11,7 +11,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 - **Source File**: `recent-economic-developments-punjab-wilson-1910.originals.pdf`
 - **Source SHA-256**: `3eec402c338463fbe45fb36a7256bc172a2e3c7b00bb18267504f0dba67355ca`
 - **Leaf Accounting**: 62 PDF leaves — **60** content leaves transcribed, **2** blank/tissue leaves (`48, 59`), **0** failed leaves.
-- **Edition Status**: `machine_checked` (**100.0 / 100** Rubric Score)
+- **Edition Status**: `community` (**88.0 / 100** Rubric Score)
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
@@ -22,10 +22,11 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-4-hydrogen` (60 pp.).
 - **Reader**: Read by gemini-4-hydrogen on 60 of 60 pages. Declared reader profile: tables (new readings use gemini-4-hydrogen).
-- **Human Proofing**: 2 replayed correction(s). Machine-checked; 3 of 60 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 2 replayed correction(s). Automated reading (4 open review items); 3 of 60 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
-- **5 finding(s) across 2 leaf(s)** (pp. 8, 56): table compositor arithmetic variant.
+- **6 finding(s) across 2 leaf(s)** (pp. 8, 56): table compositor arithmetic variant.
+- **4 finding(s) across 1 leaf(s)** (pp. 53): statistical table columns whose printed total disagrees with the sum of extracted cells above.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

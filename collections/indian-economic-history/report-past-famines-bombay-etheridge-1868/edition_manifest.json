@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 87.0,
+  "rubric_score": 90.0,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Prussian Treasury",
   "edition_root": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868",
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 87 fixes · 36 pp. checked",
-        "detail": "87 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 88 fixes · 36 pp. checked",
+        "detail": "88 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -105,7 +105,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 17 footnotes and 143 margin/shoulder notes"
+        "detail": "Linked apparatus with 17 footnotes and 144 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -137,7 +137,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 51,
+      "open_hotspots": 50,
       "extracted_page_count": 273,
       "p1_proofed_page_count": 0,
       "reread_page_count": 36,
@@ -185,18 +185,25 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (51 open review items); 36 of 273 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (50 open review items); 36 of 273 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 51,
+      "review": 50,
       "informational": 80,
-      "total": 131
+      "total": 130
     },
     "corrections": {
-      "applied": 87,
+      "applied": 88,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0173-b0004-1",
+          "page_number": 173,
+          "matched_block_id": "p0173-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
         {
           "correction_id": "eth-p0034-b0008-001",
           "page_number": 34,
@@ -826,15 +833,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0015-b0002"
-      },
-      {
-        "page_number": 69,
-        "severity": "review",
-        "category": "unlabelled_footnote",
-        "message": "Footnote has no note_label and is not marked continues_from_prev.",
-        "expected_action": "Check whether this note continues from the previous page or missed its symbol.",
-        "validator": "apparatus_parity",
-        "block_id": "p0069-b0016"
       },
       {
         "page_number": 80,
@@ -2012,8 +2010,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 87 fixes · 36 pp. checked",
-          "detail": "87 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 88 fixes · 36 pp. checked",
+          "detail": "88 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -2057,7 +2055,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 17 footnotes and 143 margin/shoulder notes"
+          "detail": "Linked apparatus with 17 footnotes and 144 margin/shoulder notes"
         }
       ],
       "archival_tags": {

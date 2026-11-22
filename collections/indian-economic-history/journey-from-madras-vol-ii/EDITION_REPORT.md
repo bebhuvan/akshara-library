@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *A Journey from Madras through the Countries of Mysore, Canara, and Malabar*
 
 - **Book ID**: `journey-from-madras-vol-ii` | **Run ID**: `g4-hydrogen-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`75.0 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`75.6 / 100`** (`community`)
 - **Reader**: Read by gemini-4-hydrogen on 584 of 584 pages. Declared reader profile: transliteration (new readings use gemini-4-hydrogen).
 - **Pages**: `584` extracted, `14` blank/tissue, `0` failed (of `598` PDF leaves)
 - **Tracked API Spend**: **`$11.0055`** (`13.4%` cached input tokens: `943,064` / `7,019,687` in, `894,112` out, `756,391` thoughts)
@@ -14,11 +14,11 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
-| **3. Tabular & Numerical Accuracy** | **8.0 / 25.0** | -5.0: 1 Blind Totals Strip disagreement(s); -12.0: 26 column total arithmetic mismatch(es) |
-| **4. Orthographic, Script & Diacritics** | **17.0 / 25.0** | -6.0: 2 script/codepoint anomaly(ies); -2.0: 10 `<unclear>` ink span(s) awaiting scan check |
+| **3. Tabular & Numerical Accuracy** | **8.0 / 25.0** | -5.0: 1 Blind Totals Strip disagreement(s); -12.0: 23 column total arithmetic mismatch(es) |
+| **4. Orthographic, Script & Diacritics** | **17.6 / 25.0** | -6.0: 2 script/codepoint anomaly(ies); -1.4: 7 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes').
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
 
 ---
 
@@ -75,7 +75,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `407` prose joins, `0` split footnotes stitched, `4` multi-page tables unified, `0` total footnotes.
+- **Cross-Page Assembly**: `410` prose joins, `0` split footnotes stitched, `4` multi-page tables unified, `0` total footnotes.
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`137` — verify no epigraph/dedication was caught)**:
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"Library of the Theological Seminary, PRINCETON, N. J. Purchased by the Mary Cheves Dulles "*
   - Leaf `5` `p0005-b0005` (`noise`): *"—"*
@@ -97,4 +97,4 @@
 
 - **Detected Scripts**: `latin`: 900,193 chars, `greek`: 31 chars
 - **Distinct Non-ASCII Glyphs (`47` across `418` leaves)**: Æ à á â æ ç é ë ì í ï ó ú ü ń œ ŕ Α Λ α γ δ ε η ι κ λ ν ο ρ ς σ τ υ φ ⁄ ₀ ₁ ⅓ ⅔ ⅕ ⅗ ⅙ ⅛ ⅜ ⅝ ⅞
-- **Corrections Replayed**: `3` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `17` applied, `0` orphaned/unmatched

@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 466 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **100.0 / 100** (`machine_checked`)
+- **Current Edition Score**: **92.0 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 466** leaves verified
 - **Original Camera Scans**: [Internet Archive (`ed2economichisto00dutt`)](https://archive.org/details/ed2economichisto00dutt)
 
@@ -38,6 +38,8 @@ Welcome! You do **not** need to read all 466 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
+- [ ] Leaf **259**: Table row p0259-b0005 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
+- [ ] Leaf **430**: Table row p0430-b0006 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
 - [ ] Leaf **7**: 'Ü' (U+00DC LATIN CAPITAL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'TRÜBNER'.
 - [ ] Leaf **35**: 'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'manœuvres,'.
 - [ ] Leaf **141**: Column 4 states total 897642 but its 12 contributing cells sum to 901636 (difference 3994).
@@ -61,8 +63,6 @@ Welcome! You do **not** need to read all 466 leaves from start to finish to make
 - [ ] Leaf **429**: Isolated 450-DPI TOTAL strip read ['<unclear>Beng</unclear>al . . . .', '3,225,436', '9,336,707', '7,464,29<unclear></unclear>'] vs. full-page pass ['Total . . .', '4,296,884', '13,464,537', '12,326,880']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **429**: Isolated 450-DPI TOTAL strip read ['1806-7. · · ·', '4,880,433', '15,403,409', '17,421,41<unclear>1</unclear>'] vs. full-page pass ['Total . . .', '4,480,128', '13,271,385', '14,395,405']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **429**: Isolated 450-DPI TOTAL strip read ['<unclear>...</unclear>al · · · ·', '3,729,098', '9,971,695', '7,760,92<unclear>...</unclear>'] vs. full-page pass ['Total . . .', '4,604,025', '14,949,395', '16,115,183']. Full-page decoding often self-reconciles totals to misread addends above.
-- [ ] Leaf **429**: Isolated 450-DPI TOTAL strip read ['1809-10. · · · 5,35,789', '15,525,055', '15,392,88'] vs. full-page pass ['Total . . .', '4,880,433', '15,403,409', '17,421,418']. Full-page decoding often self-reconciles totals to misread addends above.
-- [ ] Leaf **433**: Column 3 states total 20858820 but its 160 breakdown rows sum to 1478359217 (difference 1457500397).
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `disables` (leaf 13), `Governors-General` (leaf 18), `Salisbury` (leaf 21), `adjudication` (leaf 24), `needful` (leaf 25), `insufficiency` (leaf 26), `conspiracy` (leaf 32), `interview` (leaf 39), `arresting` (leaf 42), `attitude` (leaf 48), `inveterate` (leaf 49), `narrowsighted` (leaf 58), `proportionable` (leaf 64), `ordering` (leaf 68), `donations` (leaf 69).
 
 ---
@@ -87,7 +87,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER IX: Munro and the Ryotwari Settlement in Madras, 1 | `181–199` | 19 | 0 | 0 / 19 |
 | CHAPTER X: Lord Wellesley and Conquests in Northern India, | `200–212` | 13 | 0 | 0 / 13 |
 | CHAPTER XI: Lord Hastings and the Mahalwari Settlement in  | `213–222` | 10 | 0 | 0 / 10 |
-| CHAPTER XII: Economic Condition of Southern India, 1800 | `223–259` | 37 | 6 | 0 / 37 |
+| CHAPTER XII: Economic Condition of Southern India, 1800 | `223–259` | 37 | 7 | 0 / 37 |
 | CHAPTER XIII: Economic Condition of Northern India, 1808–1 | `260–283` | 24 | 0 | 0 / 24 |
 | CHAPTER XIV: Decline of Industries, 1793–1813 | `284–297` | 14 | 1 | 0 / 14 |
 | CHAPTER XV: State of Industries, 1813–35 | `298–318` | 21 | 0 | 0 / 21 |
@@ -98,6 +98,6 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER XX: ELPHINSTONE IN BOMBAY, 1817–27 | `373–395` | 23 | 2 | 0 / 23 |
 | CHAPTER XXI: WINGATE AND THE RYOTWARI SETTLEMENT IN BOMBAY | `396–411` | 16 | 0 | 0 / 16 |
 | CHAPTER XXII: BIRD AND THE NEW SETTLEMENT IN NORTHERN INDI | `412–425` | 14 | 1 | 0 / 14 |
-| CHAPTER XXIII: FINANCE AND THE ECONOMIC DRAIN, 1793–1837 | `426–448` | 23 | 13 | 0 / 23 |
+| CHAPTER XXIII: FINANCE AND THE ECONOMIC DRAIN, 1793–1837 | `426–448` | 23 | 14 | 0 / 23 |
 | CHAPTER XXIV: ACCESSION OF QUEEN VICTORIA—FAMINE OF 1837 | `449–460` | 12 | 0 | 0 / 12 |
 | INDEX | `461–468` | 7 | 0 | 0 / 7 |

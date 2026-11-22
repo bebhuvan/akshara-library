@@ -2,9 +2,9 @@
   "version": "rubric-v2",
   "book_id": "economic-history-india-early-british-dutt",
   "run_id": "g38-batch-v1",
-  "total_score": 100.0,
+  "total_score": 92.0,
   "max_score": 100.0,
-  "recommended_gate": "machine_checked",
+  "recommended_gate": "community",
   "pillars": {
     "structural_completeness": {
       "score": 25.0,
@@ -17,9 +17,11 @@
       "deductions": []
     },
     "tabular_accuracy": {
-      "score": 25.0,
+      "score": 17.0,
       "max": 25.0,
-      "deductions": []
+      "deductions": [
+        "-8.0: 2 collapsed/jammed table row warning(s)"
+      ]
     },
     "orthographic_fidelity": {
       "score": 25.0,
@@ -28,6 +30,7 @@
     }
   },
   "issue_counts_by_code": {
+    "table_collapsed_rows": 2,
     "rare_character": 3,
     "table_compositor_arithmetic_variant": 14,
     "table_blind_total_confirmed": 10
@@ -35,6 +38,6 @@
   "human_proof_coverage": 0.0,
   "scan_audit_coverage": 0.0172,
   "next_actions": [
-    "Ready to ship as Machine-Checked Edition (no open validator hotspots; 1.7% of pages re-read; 0.0% verified by a person toward Source-Certified)."
+    "Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio."
   ]
 }

@@ -4,7 +4,7 @@
 - **Publication Year**: 1906
 - **Imprint**: London: Kegan Paul, Trench, Trübner & Co.
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `machine_checked` (**100.0 / 100**)
+- **Edition Tier**: `community` (**92.0 / 100**)
 - **Internet Archive Source**: https://archive.org/details/ed2economichisto00dutt
 
 ## Files in This Folder

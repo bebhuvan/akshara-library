@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 89 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **99.6 / 100** (`community`)
+- **Current Edition Score**: **99.8 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 89** leaves verified
 - **Original Camera Scans**: [Internet Archive (`essayoneconomicc00raysuoft`)](https://archive.org/details/essayoneconomicc00raysuoft)
 
@@ -30,7 +30,6 @@ All footnote callouts and cross-page continuations linked cleanly!
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
 - [ ] Leaf **1**: Uncertain glyph reading marked <unclear>Economic</unclear>.
-- [ ] Leaf **83**: Uncertain glyph reading marked <unclear>i</unclear>.
 - [ ] Leaf **15**: 'æ' (U+00E6 LATIN SMALL LETTER AE) appears only 1 time(s) in this book, here in 'formulæ.'.
 - [ ] Leaf **27**: 'é' (U+00E9 LATIN SMALL LETTER E WITH ACUTE) appears only 1 time(s) in this book, here in 'resumé'.
 - [ ] Leaf **1** (`p0001-b0002`): Faded ink `<unclear>Economic</unclear>` in *"…Economic Causes of Famines in India.…"*
@@ -50,7 +49,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | APPENDIX A: Extracts from Col. Baird Smith's Report on the | `65–75` | 10 | 0 | 0 / 10 |
 | APPENDIX B. | `76–76` | 1 | 0 | 0 / 1 |
 | APPENDIX C: Extracts from the speech of the Hon. Mr. C. P. | `77–80` | 4 | 0 | 0 / 4 |
-| APPENDIX D: Extracts from Appendices to the Famine Commiss | `81–86` | 6 | 1 | 0 / 6 |
+| APPENDIX D: Extracts from Appendices to the Famine Commiss | `81–86` | 6 | 0 | 0 / 6 |
 | APPENDIX E. | `87–88` | 2 | 0 | 0 / 2 |
 | APPENDIX F: Principal Subjects of Technical Instruction. | `89–89` | 1 | 0 | 0 / 1 |
 | APPENDIX G: Extract from a leading article in the "Times," | `90–90` | 1 | 0 | 0 / 1 |

@@ -94,4 +94,4 @@
 
 - **Detected Scripts**: `latin`: 713,623 chars, `han`: 4 chars, `hiragana`: 3 chars
 - **Distinct Non-ASCII Glyphs (`29` across `207` leaves)**: · À à ã ç é ê ó û Ā ā ġ ģ ī ū ṇ ′ ⁄ ⅛ ⅜ ⅝ ⅞ し て を 使 描 用 笛
-- **Corrections Replayed**: `19` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `20` applied, `0` orphaned/unmatched

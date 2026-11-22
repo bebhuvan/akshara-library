@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
-        "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 7 fixes · 4 pp. checked",
+        "detail": "7 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -147,9 +147,16 @@
       "total": 2
     },
     "corrections": {
-      "applied": 6,
+      "applied": 7,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0036-b0014-s2-applbl",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0014",
+          "op": "set_text",
+          "status": "applied"
+        },
         {
           "correction_id": "surg-surgical-verify-v1-p0029-b0002",
           "page_number": 29,
@@ -237,8 +244,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
-          "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 7 fixes · 4 pp. checked",
+          "detail": "7 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Economic History of India Under Early British Rule*
 
 - **Book ID**: `economic-history-india-early-british-dutt` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`machine_checked`** | **Rubric Score**: **`100.0 / 100`** (`machine_checked`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`92.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 466 of 466 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `466` extracted, `2` blank/tissue, `0` failed (of `468` PDF leaves)
 - **Tracked API Spend**: **`$1.8143`** (`73.7%` cached input tokens: `3,688,856` / `5,003,183` in, `598,302` out, `0` thoughts)
@@ -14,11 +14,11 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
-| **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
+| **3. Tabular & Numerical Accuracy** | **17.0 / 25.0** | -8.0: 2 collapsed/jammed table row warning(s) |
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Ready to ship as Machine-Checked Edition (no open validator hotspots; 1.7% of pages re-read; 0.0% verified by a person toward Source-Certified).
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
 
 ---
 

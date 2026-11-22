@@ -72,8 +72,8 @@
       {
         "id": "tables:structured",
         "axis": "provenance",
-        "label": "Tables: 13 Structured (No Printed Totals)",
-        "detail": "13 structured table(s) extracted; none carry printed summation rows"
+        "label": "Tables: 14 Structured (No Printed Totals)",
+        "detail": "14 structured table(s) extracted; none carry printed summation rows"
       }
     ],
     "diplomatic_and_script_tags": [
@@ -93,7 +93,7 @@
         "id": "genre:statistical_ledger",
         "axis": "diplomatic",
         "label": "Statistical Ledger",
-        "detail": "Contains 13 structured historical tables exported to CSV"
+        "detail": "Contains 14 structured historical tables exported to CSV"
       },
       {
         "id": "apparatus:critical",
@@ -120,7 +120,7 @@
         "Despatches"
       ],
       "artifacts": [
-        "13 Statistical Tables",
+        "14 Statistical Tables",
         "2 Archival Plates",
         "91 Footnotes",
         "Linked Index"
@@ -248,8 +248,8 @@
         {
           "id": "tables:structured",
           "axis": "provenance",
-          "label": "Tables: 13 Structured (No Printed Totals)",
-          "detail": "13 structured table(s) extracted; none carry printed summation rows"
+          "label": "Tables: 14 Structured (No Printed Totals)",
+          "detail": "14 structured table(s) extracted; none carry printed summation rows"
         }
       ],
       "diplomatic_and_script_tags": [
@@ -269,7 +269,7 @@
           "id": "genre:statistical_ledger",
           "axis": "diplomatic",
           "label": "Statistical Ledger",
-          "detail": "Contains 13 structured historical tables exported to CSV"
+          "detail": "Contains 14 structured historical tables exported to CSV"
         },
         {
           "id": "apparatus:critical",
@@ -296,7 +296,7 @@
           "Despatches"
         ],
         "artifacts": [
-          "13 Statistical Tables",
+          "14 Statistical Tables",
           "2 Archival Plates",
           "91 Footnotes",
           "Linked Index"

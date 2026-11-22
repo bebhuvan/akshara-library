@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Essays, Speeches, Addresses and Writings (on Indian Politics) of the Hon'ble Dadabhai Naoroji*
 
 - **Book ID**: `essays-speeches-addresses-writings-naoroji-1887` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`89.4 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`83.9 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 607 of 607 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `607` extracted, `8` blank/tissue, `0` failed (of `615` PDF leaves)
 - **Tracked API Spend**: **`$3.2464`** (`67.9%` cached input tokens: `4,817,559` / `7,099,905` in, `1,060,547` out, `749` thoughts)
@@ -14,11 +14,11 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **22.0 / 25.0** | -3.0: 1 unresolved footnote callout/body mismatch(es) |
-| **3. Tabular & Numerical Accuracy** | **20.0 / 25.0** | -5.0: 1 Blind Totals Strip disagreement(s) |
+| **3. Tabular & Numerical Accuracy** | **14.5 / 25.0** | -5.0: 1 Blind Totals Strip disagreement(s); -4.0: 1 collapsed/jammed table row warning(s); -1.5: 1 ragged table geometry warning(s) |
 | **4. Orthographic, Script & Diacritics** | **22.4 / 25.0** | -2.6: 13 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes').
+- Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
 - Resolve 1 unmatched footnote marker(s) via anchor-matched corrections.
 
 ---
@@ -89,4 +89,4 @@
 
 - **Detected Scripts**: `latin`: 1,139,866 chars, `katakana`: 2 chars
 - **Distinct Non-ASCII Glyphs (`29` across `101` leaves)**: ¡ ´ · à á â æ è é ì í ò ó ú ü œ ˙ „ ⁄ ℔ ⅓ ⅔ ⅚ ⅛ ⅝ ⅞ ● タ ン
-- **Corrections Replayed**: `101` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `102` applied, `0` orphaned/unmatched

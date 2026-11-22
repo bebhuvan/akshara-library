@@ -4,7 +4,7 @@
 - **Publication Year**: 1909
 - **Imprint**: Calcutta: Calcutta University
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**99.6 / 100**)
+- **Edition Tier**: `community` (**99.8 / 100**)
 - **Internet Archive Source**: https://archive.org/details/essayoneconomicc00raysuoft
 
 ## Files in This Folder

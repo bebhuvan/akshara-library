@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 584 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **75.0 / 100** (`community`)
+- **Current Edition Score**: **75.6 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 584** leaves verified
 - **Original Camera Scans**: [Internet Archive (`journeyfrommadra02hami_2`)](https://archive.org/details/journeyfrommadra02hami_2)
 
@@ -11,8 +11,6 @@ Welcome! You do **not** need to read all 584 leaves from start to finish to make
 ## Mission 1 — Statistical Ledgers & Numerical Checks
 
 - **Sideways Broadside Tables to Eyeball**: PDF leaf(s) `343, 395` were printed rotated 90° and auto-oriented.
-- [ ] Leaf **53** (`p0053-b0014`): Column 2 states total 25 but its 6 contributing cells sum to 30 (difference 5).
-- [ ] Leaf **53** (`p0053-b0025`): Column 2 states total 430 but its 5 contributing cells sum to 250 (difference -180).
 - [ ] Leaf **156** (`p0156-b0016`): Column 2 states total 2101.33 but its 3 breakdown rows sum to 3840 (difference 1738.67).
 - [ ] Leaf **334** (`p0334-b0016`): Column 2 states total 9.50 but its 3 breakdown rows sum to 19 (difference 9.50).
 - [ ] Leaf **334** (`p0334-b0016`): Column 3 states total 2546 but its 3 breakdown rows sum to 5092 (difference 2546).
@@ -36,7 +34,6 @@ Welcome! You do **not** need to read all 584 leaves from start to finish to make
 - [ ] Leaf **506** (`p0506-b0024`): Column 4 states total 3 but its 6 contributing cells sum to 1 (difference -2).
 - [ ] Leaf **506** (`p0506-b0024`): Column 5 states total 10 but its 6 contributing cells sum to 48 (difference 38).
 - [ ] Leaf **506** (`p0506-b0024`): Column 6 states total 8.75 but its 6 contributing cells sum to 32.75 (difference 24).
-- [ ] Leaf **510** (`p0510-b0013`): Column 2 states total 2016 but its 7 contributing cells sum to 2066 (difference 50).
 - [ ] Leaf **537** (`p0537-b0019`): Column 2 states total 1410 but its 5 breakdown rows sum to 20355 (difference 18945).
 - [ ] Leaf **35** (`p0035-b0004`): Verify number `106` against scan (embedded OCR read `['100']`).
 - [ ] Leaf **38** (`p0038-b0006`): Verify number `110` against scan (embedded OCR read `['150']`).
@@ -67,13 +64,10 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **339**: Token 'ΛVCVSTVS' mixes Latin with greek script(s).
 - [ ] Leaf **345**: Out-of-alphabet Latin character U+0155 LATIN SMALL LETTER R WITH ACUTE.
 - [ ] Leaf **371**: Uncertain glyph reading marked <unclear>já</unclear>.
-- [ ] Leaf **393**: Uncertain glyph reading marked <unclear>4</unclear>.
 - [ ] Leaf **405**: Uncertain glyph reading marked <unclear>to</unclear>.
 - [ ] Leaf **443**: Uncertain glyph reading marked <unclear>a-</unclear>.
 - [ ] Leaf **474**: Uncertain glyph reading marked <unclear>n</unclear>.
 - [ ] Leaf **524**: Uncertain glyph reading marked <unclear>s</unclear>.
-- [ ] Leaf **588**: Uncertain glyph reading marked <unclear>tra</unclear>.
-- [ ] Leaf **588**: Uncertain glyph reading marked <unclear>the</unclear>.
 - [ ] Leaf **589**: Uncertain glyph reading marked <unclear>en</unclear>.
 - [ ] Leaf **589**: Uncertain glyph reading marked <unclear>al</unclear>.
 - [ ] Leaf **7**: Token 'Kaveri' appears without diacritics here, whereas this volume consistently prints 'Káverí' (17 occurrences).
@@ -81,6 +75,8 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **8**: Token 'Bhawani' appears without diacritics here, whereas this volume consistently prints 'Bhawání' (33 occurrences).
 - [ ] Leaf **41**: Token 'Virika' appears without diacritics here, whereas this volume consistently prints 'Vírika' (6 occurrences).
 - [ ] Leaf **42**: Token 'Ijyamana' appears without diacritics here, whereas this volume consistently prints 'Ijyamána' (4 occurrences).
+- [ ] Leaf **53**: Column 2 states total 25 but its 6 contributing cells sum to 30 (difference 5).
+- [ ] Leaf **53**: Column 2 states total 430 but its 5 contributing cells sum to 250 (difference -180).
 - [ ] Leaf **61**: Token 'Pysachi' appears without diacritics here, whereas this volume consistently prints 'Pysáchi' (4 occurrences).
 - [ ] Leaf **68**: 'Æ' (U+00C6 LATIN CAPITAL LETTER AE) appears only 1 time(s) in this book, here in 'Æschynomene'.
 - [ ] Leaf **129**: Token 'Nayaka' appears without diacritics here, whereas this volume consistently prints 'Náyaka' (8 occurrences).
@@ -89,6 +85,7 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **226**: Token 'Gopaly' appears without diacritics here, whereas this volume consistently prints 'Gópály' (9 occurrences).
 - [ ] Leaf **230**: Token 'Grama' appears without diacritics here, whereas this volume consistently prints 'Gráma' (3 occurrences).
 - [ ] Leaf **286**: 'ë' (U+00EB LATIN SMALL LETTER E WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Andëuru;'.
+- [ ] Leaf **289**: 'ë' (U+00EB LATIN SMALL LETTER E WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Andëuru.'.
 - [ ] Leaf **371** (`p0371-b0004`): Faded ink `<unclear>já</unclear>` in *"…f the Shekhury, the Ellea Rájá succeeds to the highest dig…"*
 - [ ] Leaf **393** (`p0393-b0003`): Faded ink `<unclear>4</unclear>` in *"…CHAPTER XI. Dec. 1—4.…"*
 - [ ] Leaf **405** (`p0405-b0008`): Faded ink `<unclear>to</unclear>` in *"…t of the high land attached to it for pasture; and to this…"*
@@ -115,6 +112,6 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER VIII. Journey through the Part of Karnata south fr | `103–200` | 98 | 2 | 0 / 98 |
 | CHAPTER IX. From the Kaveri-pura Ghat to Coimbetore | `201–290` | 90 | 6 | 0 / 90 |
 | CHAPTER X. From Coimbetore to the Frontier of Malabar | `291–364` | 72 | 15 | 0 / 72 |
-| CHAPTER XI. Journey through the South of Malabar | `365–442` | 76 | 23 | 0 / 76 |
+| CHAPTER XI. Journey through the South of Malabar | `365–442` | 76 | 22 | 0 / 76 |
 | CHAPTER XII. Route from Valiencodu to Coduwully, through P | `443–517` | 74 | 15 | 0 / 74 |
-| CHAPTER XIII. Journey through the Northern Part of Malabar | `518–598` | 78 | 7 | 0 / 78 |
+| CHAPTER XIII. Journey through the Northern Part of Malabar | `518–598` | 78 | 5 | 0 / 78 |

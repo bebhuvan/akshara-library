@@ -37,6 +37,8 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **156**: Isolated 450-DPI TOTAL strip read ['Total'] vs. full-page pass ['Total', '215,733', '1,164,824', '58,511,452', '194,975', '1,067,835', '53,785,210', '20,758', '96,989', '4,726,242']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **157**: Isolated 450-DPI TOTAL strip read ['January', '2,010'] vs. full-page pass ['Total', '699', '4,391', '208,336', '608', '3,871', '185,105', '91', '520', '23,231']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **158**: Isolated 450-DPI TOTAL strip read ['41\n33', '43\n31', '43\n33', '38\n30'] vs. full-page pass ['Average of all\nclasses', '282', '18 16', '52', '69', '50', '67', '58', '77', '50', '49', '49', '61', '48', '45']. Full-page decoding often self-reconciles totals to misread addends above.
+- [ ] Leaf **162**: Column 5 states total 294397 but its 6 breakdown rows sum to 376313 (difference 81916).
+- [ ] Leaf **162**: Column 7 states total 0.30 but its 4 contributing cells sum to 1.33 (difference 1.03).
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `comprehension` (leaf 12), `safeguard` (leaf 12), `analyse` (leaf 18), `Brahmaputra` (leaf 18), `constructive` (leaf 20), `concrete` (leaf 27), `waterjugs` (leaf 40), `innumerable` (leaf 47), `contrivances` (leaf 47), `grasshoppers` (leaf 47), `domeshaped` (leaf 48), `watermanship` (leaf 49), `autocrat` (leaf 53), `fomenting` (leaf 57), `oilcake` (leaf 67).
 
 ---
@@ -64,4 +66,4 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Table III. Debt | `159–159` | 1 | 0 | 0 / 1 |
 | (b) Proportion of Families Indebted | `160–160` | 1 | 0 | 0 / 1 |
 | (c) Pitch of Indebtedness | `161–161` | 1 | 0 | 0 / 1 |
-| Table IV. Village Taxation | `162–168` | 3 | 0 | 0 / 3 |
+| Table IV. Village Taxation | `162–168` | 3 | 2 | 0 / 3 |

@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The English Factories in India, 1622–1623*
 
 - **Book ID**: `english-factories-india-1622-1623-vol-02` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`87.0 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`85.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 429 of 430 pages, gemini-3.6-flash on 1 of 430 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `430` extracted, `0` blank/tissue, `0` failed (of `430` PDF leaves)
 - **Tracked API Spend**: **`$2.4750`** (`68.6%` cached input tokens: `3,455,203` / `5,037,948` in, `735,613` out, `0` thoughts)
@@ -13,13 +13,12 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
-| **2. Scholarly Apparatus & Continuation** | **19.0 / 25.0** | -6.0: 2 unresolved footnote callout/body mismatch(es) |
+| **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
-| **4. Orthographic, Script & Diacritics** | **18.0 / 25.0** | -2.0: 1 intra-book diacritic drift cluster(s); -5.0: 384 `<unclear>` ink span(s) awaiting scan check |
+| **4. Orthographic, Script & Diacritics** | **10.0 / 25.0** | -6.0: 2 script/codepoint anomaly(ies); -4.0: 2 intra-book diacritic drift cluster(s); -5.0: 363 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Resolve 2 unmatched footnote marker(s) via anchor-matched corrections.
-- Standardize or verify 1 proper-noun diacritic drift cluster(s).
+- Standardize or verify 2 proper-noun diacritic drift cluster(s).
 
 ---
 
@@ -62,7 +61,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `225` prose joins, `4` split footnotes stitched, `0` multi-page tables unified, `296` total footnotes.
+- **Cross-Page Assembly**: `224` prose joins, `4` split footnotes stitched, `0` multi-page tables unified, `296` total footnotes.
   - Stitched cross-page footnotes: p.28->p.29 (`1`), p.136->p.137 (`1`), p.283->p.284 (`2`), p.290->p.291 (`3`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`129` — verify no epigraph/dedication was caught)**:
   - Leaf `3` `p0003-b0002` (`scanner_residue`): *"Perforated library stamp pattern"*
@@ -85,4 +84,4 @@
 
 - **Detected Scripts**: `latin`: 748,150 chars, `cyrillic`: 4 chars
 - **Distinct Non-ASCII Glyphs (`28` across `341` leaves)**: · á ã ç é ñ ô Ā ā ē Ġ ġ Ī ī Ō ō ũ ū ſ г е н о ′ ⁄ ⅓ ⅛ ⅝
-- **Corrections Replayed**: `18` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `41` applied, `0` orphaned/unmatched

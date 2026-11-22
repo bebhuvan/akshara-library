@@ -15,20 +15,20 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
-- **Modernized (Presentation Only)**: Running heads and institutional library stamps (92 flyleaf/stamp block(s)) are excluded from reading prose; **311** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **10** cross-page split footnotes and **0** multi-page tables were stitched; and **664** end-of-line hyphens were resolved against intra-book attestation.
+- **Modernized (Presentation Only)**: Running heads and institutional library stamps (92 flyleaf/stamp block(s)) are excluded from reading prose; **311** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **9** cross-page split footnotes and **0** multi-page tables were stitched; and **664** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (27 distinct non-ASCII characters across 347 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
 - **Models**: `gemini-3.8-flash` (450 pp.).
 - **Reader**: Read by gemini-3.8-flash on 450 of 450 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 9 replayed correction(s). Automated reading (1 open review item); 12 of 450 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 44 replayed correction(s). Automated reading (1 open review item); 12 of 450 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
 - **11 finding(s) across 11 leaf(s)** (pp. 74, 82, 84, 93, 133, 248, 313, 358, 381, 437 (+1 more)): attested compositor spelling variants preserved diplomatically from the scan.
-- **2 finding(s) across 2 leaf(s)** (pp. 78, 136): rare character.
 - **1 finding(s) across 1 leaf(s)** (pp. 269): control characters removed.
+- **1 finding(s) across 1 leaf(s)** (pp. 136): rare character.
 - **1 finding(s) across 1 leaf(s)** (pp. 366): attested compositor footnote callout/note variants preserved diplomatically from the scan.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

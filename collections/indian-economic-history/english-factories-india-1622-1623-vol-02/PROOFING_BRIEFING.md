@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 430 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **87.0 / 100** (`community`)
+- **Current Edition Score**: **85.0 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 430** leaves verified
 - **Original Camera Scans**: [Internet Archive (`tdl.46404-the-english-factories-in-india-1622-1623-a-calendar-of-documents-in-th`)](https://archive.org/details/tdl.46404-the-english-factories-in-india-1622-1623-a-calendar-of-documents-in-th)
 
@@ -16,8 +16,6 @@ Welcome! You do **not** need to read all 430 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
-- [ ] Leaf **181** (`p0181-b0008`): Page 181 has inline note callout(s) [] vs. labelled footnote(s) ['1'].
-- [ ] Leaf **195** (`p0195-b0008`): Page 195 has inline note callout(s) [] vs. labelled footnote(s) ['1'].
 - [ ] Leaves **28 -> 29**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **136 -> 137**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **283 -> 284**: Confirm cross-page footnote `2` joins smoothly across the page turn.
@@ -27,9 +25,6 @@ Welcome! You do **not** need to read all 430 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
-- [ ] Leaf **9**: Uncertain glyph reading marked <unclear>had been</unclear>.
-- [ ] Leaf **9**: Uncertain glyph reading marked <unclear>well-nigh hopeless.</unclear>.
-- [ ] Leaf **9**: Uncertain glyph reading marked <unclear>Monnox</unclear>.
 - [ ] Leaf **67**: Page 67: the reader's output held invisible control characters, which were removed.
 - [ ] Leaf **83**: Uncertain glyph reading marked <unclear>Etemaddoulet</unclear>.
 - [ ] Leaf **83**: Uncertain glyph reading marked <unclear>troubles in Burania</unclear>.
@@ -52,6 +47,9 @@ Welcome! You do **not** need to read all 430 leaves from start to finish to make
 - [ ] Leaf **83**: Uncertain glyph reading marked <unclear>or howe farr we</unclear>.
 - [ ] Leaf **83**: Uncertain glyph reading marked <unclear>again in questione</unclear>.
 - [ ] Leaf **83**: Uncertain glyph reading marked <unclear>resolutione</unclear>.
+- [ ] Leaf **102**: Out-of-alphabet Latin character U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE (likely meant 'Ī').
+- [ ] Leaf **121**: Uncertain glyph reading marked <unclear>...</unclear>.
+- [ ] Leaf **121**: Uncertain glyph reading marked <unclear>...</unclear>.
 - [ ] Leaf **9** (`p0009-b0003`): Faded ink `<unclear>had been</unclear>` in *"…had been reinforced by the English f…"*
 - [ ] Leaf **9** (`p0009-b0003`): Faded ink `<unclear>well-nigh hopeless.</unclear>` in *"…leet further resistance was well-nigh hopeless. In response to his overture…"*
 - [ ] Leaf **9** (`p0009-b0003`): Faded ink `<unclear>Monnox</unclear>` in *"…his overtures for a parley, Monnox went on shore to negotiate…"*
@@ -84,8 +82,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | :--- | :---: | ---: | ---: | ---: |
 | Frontmatter | `1–3` | 3 | 0 | 0 / 3 |
 | PREFACE | `4–5` | 2 | 0 | 0 / 2 |
-| INTRODUCTION | `6–39` | 34 | 4 | 0 / 34 |
-| The English Factories in India, 1622 | `40–218` | 179 | 183 | 0 / 179 |
-| The English Factories in India, 1623 | `218–386` | 169 | 157 | 0 / 169 |
+| INTRODUCTION | `6–39` | 34 | 1 | 0 / 34 |
+| The English Factories in India, 1622 | `40–218` | 179 | 173 | 0 / 179 |
+| The English Factories in India, 1623 | `218–386` | 169 | 152 | 0 / 169 |
 | ADDENDUM TO PREVIOUS VOLUME | `387–387` | 1 | 0 | 0 / 1 |
 | INDEX | `388–430` | 43 | 63 | 0 / 43 |

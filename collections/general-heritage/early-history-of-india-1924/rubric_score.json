@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "early-history-of-india-1924",
   "run_id": "g38-batch-v1",
-  "total_score": 88.8,
+  "total_score": 86.3,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -19,33 +19,35 @@
       ]
     },
     "tabular_accuracy": {
-      "score": 20.0,
+      "score": 20.5,
       "max": 25.0,
       "deductions": [
-        "-5.0: 4 ragged table geometry warning(s)"
+        "-4.5: 3 ragged table geometry warning(s)"
       ]
     },
     "orthographic_fidelity": {
-      "score": 24.8,
+      "score": 21.8,
       "max": 25.0,
       "deductions": [
+        "-3.0: 1 script/codepoint anomaly(ies)",
         "-0.2: 1 `<unclear>` ink span(s) awaiting scan check"
       ]
     }
   },
   "issue_counts_by_code": {
-    "table_ragged_columns": 4,
     "unlabelled_footnote": 2,
+    "table_ragged_columns": 3,
     "control_characters_removed": 1,
+    "script_anomaly": 1,
     "unclear_ink_span": 1,
     "orthographic_compositor_variant": 98,
-    "rare_character": 48,
+    "rare_character": 49,
     "table_blind_total_confirmed": 1
   },
   "human_proof_coverage": 0.0,
   "scan_audit_coverage": 0.24,
   "next_actions": [
-    "Inspect flagged statistical table cells in Static Proofing UI ('Needs A Pair of Eyes').",
+    "Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.",
     "Resolve 2 unmatched footnote marker(s) via anchor-matched corrections."
   ]
 }

@@ -91,7 +91,7 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **537**: Uncertain glyph reading marked <unclear>er</unclear>.
 - [ ] Leaf **537**: Uncertain glyph reading marked <unclear>kle</unclear>.
 - [ ] Leaf **537**: Uncertain glyph reading marked <unclear>o</unclear>.
-- [ ] Leaf **537**: Uncertain glyph reading marked <unclear>o</unclear>.
+- [ ] Leaf **537**: Uncertain glyph reading marked <unclear>k</unclear>.
 - [ ] Leaf **79** (`p0079-b0004`): Faded ink `<unclear>rainy</unclear>` in *"…th a gentle current. In the rainy season, canoes can ascend s…"*
 - [ ] Leaf **79** (`p0079-b0004`): Faded ink `<unclear>than</unclear>` in *"…n ascend six cosses farther than they can do at present. The…"*
 - [ ] Leaf **274** (`p0274-b0031`): Faded ink `<unclear>8</unclear>` in *"…| — | — | — | — | — | — | 18…"*
@@ -131,5 +131,5 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER XVIII. Journey from Hyder-nagara to Heriuru, throu | `309–396` | 82 | 14 | 0 / 82 |
 | CHAPTER XIX. Journey from Heriuru to Seringapatam, through | `397–460` | 62 | 8 | 0 / 62 |
 | CHAPTER XX. Journey from Seringapatam to Madras | `461–527` | 64 | 7 | 0 / 64 |
-| APPENDIX: REPORT of the PRODUCTIONS, COMMERCE, and MANUFAC | `529–559` | 31 | 83 | 0 / 31 |
+| APPENDIX: REPORT of the PRODUCTIONS, COMMERCE, and MANUFAC | `529–559` | 31 | 81 | 0 / 31 |
 | GENERAL INDEX. | `561–596` | 34 | 20 | 0 / 34 |

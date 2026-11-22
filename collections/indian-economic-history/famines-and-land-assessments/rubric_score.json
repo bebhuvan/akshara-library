@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "famines-and-land-assessments",
   "run_id": "g38-batch-v1",
-  "total_score": 89.4,
+  "total_score": 85.4,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -21,9 +21,11 @@
       ]
     },
     "tabular_accuracy": {
-      "score": 25.0,
+      "score": 21.0,
       "max": 25.0,
-      "deductions": []
+      "deductions": [
+        "-4.0: 1 collapsed/jammed table row warning(s)"
+      ]
     },
     "orthographic_fidelity": {
       "score": 22.4,
@@ -36,6 +38,7 @@
   "issue_counts_by_code": {
     "footnote_marker_mismatch": 2,
     "column_reading_order_zigzag": 1,
+    "table_collapsed_rows": 1,
     "unclear_ink_span": 13,
     "rare_character": 8,
     "table_compositor_arithmetic_variant": 18,
@@ -44,6 +47,7 @@
   "human_proof_coverage": 0.0,
   "scan_audit_coverage": 0.0231,
   "next_actions": [
+    "Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.",
     "Resolve 2 unmatched footnote marker(s) via anchor-matched corrections."
   ]
 }

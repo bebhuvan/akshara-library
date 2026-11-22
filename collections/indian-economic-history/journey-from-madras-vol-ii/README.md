@@ -4,7 +4,7 @@
 - **Publication Year**: 1807
 - **Imprint**: London: T. Cadell and W. Davies (By Authority of the East India Company)
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**75.0 / 100**)
+- **Edition Tier**: `community` (**75.6 / 100**)
 - **Internet Archive Source**: https://archive.org/details/journeyfrommadra02hami_2
 
 ## Files in This Folder

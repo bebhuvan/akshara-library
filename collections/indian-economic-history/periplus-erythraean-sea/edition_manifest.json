@@ -6,8 +6,8 @@
   "is_partial_pages": false,
   "is_preview": false,
   "collection": "indian-economic-history",
-  "edition_tier": "community",
-  "rubric_score": 98.0,
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
   "cover_archetype": "maritime_company_records",
   "cover_palette": "Verdigris Trade",
   "edition_root": "library/indian-economic-history/periplus-erythraean-sea",
@@ -40,9 +40,9 @@
   "taxonomy": {
     "version": "taxonomy-v1",
     "tier": {
-      "code": "community",
-      "label": "Community Edition",
-      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
     },
     "provenance_tags": [
       {
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 40 fixes · 41 pp. checked",
-        "detail": "40 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 63 fixes · 41 pp. checked",
+        "detail": "63 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -124,12 +124,12 @@
   },
   "quality_summary": {
     "readiness": {
-      "eligible_tier": "community",
+      "eligible_tier": "machine_checked",
       "community_edition_ready": true,
-      "machine_checked_ready": false,
+      "machine_checked_ready": true,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 1,
+      "open_hotspots": 0,
       "extracted_page_count": 331,
       "p1_proofed_page_count": 0,
       "reread_page_count": 41,
@@ -182,18 +182,179 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (1 open review item); 41 of 331 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Machine-checked; 41 of 331 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 1,
-      "informational": 24,
-      "total": 25
+      "review": 0,
+      "informational": 20,
+      "total": 20
     },
     "corrections": {
-      "applied": 40,
+      "applied": 63,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0030-b0002-1",
+          "page_number": 30,
+          "matched_block_id": "p0030-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0030-b0005-2",
+          "page_number": 30,
+          "matched_block_id": "p0030-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0030-b0009-3",
+          "page_number": 30,
+          "matched_block_id": "p0030-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0099-b0004-4",
+          "page_number": 99,
+          "matched_block_id": "p0099-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0102-b0002-5",
+          "page_number": 102,
+          "matched_block_id": "p0102-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0115-b0002-6",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0145-b0002-7",
+          "page_number": 145,
+          "matched_block_id": "p0145-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0157-b0002-8",
+          "page_number": 157,
+          "matched_block_id": "p0157-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0160-b0003-9",
+          "page_number": 160,
+          "matched_block_id": "p0160-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0166-b0005-10",
+          "page_number": 166,
+          "matched_block_id": "p0166-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0166-b0006-11",
+          "page_number": 166,
+          "matched_block_id": "p0166-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0193-b0003-12",
+          "page_number": 193,
+          "matched_block_id": "p0193-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0236-b0002-13",
+          "page_number": 236,
+          "matched_block_id": "p0236-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0243-b0002-14",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0243-b0003-15",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0244-b0002-16",
+          "page_number": 244,
+          "matched_block_id": "p0244-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0249-b0003-17",
+          "page_number": 249,
+          "matched_block_id": "p0249-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0250-b0002-18",
+          "page_number": 250,
+          "matched_block_id": "p0250-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0261-b0002-19",
+          "page_number": 261,
+          "matched_block_id": "p0261-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0261-b0003-20",
+          "page_number": 261,
+          "matched_block_id": "p0261-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0262-b0002-21",
+          "page_number": 262,
+          "matched_block_id": "p0262-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0259-b0005-tok",
+          "page_number": 259,
+          "matched_block_id": "p0259-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0259-b0006-tok",
+          "page_number": 259,
+          "matched_block_id": "p0259-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
         {
           "correction_id": "periplus-p0110-map-bbox-orient",
           "page_number": 110,
@@ -478,15 +639,6 @@
     },
     "review_items": [
       {
-        "page_number": 162,
-        "severity": "review",
-        "category": "orthographic_diacritic_drift",
-        "message": "Token 'Mahanadi' appears without diacritics here, whereas this volume consistently prints 'Mahānadī' (4 occurrences).",
-        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
-        "validator": "orthographic_drift",
-        "block_id": "p0162-b0007"
-      },
-      {
         "page_number": 20,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
@@ -494,24 +646,6 @@
         "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
         "validator": "orthographic_drift",
         "block_id": "p0020-b0005"
-      },
-      {
-        "page_number": 30,
-        "severity": "informational",
-        "category": "overlong_heading",
-        "message": "Block p0030-b0005 is classified as a heading (284 chars) but contains multi-sentence body prose; compiler will demote to paragraph.",
-        "expected_action": "Confirm whether block is a bold-lead paragraph rather than a display heading.",
-        "validator": "layout_order",
-        "block_id": "p0030-b0005"
-      },
-      {
-        "page_number": 30,
-        "severity": "informational",
-        "category": "overlong_heading",
-        "message": "Block p0030-b0009 is classified as a heading (225 chars) but contains multi-sentence body prose; compiler will demote to paragraph.",
-        "expected_action": "Confirm whether block is a bold-lead paragraph rather than a display heading.",
-        "validator": "layout_order",
-        "block_id": "p0030-b0009"
       },
       {
         "page_number": 61,
@@ -577,13 +711,13 @@
         "block_id": "p0162-b0002"
       },
       {
-        "page_number": 166,
+        "page_number": 162,
         "severity": "informational",
-        "category": "overlong_heading",
-        "message": "Block p0166-b0006 is classified as a heading (772 chars) but contains multi-sentence body prose; compiler will demote to paragraph.",
-        "expected_action": "Confirm whether block is a bold-lead paragraph rather than a display heading.",
-        "validator": "layout_order",
-        "block_id": "p0166-b0006"
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahanadi' appears without diacritics here, whereas this volume consistently prints 'Mahānadī' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0162-b0007"
       },
       {
         "page_number": 184,
@@ -620,24 +754,6 @@
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0236-b0003"
-      },
-      {
-        "page_number": 259,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Pālisġmanta,'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0259-b0005"
-      },
-      {
-        "page_number": 259,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Sġtā'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0259-b0006"
       },
       {
         "page_number": 265,
@@ -679,7 +795,7 @@
         "page_number": 306,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
-        "message": "Token 'Uraiyur' appears without diacritics here, whereas this volume consistently prints 'Uraiyūr' (4 occurrences).",
+        "message": "Token 'Uraiyur' appears without diacritics here, whereas this volume consistently prints 'Uraiyūr' (5 occurrences).",
         "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
         "validator": "orthographic_drift",
         "block_id": "p0306-b0077"
@@ -706,9 +822,9 @@
     "taxonomy": {
       "version": "taxonomy-v1",
       "tier": {
-        "code": "community",
-        "label": "Community Edition",
-        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
       },
       "provenance_tags": [
         {
@@ -726,8 +842,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 40 fixes · 41 pp. checked",
-          "detail": "40 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 63 fixes · 41 pp. checked",
+          "detail": "63 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -11,7 +11,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 - **Source File**: `palas-of-bengal.originals.pdf`
 - **Source SHA-256**: `1f1fb550222e61521e2de3820b498d44dbf6d94bc234071682e0e2e36736f225`
 - **Leaf Accounting**: 126 PDF leaves — **105** content leaves transcribed, **21** blank/tissue leaves (`6, 7, 10, 12, 84, 88, 90, 92, 94, 96, 98, 100, 102, 104, 108, 110 (+5 more)`), **0** failed leaves.
-- **Edition Status**: `community` (**80.2 / 100** Rubric Score)
+- **Edition Status**: `community` (**86.4 / 100** Rubric Score)
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
@@ -22,14 +22,15 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.8-flash` (105 pp.).
 - **Reader**: Read by gemini-3.8-flash on 105 of 105 pages. Declared reader profile: transliteration (new readings use gemini-4-hydrogen). This edition predates that choice and has not been re-read with gemini-4-hydrogen.
-- **Human Proofing**: 29 replayed correction(s). Automated reading (38 open review items); 0 of 105 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 40 replayed correction(s). Automated reading (24 open review items); 5 of 105 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
-- **31 finding(s) across 21 leaf(s)** (pp. 16, 26, 28, 31, 32, 36, 41, 43, 46, 62 (+11 more)): proper nouns or transliterated terms whose diacritics vary across pages.
-- **20 finding(s) across 15 leaf(s)** (pp. 19, 28, 39, 40, 48, 49, 51, 52, 66, 68 (+5 more)): rare character.
-- **4 finding(s) across 2 leaf(s)** (pp. 36, 105): faded or blotted `<unclear>` passages awaiting human scan inspection.
-- **2 finding(s) across 2 leaf(s)** (pp. 34, 65): pages where a footnote marker and note body could not be paired automatically.
-- **1 finding(s) across 1 leaf(s)** (pp. 51): script anomaly.
+- **20 finding(s) across 15 leaf(s)** (pp. 16, 26, 28, 31, 32, 36, 43, 62, 69, 75 (+5 more)): proper nouns or transliterated terms whose diacritics vary across pages.
+- **19 finding(s) across 14 leaf(s)** (pp. 19, 28, 39, 40, 48, 49, 52, 66, 68, 74 (+4 more)): rare character.
+- **5 finding(s) across 4 leaf(s)** (pp. 28, 41, 82, 122): attested compositor spelling variants preserved diplomatically from the scan.
+- **3 finding(s) across 1 leaf(s)** (pp. 105): faded or blotted `<unclear>` passages awaiting human scan inspection.
+- **1 finding(s) across 1 leaf(s)** (pp. 65): pages where a footnote marker and note body could not be paired automatically.
+- **1 finding(s) across 1 leaf(s)** (pp. 34): attested compositor footnote callout/note variants preserved diplomatically from the scan.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

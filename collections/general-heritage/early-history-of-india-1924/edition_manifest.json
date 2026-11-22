@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "general-heritage",
   "edition_tier": "community",
-  "rubric_score": 88.8,
+  "rubric_score": 86.3,
   "cover_archetype": "court_and_chronicle",
   "cover_palette": "Imperial Cinnabar",
   "edition_root": "library/general-heritage/early-history-of-india-1924",
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 52 fixes · 138 pp. checked",
-        "detail": "52 anchored emendation(s) applied; 138 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 65 fixes · 138 pp. checked",
+        "detail": "65 anchored emendation(s) applied; 138 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -105,7 +105,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 919 footnotes and 1019 margin/shoulder notes"
+        "detail": "Linked apparatus with 919 footnotes and 1017 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -292,13 +292,83 @@
     "validation_summary": {
       "critical": 0,
       "review": 8,
-      "informational": 147,
-      "total": 155
+      "informational": 148,
+      "total": 156
     },
     "corrections": {
-      "applied": 52,
+      "applied": 65,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-canary-v1-p0244-b0004-1",
+          "page_number": 244,
+          "matched_block_id": "p0244-b0004",
+          "op": "merge_with_next",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-canary-v1-p0399-b0002-2",
+          "page_number": 399,
+          "matched_block_id": "p0399-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-canary-v1-p0399-b0003-3",
+          "page_number": 399,
+          "matched_block_id": "p0399-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-canary-v1-p0461-b0003-4",
+          "page_number": 461,
+          "matched_block_id": "p0461-b0003",
+          "op": "merge_with_next",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0100-b0016-tbl",
+          "page_number": 100,
+          "matched_block_id": "p0100-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0206-b0003-tok",
+          "page_number": 206,
+          "matched_block_id": "p0206-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0206-b0005-tok",
+          "page_number": 206,
+          "matched_block_id": "p0206-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0351-b0005-tok",
+          "page_number": 351,
+          "matched_block_id": "p0351-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0507-b0003-tok",
+          "page_number": 507,
+          "matched_block_id": "p0507-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0507-b0009-tok",
+          "page_number": 507,
+          "matched_block_id": "p0507-b0009",
+          "op": "set_text",
+          "status": "applied"
+        },
         {
           "correction_id": "surg-hotspots-v1-p0064-b0006",
           "page_number": 64,
@@ -662,19 +732,31 @@
           "matched_block_id": "p0368-b0003",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "d48-p0473-b0004-yuechi-scan",
+          "page_number": 473,
+          "matched_block_id": "p0473-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d48-p0473-b0005-yuechi-scan",
+          "page_number": 473,
+          "matched_block_id": "p0473-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d48-p0473-b0007-yuechi-huna-scan",
+          "page_number": 473,
+          "matched_block_id": "p0473-b0007",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
     "review_items": [
-      {
-        "page_number": 100,
-        "severity": "review",
-        "category": "table_ragged_columns",
-        "message": "Table row p0100-b0016 expands to 4 columns vs. table body width 5 (even after accounting for colspan/rowspan).",
-        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
-        "validator": "table_geometry",
-        "block_id": "p0100-b0016"
-      },
       {
         "page_number": 150,
         "severity": "review",
@@ -710,6 +792,15 @@
         "expected_action": "Compare the page with the scan in case a letter was lost where they stood.",
         "validator": "page_integrity",
         "block_id": null
+      },
+      {
+        "page_number": 473,
+        "severity": "review",
+        "category": "script_anomaly",
+        "message": "Out-of-alphabet Latin character U+0161 LATIN SMALL LETTER S WITH CARON (likely meant 'ś').",
+        "expected_action": "Compare glyph against source scan.",
+        "validator": "script_validator",
+        "block_id": "p0473-b0005"
       },
       {
         "page_number": 483,
@@ -998,6 +1089,15 @@
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0098-b0011"
+      },
+      {
+        "page_number": 100,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 1 time(s) in this book, here in 'Srímad'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0100-b0016"
       },
       {
         "page_number": 105,
@@ -1594,15 +1694,6 @@
         "block_id": "p0346-b0004"
       },
       {
-        "page_number": 351,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'Ő' (U+0150 LATIN CAPITAL LETTER O WITH DOUBLE ACUTE) appears only 1 time(s) in this book, here in 'Őaka'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0351-b0005"
-      },
-      {
         "page_number": 355,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
@@ -1745,6 +1836,15 @@
         "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
         "validator": "orthographic_drift",
         "block_id": "p0468-b0003"
+      },
+      {
+        "page_number": 473,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'š' (U+0161 LATIN SMALL LETTER S WITH CARON) appears only 1 time(s) in this book, here in 'Rājpšt'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0473-b0005"
       },
       {
         "page_number": 473,
@@ -2085,8 +2185,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 52 fixes · 138 pp. checked",
-          "detail": "52 anchored emendation(s) applied; 138 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 65 fixes · 138 pp. checked",
+          "detail": "65 anchored emendation(s) applied; 138 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -2130,7 +2230,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 919 footnotes and 1019 margin/shoulder notes"
+          "detail": "Linked apparatus with 919 footnotes and 1017 margin/shoulder notes"
         }
       ],
       "archival_tags": {

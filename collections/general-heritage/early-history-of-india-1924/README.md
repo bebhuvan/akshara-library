@@ -4,7 +4,7 @@
 - **Publication Year**: 1924
 - **Imprint**: Oxford: Clarendon Press
 - **Collection**: `general-heritage`
-- **Edition Tier**: `community` (**88.8 / 100**)
+- **Edition Tier**: `community` (**86.3 / 100**)
 - **Internet Archive Source**: https://archive.org/details/earlyhistoryofin0000smit_e6k6
 
 ## Files in This Folder

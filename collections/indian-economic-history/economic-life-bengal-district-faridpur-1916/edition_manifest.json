@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 32 fixes · 7 pp. checked",
-        "detail": "32 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 32 fixes · 8 pp. checked",
+        "detail": "32 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -73,7 +73,7 @@
         "id": "tables:arithmetic",
         "axis": "provenance",
         "label": "Tables: 9/9 Arithmetic-Checked",
-        "detail": "9 of 9 tables pass arithmetic & column checks; 8 printed compositor discrepancy(ies) confirmed on scan"
+        "detail": "9 of 9 tables pass arithmetic & column checks; 10 printed compositor discrepancy(ies) confirmed on scan"
       }
     ],
     "diplomatic_and_script_tags": [
@@ -126,8 +126,8 @@
       "open_hotspots": 0,
       "extracted_page_count": 162,
       "p1_proofed_page_count": 0,
-      "reread_page_count": 7,
-      "machine_reread_page_count": 7,
+      "reread_page_count": 8,
+      "machine_reread_page_count": 8,
       "human_verified_page_count": 0,
       "two_person_verified_page_count": 0,
       "unevidenced_stamp_count": 0,
@@ -138,17 +138,18 @@
         155,
         156,
         157,
-        158
+        158,
+        162
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Machine-checked; 7 of 162 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Machine-checked; 8 of 162 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
       "review": 0,
-      "informational": 9,
-      "total": 9
+      "informational": 11,
+      "total": 11
     },
     "corrections": {
       "applied": 32,
@@ -461,6 +462,24 @@
         "expected_action": "Confirmed against scan that full-page total row matches original print.",
         "validator": "blind_totals_strip",
         "block_id": "p0158-b0012"
+      },
+      {
+        "page_number": 162,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 294397 but its 6 breakdown rows sum to 376313 (difference 81916).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0162-b0018"
+      },
+      {
+        "page_number": 162,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 0.30 but its 4 contributing cells sum to 1.33 (difference 1.03).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0162-b0018"
       }
     ],
     "taxonomy": {
@@ -486,8 +505,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 32 fixes · 7 pp. checked",
-          "detail": "32 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 32 fixes · 8 pp. checked",
+          "detail": "32 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -499,7 +518,7 @@
           "id": "tables:arithmetic",
           "axis": "provenance",
           "label": "Tables: 9/9 Arithmetic-Checked",
-          "detail": "9 of 9 tables pass arithmetic & column checks; 8 printed compositor discrepancy(ies) confirmed on scan"
+          "detail": "9 of 9 tables pass arithmetic & column checks; 10 printed compositor discrepancy(ies) confirmed on scan"
         }
       ],
       "diplomatic_and_script_tags": [

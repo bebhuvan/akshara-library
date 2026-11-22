@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 100.0,
+  "rubric_score": 92.0,
   "cover_archetype": "maritime_company_records",
   "cover_palette": "Pelagic Indigo",
   "edition_root": "library/indian-economic-history/east-india-trade-17th-century-khan",
@@ -138,7 +138,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 1,
+      "open_hotspots": 3,
       "extracted_page_count": 336,
       "p1_proofed_page_count": 0,
       "reread_page_count": 7,
@@ -157,13 +157,13 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (1 open review item); 7 of 336 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (3 open review items); 7 of 336 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 1,
+      "review": 3,
       "informational": 7,
-      "total": 8
+      "total": 10
     },
     "corrections": {
       "applied": 8,
@@ -236,6 +236,24 @@
         "expected_action": "Compare the page with the scan in case a letter was lost where they stood.",
         "validator": "page_integrity",
         "block_id": null
+      },
+      {
+        "page_number": 318,
+        "severity": "review",
+        "category": "table_collapsed_rows",
+        "message": "Table row p0318-b0010 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
+        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "validator": "table_geometry",
+        "block_id": "p0318-b0010"
+      },
+      {
+        "page_number": 319,
+        "severity": "review",
+        "category": "table_collapsed_rows",
+        "message": "Table row p0319-b0014 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
+        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "validator": "table_geometry",
+        "block_id": "p0319-b0014"
       },
       {
         "page_number": 40,

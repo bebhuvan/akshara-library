@@ -58,6 +58,12 @@
         "detail": "sources/indian-famines-causes-prevention-dutt-1901.originals.pdf"
       },
       {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 2 fixes",
+        "detail": "2 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
         "id": "human:0pct",
         "axis": "provenance",
         "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
@@ -127,9 +133,24 @@
       "total": 25
     },
     "corrections": {
-      "applied": 0,
+      "applied": 2,
       "unmatched": 0,
-      "details": []
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0011-b0002-1",
+          "page_number": 11,
+          "matched_block_id": "p0011-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0011-b0012-2",
+          "page_number": 11,
+          "matched_block_id": "p0011-b0012",
+          "op": "set_type",
+          "status": "applied"
+        }
+      ]
     },
     "review_items": [
       {
@@ -377,6 +398,12 @@
           "axis": "provenance",
           "label": "Source: Camera JP2 Originals",
           "detail": "sources/indian-famines-causes-prevention-dutt-1901.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 2 fixes",
+          "detail": "2 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Register of Letters &c. of the Governour and Company of Merchants of London Trading into the East Indies, 1600–1619*
 
 - **Book ID**: `eic-first-letter-book-1600-1619` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`97.8 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`96.8 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 622 of 622 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `622` extracted, `4` blank/tissue, `0` failed (of `626` PDF leaves)
 - **Tracked API Spend**: **`$2.8525`** (`74.8%` cached input tokens: `4,923,752` / `6,583,782` in, `1,067,956` out, `0` thoughts)
@@ -15,10 +15,10 @@
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
-| **4. Orthographic, Script & Diacritics** | **22.8 / 25.0** | -2.0: 1 intra-book diacritic drift cluster(s); -0.2: 1 `<unclear>` ink span(s) awaiting scan check |
+| **4. Orthographic, Script & Diacritics** | **21.8 / 25.0** | -3.0: 1 script/codepoint anomaly(ies); -0.2: 1 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Standardize or verify 1 proper-noun diacritic drift cluster(s).
+- Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 2.4%) toward Source-Certified.
 
 ---
 
@@ -69,7 +69,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `313` prose joins, `22` split footnotes stitched, `2` multi-page tables unified, `868` total footnotes.
+- **Cross-Page Assembly**: `309` prose joins, `22` split footnotes stitched, `2` multi-page tables unified, `868` total footnotes.
   - Stitched cross-page footnotes: p.36->p.37 (`1`), p.37->p.38 (`2`), p.52->p.53 (`1`), p.70->p.71 (`1`), p.105->p.106 (`1`), p.117->p.118 (`2`), p.138->p.139 (`3`), p.144->p.145 (`2`), p.159->p.160 (`2`), p.188->p.189 (`3`), p.206->p.207 (`4`), p.212->p.213 (`3`), p.235->p.236 (`2`), p.256->p.257 (`8`), p.292->p.293 (`2`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`168` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"3 1761 04645257 9"*
@@ -92,4 +92,4 @@
 
 - **Detected Scripts**: `latin`: 1,081,481 chars, `greek`: 1,271 chars, `other`: 39 chars, `han`: 36 chars, `hangul`: 26 chars, `cyrillic`: 4 chars, `arabic`: 3 chars, `devanagari`: 2 chars
 - **Distinct Non-ASCII Glyphs (`187` across `488` leaves)**: · º Æ Ç á â ã æ ç é ï ñ ò ó ô õ ö ā ă ĉ č đ ē ĕ ę ģ ħ Ĩ ĩ Ī ī ł Ń ŉ ō Œ œ ũ ū ſ ƀ ȓ ȕ ȱ ə ɫ ɰ ʂ ʃ ʉ ʰ ʳ ˡ ˢ ̃ ̄ ̧ ̱ ̵ ͠
-- **Corrections Replayed**: `151` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `161` applied, `0` orphaned/unmatched

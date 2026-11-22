@@ -18,7 +18,7 @@
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Ready to ship as Machine-Checked Edition (no open validator hotspots; 4.3% of pages re-read; 0.0% verified by a person toward Source-Certified).
+- Ready to ship as Machine-Checked Edition (no open validator hotspots; 4.9% of pages re-read; 0.0% verified by a person toward Source-Certified).
 
 ---
 

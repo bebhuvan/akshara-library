@@ -45,6 +45,7 @@ Welcome! You do **not** need to read all 368 leaves from start to finish to make
 - [ ] Leaf **63**: 'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'mercê,'.
 - [ ] Leaf **96**: 'à' (U+00E0 LATIN SMALL LETTER A WITH GRAVE) appears only 1 time(s) in this book, here in 'à'.
 - [ ] Leaf **146**: 'À' (U+00C0 LATIN CAPITAL LETTER A WITH GRAVE) appears only 2 time(s) in this book, here in 'À'.
+- [ ] Leaf **163**: 'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Goût,'.
 - [ ] Leaf **186**: Token 'Shiraz' appears without diacritics here, whereas this volume consistently prints 'Shirāz' (4 occurrences).
 - [ ] Leaf **227**: 'ó' (U+00F3 LATIN SMALL LETTER O WITH ACUTE) appears only 2 time(s) in this book, here in 'mór,'.
 - [ ] Leaf **274**: Token 'Nawab' appears without diacritics here, whereas this volume consistently prints 'Nawāb' (12 occurrences).
@@ -53,7 +54,7 @@ Welcome! You do **not** need to read all 368 leaves from start to finish to make
 - [ ] Leaf **320**: Token 'Mahim' appears without diacritics here, whereas this volume consistently prints 'Māhīm' (12 occurrences).
 - [ ] Leaf **321**: Token 'Vadala' appears without diacritics here, whereas this volume consistently prints 'Vadāla' (3 occurrences).
 - [ ] Leaf **351**: 'À' (U+00C0 LATIN CAPITAL LETTER A WITH GRAVE) appears only 2 time(s) in this book, here in 'À'.
-- [ ] Leaf **356**: 'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Goût,'.
+- [ ] Leaf **356**: 'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Goût,'.
 - [ ] Leaf **360**: 'ṇ' (U+1E47 LATIN SMALL LETTER N WITH DOT BELOW) appears only 2 time(s) in this book, here in 'nahīṇ,'.
 - [ ] Leaf **361**: Token 'Neknam' appears without diacritics here, whereas this volume consistently prints 'Neknām' (11 occurrences).
 - [ ] Leaf **362**: 'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Mercê,'.
@@ -76,7 +77,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | The Malabar Coast | `89–117` | 29 | 1 | 0 / 29 |
 | The Madras Agency | `117–148` | 32 | 1 | 0 / 32 |
 | The Factories in Bengal | `148–161` | 14 | 0 | 0 / 14 |
-| 1666. The Surat Presidency | `161–194` | 34 | 1 | 0 / 34 |
+| 1666. The Surat Presidency | `161–194` | 34 | 2 | 0 / 34 |
 | Events at Bombay | `194–214` | 21 | 0 | 0 / 21 |
 | The Malabar Coast | `214–232` | 19 | 1 | 0 / 19 |
 | The Coromandel Coast | `232–270` | 39 | 1 | 0 / 39 |

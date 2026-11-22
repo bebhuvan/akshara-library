@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 89.4,
+  "rubric_score": 85.4,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Prussian Treasury",
   "edition_root": "library/indian-economic-history/famines-and-land-assessments",
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 62 fixes · 8 pp. checked",
-        "detail": "62 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 67 fixes · 8 pp. checked",
+        "detail": "67 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -137,7 +137,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 16,
+      "open_hotspots": 17,
       "extracted_page_count": 347,
       "p1_proofed_page_count": 0,
       "reread_page_count": 8,
@@ -157,18 +157,53 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (16 open review items); 8 of 347 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (17 open review items); 8 of 347 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 16,
+      "review": 17,
       "informational": 28,
-      "total": 44
+      "total": 45
     },
     "corrections": {
-      "applied": 62,
+      "applied": 67,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0032-b0004-1",
+          "page_number": 32,
+          "matched_block_id": "p0032-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0036-b0004-2",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0036-b0006-3",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0037-b0004-4",
+          "page_number": 37,
+          "matched_block_id": "p0037-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0037-b0006-5",
+          "page_number": 37,
+          "matched_block_id": "p0037-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
         {
           "correction_id": "scan-check-2026-11-15-p0025-b0003",
           "page_number": 25,
@@ -625,6 +660,15 @@
         "block_id": null
       },
       {
+        "page_number": 310,
+        "severity": "review",
+        "category": "table_collapsed_rows",
+        "message": "Table row p0310-b0012 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
+        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "validator": "table_geometry",
+        "block_id": "p0310-b0012"
+      },
+      {
         "page_number": 311,
         "severity": "review",
         "category": "unclear_ink_span",
@@ -1026,8 +1070,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 62 fixes · 8 pp. checked",
-          "detail": "62 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 67 fixes · 8 pp. checked",
+          "detail": "67 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

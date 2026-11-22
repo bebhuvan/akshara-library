@@ -4,7 +4,7 @@
 - **Publication Year**: 1904
 - **Imprint**: London: Kegan Paul, Trench, Trübner & Co.
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**95.5 / 100**)
+- **Edition Tier**: `community` (**98.5 / 100**)
 - **Internet Archive Source**: https://archive.org/details/indiainvictorian00duttuoft
 
 ## Files in This Folder

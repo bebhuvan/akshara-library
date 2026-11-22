@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 19 fixes · 2 pp. checked",
-        "detail": "19 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 22 fixes · 2 pp. checked",
+        "detail": "22 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -157,9 +157,30 @@
       "total": 10
     },
     "corrections": {
-      "applied": 19,
+      "applied": 22,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0027-b0004-2",
+          "page_number": 27,
+          "matched_block_id": "p0027-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0027-b0007-3",
+          "page_number": 27,
+          "matched_block_id": "p0027-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0107-b0013-4",
+          "page_number": 107,
+          "matched_block_id": "p0107-b0013",
+          "op": "set_type",
+          "status": "applied"
+        },
         {
           "correction_id": "scan-check-2026-11-17-p0062-b0008",
           "page_number": 62,
@@ -410,8 +431,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 19 fixes · 2 pp. checked",
-          "detail": "19 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 22 fixes · 2 pp. checked",
+          "detail": "22 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

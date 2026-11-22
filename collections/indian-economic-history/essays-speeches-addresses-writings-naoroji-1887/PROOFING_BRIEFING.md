@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 607 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **89.4 / 100** (`community`)
+- **Current Edition Score**: **83.9 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 607** leaves verified
 - **Original Camera Scans**: [Internet Archive (`essaysspeechesa00paregoog`)](https://archive.org/details/essaysspeechesa00paregoog)
 
@@ -12,6 +12,7 @@ Welcome! You do **not** need to read all 607 leaves from start to finish to make
 
 - **Sideways Broadside Tables to Eyeball**: PDF leaf(s) `453, 454, 458, 478` were printed rotated 90° and auto-oriented.
 - [ ] Leaf **451** (`p0451-b0036`): Isolated 450-DPI TOTAL strip read ['Total.', '391,630', 'Average 646', '253,012,132', 'Average 6·34', '3,97,74,378', 'for lbs. 252,142,616 excluding the 2 quantities marked ‡'] vs. full-page pass ['Total.', '391,630', 'Average\n646', '253,012,132', 'Average\n6·34', '3,97,74,378', 'for lbs.\n252,142,616 ex.\ncluding the 2 quantities marked ‡']. Full-page decoding often self-reconciles totals to misread addends above.
+- [ ] Leaf **601** (`p0601-b0005`): Table row p0601-b0005 expands to 3 columns vs. table body width 5 (even after accounting for colspan/rowspan).
 
 ---
 
@@ -28,6 +29,7 @@ Welcome! You do **not** need to read all 607 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
+- [ ] Leaf **77**: Table row p0077-b0009 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
 - [ ] Leaf **167**: Uncertain glyph reading marked <unclear>n</unclear>.
 - [ ] Leaf **167**: Uncertain glyph reading marked <unclear>p</unclear>.
 - [ ] Leaf **175**: Uncertain glyph reading marked <unclear>count</unclear>.
@@ -52,7 +54,6 @@ Welcome! You do **not** need to read all 607 leaves from start to finish to make
 - [ ] Leaf **77**: Column 4 states total 9360000 but its 3 breakdown rows sum to 18080000 (difference 8720000).
 - [ ] Leaf **173**: Isolated 450-DPI TOTAL strip read ['<b>Total...</b>', '<b>5,875,879</b>', '<b>144,500,000</b>', '<b>0 9¾ average</b>'] vs. full-page pass ['Total...', '5,875,879', '144,500,000', '0', '9¾average']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **173**: Column 4 states total 0 but its 7 contributing cells sum to 3 (difference 3).
-- [ ] Leaf **179**: Isolated 450-DPI TOTAL strip read ['Total...... 35 27', 'Total...... 29 77'] vs. full-page pass ['Total', '35', '27', 'Total', '29', '77']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **167** (`p0167-b0018`): Faded ink `<unclear>n</unclear>` in *"…same standing, ability, and ntegrity ? A word of persuasi…"*
 - [ ] Leaf **167** (`p0167-b0018`): Faded ink `<unclear>p</unclear>` in *"…e from a native of official position will, in the nature…"*
 - [ ] Leaf **175** (`p0175-b0006`): Faded ink `<unclear>count</unclear>` in *"…very important element from count. He is well aware that, wha…"*
@@ -83,7 +84,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CONTENTS | `15–19` | 5 | 0 | 0 / 5 |
 | BIOGRAPHICAL SKETCH | `20–28` | 9 | 0 | 0 / 9 |
 | CHAPTER I: The European and Asiatic Races | `28–52` | 25 | 2 | 0 / 25 |
-| II.—England's Duties to India | `53–77` | 25 | 7 | 0 / 25 |
+| II.—England's Duties to India | `53–77` | 25 | 8 | 0 / 25 |
 | III.—Expenses of the Abyssinian War | `78–84` | 7 | 0 | 0 / 7 |
 | IV.—Mysore | `85–99` | 15 | 0 | 0 / 15 |
 | V.—Admission of Educated Natives into the Indian Civil Ser | `100–121` | 22 | 0 | 0 / 22 |
@@ -94,7 +95,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Poverty of India, Part II | `235–293` | 59 | 5 | 0 / 59 |
 | Reply to Criticisms.. .: | `293–308` | 16 | 4 | 0 / 16 |
 | I.—India's Interest in the Genenal Election (1886) | `309–400` | 92 | 1 | 0 / 92 |
-| I.—The Baroda Administration in 1874 (Reply to Parliamenta | `401–509` | 109 | 34 | 0 / 109 |
+| I.—The Baroda Administration in 1874 (Reply to Parliamenta | `401–509` | 109 | 35 | 0 / 109 |
 | III.—Admission of Educated Natives into the Indian Civil S | `509–519` | 11 | 1 | 0 / 11 |
 | IV.—Indian Civil Service | `519–524` | 6 | 0 | 0 / 6 |
 | V.—Indian Exchanges | `524–536` | 13 | 0 | 0 / 13 |
@@ -102,5 +103,5 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | VII.—The Indian Services | `540–552` | 13 | 0 | 0 / 13 |
 | VIII.—Replies to Questions put by the Public Service Commi | `553–563` | 11 | 0 | 0 / 11 |
 | IX.—Sir M. E. Grant Duff's Views about India (1) | `564–583` | 20 | 0 | 0 / 20 |
-| IX.—Sir M. E. Grant Duff's Views about India (2) | `583–607` | 25 | 2 | 0 / 25 |
+| IX.—Sir M. E. Grant Duff's Views about India (2) | `583–607` | 25 | 3 | 0 / 25 |
 | Index | `608–615` | 3 | 0 | 0 / 3 |

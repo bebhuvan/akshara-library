@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Periplus of the Erythræan Sea: Travel and Trade in the Indian Ocean by a Merchant of the First Century*
 
 - **Book ID**: `periplus-erythraean-sea` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`98.0 / 100`** (`community`)
+- **Edition Tier**: **`machine_checked`** | **Rubric Score**: **`100.0 / 100`** (`machine_checked`)
 - **Reader**: Read by gemini-3.8-flash on 331 of 331 pages. Declared reader profile: transliteration (new readings use gemini-4-hydrogen). This edition predates that choice and has not been re-read with gemini-4-hydrogen.
 - **Pages**: `331` extracted, `11` blank/tissue, `0` failed (of `342` PDF leaves)
 - **Tracked API Spend**: **`$1.6086`** (`77.7%` cached input tokens: `2,548,700` / `3,280,144` in, `607,577` out, `0` thoughts)
@@ -15,10 +15,10 @@
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
-| **4. Orthographic, Script & Diacritics** | **23.0 / 25.0** | -2.0: 1 intra-book diacritic drift cluster(s) |
+| **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Standardize or verify 1 proper-noun diacritic drift cluster(s).
+- Ready to ship as Machine-Checked Edition (no open validator hotspots; 12.4% of pages re-read; 0.0% verified by a person toward Source-Certified).
 
 ---
 
@@ -62,7 +62,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `195` prose joins, `0` split footnotes stitched, `1` multi-page tables unified, `3` total footnotes.
+- **Cross-Page Assembly**: `196` prose joins, `0` split footnotes stitched, `1` multi-page tables unified, `3` total footnotes.
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`10` — verify no epigraph/dedication was caught)**:
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"22101438235"*
   - Leaf `4` `p0004-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2017 with funding from Wellcome Library"*
@@ -82,4 +82,4 @@
 
 - **Detected Scripts**: `latin`: 548,467 chars
 - **Distinct Non-ASCII Glyphs (`43` across `270` leaves)**: · Æ Ç á â ã ä æ ç è é ê ë í î ï ó ô õ ö ú ü ý ā ē ġ ī ō œ ť ū ʻ ʼ ˙ ḍ ṅ ṇ ṣ ṭ ′ ⅓ ⅔ ⅙
-- **Corrections Replayed**: `40` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `63` applied, `0` orphaned/unmatched

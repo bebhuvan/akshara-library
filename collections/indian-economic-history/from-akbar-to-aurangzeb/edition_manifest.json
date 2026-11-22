@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 24 fixes · 30 pp. checked",
-        "detail": "24 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 26 fixes · 30 pp. checked",
+        "detail": "26 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -191,9 +191,23 @@
       "total": 11
     },
     "corrections": {
-      "applied": 24,
+      "applied": 26,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0264-b0004-2",
+          "page_number": 264,
+          "matched_block_id": "p0264-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0279-b0003-3",
+          "page_number": 279,
+          "matched_block_id": "p0279-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
         {
           "correction_id": "corr-p0022-drop-title1",
           "page_number": 22,
@@ -488,8 +502,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 24 fixes · 30 pp. checked",
-          "detail": "24 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 26 fixes · 30 pp. checked",
+          "detail": "26 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

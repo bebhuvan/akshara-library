@@ -1,0 +1,1646 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "imperial-gazetteer-of-india-vol-01-descriptive",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "community",
+  "rubric_score": 80.0,
+  "cover_archetype": "survey_and_gazetteer",
+  "cover_palette": "Survey Olive",
+  "edition_root": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/book_ast.json",
+    "rubric_score": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/cover.svg",
+    "cover_webp": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/cover.webp",
+    "web_index": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/web/index.html",
+    "hugo_dir": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/epub/imperial-gazetteer-of-india-vol-01-descriptive.epub",
+    "markdown": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/markdown/imperial-gazetteer-of-india-vol-01-descriptive.md",
+    "tei_xml": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/tei/imperial-gazetteer-of-india-vol-01-descriptive.tei.xml",
+    "print_html": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/print/imperial-gazetteer-of-india-vol-01-descriptive.print.html",
+    "pdf": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/print/imperial-gazetteer-of-india-vol-01-descriptive.pdf",
+    "datasets": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/imperial-gazetteer-of-india-vol-01-descriptive",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "community",
+      "label": "Community Edition",
+      "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (607/607 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/imperial-gazetteer-of-india-vol-01-descriptive.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 66 fixes · 26 pp. checked",
+        "detail": "66 anchored emendation(s) applied; 26 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 607 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 17/17 Arithmetic-Checked",
+        "detail": "17 of 17 tables pass arithmetic & column checks; 25 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 81 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 155 footnotes and 656 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1881-1908",
+      "regions": [
+        "All-India"
+      ],
+      "subjects": [
+        "Physical Geography",
+        "Demography Census",
+        "Ethnography",
+        "Languages And Religions",
+        "Public Health"
+      ],
+      "artifacts": [
+        "81 Statistical Tables",
+        "7 Archival Plates",
+        "155 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "community",
+      "community_edition_ready": true,
+      "machine_checked_ready": false,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 7,
+      "extracted_page_count": 607,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 26,
+      "machine_reread_page_count": 26,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        93,
+        141,
+        163,
+        386,
+        427,
+        428,
+        433,
+        434,
+        435,
+        437,
+        451,
+        484,
+        527,
+        529,
+        532,
+        553,
+        568,
+        569,
+        574,
+        581,
+        586,
+        587,
+        590,
+        591,
+        598,
+        602
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Automated reading (7 open review items); 26 of 607 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 7,
+      "informational": 93,
+      "total": 100
+    },
+    "corrections": {
+      "applied": 66,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-canary-v1-p0418-b0003-22",
+          "page_number": 418,
+          "matched_block_id": "p0418-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-canary-v1-p0528-b0003-28",
+          "page_number": 528,
+          "matched_block_id": "p0528-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0183-b0006-tblsplit",
+          "page_number": 183,
+          "matched_block_id": "p0183-b0006",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0183-b0009-tblsplit",
+          "page_number": 183,
+          "matched_block_id": "p0183-b0009",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0042-b0004-tok",
+          "page_number": 42,
+          "matched_block_id": "p0042-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0053-b0004-tok",
+          "page_number": 53,
+          "matched_block_id": "p0053-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0053-b0006-tok",
+          "page_number": 53,
+          "matched_block_id": "p0053-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0053-b0007-tok",
+          "page_number": 53,
+          "matched_block_id": "p0053-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0273-b0004-tok",
+          "page_number": 273,
+          "matched_block_id": "p0273-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0334-b0003-tok",
+          "page_number": 334,
+          "matched_block_id": "p0334-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0376-b0007-tok",
+          "page_number": 376,
+          "matched_block_id": "p0376-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0505-b0004-tok",
+          "page_number": 505,
+          "matched_block_id": "p0505-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-canary-v1-p0520-b0004-tok",
+          "page_number": 520,
+          "matched_block_id": "p0520-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0138-bikaner",
+          "page_number": 138,
+          "matched_block_id": "p0138-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0221-brace",
+          "page_number": 221,
+          "matched_block_id": "p0221-b0014",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0233-nilgiri",
+          "page_number": 233,
+          "matched_block_id": "p0233-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0238-nilgiri",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0311-nilgiris",
+          "page_number": 311,
+          "matched_block_id": "p0311-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0576-bhojpuri",
+          "page_number": 576,
+          "matched_block_id": "p0576-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0585-nilgiri",
+          "page_number": 585,
+          "matched_block_id": "p0585-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0588-aligarh",
+          "page_number": 588,
+          "matched_block_id": "p0588-b0014",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0594-nilgiris",
+          "page_number": 594,
+          "matched_block_id": "p0594-b0026",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0602-nilgiris",
+          "page_number": 602,
+          "matched_block_id": "p0602-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0093-grid1",
+          "page_number": 93,
+          "matched_block_id": "p0093-b0001",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0093-grid5",
+          "page_number": 93,
+          "matched_block_id": "p0093-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0129-pad",
+          "page_number": 129,
+          "matched_block_id": "p0129-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0156-hdr1",
+          "page_number": 156,
+          "matched_block_id": "p0156-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0156-hdr2",
+          "page_number": 156,
+          "matched_block_id": "p0156-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0232-pad",
+          "page_number": 232,
+          "matched_block_id": "p0232-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0244-pad",
+          "page_number": 244,
+          "matched_block_id": "p0244-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0429-r5",
+          "page_number": 429,
+          "matched_block_id": "p0429-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0429-r15",
+          "page_number": 429,
+          "matched_block_id": "p0429-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0530-b9",
+          "page_number": 530,
+          "matched_block_id": "p0530-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0530-b10",
+          "page_number": 530,
+          "matched_block_id": "p0530-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0530-b11",
+          "page_number": 530,
+          "matched_block_id": "p0530-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0530-b12",
+          "page_number": 530,
+          "matched_block_id": "p0530-b0012",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0530-b13",
+          "page_number": 530,
+          "matched_block_id": "p0530-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0530-b46",
+          "page_number": 530,
+          "matched_block_id": "p0530-b0046",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0553-total",
+          "page_number": 553,
+          "matched_block_id": "p0553-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0565-h1a",
+          "page_number": 565,
+          "matched_block_id": "p0565-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0565-h1b",
+          "page_number": 565,
+          "matched_block_id": "p0565-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0565-h2",
+          "page_number": 565,
+          "matched_block_id": "p0565-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0567-h1",
+          "page_number": 567,
+          "matched_block_id": "p0567-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0567-h2",
+          "page_number": 567,
+          "matched_block_id": "p0567-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0567-h3",
+          "page_number": 567,
+          "matched_block_id": "p0567-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0568-h1",
+          "page_number": 568,
+          "matched_block_id": "p0568-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0568-h2",
+          "page_number": 568,
+          "matched_block_id": "p0568-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0568-split14",
+          "page_number": 568,
+          "matched_block_id": "p0568-b0014",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0568-tot15",
+          "page_number": 568,
+          "matched_block_id": "p0568-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-h1",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0007",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0009",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0013",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0017",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0019",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0019",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0021",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0023",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0025",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0025",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0569-b0027",
+          "page_number": 569,
+          "matched_block_id": "p0569-b0027",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0572-b10",
+          "page_number": 572,
+          "matched_block_id": "p0572-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0572-b11",
+          "page_number": 572,
+          "matched_block_id": "p0572-b0011",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0549-drop-h",
+          "page_number": 549,
+          "matched_block_id": "p0549-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0549-restore",
+          "page_number": 549,
+          "matched_block_id": "p0549-b0005",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0560-drop-h",
+          "page_number": 560,
+          "matched_block_id": "p0560-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "v1-p0560-restore",
+          "page_number": 560,
+          "matched_block_id": "p0560-b0005",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d48-p0067-strata-scan",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0005",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 53,
+        "severity": "review",
+        "category": "script_anomaly",
+        "message": "Out-of-alphabet Latin character U+0127 LATIN SMALL LETTER H WITH STROKE (likely meant 'ī').",
+        "expected_action": "Compare glyph against source scan.",
+        "validator": "script_validator",
+        "block_id": "p0053-b0005"
+      },
+      {
+        "page_number": 361,
+        "severity": "review",
+        "category": "script_anomaly",
+        "message": "Out-of-alphabet Latin character U+0121 LATIN SMALL LETTER G WITH DOT ABOVE (likely meant 'ī').",
+        "expected_action": "Compare glyph against source scan.",
+        "validator": "script_validator",
+        "block_id": "p0361-b0006"
+      },
+      {
+        "page_number": 431,
+        "severity": "review",
+        "category": "table_ragged_columns",
+        "message": "Table row p0431-b0016 expands to 4 columns vs. table body width 5 (even after accounting for colspan/rowspan).",
+        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
+        "validator": "table_geometry",
+        "block_id": "p0431-b0016"
+      },
+      {
+        "page_number": 521,
+        "severity": "review",
+        "category": "script_anomaly",
+        "message": "Out-of-alphabet Latin character U+0127 LATIN SMALL LETTER H WITH STROKE (likely meant 'ī').",
+        "expected_action": "Compare glyph against source scan.",
+        "validator": "script_validator",
+        "block_id": "p0521-b0006"
+      },
+      {
+        "page_number": 546,
+        "severity": "review",
+        "category": "table_collapsed_rows",
+        "message": "Table row p0546-b0007 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
+        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "validator": "table_geometry",
+        "block_id": "p0546-b0007"
+      },
+      {
+        "page_number": 564,
+        "severity": "review",
+        "category": "table_ragged_columns",
+        "message": "Table row p0564-b0008 expands to 5 columns vs. table body width 9 (even after accounting for colspan/rowspan).",
+        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
+        "validator": "table_geometry",
+        "block_id": "p0564-b0008"
+      },
+      {
+        "page_number": 567,
+        "severity": "review",
+        "category": "table_collapsed_rows",
+        "message": "Table row p0567-b0011 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
+        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "validator": "table_geometry",
+        "block_id": "p0567-b0011"
+      },
+      {
+        "page_number": 31,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṟ' (U+1E5F LATIN SMALL LETTER R WITH LINE BELOW) appears only 1 time(s) in this book, here in 'Pahāṟī'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0031-b0036"
+      },
+      {
+        "page_number": 93,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'PURANA' appears without diacritics here, whereas this volume consistently prints 'Purāna' (45 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0093-b0004"
+      },
+      {
+        "page_number": 141,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Baluchistan' appears without diacritics here, whereas this volume consistently prints 'Baluchistān' (130 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0141-b0004"
+      },
+      {
+        "page_number": 141,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Hazara' appears without diacritics here, whereas this volume consistently prints 'Hazāra' (18 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0141-b0004"
+      },
+      {
+        "page_number": 141,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Gondwana' appears without diacritics here, whereas this volume consistently prints 'Gondwāna' (49 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0141-b0004"
+      },
+      {
+        "page_number": 141,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Gondwana' appears without diacritics here, whereas this volume consistently prints 'Gondwāna' (49 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0141-b0004"
+      },
+      {
+        "page_number": 141,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kathiawar' appears without diacritics here, whereas this volume consistently prints 'Kāthiāwār' (21 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0141-b0004"
+      },
+      {
+        "page_number": 163,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 163 has inline note callout(s) ['1', '1'] vs. labelled footnote(s) ['1', '2'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0163-b0006"
+      },
+      {
+        "page_number": 255,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'bêtes'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0255-b0006"
+      },
+      {
+        "page_number": 361,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 1 time(s) in this book, here in 'Bhġl'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0361-b0006"
+      },
+      {
+        "page_number": 378,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'έ' (U+03AD GREEK SMALL LETTER EPSILON WITH TONOS) appears only 1 time(s) in this book, here in 'γένος'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0378-b0004"
+      },
+      {
+        "page_number": 378,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ή' (U+03AE GREEK SMALL LETTER ETA WITH TONOS) appears only 1 time(s) in this book, here in 'φυλή'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0378-b0004"
+      },
+      {
+        "page_number": 378,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'γ' (U+03B3 GREEK SMALL LETTER GAMMA) appears only 2 time(s) in this book, here in 'γένος'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0378-b0004"
+      },
+      {
+        "page_number": 378,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'λ' (U+03BB GREEK SMALL LETTER LAMDA) appears only 1 time(s) in this book, here in 'φυλή'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0378-b0004"
+      },
+      {
+        "page_number": 378,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ς' (U+03C2 GREEK SMALL LETTER FINAL SIGMA) appears only 2 time(s) in this book, here in 'γένος'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0378-b0004"
+      },
+      {
+        "page_number": 378,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'δ' (U+03B4 GREEK SMALL LETTER DELTA) appears only 2 time(s) in this book, here in '(περίδειπνον'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0378-b0005"
+      },
+      {
+        "page_number": 379,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'É' (U+00C9 LATIN CAPITAL LETTER E WITH ACUTE) appears only 2 time(s) in this book, here in 'l'État'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0379-b0005"
+      },
+      {
+        "page_number": 379,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'puisèrent'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0379-b0005"
+      },
+      {
+        "page_number": 386,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Allahabad' appears without diacritics here, whereas this volume consistently prints 'Allahābād' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0386-b0015"
+      },
+      {
+        "page_number": 393,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Π' (U+03A0 GREEK CAPITAL LETTER PI) appears only 1 time(s) in this book, here in 'Πάκτυες'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0393-b0005"
+      },
+      {
+        "page_number": 393,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'κ' (U+03BA GREEK SMALL LETTER KAPPA) appears only 1 time(s) in this book, here in 'Πάκτυες'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0393-b0005"
+      },
+      {
+        "page_number": 393,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ς' (U+03C2 GREEK SMALL LETTER FINAL SIGMA) appears only 2 time(s) in this book, here in 'Πάκτυες'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0393-b0005"
+      },
+      {
+        "page_number": 393,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ἀ' (U+1F08 GREEK CAPITAL LETTER ALPHA WITH PSILI) appears only 1 time(s) in this book, here in 'Ἀπάρυται'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0393-b0005"
+      },
+      {
+        "page_number": 394,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'γ' (U+03B3 GREEK SMALL LETTER GAMMA) appears only 2 time(s) in this book, here in 'ὠμοφάγοι,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0394-b0004"
+      },
+      {
+        "page_number": 394,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'μ' (U+03BC GREEK SMALL LETTER MU) appears only 1 time(s) in this book, here in 'ὠμοφάγοι,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0394-b0004"
+      },
+      {
+        "page_number": 394,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὠ' (U+1F60 GREEK SMALL LETTER OMEGA WITH PSILI) appears only 1 time(s) in this book, here in 'ὠμοφάγοι,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0394-b0004"
+      },
+      {
+        "page_number": 396,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Μ' (U+039C GREEK CAPITAL LETTER MU) appears only 1 time(s) in this book, here in 'Μόδουρα'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0396-b0006"
+      },
+      {
+        "page_number": 396,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'δ' (U+03B4 GREEK SMALL LETTER DELTA) appears only 2 time(s) in this book, here in 'Μόδουρα'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0396-b0006"
+      },
+      {
+        "page_number": 396,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'θ' (U+03B8 GREEK SMALL LETTER THETA) appears only 1 time(s) in this book, here in 'θεῶν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0396-b0006"
+      },
+      {
+        "page_number": 396,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ό' (U+03CC GREEK SMALL LETTER OMICRON WITH TONOS) appears only 1 time(s) in this book, here in 'Μόδουρα'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0396-b0006"
+      },
+      {
+        "page_number": 396,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἡ' (U+1F21 GREEK SMALL LETTER ETA WITH DASIA) appears only 1 time(s) in this book, here in 'ἡ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0396-b0006"
+      },
+      {
+        "page_number": 396,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῶ' (U+1FF6 GREEK SMALL LETTER OMEGA WITH PERISPOMENI) appears only 2 time(s) in this book, here in 'τῶν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0396-b0006"
+      },
+      {
+        "page_number": 403,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ʻ' (U+02BB MODIFIER LETTER TURNED COMMA) appears only 1 time(s) in this book, here in 'muʻalla,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0403-b0006"
+      },
+      {
+        "page_number": 407,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ḍ' (U+1E0C LATIN CAPITAL LETTER D WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ḍogrī,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0407-b0005"
+      },
+      {
+        "page_number": 421,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Birhâr,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0421-b0015"
+      },
+      {
+        "page_number": 427,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Turkistan' appears without diacritics here, whereas this volume consistently prints 'Turkistān' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0427-b0007"
+      },
+      {
+        "page_number": 428,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (60 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0428-b0005"
+      },
+      {
+        "page_number": 433,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'É' (U+00C9 LATIN CAPITAL LETTER E WITH ACUTE) appears only 2 time(s) in this book, here in 'Études'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0433-b0007"
+      },
+      {
+        "page_number": 433,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Afghans' appears without diacritics here, whereas this volume consistently prints 'Afghāns' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0433-b0009"
+      },
+      {
+        "page_number": 433,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Khowâr'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0433-b0012"
+      },
+      {
+        "page_number": 434,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Hindustan' appears without diacritics here, whereas this volume consistently prints 'Hindustān' (16 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0434-b0004"
+      },
+      {
+        "page_number": 434,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'î' (U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'Hindî'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0434-b0004"
+      },
+      {
+        "page_number": 434,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṣ' (U+1E63 LATIN SMALL LETTER S WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Muṣtālihat-e'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0434-b0004"
+      },
+      {
+        "page_number": 434,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Allahabad' appears without diacritics here, whereas this volume consistently prints 'Allahābād' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0434-b0005"
+      },
+      {
+        "page_number": 434,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Allahabad' appears without diacritics here, whereas this volume consistently prints 'Allahābād' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0434-b0009"
+      },
+      {
+        "page_number": 434,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 2 time(s) in this book, here in 'Hírálál,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0434-b0009"
+      },
+      {
+        "page_number": 435,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Panjabi' appears without diacritics here, whereas this volume consistently prints 'Panjābī' (24 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0435-b0005"
+      },
+      {
+        "page_number": 435,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 2 time(s) in this book, here in 'Panjábí'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0435-b0005"
+      },
+      {
+        "page_number": 436,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ḍ' (U+1E0C LATIN CAPITAL LETTER D WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ḍhekiāl'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0436-b0005"
+      },
+      {
+        "page_number": 437,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Santal' appears without diacritics here, whereas this volume consistently prints 'Santāl' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0437-b0005"
+      },
+      {
+        "page_number": 437,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Santali' appears without diacritics here, whereas this volume consistently prints 'Santālī' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0437-b0005"
+      },
+      {
+        "page_number": 437,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Khasi' appears without diacritics here, whereas this volume consistently prints 'Khāsi' (21 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0437-b0012"
+      },
+      {
+        "page_number": 437,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (60 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0437-b0013"
+      },
+      {
+        "page_number": 442,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ï' (U+00EF LATIN SMALL LETTER I WITH DIAERESIS) appears only 1 time(s) in this book, here in 'naïve'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0442-b0008"
+      },
+      {
+        "page_number": 451,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Lahul' appears without diacritics here, whereas this volume consistently prints 'Lāhul' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0451-b0006"
+      },
+      {
+        "page_number": 484,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (60 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0484-b0008"
+      },
+      {
+        "page_number": 484,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mathura' appears without diacritics here, whereas this volume consistently prints 'Mathurā' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0484-b0010"
+      },
+      {
+        "page_number": 523,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'î' (U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'goître,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0523-b0005"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 294361056 but its 7 contributing cells sum to 114910733 (difference -179450323).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0527-b0014"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 231899507 but its 7 contributing cells sum to 89078306 (difference -142821201).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0527-b0014"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 62461549 but its 7 contributing cells sum to 25832427 (difference -36629122).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0527-b0014"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 1901 but its 3 contributing cells sum to 5644 (difference 3743).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0527-b0029"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 294361056 but its 3 contributing cells sum to 747373361 (difference 453012305).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0527-b0029"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 231899507 but its 3 contributing cells sum to 605506689 (difference 373607182).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0527-b0029"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 62461549 but its 3 contributing cells sum to 141866672 (difference 79405123).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0527-b0029"
+      },
+      {
+        "page_number": 529,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Berar' appears without diacritics here, whereas this volume consistently prints 'Berār' (46 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0529-b0010"
+      },
+      {
+        "page_number": 532,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 23117 but its 4 breakdown rows sum to 6979428 (difference 6956311).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0532-b0052"
+      },
+      {
+        "page_number": 532,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 26900 but its 4 breakdown rows sum to 8021850 (difference 7994950).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0532-b0052"
+      },
+      {
+        "page_number": 532,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 19815 but its 4 breakdown rows sum to 5634665 (difference 5614850).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0532-b0052"
+      },
+      {
+        "page_number": 532,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 23544 but its 4 breakdown rows sum to 6528253 (difference 6504709).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0532-b0052"
+      },
+      {
+        "page_number": 568,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 1230 but its 3 contributing cells sum to 3566 (difference 2336).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0568-b0015"
+      },
+      {
+        "page_number": 568,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 10.80 but its 3 contributing cells sum to 28.40 (difference 17.60).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0568-b0015"
+      },
+      {
+        "page_number": 568,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 20.70 but its 3 contributing cells sum to 53.70 (difference 33).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0568-b0015"
+      },
+      {
+        "page_number": 568,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 6 states total 9.30 but its 3 contributing cells sum to 34.70 (difference 25.40).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0568-b0015"
+      },
+      {
+        "page_number": 568,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 1.30 but its 3 contributing cells sum to 4.60 (difference 3.30).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0568-b0015"
+      },
+      {
+        "page_number": 568,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 70.70 but its 3 contributing cells sum to 195.30 (difference 124.60).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0568-b0015"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_blind_total_confirmed",
+        "message": "Isolated 450-DPI TOTAL strip read ['All India . }', '1881-94', '38', '1,099', '2.4', '2.8', '10.7', '2.1', '6.1', '33.8 }'] vs. full-page pass ['1895–00', '39', '996', '2·1', '1·5', '9·1', '3·2', '5·0', '29·6']. Full-page decoding often self-reconciles totals to misread addends above.",
+        "expected_action": "Confirmed against scan that full-page total row matches original print.",
+        "validator": "blind_totals_strip",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 996 but its 21 contributing cells sum to 22130 (difference 21134).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 5 states total 2.10 but its 21 contributing cells sum to 54 (difference 51.90).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 6 states total 1.50 but its 21 contributing cells sum to 55.50 (difference 54).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 7 states total 9.10 but its 21 contributing cells sum to 238.40 (difference 229.30).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 8 states total 3.20 but its 21 contributing cells sum to 50.70 (difference 47.50).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 9 states total 5 but its 21 contributing cells sum to 116.50 (difference 111.50).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 569,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 10 states total 29.60 but its 21 contributing cells sum to 727 (difference 697.40).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0569-b0028"
+      },
+      {
+        "page_number": 574,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Apabhramsa' appears without diacritics here, whereas this volume consistently prints 'Apabhraṁśa' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0574-b0018"
+      },
+      {
+        "page_number": 581,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kangra' appears without diacritics here, whereas this volume consistently prints 'Kāngra' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0581-b0017"
+      },
+      {
+        "page_number": 586,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Himalayan' appears without diacritics here, whereas this volume consistently prints 'Himālayan' (151 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0586-b0016"
+      },
+      {
+        "page_number": 587,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Hindi' appears without diacritics here, whereas this volume consistently prints 'Hindī' (66 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0587-b0006"
+      },
+      {
+        "page_number": 590,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kodagu' appears without diacritics here, whereas this volume consistently prints 'Koḍagu' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0590-b0020"
+      },
+      {
+        "page_number": 591,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Apabhramsa' appears without diacritics here, whereas this volume consistently prints 'Apabhraṁśa' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0591-b0018"
+      },
+      {
+        "page_number": 598,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Apabhramsa' appears without diacritics here, whereas this volume consistently prints 'Apabhraṁśa' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0598-b0004"
+      },
+      {
+        "page_number": 602,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Pamir' appears without diacritics here, whereas this volume consistently prints 'Pāmīr' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0602-b0004"
+      },
+      {
+        "page_number": 605,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṣ' (U+1E63 LATIN SMALL LETTER S WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Vaiṣya,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0605-b0004"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "community",
+        "label": "Community Edition",
+        "contract": "Complete, readable edition scoring 70+ with open validator review items linked to exact page scans in the Proofing Workbench."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (607/607 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/imperial-gazetteer-of-india-vol-01-descriptive.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 66 fixes · 26 pp. checked",
+          "detail": "66 anchored emendation(s) applied; 26 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 607 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 17/17 Arithmetic-Checked",
+          "detail": "17 of 17 tables pass arithmetic & column checks; 25 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 81 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 155 footnotes and 656 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1881-1908",
+        "regions": [
+          "All-India"
+        ],
+        "subjects": [
+          "Physical Geography",
+          "Demography Census",
+          "Ethnography",
+          "Languages And Religions",
+          "Public Health"
+        ],
+        "artifacts": [
+          "81 Statistical Tables",
+          "7 Archival Plates",
+          "155 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

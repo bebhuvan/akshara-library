@@ -11,7 +11,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 - **Source File**: `english-factories-india-1661-1664-vol-11.originals.pdf`
 - **Source SHA-256**: `12a73f10fcbe3ad591f93fa6b3be3c0614ec777c2b8da49d5c90a682cfd8935e`
 - **Leaf Accounting**: 446 PDF leaves — **438** content leaves transcribed, **8** blank/tissue leaves (`2, 3, 4, 5, 6, 14, 443, 444`), **0** failed leaves.
-- **Edition Status**: `machine_checked` (**100.0 / 100** Rubric Score)
+- **Edition Status**: `community` (**94.0 / 100** Rubric Score)
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
@@ -22,11 +22,12 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.8-flash` (438 pp.).
 - **Reader**: Read by gemini-3.8-flash on 438 of 438 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 11 replayed correction(s). Machine-checked; 10 of 438 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 18 replayed correction(s). Automated reading (2 open review items); 10 of 438 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
 - **15 finding(s) across 10 leaf(s)** (pp. 13, 23, 69, 79, 101, 244, 354, 411, 424, 442): attested compositor spelling variants preserved diplomatically from the scan.
-- **7 finding(s) across 7 leaf(s)** (pp. 150, 161, 203, 241, 276, 426, 441): rare character.
+- **8 finding(s) across 8 leaf(s)** (pp. 84, 150, 161, 203, 241, 276, 426, 441): rare character.
+- **2 finding(s) across 2 leaf(s)** (pp. 84, 311): script anomaly.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

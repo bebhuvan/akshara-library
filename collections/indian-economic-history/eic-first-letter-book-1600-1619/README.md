@@ -4,7 +4,7 @@
 - **Publication Year**: 1893
 - **Imprint**: London: Bernard Quaritch
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**97.8 / 100**)
+- **Edition Tier**: `community` (**96.8 / 100**)
 - **Internet Archive Source**: https://archive.org/details/registerofletter00eastuoft
 
 ## Files in This Folder

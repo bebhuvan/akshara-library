@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 99.6,
+  "rubric_score": 99.8,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Charcoal Balance",
   "edition_root": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909",
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 11 pp. checked",
-        "detail": "0 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 4 fixes · 11 pp. checked",
+        "detail": "4 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -93,7 +93,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 2 footnotes and 26 margin/shoulder notes"
+        "detail": "Linked apparatus with 2 footnotes and 28 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -122,7 +122,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 2,
+      "open_hotspots": 1,
       "extracted_page_count": 89,
       "p1_proofed_page_count": 0,
       "reread_page_count": 11,
@@ -145,18 +145,47 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (2 open review items); 11 of 89 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (1 open review item); 11 of 89 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 2,
+      "review": 1,
       "informational": 2,
-      "total": 4
+      "total": 3
     },
     "corrections": {
-      "applied": 0,
+      "applied": 4,
       "unmatched": 0,
-      "details": []
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0021-b0004-1",
+          "page_number": 21,
+          "matched_block_id": "p0021-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0037-b0003-2",
+          "page_number": 37,
+          "matched_block_id": "p0037-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0060-b0003-3",
+          "page_number": 60,
+          "matched_block_id": "p0060-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0083-b0003-tok",
+          "page_number": 83,
+          "matched_block_id": "p0083-b0003",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
     },
     "review_items": [
       {
@@ -167,15 +196,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0001-b0002"
-      },
-      {
-        "page_number": 83,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>i</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0083-b0003"
       },
       {
         "page_number": 15,
@@ -219,8 +239,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 11 pp. checked",
-          "detail": "0 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 4 fixes · 11 pp. checked",
+          "detail": "4 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -252,7 +272,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 2 footnotes and 26 margin/shoulder notes"
+          "detail": "Linked apparatus with 2 footnotes and 28 margin/shoulder notes"
         }
       ],
       "archival_tags": {

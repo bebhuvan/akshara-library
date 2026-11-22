@@ -39,7 +39,6 @@ Welcome! You do **not** need to read all 450 leaves from start to finish to make
 - [ ] Leaves **267 -> 268**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **275 -> 276**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **280 -> 281**: Confirm cross-page footnote `2` joins smoothly across the page turn.
-- [ ] Leaves **365 -> 366**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 
 ---
 
@@ -47,7 +46,6 @@ Welcome! You do **not** need to read all 450 leaves from start to finish to make
 
 - [ ] Leaf **269**: Page 269: the reader's output held invisible control characters, which were removed.
 - [ ] Leaf **74**: Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (13 occurrences).
-- [ ] Leaf **78**: 'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 1 time(s) in this book, here in 'Wazġr'.
 - [ ] Leaf **82**: Token 'Diwan' appears without diacritics here, whereas this volume consistently prints 'Dīwān' (6 occurrences).
 - [ ] Leaf **84**: Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (13 occurrences).
 - [ ] Leaf **93**: Token 'Multan' appears without diacritics here, whereas this volume consistently prints 'Multān' (4 occurrences).
@@ -78,7 +76,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Events in Persia | `32–43` | 12 | 0 | 0 / 12 |
 | The Coromandel Coast and Bengal | `43–61` | 19 | 0 | 0 / 19 |
 | 1656. Western India | `61–73` | 13 | 0 | 0 / 13 |
-| The Inland Factories | `73–93` | 21 | 5 | 0 / 21 |
+| The Inland Factories | `73–93` | 21 | 4 | 0 / 21 |
 | Events in Persia | `93–102` | 10 | 1 | 0 / 10 |
 | The Coromandel Coast | `102–116` | 15 | 0 | 0 / 15 |
 | The English in Bengal | `116–124` | 9 | 0 | 0 / 9 |

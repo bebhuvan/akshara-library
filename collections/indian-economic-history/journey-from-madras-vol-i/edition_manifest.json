@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 79.9,
+  "rubric_score": 81.8,
   "cover_archetype": "survey_and_gazetteer",
   "cover_palette": "Topographic Umber",
   "edition_root": "library/indian-economic-history/journey-from-madras-vol-i",
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 3 fixes · 22 pp. checked",
-        "detail": "3 anchored emendation(s) applied; 22 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 9 fixes · 22 pp. checked",
+        "detail": "9 anchored emendation(s) applied; 22 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -105,7 +105,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 1 footnotes and 996 margin/shoulder notes"
+        "detail": "Linked apparatus with 1 footnotes and 1001 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -138,7 +138,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 22,
+      "open_hotspots": 19,
       "extracted_page_count": 457,
       "p1_proofed_page_count": 0,
       "reread_page_count": 22,
@@ -172,18 +172,60 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (22 open review items); 22 of 457 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (19 open review items); 22 of 457 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 22,
+      "review": 19,
       "informational": 30,
-      "total": 52
+      "total": 49
     },
     "corrections": {
-      "applied": 3,
+      "applied": 9,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0033-b0016-1",
+          "page_number": 33,
+          "matched_block_id": "p0033-b0016",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0033-b0017-2",
+          "page_number": 33,
+          "matched_block_id": "p0033-b0017",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0269-b0005-3",
+          "page_number": 269,
+          "matched_block_id": "p0269-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0328-b0014-4",
+          "page_number": 328,
+          "matched_block_id": "p0328-b0014",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0126-b0006-tok",
+          "page_number": 126,
+          "matched_block_id": "p0126-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0290-b0006-tok",
+          "page_number": 290,
+          "matched_block_id": "p0290-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
         {
           "correction_id": "scan-audit-v1-p0051-b0010",
           "page_number": 51,
@@ -225,15 +267,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0094-b0003"
-      },
-      {
-        "page_number": 126,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>b</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0126-b0006"
       },
       {
         "page_number": 162,
@@ -308,15 +341,6 @@
         "block_id": "p0217-b0023"
       },
       {
-        "page_number": 261,
-        "severity": "review",
-        "category": "table_ragged_columns",
-        "message": "Table row p0261-b0005 expands to 14 columns vs. table body width 13 (even after accounting for colspan/rowspan).",
-        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
-        "validator": "table_geometry",
-        "block_id": "p0261-b0005"
-      },
-      {
         "page_number": 280,
         "severity": "review",
         "category": "unclear_ink_span",
@@ -342,15 +366,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0280-b0005"
-      },
-      {
-        "page_number": 290,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>h</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0290-b0006"
       },
       {
         "page_number": 310,
@@ -700,8 +715,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 3 fixes · 22 pp. checked",
-          "detail": "3 anchored emendation(s) applied; 22 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 9 fixes · 22 pp. checked",
+          "detail": "9 anchored emendation(s) applied; 22 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -745,7 +760,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 1 footnotes and 996 margin/shoulder notes"
+          "detail": "Linked apparatus with 1 footnotes and 1001 margin/shoulder notes"
         }
       ],
       "archival_tags": {

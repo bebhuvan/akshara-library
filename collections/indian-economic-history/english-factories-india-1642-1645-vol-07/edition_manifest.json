@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 8 fixes · 9 pp. checked",
-        "detail": "8 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 10 fixes · 9 pp. checked",
+        "detail": "10 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -170,9 +170,23 @@
       "total": 16
     },
     "corrections": {
-      "applied": 8,
+      "applied": 10,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0370-b0031-tok",
+          "page_number": 370,
+          "matched_block_id": "p0370-b0031",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0370-b0039-tok",
+          "page_number": 370,
+          "matched_block_id": "p0370-b0039",
+          "op": "set_text",
+          "status": "applied"
+        },
         {
           "correction_id": "ef7-p0110-b0004",
           "page_number": 110,
@@ -400,8 +414,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 8 fixes · 9 pp. checked",
-          "detail": "8 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 10 fixes · 9 pp. checked",
+          "detail": "10 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

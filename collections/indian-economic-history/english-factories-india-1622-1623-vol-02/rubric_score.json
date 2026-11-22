@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "english-factories-india-1622-1623-vol-02",
   "run_id": "g38-batch-v1",
-  "total_score": 87.0,
+  "total_score": 85.0,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -12,11 +12,9 @@
       "deductions": []
     },
     "apparatus_fidelity": {
-      "score": 19.0,
+      "score": 25.0,
       "max": 25.0,
-      "deductions": [
-        "-6.0: 2 unresolved footnote callout/body mismatch(es)"
-      ]
+      "deductions": []
     },
     "tabular_accuracy": {
       "score": 25.0,
@@ -24,26 +22,27 @@
       "deductions": []
     },
     "orthographic_fidelity": {
-      "score": 18.0,
+      "score": 10.0,
       "max": 25.0,
       "deductions": [
-        "-2.0: 1 intra-book diacritic drift cluster(s)",
-        "-5.0: 384 `<unclear>` ink span(s) awaiting scan check"
+        "-6.0: 2 script/codepoint anomaly(ies)",
+        "-4.0: 2 intra-book diacritic drift cluster(s)",
+        "-5.0: 363 `<unclear>` ink span(s) awaiting scan check"
       ]
     }
   },
   "issue_counts_by_code": {
-    "unclear_ink_span": 384,
     "control_characters_removed": 1,
-    "footnote_marker_mismatch": 2,
-    "orthographic_diacritic_drift": 1,
+    "unclear_ink_span": 363,
+    "script_anomaly": 2,
+    "orthographic_diacritic_drift": 2,
     "orthographic_compositor_variant": 7,
-    "rare_character": 12
+    "rare_character": 12,
+    "footnote_compositor_variant": 2
   },
   "human_proof_coverage": 0.0,
-  "scan_audit_coverage": 0.0163,
+  "scan_audit_coverage": 0.0209,
   "next_actions": [
-    "Resolve 2 unmatched footnote marker(s) via anchor-matched corrections.",
-    "Standardize or verify 1 proper-noun diacritic drift cluster(s)."
+    "Standardize or verify 2 proper-noun diacritic drift cluster(s)."
   ]
 }

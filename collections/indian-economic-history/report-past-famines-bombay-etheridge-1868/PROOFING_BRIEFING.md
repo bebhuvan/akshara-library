@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 273 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **87.0 / 100** (`community`)
+- **Current Edition Score**: **90.0 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 273** leaves verified
 - **Original Camera Scans**: [Internet Archive (`cu31924091209449`)](https://archive.org/details/cu31924091209449)
 
@@ -31,7 +31,6 @@ Welcome! You do **not** need to read all 273 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
-- [ ] Leaf **69** (`p0069-b0016`): Footnote has no note_label and is not marked continues_from_prev.
 - [ ] Leaf **80**: Page 80 body blocks alternate left-right-left horizontally across columns.
 - [ ] Leaf **83**: Page 83 body blocks alternate left-right-left horizontally across columns.
 - [ ] Leaf **84**: Page 84 body blocks alternate left-right-left horizontally across columns.
@@ -100,7 +99,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | :--- | :---: | ---: | ---: | ---: |
 | BOMBAY PRESIDENCY. | `9–38` | 29 | 17 | 0 / 29 |
 | STATEMENT. | `39–57` | 19 | 4 | 0 / 19 |
-| PRICES DURING YEARS OF SCARCITY, OR FAMINE. | `58–168` | 111 | 39 | 0 / 111 |
+| PRICES DURING YEARS OF SCARCITY, OR FAMINE. | `58–168` | 111 | 38 | 0 / 111 |
 | APPENDIX A | `169–173` | 5 | 0 | 0 / 5 |
 | APPENDIX B | `174–179` | 6 | 16 | 0 / 6 |
 | APPENDIX C | `180–183` | 4 | 3 | 0 / 4 |

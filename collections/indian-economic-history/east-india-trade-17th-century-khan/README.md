@@ -4,7 +4,7 @@
 - **Publication Year**: 1923
 - **Imprint**: London: Humphrey Milford, Oxford University Press
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**100.0 / 100**)
+- **Edition Tier**: `community` (**92.0 / 100**)
 - **Internet Archive Source**: https://archive.org/details/eastindiatradein00khanuoft
 
 ## Files in This Folder

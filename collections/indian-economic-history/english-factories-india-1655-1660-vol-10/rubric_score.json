@@ -30,7 +30,7 @@
   "issue_counts_by_code": {
     "control_characters_removed": 1,
     "orthographic_compositor_variant": 11,
-    "rare_character": 2,
+    "rare_character": 1,
     "footnote_compositor_variant": 1
   },
   "human_proof_coverage": 0.0,

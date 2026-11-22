@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 336 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **100.0 / 100** (`community`)
+- **Current Edition Score**: **92.0 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 336** leaves verified
 - **Original Camera Scans**: [Internet Archive (`eastindiatradein00khanuoft`)](https://archive.org/details/eastindiatradein00khanuoft)
 
@@ -42,6 +42,8 @@ Welcome! You do **not** need to read all 336 leaves from start to finish to make
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
 - [ ] Leaf **185**: Page 185: the reader's output held invisible control characters, which were removed.
+- [ ] Leaf **318**: Table row p0318-b0010 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
+- [ ] Leaf **319**: Table row p0319-b0014 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
 - [ ] Leaf **40**: 'ö' (U+00F6 LATIN SMALL LETTER O WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Königsberg,'.
 - [ ] Leaf **141**: Page 141 has inline note callout(s) ['1', '2', '4', '5'] vs. labelled footnote(s) ['1', '2', '3', '4', '5'].
 - [ ] Leaf **149**: Isolated 450-DPI TOTAL strip read ['Total estimate for the year will be . .', '£ 11,498 16 0'] vs. full-page pass ['Total estimate for the year will be', '£11,498', '16', '0']. Full-page decoding often self-reconciles totals to misread addends above.
@@ -66,6 +68,6 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | I. THE EAST INDIA TRADE UP TO 1660 | `13–104` | 92 | 1 | 0 / 92 |
 | II. THE EAST INDIA COMPANY UNDER CHARLES II | `105–204` | 100 | 7 | 0 / 100 |
 | III. THE ADMINISTRATION OF SIR JOSIAH CHILDE | `205–257` | 53 | 0 | 0 / 53 |
-| IV. THE EAST INDIA TRADE, 1680–1702 | `258–319` | 62 | 0 | 0 / 62 |
+| IV. THE EAST INDIA TRADE, 1680–1702 | `258–319` | 62 | 2 | 0 / 62 |
 | CONCLUSION | `320–323` | 4 | 0 | 0 / 4 |
 | INDEX | `325–342` | 16 | 0 | 0 / 16 |

@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 347 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **89.4 / 100** (`community`)
+- **Current Edition Score**: **85.4 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 347** leaves verified
 - **Original Camera Scans**: [Internet Archive (`cu31924022938264`)](https://archive.org/details/cu31924022938264)
 
@@ -43,6 +43,7 @@ Welcome! You do **not** need to read all 347 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
+- [ ] Leaf **310**: Table row p0310-b0012 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
 - [ ] Leaf **311**: Uncertain glyph reading marked <unclear>t</unclear>.
 - [ ] Leaf **311**: Uncertain glyph reading marked <unclear>N</unclear>.
 - [ ] Leaf **312**: Uncertain glyph reading marked <unclear>ilege</unclear>.
@@ -67,7 +68,6 @@ Welcome! You do **not** need to read all 347 leaves from start to finish to make
 - [ ] Leaf **311**: Column 1 states total 1 but its 16 contributing cells sum to 22 (difference 21).
 - [ ] Leaf **311**: Column 2 states total 4598117 but its 16 contributing cells sum to 9196234 (difference 4598117).
 - [ ] Leaf **311**: Column 3 states total 64 but its 16 contributing cells sum to 128 (difference 64).
-- [ ] Leaf **311**: Column 4 states total 2705556 but its 16 contributing cells sum to 5411116 (difference 2705560).
 - [ ] Leaf **310** (`p0310-b0018`): Faded ink `<unclear>India</unclear>` in *"…d not “Statutory Natives of India he sense that they are domi…"*
 - [ ] Leaf **311** (`p0311-b0004`): Faded ink `<unclear>th</unclear>` in *"…the House of Commons, dated 24…"*
 - [ ] Leaf **312** (`p0312-b0003`): Faded ink `<unclear>ilege</unclear>` in *"…ers on Leave, including Privilege…"*
@@ -122,7 +122,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Appendix S: Land Revenue under Hindu Rule | `248–258` | 11 | 4 | 0 / 11 |
 | Appendix T: Land Revenue under Mahomedan Rule | `259–269` | 11 | 2 | 0 / 11 |
 | Appendix U: Royal Commission on Indian Expenditure: Eviden | `269–309` | 41 | 1 | 0 / 41 |
-| Appendix V: Indian Salaries Return | `310–317` | 8 | 34 | 0 / 8 |
+| Appendix V: Indian Salaries Return | `310–317` | 8 | 35 | 0 / 8 |
 | Appendix W: Cost of Foreign Wars Charged to India | `318–318` | 1 | 0 | 0 / 1 |
 | Appendix X: Letter on Land Assessments in India | `318–323` | 6 | 0 | 0 / 6 |
 | Appendix Y: Letters on Indian Expenditure | `324–332` | 9 | 0 | 0 / 9 |

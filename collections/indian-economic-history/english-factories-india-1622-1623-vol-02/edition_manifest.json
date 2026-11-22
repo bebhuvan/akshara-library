@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 87.0,
+  "rubric_score": 85.0,
   "cover_archetype": "maritime_company_records",
   "cover_palette": "Pelagic Indigo",
   "edition_root": "library/indian-economic-history/english-factories-india-1622-1623-vol-02",
@@ -60,8 +60,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 18 fixes · 7 pp. checked",
-        "detail": "18 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 41 fixes · 9 pp. checked",
+        "detail": "41 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -140,11 +140,11 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 388,
+      "open_hotspots": 368,
       "extracted_page_count": 430,
       "p1_proofed_page_count": 0,
-      "reread_page_count": 7,
-      "machine_reread_page_count": 7,
+      "reread_page_count": 9,
+      "machine_reread_page_count": 9,
       "human_verified_page_count": 0,
       "two_person_verified_page_count": 0,
       "unevidenced_stamp_count": 0,
@@ -154,23 +154,186 @@
         112,
         150,
         164,
+        181,
+        195,
         220,
         323
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (388 open review items); 7 of 430 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (368 open review items); 9 of 430 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 388,
-      "informational": 19,
-      "total": 407
+      "review": 368,
+      "informational": 21,
+      "total": 389
     },
     "corrections": {
-      "applied": 18,
+      "applied": 41,
       "unmatched": 0,
       "details": [
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0120-b0003-1",
+          "page_number": 120,
+          "matched_block_id": "p0120-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0213-b0009-2",
+          "page_number": 213,
+          "matched_block_id": "p0213-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0325-b0003-3",
+          "page_number": 325,
+          "matched_block_id": "p0325-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-shelf-v1-p0357-b0005-4",
+          "page_number": 357,
+          "matched_block_id": "p0357-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0009-b0003-tok",
+          "page_number": 9,
+          "matched_block_id": "p0009-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0067-b0011-tok",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0011",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0103-b0003-tok",
+          "page_number": 103,
+          "matched_block_id": "p0103-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0109-b0003-tok",
+          "page_number": 109,
+          "matched_block_id": "p0109-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0109-b0005-tok",
+          "page_number": 109,
+          "matched_block_id": "p0109-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0113-b0003-tok",
+          "page_number": 113,
+          "matched_block_id": "p0113-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0176-b0008-tok",
+          "page_number": 176,
+          "matched_block_id": "p0176-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0191-b0004-tok",
+          "page_number": 191,
+          "matched_block_id": "p0191-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0195-b0004-tok",
+          "page_number": 195,
+          "matched_block_id": "p0195-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0200-b0003-tok",
+          "page_number": 200,
+          "matched_block_id": "p0200-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0243-b0003-tok",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0251-b0003-tok",
+          "page_number": 251,
+          "matched_block_id": "p0251-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0271-b0005-tok",
+          "page_number": 271,
+          "matched_block_id": "p0271-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0300-b0003-tok",
+          "page_number": 300,
+          "matched_block_id": "p0300-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0318-b0005-tok",
+          "page_number": 318,
+          "matched_block_id": "p0318-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0339-b0003-tok",
+          "page_number": 339,
+          "matched_block_id": "p0339-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0342-b0003-tok",
+          "page_number": 342,
+          "matched_block_id": "p0342-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0373-b0003-tok",
+          "page_number": 373,
+          "matched_block_id": "p0373-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-shelf-v1-p0412-b0009-tok",
+          "page_number": 412,
+          "matched_block_id": "p0412-b0009",
+          "op": "set_text",
+          "status": "applied"
+        },
         {
           "correction_id": "ef2-p0279-b0003",
           "page_number": 279,
@@ -300,33 +463,6 @@
       ]
     },
     "review_items": [
-      {
-        "page_number": 9,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>had been</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0009-b0003"
-      },
-      {
-        "page_number": 9,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>well-nigh hopeless.</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0009-b0003"
-      },
-      {
-        "page_number": 9,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>Monnox</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0009-b0003"
-      },
       {
         "page_number": 67,
         "severity": "review",
@@ -526,67 +662,13 @@
         "block_id": "p0083-b0003"
       },
       {
-        "page_number": 103,
+        "page_number": 102,
         "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0103-b0003"
-      },
-      {
-        "page_number": 109,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0109-b0003"
-      },
-      {
-        "page_number": 109,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>khandarūs</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0109-b0003"
-      },
-      {
-        "page_number": 109,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0109-b0003"
-      },
-      {
-        "page_number": 109,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>Companyes</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0109-b0005"
-      },
-      {
-        "page_number": 109,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0109-b0005"
-      },
-      {
-        "page_number": 113,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>word the</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0113-b0003"
+        "category": "script_anomaly",
+        "message": "Out-of-alphabet Latin character U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE (likely meant 'Ī').",
+        "expected_action": "Compare glyph against source scan.",
+        "validator": "script_validator",
+        "block_id": "p0102-b0005"
       },
       {
         "page_number": 121,
@@ -1444,15 +1526,6 @@
         "block_id": "p0153-b0001"
       },
       {
-        "page_number": 176,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>¾</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0176-b0008"
-      },
-      {
         "page_number": 181,
         "severity": "review",
         "category": "unclear_ink_span",
@@ -1723,24 +1796,6 @@
         "block_id": "p0181-b0006"
       },
       {
-        "page_number": 181,
-        "severity": "review",
-        "category": "footnote_marker_mismatch",
-        "message": "Page 181 has inline note callout(s) [] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
-        "validator": "apparatus_parity",
-        "block_id": "p0181-b0008"
-      },
-      {
-        "page_number": 191,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>¾</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0191-b0004"
-      },
-      {
         "page_number": 195,
         "severity": "review",
         "category": "unclear_ink_span",
@@ -1802,15 +1857,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0195-b0003"
-      },
-      {
-        "page_number": 195,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>:</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0195-b0004"
       },
       {
         "page_number": 195,
@@ -1885,39 +1931,21 @@
         "block_id": "p0195-b0008"
       },
       {
-        "page_number": 195,
+        "page_number": 239,
         "severity": "review",
-        "category": "footnote_marker_mismatch",
-        "message": "Page 195 has inline note callout(s) [] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
-        "validator": "apparatus_parity",
-        "block_id": "p0195-b0008"
-      },
-      {
-        "page_number": 200,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0200-b0003"
-      },
-      {
-        "page_number": 243,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0243-b0003"
+        "category": "script_anomaly",
+        "message": "Out-of-alphabet Latin character U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE (likely meant 'Ī').",
+        "expected_action": "Compare glyph against source scan.",
+        "validator": "script_validator",
+        "block_id": "p0239-b0004"
       },
       {
         "page_number": 251,
         "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>Dīwān of</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Diwan' appears without diacritics here, whereas this volume consistently prints 'Dīwān' (8 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
         "block_id": "p0251-b0003"
       },
       {
@@ -2387,15 +2415,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0259-b0002"
-      },
-      {
-        "page_number": 271,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>¾</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0271-b0005"
       },
       {
         "page_number": 279,
@@ -3181,24 +3200,6 @@
         "block_id": "p0284-b0008"
       },
       {
-        "page_number": 300,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>¾</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0300-b0003"
-      },
-      {
-        "page_number": 318,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>¾</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0318-b0005"
-      },
-      {
         "page_number": 329,
         "severity": "review",
         "category": "unclear_ink_span",
@@ -3233,24 +3234,6 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0329-b0002"
-      },
-      {
-        "page_number": 339,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>¼</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0339-b0003"
-      },
-      {
-        "page_number": 373,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>¾</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0373-b0003"
       },
       {
         "page_number": 395,
@@ -3874,6 +3857,24 @@
         "block_id": "p0172-b0008"
       },
       {
+        "page_number": 181,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 181 has inline note callout(s) [] vs. labelled footnote(s) ['1'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0181-b0008"
+      },
+      {
+        "page_number": 195,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 195 has inline note callout(s) [] vs. labelled footnote(s) ['1'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0195-b0008"
+      },
+      {
         "page_number": 220,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
@@ -3987,8 +3988,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 18 fixes · 7 pp. checked",
-          "detail": "18 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 41 fixes · 9 pp. checked",
+          "detail": "41 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -28,47 +28,59 @@ Welcome! You do **not** need to read all 177 leaves from start to finish to make
 - [ ] Leaf **26** (`p0026-b0005`): Page 26 has inline note callout(s) ['1', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **28** (`p0028-b0003`): Page 28 has inline note callout(s) ['2', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **29** (`p0029-b0003`): Page 29 has inline note callout(s) ['3', 'a'] vs. labelled footnote(s) ['a'].
-- [ ] Leaf **32** (`p0032-b0003`): Page 32 has inline note callout(s) ['4', 'a', 'b', 'c', 'd'] vs. labelled footnote(s) ['a', 'b', 'c', 'd'].
 - [ ] Leaf **33** (`p0033-b0003`): Page 33 has inline note callout(s) ['5', '6', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].
-- [ ] Leaf **36** (`p0036-b0004`): Page 36 has inline note callout(s) ['7', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **37** (`p0037-b0003`): Page 37 has inline note callout(s) ['8', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **42** (`p0042-b0004`): Page 42 has inline note callout(s) ['9', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
-- [ ] Leaf **43** (`p0043-b0003`): Page 43 has inline note callout(s) ['10', 'a'] vs. labelled footnote(s) ['a'].
-- [ ] Leaf **47** (`p0047-b0004`): Page 47 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **49** (`p0049-b0003`): Page 49 has inline note callout(s) ['2', '3', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
-- [ ] Leaf **53** (`p0053-b0003`): Page 53 has inline note callout(s) ['6', '7', '8', 'a', 'b', 'c', 'd', 'e', 'f'] vs. labelled footnote(s) ['a', 'c', 'e', 'b', 'd', 'f'].
-- [ ] Leaf **55** (`p0055-b0004`): Page 55 has inline note callout(s) ['11', '12', '13', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **57** (`p0057-b0003`): Page 57 has inline note callout(s) ['14', '15', 'a', 'b', 'c', 'd'] vs. labelled footnote(s) ['a', 'b', 'c', 'd'].
 - [ ] Leaf **61** (`p0061-b0004`): Page 61 has inline note callout(s) ['1'] vs. labelled footnote(s) [].
-- [ ] Leaf **66** (`p0066-b0003`): Page 66 has inline note callout(s) ['2', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].
-- [ ] Leaf **68** (`p0068-b0003`): Page 68 has inline note callout(s) ['3', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **70** (`p0070-b0003`): Page 70 has inline note callout(s) ['4', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
-- [ ] Leaf **72** (`p0072-b0003`): Page 72 has inline note callout(s) ['5', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **73** (`p0073-b0004`): Page 73 has inline note callout(s) ['6', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **76** (`p0076-b0004`): Page 76 has inline note callout(s) ['7', 'a'] vs. labelled footnote(s) ['a'].
-- [ ] Leaf **80** (`p0080-b0003`): Page 80 has inline note callout(s) ['8', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **83** (`p0083-b0006`): Page 83 has inline note callout(s) ['a', 'b'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **84** (`p0084-b0005`): Page 84 has inline note callout(s) ['9', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
-- [ ] Leaf **85** (`p0085-b0003`): Page 85 has inline note callout(s) ['10', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **90** (`p0090-b0004`): Page 90 has inline note callout(s) ['13', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **96** (`p0096-b0005`): Page 96 has inline note callout(s) ['1'] vs. labelled footnote(s) [].
+- [ ] Leaf **98** (`p0098-b0003`): Page 98 has inline note callout(s) ['2', 'a'] vs. labelled footnote(s) ['a'].
+- [ ] Leaf **107** (`p0107-b0003`): Page 107 has inline note callout(s) ['6', '7'] vs. labelled footnote(s) [].
+- [ ] Leaf **126** (`p0126-b0005`): Page 126 has inline note callout(s) ['5', 'a'] vs. labelled footnote(s) ['a'].
+- [ ] Leaf **139** (`p0139-b0003`): Page 139 has inline note callout(s) ['7', 'a'] vs. labelled footnote(s) ['a'].
+- [ ] Leaf **143** (`p0143-b0003`): Page 143 has inline note callout(s) ['8', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **147** (`p0147-b0006`): Page 147 has inline note callout(s) ['9'] vs. labelled footnote(s) [].
+- [ ] Leaf **149** (`p0149-b0004`): Page 149 has inline note callout(s) ['11', '12', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **155** (`p0155-b0003`): Page 155 has inline note callout(s) ['1', '2', '3', '4'] vs. labelled footnote(s) [].
+- [ ] Leaf **156** (`p0156-b0006`): Page 156 has inline note callout(s) ['5', '6'] vs. labelled footnote(s) [].
 - [ ] Leaves **20 -> 21**: Confirm cross-page footnote `a` joins smoothly across the page turn.
 
 ---
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
+- [ ] Leaf **32**: Page 32 has inline note callout(s) ['4', 'a', 'b', 'c', 'd'] vs. labelled footnote(s) ['a', 'b', 'c', 'd'].
+- [ ] Leaf **36**: Page 36 has inline note callout(s) ['7', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **43**: Page 43 has inline note callout(s) ['10', 'a'] vs. labelled footnote(s) ['a'].
+- [ ] Leaf **47**: Page 47 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **51**: Page 51 has inline note callout(s) ['4', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].
 - [ ] Leaf **52**: Page 52 has inline note callout(s) ['5', 'a', 'b', 'c', 'd', 'e', 'f'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e', 'f'].
+- [ ] Leaf **53**: Page 53 has inline note callout(s) ['6', '7', '8', 'a', 'b', 'c', 'd', 'e', 'f'] vs. labelled footnote(s) ['a', 'c', 'e', 'b', 'd', 'f'].
 - [ ] Leaf **54**: Page 54 has inline note callout(s) ['9', '10', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].
+- [ ] Leaf **55**: Page 55 has inline note callout(s) ['11', '12', '13', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
+- [ ] Leaf **66**: Page 66 has inline note callout(s) ['2', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].
+- [ ] Leaf **68**: Page 68 has inline note callout(s) ['3', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **72**: Page 72 has inline note callout(s) ['5', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
+- [ ] Leaf **80**: Page 80 has inline note callout(s) ['8', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
+- [ ] Leaf **85**: Page 85 has inline note callout(s) ['10', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **88**: Page 88 has inline note callout(s) ['11', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
+- [ ] Leaf **89**: Page 89 has inline note callout(s) ['12', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **92**: 'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'rôle.'.
+- [ ] Leaf **99**: Page 99 has inline note callout(s) ['3', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
+- [ ] Leaf **100**: Page 100 has inline note callout(s) ['4', 'a'] vs. labelled footnote(s) ['a'].
+- [ ] Leaf **103**: Page 103 has inline note callout(s) ['5', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **115**: Page 115 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **115**: 'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'guère—sauf'.
-- [ ] Leaf **148**: Page 148 has inline note callout(s) ['10', 'a'] vs. labelled footnote(s) ['a'].
-- [ ] Leaf **148**: 'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'd’être,'.
-- [ ] Leaf **158**: Page 158 has inline note callout(s) ['10', '1', '2', '3', '4', '5', '6', '7', '8'] vs. labelled footnote(s) [].
-- [ ] Leaf **158**: 'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Trückne,'.
-- [ ] Leaf **165**: 'ä' (U+00E4 LATIN SMALL LETTER A WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Gräben'.
-- [ ] Leaf **165**: 'ö' (U+00F6 LATIN SMALL LETTER O WITH DIAERESIS) appears only 1 time(s) in this book, here in 'erschöpfft'.
-- [ ] Leaf **165**: 'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'ausgetrüchnet'.
+- [ ] Leaf **119**: Page 119 has inline note callout(s) ['2', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **124**: Page 124 has inline note callout(s) ['3', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
+- [ ] Leaf **125**: Page 125 has inline note callout(s) ['4', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `Macpherson` (leaf 13), `demonstration` (leaf 18), `meteorologists` (leaf 20), `perspective` (leaf 23), `occasionally` (leaf 27), `indeterminate` (leaf 27), `incapable` (leaf 28), `conqueror` (leaf 29), `attempting` (leaf 32), `correlation` (leaf 42), `inconsiderable` (leaf 43), `sojourners` (leaf 44), `indiscriminately` (leaf 59), `limitation` (leaf 62), `enforcement` (leaf 63).
 
 ---

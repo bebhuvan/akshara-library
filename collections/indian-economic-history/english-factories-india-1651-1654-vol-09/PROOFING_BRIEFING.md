@@ -44,7 +44,6 @@ Welcome! You do **not** need to read all 368 leaves from start to finish to make
 - [ ] Leaf **10**: 'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 2 time(s) in this book, here in 'Bibliothèque'.
 - [ ] Leaf **125**: 'É' (U+00C9 LATIN CAPITAL LETTER E WITH ACUTE) appears only 1 time(s) in this book, here in 'THOMÉ,'.
 - [ ] Leaf **130**: Token 'Chhatarsal' appears without diacritics here, whereas this volume consistently prints 'Chhatarsāl' (9 occurrences).
-- [ ] Leaf **148**: 'ħ' (U+0127 LATIN SMALL LETTER H WITH STROKE) appears only 1 time(s) in this book, here in 'Mħr'.
 - [ ] Leaf **158**: Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrzā' (11 occurrences).
 - [ ] Leaf **227**: Token 'Sultan' appears without diacritics here, whereas this volume consistently prints 'Sultān' (11 occurrences).
 - [ ] Leaf **264**: 'Ø' (U+00D8 LATIN CAPITAL LETTER O WITH STROKE) appears only 1 time(s) in this book, here in 'Dansk-Østindiske'.
@@ -68,7 +67,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | PREFACE | `9–10` | 2 | 2 | 0 / 2 |
 | INTRODUCTION | `11–45` | 35 | 0 | 0 / 35 |
 | The English Factories in India, 1651 | `47–127` | 81 | 1 | 0 / 81 |
-| The English Factories in India, 1652 | `128–193` | 66 | 3 | 0 / 66 |
+| The English Factories in India, 1652 | `128–193` | 66 | 2 | 0 / 66 |
 | The English Factories in India, 1653 | `193–265` | 73 | 3 | 0 / 73 |
 | The English Factories in India, 1654 | `265–351` | 87 | 4 | 0 / 87 |
 | INDEX | `352–374` | 21 | 1 | 0 / 21 |

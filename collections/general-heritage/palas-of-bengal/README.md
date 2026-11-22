@@ -4,7 +4,7 @@
 - **Publication Year**: 1915
 - **Imprint**: Calcutta: The Baptist Mission Press / Asiatic Society of Bengal
 - **Collection**: `general-heritage`
-- **Edition Tier**: `community` (**80.2 / 100**)
+- **Edition Tier**: `community` (**86.4 / 100**)
 - **Internet Archive Source**: https://archive.org/details/cu31924096224476
 
 ## Files in This Folder

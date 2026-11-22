@@ -11,7 +11,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 - **Source File**: `economic-history-india-victorian-age-dutt.originals.pdf`
 - **Source SHA-256**: `754c85045d3b6d11c86736ef654291833ad54e1f7ecfecdf33cdd5642adc1d23`
 - **Leaf Accounting**: 660 PDF leaves — **651** content leaves transcribed, **9** blank/tissue leaves (`5, 6, 8, 26, 30, 264, 266, 446, 657`), **0** failed leaves.
-- **Edition Status**: `community` (**95.5 / 100** Rubric Score)
+- **Edition Status**: `community` (**98.5 / 100** Rubric Score)
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
@@ -22,13 +22,13 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.8-flash` (651 pp.).
 - **Reader**: Read by gemini-3.8-flash on 651 of 651 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 6 replayed correction(s). Automated reading (2 open review items); 3 of 651 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 6 replayed correction(s). Automated reading (1 open review item); 4 of 651 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
 - **8 finding(s) across 8 leaf(s)** (pp. 9, 42, 43, 276, 295, 317, 359, 655): rare character.
 - **5 finding(s) across 3 leaf(s)** (pp. 119, 519, 632): table compositor arithmetic variant.
-- **1 finding(s) across 1 leaf(s)** (pp. 227): pages where a footnote marker and note body could not be paired automatically.
 - **1 finding(s) across 1 leaf(s)** (pp. 627): tables where one or more rows have inconsistent column width relative to the header.
+- **1 finding(s) across 1 leaf(s)** (pp. 227): attested compositor footnote callout/note variants preserved diplomatically from the scan.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

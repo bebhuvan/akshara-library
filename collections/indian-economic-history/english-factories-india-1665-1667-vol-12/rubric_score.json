@@ -29,7 +29,7 @@
   },
   "issue_counts_by_code": {
     "control_characters_removed": 1,
-    "rare_character": 10,
+    "rare_character": 11,
     "orthographic_compositor_variant": 6
   },
   "human_proof_coverage": 0.0,

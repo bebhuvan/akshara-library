@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "eic-first-letter-book-1600-1619",
   "run_id": "g38-batch-v1",
-  "total_score": 97.8,
+  "total_score": 96.8,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -22,21 +22,21 @@
       "deductions": []
     },
     "orthographic_fidelity": {
-      "score": 22.8,
+      "score": 21.8,
       "max": 25.0,
       "deductions": [
-        "-2.0: 1 intra-book diacritic drift cluster(s)",
+        "-3.0: 1 script/codepoint anomaly(ies)",
         "-0.2: 1 `<unclear>` ink span(s) awaiting scan check"
       ]
     }
   },
   "issue_counts_by_code": {
     "control_characters_removed": 1,
+    "script_anomaly": 1,
     "unclear_ink_span": 1,
-    "orthographic_diacritic_drift": 1,
-    "rare_character": 47,
+    "rare_character": 46,
     "orthographic_compositor_variant": 5,
-    "footnote_compositor_variant": 5,
+    "footnote_compositor_variant": 4,
     "table_compositor_arithmetic_variant": 2,
     "table_blind_total_confirmed": 1,
     "overlong_heading": 1
@@ -44,6 +44,6 @@
   "human_proof_coverage": 0.0,
   "scan_audit_coverage": 0.0241,
   "next_actions": [
-    "Standardize or verify 1 proper-noun diacritic drift cluster(s)."
+    "Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 2.4%) toward Source-Certified."
   ]
 }

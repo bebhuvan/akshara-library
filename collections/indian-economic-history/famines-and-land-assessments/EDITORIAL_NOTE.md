@@ -11,7 +11,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 - **Source File**: `famines-and-land-assessments.originals.pdf`
 - **Source SHA-256**: `8c8ab173be136668d36ac634a5a95132c0b751c25a9f36e95d187c12e9c29371`
 - **Leaf Accounting**: 352 PDF leaves — **347** content leaves transcribed, **5** blank/tissue leaves (`6, 8, 349, 350, 351`), **0** failed leaves.
-- **Edition Status**: `community` (**89.4 / 100** Rubric Score)
+- **Edition Status**: `community` (**85.4 / 100** Rubric Score)
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
@@ -22,7 +22,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Models**: `gemini-3.8-flash` (347 pp.).
 - **Reader**: Read by gemini-3.8-flash on 347 of 347 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 62 replayed correction(s). Automated reading (16 open review items); 8 of 347 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 67 replayed correction(s). Automated reading (17 open review items); 8 of 347 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
@@ -32,5 +32,6 @@ Rather than pretend machine transcription is infallible, here is what our valida
 - **2 finding(s) across 2 leaf(s)** (pp. 59, 316): pages where a footnote marker and note body could not be paired automatically.
 - **2 finding(s) across 2 leaf(s)** (pp. 314, 317): table blind total confirmed.
 - **1 finding(s) across 1 leaf(s)** (pp. 225): multi-column pages flagged for reading-order verification.
+- **1 finding(s) across 1 leaf(s)** (pp. 310): table collapsed rows.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

@@ -71,8 +71,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `311` prose joins, `10` split footnotes stitched, `0` multi-page tables unified, `384` total footnotes.
-  - Stitched cross-page footnotes: p.49->p.50 (`1`), p.125->p.126 (`2`), p.133->p.134 (`1`), p.140->p.141 (`1`), p.172->p.173 (`2`), p.266->p.267 (`3`), p.267->p.268 (`1`), p.275->p.276 (`2`), p.280->p.281 (`2`), p.365->p.366 (`1`)
+- **Cross-Page Assembly**: `311` prose joins, `9` split footnotes stitched, `0` multi-page tables unified, `385` total footnotes.
+  - Stitched cross-page footnotes: p.49->p.50 (`1`), p.125->p.126 (`2`), p.133->p.134 (`1`), p.140->p.141 (`1`), p.172->p.173 (`2`), p.266->p.267 (`3`), p.267->p.268 (`1`), p.275->p.276 (`2`), p.280->p.281 (`2`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`92` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"3 1761 08381415 2"*
   - Leaf `3` `p0003-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2010 with funding from University of Toronto"*
@@ -94,4 +94,4 @@
 
 - **Detected Scripts**: `latin`: 872,431 chars, `cyrillic`: 10 chars
 - **Distinct Non-ASCII Glyphs (`27` across `347` leaves)**: À à ã ç é Ā ā ē ġ ħ ī œ ū а в е м о с т ч ь ⅓ ⅔ ⅛ ⅝ ⅞
-- **Corrections Replayed**: `9` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `44` applied, `0` orphaned/unmatched
