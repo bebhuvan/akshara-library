@@ -1,7 +1,7 @@
 {
   "version": "akshara-library-v1",
-  "book_count": 51,
-  "total_tables": 1242,
+  "book_count": 58,
+  "total_tables": 1308,
   "books": [
     {
       "book_id": "early-history-of-india-1924",
@@ -19,6 +19,57 @@
       "footnotes_count": 919,
       "archive_id": "earlyhistoryofin0000smit_e6k6",
       "path": "collections/general-heritage/early-history-of-india-1924"
+    },
+    {
+      "book_id": "india-what-can-it-teach-us",
+      "title": "India: What Can It Teach Us?",
+      "subtitle": "A Course of Lectures Delivered Before the University of Cambridge. New Edition",
+      "authors": [
+        "F. Max Müller"
+      ],
+      "publication_year": 1892,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 350,
+      "tables_count": 2,
+      "footnotes_count": 378,
+      "archive_id": "indiawhatcanitte00mluoft",
+      "path": "collections/general-heritage/india-what-can-it-teach-us"
+    },
+    {
+      "book_id": "life-in-an-indian-village",
+      "title": "Life in an Indian Village",
+      "subtitle": "With an Introduction by the Right Honourable Sir M. E. Grant Duff, G.C.S.I., C.I.E.",
+      "authors": [
+        "T. Ramakrishna"
+      ],
+      "publication_year": 1891,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 228,
+      "tables_count": 0,
+      "footnotes_count": 5,
+      "archive_id": "lifeinindianvill00ramarich",
+      "path": "collections/general-heritage/life-in-an-indian-village"
+    },
+    {
+      "book_id": "modern-religious-movements-india",
+      "title": "Modern Religious Movements in India",
+      "subtitle": "",
+      "authors": [
+        "John Nicol Farquhar"
+      ],
+      "publication_year": 1915,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 518,
+      "tables_count": 5,
+      "footnotes_count": 617,
+      "archive_id": "modernreligiousm00farqiala",
+      "path": "collections/general-heritage/modern-religious-movements-india"
     },
     {
       "book_id": "mughal-administration",
@@ -53,6 +104,57 @@
       "footnotes_count": 277,
       "archive_id": "cu31924096224476",
       "path": "collections/general-heritage/palas-of-bengal"
+    },
+    {
+      "book_id": "people-of-india",
+      "title": "The People of India",
+      "subtitle": "Second Edition, Edited by W. Crooke, B.A.",
+      "authors": [
+        "Sir Herbert Hope Risley"
+      ],
+      "publication_year": 1915,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 682,
+      "tables_count": 51,
+      "footnotes_count": 216,
+      "archive_id": "cu31924024114773",
+      "path": "collections/general-heritage/people-of-india"
+    },
+    {
+      "book_id": "religion-of-the-veda",
+      "title": "The Religion of the Veda",
+      "subtitle": "The Ancient Religion of India (From Rig-Veda to Upanishads)",
+      "authors": [
+        "Maurice Bloomfield"
+      ],
+      "publication_year": 1908,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 334,
+      "tables_count": 0,
+      "footnotes_count": 242,
+      "archive_id": "religionveda00bloouoft",
+      "path": "collections/general-heritage/religion-of-the-veda"
+    },
+    {
+      "book_id": "while-sewing-sandals",
+      "title": "While Sewing Sandals",
+      "subtitle": "Or, Tales of a Telugu Pariah Tribe",
+      "authors": [
+        "Emma Rauschenbusch-Clough"
+      ],
+      "publication_year": 1899,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 362,
+      "tables_count": 1,
+      "footnotes_count": 0,
+      "archive_id": "whilesewingsanda00rausrich",
+      "path": "collections/general-heritage/while-sewing-sandals"
     },
     {
       "book_id": "early-history-tea-industry",
@@ -650,6 +752,23 @@
       "footnotes_count": 5,
       "archive_id": "indianfinance00moxorich",
       "path": "collections/indian-economic-history/indian-finance-moxon-1881"
+    },
+    {
+      "book_id": "indian-shipping",
+      "title": "Indian Shipping",
+      "subtitle": "A History of the Sea-Borne Trade and Maritime Activity of the Indians from the Earliest Times. With an Introductory Note by Brajendranath Seal",
+      "authors": [
+        "Radhakumud Mookerji"
+      ],
+      "publication_year": 1912,
+      "collection": "indian-economic-history",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 358,
+      "tables_count": 7,
+      "footnotes_count": 407,
+      "archive_id": "indianshippinghi00mookrich",
+      "path": "collections/indian-economic-history/indian-shipping"
     },
     {
       "book_id": "journey-from-madras-vol-i",

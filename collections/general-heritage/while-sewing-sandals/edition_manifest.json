@@ -1,0 +1,286 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "while-sewing-sandals",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "village_and_society",
+  "cover_palette": "Terracotta Loom",
+  "edition_root": "library/general-heritage/while-sewing-sandals",
+  "outputs": {
+    "book_ast": "library/general-heritage/while-sewing-sandals/book_ast.json",
+    "rubric_score": "library/general-heritage/while-sewing-sandals/rubric_score.json",
+    "editorial_note": "library/general-heritage/while-sewing-sandals/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/while-sewing-sandals/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/while-sewing-sandals/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/while-sewing-sandals/cover.svg",
+    "cover_webp": "library/general-heritage/while-sewing-sandals/cover.webp",
+    "web_index": "library/general-heritage/while-sewing-sandals/web/index.html",
+    "hugo_dir": "library/general-heritage/while-sewing-sandals/web/hugo",
+    "hugo_manifest": "library/general-heritage/while-sewing-sandals/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/while-sewing-sandals/epub/while-sewing-sandals.epub",
+    "markdown": "library/general-heritage/while-sewing-sandals/markdown/while-sewing-sandals.md",
+    "tei_xml": "library/general-heritage/while-sewing-sandals/tei/while-sewing-sandals.tei.xml",
+    "print_html": "library/general-heritage/while-sewing-sandals/print/while-sewing-sandals.print.html",
+    "pdf": "library/general-heritage/while-sewing-sandals/print/while-sewing-sandals.pdf",
+    "datasets": "library/general-heritage/while-sewing-sandals/datasets/tables_manifest.json",
+    "datapackage": "library/general-heritage/while-sewing-sandals/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/while-sewing-sandals",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (337/337 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/while-sewing-sandals.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 6 fixes · 2 pp. checked",
+        "detail": "6 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 337 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 1/1 Arithmetic-Checked",
+        "detail": "1 of 1 tables pass arithmetic & column checks"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "19th Century Andhra",
+      "regions": [
+        "Madras Presidency",
+        "Andhra",
+        "Ongole",
+        "South India"
+      ],
+      "subjects": [
+        "Madiga Community",
+        "Oral Tradition",
+        "Rural Society",
+        "Ethnography"
+      ],
+      "artifacts": [
+        "1 Statistical Tables",
+        "9 Archival Plates",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 337,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 2,
+      "machine_reread_page_count": 2,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        90,
+        345
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 2 of 337 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 2,
+      "total": 2
+    },
+    "corrections": {
+      "applied": 6,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0068-b0003-1",
+          "page_number": 68,
+          "matched_block_id": "p0068-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0068-b0001",
+          "page_number": 68,
+          "matched_block_id": "p0068-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0191-b0001",
+          "page_number": 191,
+          "matched_block_id": "p0191-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "review-p0086-b0003-spacequad",
+          "page_number": 86,
+          "matched_block_id": "p0086-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "review-p0198-b0003-spacequad",
+          "page_number": 198,
+          "matched_block_id": "p0198-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "backcover-drop-p0362-b0001",
+          "page_number": 362,
+          "matched_block_id": "p0362-b0001",
+          "op": "drop_residue",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 90,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'rôle'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0090-b0004"
+      },
+      {
+        "page_number": 345,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ö' (U+00F6 LATIN SMALL LETTER O WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Götter.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0345-b0007"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (337/337 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/while-sewing-sandals.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 6 fixes · 2 pp. checked",
+          "detail": "6 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 337 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 1/1 Arithmetic-Checked",
+          "detail": "1 of 1 tables pass arithmetic & column checks"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "19th Century Andhra",
+        "regions": [
+          "Madras Presidency",
+          "Andhra",
+          "Ongole",
+          "South India"
+        ],
+        "subjects": [
+          "Madiga Community",
+          "Oral Tradition",
+          "Rural Society",
+          "Ethnography"
+        ],
+        "artifacts": [
+          "1 Statistical Tables",
+          "9 Archival Plates",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

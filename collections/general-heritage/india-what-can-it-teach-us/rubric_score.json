@@ -1,0 +1,42 @@
+{
+  "version": "rubric-v2",
+  "book_id": "india-what-can-it-teach-us",
+  "run_id": "g4-hydrogen-batch-v1",
+  "total_score": 100.0,
+  "max_score": 100.0,
+  "recommended_gate": "machine_checked",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    }
+  },
+  "issue_counts_by_code": {
+    "rare_character": 89,
+    "footnote_compositor_variant": 6,
+    "orthographic_compositor_variant": 5,
+    "script_character_confirmed": 22,
+    "table_compositor_arithmetic_variant": 1
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0669,
+  "next_actions": [
+    "Ready to ship as Machine-Checked Edition (no open validator hotspots; 6.7% of pages re-read; 0.0% verified by a person toward Source-Certified)."
+  ]
+}

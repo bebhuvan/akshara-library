@@ -1,6 +1,6 @@
 # Akshara Public-Domain Digital Library (`akshara-library`)
 
-**51 full scholarly editions · 1242 structured CSV/JSON statistical tables · CC0 Public Domain**
+**58 full scholarly editions · 1308 structured CSV/JSON statistical tables · CC0 Public Domain**
 
 Every edition in this repository is compiled from camera-original Archive.org JP2 scans with 100% diplomatic orthographic fidelity.
 
@@ -42,9 +42,13 @@ Heavy Print PDFs and de-blotted `.originals.pdf` camera scan backups live under 
 | [Famines and Land Assessments in India](collections/indian-economic-history/famines-and-land-assessments/README.md) | Romesh Chunder Dutt | 1900 | `community` | 85.4 | 29 |
 | [From Akbar to Aurangzeb](collections/indian-economic-history/from-akbar-to-aurangzeb/README.md) | W. H. Moreland | 1923 | `community` | 96.0 | 27 |
 | [India at the Death of Akbar](collections/indian-economic-history/india-at-the-death-of-akbar/README.md) | W. H. Moreland | 1920 | `machine_checked` | 100.0 | 5 |
+| [India: What Can It Teach Us?](collections/general-heritage/india-what-can-it-teach-us/README.md) | F. Max Müller | 1892 | `machine_checked` | 100.0 | 2 |
 | [Indian Famines, Their Causes and Prevention](collections/indian-economic-history/indian-famines-causes-prevention-dutt-1901/README.md) | Romesh Chunder Dutt | 1901 | `community` | 95.0 | 3 |
 | [Indian Finance](collections/indian-economic-history/indian-finance-moxon-1881/README.md) | Thomas Bouchier Moxon | 1881 | `machine_checked` | 100.0 | 9 |
+| [Indian Shipping](collections/indian-economic-history/indian-shipping/README.md) | Radhakumud Mookerji | 1912 | `machine_checked` | 100.0 | 7 |
 | [Introduction to the Peishwa's Diaries](collections/indian-economic-history/peishwas-diaries-intro/README.md) | Mahadev Govind Ranade | 1900 | `machine_checked` | 100.0 | 0 |
+| [Life in an Indian Village](collections/general-heritage/life-in-an-indian-village/README.md) | T. Ramakrishna | 1891 | `machine_checked` | 100.0 | 0 |
+| [Modern Religious Movements in India](collections/general-heritage/modern-religious-movements-india/README.md) | John Nicol Farquhar | 1915 | `machine_checked` | 100.0 | 5 |
 | [Musalmans and Money-Lenders in the Punjab](collections/indian-economic-history/musalmans-and-money-lenders/README.md) | Septimus Smet Thorburn | 1886 | `community` | 99.4 | 13 |
 | [Poverty and Un-British Rule in India](collections/indian-economic-history/poverty-and-un-british-rule/README.md) | Dadabhai Naoroji | 1901 | `community` | 71.6 | 169 |
 | [Recent Economic Developments in the Punjab](collections/indian-economic-history/recent-economic-developments-punjab-wilson-1910/README.md) | James Wilson | 1910 | `community` | 88.0 | 15 |
@@ -75,7 +79,10 @@ Heavy Print PDFs and de-blotted `.originals.pdf` camera scan backups live under 
 | [The Imperial Gazetteer of India: The Indian Empire, Vol. III — Economic](collections/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/README.md) | Great Britain. India Office | 1907 | `community` | 84.0 | 96 |
 | [The Imperial Gazetteer of India: The Indian Empire, Vol. IV — Administrative](collections/indian-economic-history/imperial-gazetteer-of-india-vol-04-administrative/README.md) | Great Britain. India Office | 1907 | `community` | 88.0 | 60 |
 | [The Mughal Administration: Six Lectures](collections/general-heritage/mughal-administration/README.md) | Jadunath Sarkar | 1920 | `machine_checked` | 100.0 | 0 |
+| [The People of India](collections/general-heritage/people-of-india/README.md) | Sir Herbert Hope Risley | 1915 | `machine_checked` | 100.0 | 51 |
 | [The Periplus of the Erythræan Sea: Travel and Trade in the Indian Ocean by a Merchant of the First Century](collections/indian-economic-history/periplus-erythraean-sea/README.md) | Wilfred H. Schoff | 1912 | `machine_checked` | 100.0 | 4 |
 | [The Pālas of Bengal](collections/general-heritage/palas-of-bengal/README.md) | R. D. Banerji | 1915 | `community` | 86.4 | 0 |
 | [The Register of Letters &c. of the Governour and Company of Merchants of London Trading into the East Indies, 1600–1619](collections/indian-economic-history/eic-first-letter-book-1600-1619/README.md) | George Birdwood, William Foster | 1893 | `community` | 96.8 | 21 |
+| [The Religion of the Veda](collections/general-heritage/religion-of-the-veda/README.md) | Maurice Bloomfield | 1908 | `machine_checked` | 100.0 | 0 |
 | [The Truth About Indian Opium](collections/indian-economic-history/truth-about-indian-opium/README.md) | G. Graham Dixon, Great Britain. India Office | 1922 | `machine_checked` | 100.0 | 13 |
+| [While Sewing Sandals](collections/general-heritage/while-sewing-sandals/README.md) | Emma Rauschenbusch-Clough | 1899 | `machine_checked` | 100.0 | 1 |

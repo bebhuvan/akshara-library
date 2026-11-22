@@ -1,0 +1,1097 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "indian-shipping",
+  "run_id": "g4-hydrogen-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "indian-economic-history",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "maritime_company_records",
+  "cover_palette": "Pelagic Indigo",
+  "edition_root": "library/indian-economic-history/indian-shipping",
+  "outputs": {
+    "book_ast": "library/indian-economic-history/indian-shipping/book_ast.json",
+    "rubric_score": "library/indian-economic-history/indian-shipping/rubric_score.json",
+    "editorial_note": "library/indian-economic-history/indian-shipping/EDITORIAL_NOTE.md",
+    "edition_report": "library/indian-economic-history/indian-shipping/EDITION_REPORT.md",
+    "proofing_briefing": "library/indian-economic-history/indian-shipping/PROOFING_BRIEFING.md",
+    "cover_svg": "library/indian-economic-history/indian-shipping/cover.svg",
+    "cover_webp": "library/indian-economic-history/indian-shipping/cover.webp",
+    "web_index": "library/indian-economic-history/indian-shipping/web/index.html",
+    "hugo_dir": "library/indian-economic-history/indian-shipping/web/hugo",
+    "hugo_manifest": "library/indian-economic-history/indian-shipping/web/hugo/hugo_manifest.json",
+    "epub3": "library/indian-economic-history/indian-shipping/epub/indian-shipping.epub",
+    "markdown": "library/indian-economic-history/indian-shipping/markdown/indian-shipping.md",
+    "tei_xml": "library/indian-economic-history/indian-shipping/tei/indian-shipping.tei.xml",
+    "print_html": "library/indian-economic-history/indian-shipping/print/indian-shipping.print.html",
+    "pdf": "library/indian-economic-history/indian-shipping/print/indian-shipping.pdf",
+    "datasets": "library/indian-economic-history/indian-shipping/datasets/tables_manifest.json",
+    "datapackage": "library/indian-economic-history/indian-shipping/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/indian-economic-history/indian-shipping",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-4-hydrogen",
+        "axis": "provenance",
+        "label": "Read: Gemini 4 Hydrogen",
+        "detail": "Models: gemini-4-hydrogen (330/330 pp.) · reader_profile=indic_script"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/indian-shipping.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 2 fixes · 42 pp. checked",
+        "detail": "2 anchored emendation(s) applied; 42 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 330 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 2/2 Arithmetic-Checked",
+        "detail": "2 of 2 tables pass arithmetic & column checks"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:devanagari",
+        "axis": "diplomatic",
+        "label": "Script: Devanagari",
+        "detail": "Declared script: Devanagari"
+      },
+      {
+        "id": "script:bengali",
+        "axis": "diplomatic",
+        "label": "Script: Bengali",
+        "detail": "Declared script: Bengali"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 407 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "Ancient to Mughal India",
+      "regions": [
+        "Indian Ocean",
+        "Bengal",
+        "Coromandel Coast",
+        "Malabar Coast",
+        "Gujarat"
+      ],
+      "subjects": [
+        "Maritime Trade",
+        "Shipbuilding",
+        "Sea Borne Commerce",
+        "Economic History"
+      ],
+      "artifacts": [
+        "7 Statistical Tables",
+        "33 Archival Plates",
+        "407 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 330,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 42,
+      "machine_reread_page_count": 42,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        31,
+        32,
+        62,
+        63,
+        65,
+        70,
+        75,
+        82,
+        86,
+        114,
+        116,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        142,
+        171,
+        182,
+        205,
+        208,
+        209,
+        211,
+        213,
+        219,
+        232,
+        269,
+        274,
+        282,
+        335,
+        336,
+        344,
+        347,
+        348,
+        349,
+        351,
+        352,
+        353,
+        354,
+        355
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 42 of 330 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 85,
+      "total": 85
+    },
+    "corrections": {
+      "applied": 2,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0125-b0002-tok",
+          "page_number": 125,
+          "matched_block_id": "p0125-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0347-b0049-tok",
+          "page_number": 347,
+          "matched_block_id": "p0347-b0049",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 31,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0031-b0002"
+      },
+      {
+        "page_number": 31,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0031-b0029"
+      },
+      {
+        "page_number": 32,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0032-b0025"
+      },
+      {
+        "page_number": 46,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'æ' (U+00E6 LATIN SMALL LETTER AE) appears only 1 time(s) in this book, here in 'archæological'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0046-b0002"
+      },
+      {
+        "page_number": 58,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ū' (U+016A LATIN CAPITAL LETTER U WITH MACRON) appears only 2 time(s) in this book, here in 'Ūrddhvā'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0058-b0010"
+      },
+      {
+        "page_number": 58,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ū' (U+016A LATIN CAPITAL LETTER U WITH MACRON) appears only 2 time(s) in this book, here in 'Ūrddhvā'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0058-b0015"
+      },
+      {
+        "page_number": 58,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ऊ' (U+090A DEVANAGARI LETTER UU) appears only 2 time(s) in this book, here in 'ऊर्द्धानूर्द्धाखर्णमुखी'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0058-b0017"
+      },
+      {
+        "page_number": 61,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ऊ' (U+090A DEVANAGARI LETTER UU) appears only 2 time(s) in this book, here in 'ऊहथुर्भुज्युमस्तं'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0061-b0003"
+      },
+      {
+        "page_number": 62,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0062-b0002"
+      },
+      {
+        "page_number": 62,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0062-b0003"
+      },
+      {
+        "page_number": 63,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0063-b0002"
+      },
+      {
+        "page_number": 63,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0063-b0003"
+      },
+      {
+        "page_number": 63,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0063-b0004"
+      },
+      {
+        "page_number": 63,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0063-b0006"
+      },
+      {
+        "page_number": 65,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0065-b0002"
+      },
+      {
+        "page_number": 70,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Jataka' appears without diacritics here, whereas this volume consistently prints 'Jātaka' (48 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0070-b0002"
+      },
+      {
+        "page_number": 75,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0075-b0002"
+      },
+      {
+        "page_number": 82,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0082-b0003"
+      },
+      {
+        "page_number": 86,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0086-b0003"
+      },
+      {
+        "page_number": 86,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0086-b0004"
+      },
+      {
+        "page_number": 106,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ँ' (U+0901 DEVANAGARI SIGN CANDRABINDU) appears only 1 time(s) in this book, here in 'कश्चिन्ममृवाँ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0106-b0003"
+      },
+      {
+        "page_number": 106,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ई' (U+0908 DEVANAGARI LETTER II) appears only 1 time(s) in this book, here in 'ईंखयावहै'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0106-b0003"
+      },
+      {
+        "page_number": 109,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṁ' (U+1E41 LATIN SMALL LETTER M WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Manusaṁhitā,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0109-b0004"
+      },
+      {
+        "page_number": 114,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0114-b0002"
+      },
+      {
+        "page_number": 114,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0114-b0003"
+      },
+      {
+        "page_number": 115,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ऐ' (U+0910 DEVANAGARI LETTER AI) appears only 1 time(s) in this book, here in 'ऐन्द्राग्नेऽपि'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0115-b0004"
+      },
+      {
+        "page_number": 115,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ऋ' (U+090B DEVANAGARI LETTER VOCALIC R) appears only 1 time(s) in this book, here in 'ऋतिकान्'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0115-b0005"
+      },
+      {
+        "page_number": 116,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0116-b0003"
+      },
+      {
+        "page_number": 121,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0121-b0004"
+      },
+      {
+        "page_number": 122,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0122-b0002"
+      },
+      {
+        "page_number": 122,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0122-b0003"
+      },
+      {
+        "page_number": 123,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0123-b0002"
+      },
+      {
+        "page_number": 124,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0124-b0002"
+      },
+      {
+        "page_number": 124,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0124-b0003"
+      },
+      {
+        "page_number": 125,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0125-b0002"
+      },
+      {
+        "page_number": 125,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sravasti' appears without diacritics here, whereas this volume consistently prints 'Srāvasti' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0125-b0002"
+      },
+      {
+        "page_number": 126,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Jataka' appears without diacritics here, whereas this volume consistently prints 'Jātaka' (48 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0126-b0003"
+      },
+      {
+        "page_number": 126,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Jataka' appears without diacritics here, whereas this volume consistently prints 'Jātaka' (48 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0126-b0004"
+      },
+      {
+        "page_number": 127,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Valahassa' appears without diacritics here, whereas this volume consistently prints 'Vālahassa' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0127-b0004"
+      },
+      {
+        "page_number": 142,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Jatakas' appears without diacritics here, whereas this volume consistently prints 'Jātakas' (13 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0142-b0002"
+      },
+      {
+        "page_number": 158,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ॢ' (U+0962 DEVANAGARI VOWEL SIGN VOCALIC L) appears only 1 time(s) in this book, here in 'कॢप्तं'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0158-b0003"
+      },
+      {
+        "page_number": 171,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Yajna' appears without diacritics here, whereas this volume consistently prints 'Yajña' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0171-b0005"
+      },
+      {
+        "page_number": 181,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 1 time(s) in this book, here in 'Pukár,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0181-b0002"
+      },
+      {
+        "page_number": 182,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0182-b0002"
+      },
+      {
+        "page_number": 205,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Gandhara' appears without diacritics here, whereas this volume consistently prints 'Gāndhāra' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0205-b0004"
+      },
+      {
+        "page_number": 208,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0208-b0002"
+      },
+      {
+        "page_number": 209,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0209-b0002"
+      },
+      {
+        "page_number": 211,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0211-b0002"
+      },
+      {
+        "page_number": 211,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0211-b0003"
+      },
+      {
+        "page_number": 211,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ং' (U+0982 BENGALI SIGN ANUSVARA) appears only 2 time(s) in this book, here in '(হংসরব),'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0211-b0003"
+      },
+      {
+        "page_number": 211,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ফ' (U+09AB BENGALI LETTER PHA) appears only 2 time(s) in this book, here in '(সাগরফেনা),'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0211-b0003"
+      },
+      {
+        "page_number": 211,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ং' (U+0982 BENGALI SIGN ANUSVARA) appears only 2 time(s) in this book, here in 'সিংহমুখী।'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0211-b0004"
+      },
+      {
+        "page_number": 211,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ঝ' (U+099D BENGALI LETTER JHA) appears only 1 time(s) in this book, here in 'ঝিকিমিকি॥'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0211-b0004"
+      },
+      {
+        "page_number": 211,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ঠ' (U+09A0 BENGALI LETTER TTHA) appears only 2 time(s) in this book, here in 'কাঠ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0211-b0004"
+      },
+      {
+        "page_number": 212,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'উ' (U+0989 BENGALI LETTER U) appears only 1 time(s) in this book, here in 'উপরে'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0212-b0004"
+      },
+      {
+        "page_number": 212,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'এ' (U+098F BENGALI LETTER E) appears only 1 time(s) in this book, here in 'এক'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0212-b0004"
+      },
+      {
+        "page_number": 212,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ৎ' (U+09CE BENGALI LETTER KHANDA TA) appears only 1 time(s) in this book, here in 'তড়িৎ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0212-b0004"
+      },
+      {
+        "page_number": 213,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0213-b0002"
+      },
+      {
+        "page_number": 219,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0219-b0002"
+      },
+      {
+        "page_number": 232,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Varahamihira' appears without diacritics here, whereas this volume consistently prints 'Varāhamihira' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0232-b0003"
+      },
+      {
+        "page_number": 240,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'entrepôt'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0240-b0004"
+      },
+      {
+        "page_number": 247,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 2 time(s) in this book, here in 'entrepôt'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0247-b0003"
+      },
+      {
+        "page_number": 269,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Protapaditya' appears without diacritics here, whereas this volume consistently prints 'Protāpāditya' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0269-b0005"
+      },
+      {
+        "page_number": 274,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sinhala' appears without diacritics here, whereas this volume consistently prints 'Sińhala' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0274-b0002"
+      },
+      {
+        "page_number": 274,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ৌ' (U+09CC BENGALI VOWEL SIGN AU) appears only 1 time(s) in this book, here in 'গৌড়কিনারা'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0274-b0004"
+      },
+      {
+        "page_number": 275,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ঠ' (U+09A0 BENGALI LETTER TTHA) appears only 2 time(s) in this book, here in 'কাঠাল'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0275-b0003"
+      },
+      {
+        "page_number": 275,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ফ' (U+09AB BENGALI LETTER PHA) appears only 2 time(s) in this book, here in 'ফালি'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0275-b0003"
+      },
+      {
+        "page_number": 275,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ষ' (U+09B7 BENGALI LETTER SSA) appears only 1 time(s) in this book, here in 'লক্ষ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0275-b0003"
+      },
+      {
+        "page_number": 282,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0282-b0002"
+      },
+      {
+        "page_number": 308,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'troisième).'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0308-b0005"
+      },
+      {
+        "page_number": 335,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Dirgha' appears without diacritics here, whereas this volume consistently prints 'Dīrghā' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0335-b0015"
+      },
+      {
+        "page_number": 336,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0336-b0027"
+      },
+      {
+        "page_number": 337,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṁ' (U+1E41 LATIN SMALL LETTER M WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Raghuvaṁsa,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0337-b0014"
+      },
+      {
+        "page_number": 344,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0344-b0061"
+      },
+      {
+        "page_number": 347,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0347-b0040"
+      },
+      {
+        "page_number": 348,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0348-b0066"
+      },
+      {
+        "page_number": 349,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0349-b0019"
+      },
+      {
+        "page_number": 351,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0351-b0059"
+      },
+      {
+        "page_number": 352,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sagara' appears without diacritics here, whereas this volume consistently prints 'Sāgara' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0352-b0024"
+      },
+      {
+        "page_number": 353,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0353-b0003"
+      },
+      {
+        "page_number": 353,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0353-b0010"
+      },
+      {
+        "page_number": 353,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0353-b0011"
+      },
+      {
+        "page_number": 353,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0353-b0012"
+      },
+      {
+        "page_number": 354,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Unnata' appears without diacritics here, whereas this volume consistently prints 'Unnatā' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0354-b0056"
+      },
+      {
+        "page_number": 355,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0355-b0022"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-4-hydrogen",
+          "axis": "provenance",
+          "label": "Read: Gemini 4 Hydrogen",
+          "detail": "Models: gemini-4-hydrogen (330/330 pp.) · reader_profile=indic_script"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/indian-shipping.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 2 fixes · 42 pp. checked",
+          "detail": "2 anchored emendation(s) applied; 42 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 330 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 2/2 Arithmetic-Checked",
+          "detail": "2 of 2 tables pass arithmetic & column checks"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:devanagari",
+          "axis": "diplomatic",
+          "label": "Script: Devanagari",
+          "detail": "Declared script: Devanagari"
+        },
+        {
+          "id": "script:bengali",
+          "axis": "diplomatic",
+          "label": "Script: Bengali",
+          "detail": "Declared script: Bengali"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 407 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "Ancient to Mughal India",
+        "regions": [
+          "Indian Ocean",
+          "Bengal",
+          "Coromandel Coast",
+          "Malabar Coast",
+          "Gujarat"
+        ],
+        "subjects": [
+          "Maritime Trade",
+          "Shipbuilding",
+          "Sea Borne Commerce",
+          "Economic History"
+        ],
+        "artifacts": [
+          "7 Statistical Tables",
+          "33 Archival Plates",
+          "407 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

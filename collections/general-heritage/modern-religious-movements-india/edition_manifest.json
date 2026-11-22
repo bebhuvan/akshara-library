@@ -1,0 +1,904 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "modern-religious-movements-india",
+  "run_id": "g4-hydrogen-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "classical_and_philological",
+  "cover_palette": "Birch & Carbon",
+  "edition_root": "library/general-heritage/modern-religious-movements-india",
+  "outputs": {
+    "book_ast": "library/general-heritage/modern-religious-movements-india/book_ast.json",
+    "rubric_score": "library/general-heritage/modern-religious-movements-india/rubric_score.json",
+    "editorial_note": "library/general-heritage/modern-religious-movements-india/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/modern-religious-movements-india/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/modern-religious-movements-india/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/modern-religious-movements-india/cover.svg",
+    "cover_webp": "library/general-heritage/modern-religious-movements-india/cover.webp",
+    "web_index": "library/general-heritage/modern-religious-movements-india/web/index.html",
+    "hugo_dir": "library/general-heritage/modern-religious-movements-india/web/hugo",
+    "hugo_manifest": "library/general-heritage/modern-religious-movements-india/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/modern-religious-movements-india/epub/modern-religious-movements-india.epub",
+    "markdown": "library/general-heritage/modern-religious-movements-india/markdown/modern-religious-movements-india.md",
+    "tei_xml": "library/general-heritage/modern-religious-movements-india/tei/modern-religious-movements-india.tei.xml",
+    "print_html": "library/general-heritage/modern-religious-movements-india/print/modern-religious-movements-india.print.html",
+    "pdf": "library/general-heritage/modern-religious-movements-india/print/modern-religious-movements-india.pdf",
+    "datasets": "library/general-heritage/modern-religious-movements-india/datasets/tables_manifest.json",
+    "datapackage": "library/general-heritage/modern-religious-movements-india/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/modern-religious-movements-india",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-4-hydrogen",
+        "axis": "provenance",
+        "label": "Read: Gemini 4 Hydrogen",
+        "detail": "Models: gemini-4-hydrogen (499/499 pp.) · reader_profile=transliteration"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/modern-religious-movements-india.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 3 fixes · 35 pp. checked",
+        "detail": "3 anchored emendation(s) applied; 35 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 499 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:structured",
+        "axis": "provenance",
+        "label": "Tables: 5 Structured (No Printed Totals)",
+        "detail": "5 structured table(s) extracted; none carry printed summation rows"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 617 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1800-1914",
+      "regions": [
+        "All-India",
+        "Bengal",
+        "Bombay",
+        "Punjab",
+        "Madras"
+      ],
+      "subjects": [
+        "Religious Reform",
+        "Brahmo Samaj",
+        "Arya Samaj",
+        "Social Reform",
+        "Modern Indian Thought"
+      ],
+      "artifacts": [
+        "5 Statistical Tables",
+        "26 Archival Plates",
+        "617 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 499,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 35,
+      "machine_reread_page_count": 35,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        11,
+        54,
+        76,
+        89,
+        90,
+        105,
+        106,
+        107,
+        109,
+        117,
+        152,
+        159,
+        164,
+        177,
+        187,
+        196,
+        207,
+        223,
+        247,
+        248,
+        298,
+        303,
+        346,
+        347,
+        355,
+        356,
+        357,
+        358,
+        360,
+        363,
+        383,
+        388,
+        400,
+        487,
+        505
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 35 of 499 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 66,
+      "total": 66
+    },
+    "corrections": {
+      "applied": 3,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0017-b0002-1",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0275-b0005-orient",
+          "page_number": 275,
+          "matched_block_id": "p0275-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0278-b0005-research",
+          "page_number": 278,
+          "matched_block_id": "p0278-b0005",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 11,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Agnihotri' appears without diacritics here, whereas this volume consistently prints 'Agnihotṛi' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0011-b0004"
+      },
+      {
+        "page_number": 54,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahma' appears without diacritics here, whereas this volume consistently prints 'Brāhma' (127 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0054-b0004"
+      },
+      {
+        "page_number": 54,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṭ' (U+1E6C LATIN CAPITAL LETTER T WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Ṭhakkura),'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0054-b0004"
+      },
+      {
+        "page_number": 76,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vaishnavas' appears without diacritics here, whereas this volume consistently prints 'Vaishṇavas' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0076-b0003"
+      },
+      {
+        "page_number": 89,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahma' appears without diacritics here, whereas this volume consistently prints 'Brāhma' (127 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0089-b0004"
+      },
+      {
+        "page_number": 90,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vaishnava' appears without diacritics here, whereas this volume consistently prints 'Vaishṇava' (22 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0090-b0005"
+      },
+      {
+        "page_number": 105,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahila' appears without diacritics here, whereas this volume consistently prints 'Mahilā' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0105-b0003"
+      },
+      {
+        "page_number": 106,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Prarthana' appears without diacritics here, whereas this volume consistently prints 'Prārthanā' (37 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0106-b0003"
+      },
+      {
+        "page_number": 107,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Samajes' appears without diacritics here, whereas this volume consistently prints 'Samājes' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0107-b0004"
+      },
+      {
+        "page_number": 107,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Samajes' appears without diacritics here, whereas this volume consistently prints 'Samājes' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0107-b0004"
+      },
+      {
+        "page_number": 107,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Samajes' appears without diacritics here, whereas this volume consistently prints 'Samājes' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0107-b0004"
+      },
+      {
+        "page_number": 107,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Prarthana' appears without diacritics here, whereas this volume consistently prints 'Prārthanā' (37 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0107-b0006"
+      },
+      {
+        "page_number": 109,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Prarthana' appears without diacritics here, whereas this volume consistently prints 'Prārthanā' (37 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0109-b0006"
+      },
+      {
+        "page_number": 117,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ê' (U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'd'être'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0117-b0003"
+      },
+      {
+        "page_number": 117,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Gujarat' appears without diacritics here, whereas this volume consistently prints 'Gujarāt' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0117-b0006"
+      },
+      {
+        "page_number": 119,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ḥ' (U+1E24 LATIN CAPITAL LETTER H WITH DOT BELOW) appears only 1 time(s) in this book, here in 'MUḤAMMADAN'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0119-b0005"
+      },
+      {
+        "page_number": 121,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ḵ' (U+1E35 LATIN SMALL LETTER K WITH LINE BELOW) appears only 1 time(s) in this book, here in 'Aḵẖlāq'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0121-b0004"
+      },
+      {
+        "page_number": 121,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ẖ' (U+1E96 LATIN SMALL LETTER H WITH LINE BELOW) appears only 1 time(s) in this book, here in 'Aḵẖlāq'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0121-b0004"
+      },
+      {
+        "page_number": 152,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 152 has inline note callout(s) ['1', '2', '3', '4', '5', '6', '7'] vs. labelled footnote(s) ['1', '2', '3', '4', '6', '7'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0152-b0004"
+      },
+      {
+        "page_number": 159,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Agnihotri' appears without diacritics here, whereas this volume consistently prints 'Agnihotṛi' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0159-b0003"
+      },
+      {
+        "page_number": 159,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Agnihotri' appears without diacritics here, whereas this volume consistently prints 'Agnihotṛi' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0159-b0003"
+      },
+      {
+        "page_number": 159,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṁ' (U+1E40 LATIN CAPITAL LETTER M WITH DOT ABOVE) appears only 1 time(s) in this book, here in 'PARAMAHAṀSA'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0159-b0004"
+      },
+      {
+        "page_number": 159,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṇ' (U+1E46 LATIN CAPITAL LETTER N WITH DOT BELOW) appears only 2 time(s) in this book, here in 'ŚIVANĀRĀYAṆA'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0159-b0004"
+      },
+      {
+        "page_number": 164,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahmas' appears without diacritics here, whereas this volume consistently prints 'Brāhmas' (21 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0164-b0005"
+      },
+      {
+        "page_number": 177,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Muhammad' appears without diacritics here, whereas this volume consistently prints 'Muḥammad' (13 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0177-b0005"
+      },
+      {
+        "page_number": 183,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 1 time(s) in this book, here in 'Sàín'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0183-b0005"
+      },
+      {
+        "page_number": 183,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ú' (U+00FA LATIN SMALL LETTER U WITH ACUTE) appears only 1 time(s) in this book, here in 'Mahbúb'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0183-b0005"
+      },
+      {
+        "page_number": 187,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Muhammad' appears without diacritics here, whereas this volume consistently prints 'Muḥammad' (13 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0187-b0005"
+      },
+      {
+        "page_number": 196,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Maharaj' appears without diacritics here, whereas this volume consistently prints 'Mahārāj' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0196-b0004"
+      },
+      {
+        "page_number": 207,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Radha' appears without diacritics here, whereas this volume consistently prints 'Rādhā' (61 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0207-b0003"
+      },
+      {
+        "page_number": 207,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Satsang' appears without diacritics here, whereas this volume consistently prints 'Satsaṅg' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0207-b0003"
+      },
+      {
+        "page_number": 207,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Radhasoami' appears without diacritics here, whereas this volume consistently prints 'Rādhāsoāmi' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0207-b0003"
+      },
+      {
+        "page_number": 223,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahma' appears without diacritics here, whereas this volume consistently prints 'Brāhma' (127 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0223-b0005"
+      },
+      {
+        "page_number": 235,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṇ' (U+1E46 LATIN CAPITAL LETTER N WITH DOT BELOW) appears only 2 time(s) in this book, here in 'RĀMAKṚIṢṆA'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0235-b0003"
+      },
+      {
+        "page_number": 235,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṣ' (U+1E62 LATIN CAPITAL LETTER S WITH DOT BELOW) appears only 2 time(s) in this book, here in 'RĀMAKṚIṢṆA'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0235-b0003"
+      },
+      {
+        "page_number": 247,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nivedita' appears without diacritics here, whereas this volume consistently prints 'Niveditā' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0247-b0004"
+      },
+      {
+        "page_number": 248,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nivedita' appears without diacritics here, whereas this volume consistently prints 'Niveditā' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0248-b0003"
+      },
+      {
+        "page_number": 248,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nivedita' appears without diacritics here, whereas this volume consistently prints 'Niveditā' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0248-b0003"
+      },
+      {
+        "page_number": 298,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahatmas' appears without diacritics here, whereas this volume consistently prints 'Mahātmas' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0298-b0004"
+      },
+      {
+        "page_number": 298,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahatmas' appears without diacritics here, whereas this volume consistently prints 'Mahātmas' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0298-b0004"
+      },
+      {
+        "page_number": 303,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vishnu' appears without diacritics here, whereas this volume consistently prints 'Vishṇu' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0303-b0003"
+      },
+      {
+        "page_number": 303,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'Maçonnerie'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0303-b0003"
+      },
+      {
+        "page_number": 303,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vishnu' appears without diacritics here, whereas this volume consistently prints 'Vishṇu' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0303-b0004"
+      },
+      {
+        "page_number": 346,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vedanta' appears without diacritics here, whereas this volume consistently prints 'Vedānta' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0346-b0004"
+      },
+      {
+        "page_number": 346,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sabha' appears without diacritics here, whereas this volume consistently prints 'Sabhā' (48 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0346-b0005"
+      },
+      {
+        "page_number": 346,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vedanta' appears without diacritics here, whereas this volume consistently prints 'Vedānta' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0346-b0006"
+      },
+      {
+        "page_number": 346,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sabha' appears without diacritics here, whereas this volume consistently prints 'Sabhā' (48 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0346-b0009"
+      },
+      {
+        "page_number": 347,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vedanta' appears without diacritics here, whereas this volume consistently prints 'Vedānta' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0347-b0003"
+      },
+      {
+        "page_number": 355,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Patrika' appears without diacritics here, whereas this volume consistently prints 'Patrikā' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0355-b0007"
+      },
+      {
+        "page_number": 356,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sarasvati' appears without diacritics here, whereas this volume consistently prints 'Sarasvatī' (22 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0356-b0008"
+      },
+      {
+        "page_number": 357,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sabhas' appears without diacritics here, whereas this volume consistently prints 'Sabhās' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0357-b0009"
+      },
+      {
+        "page_number": 358,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Darbhanga' appears without diacritics here, whereas this volume consistently prints 'Darbhaṅga' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0358-b0009"
+      },
+      {
+        "page_number": 360,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahamandal' appears without diacritics here, whereas this volume consistently prints 'Mahāmaṇḍal' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0360-b0004"
+      },
+      {
+        "page_number": 360,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahamandal' appears without diacritics here, whereas this volume consistently prints 'Mahāmaṇḍal' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0360-b0004"
+      },
+      {
+        "page_number": 363,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sanatana' appears without diacritics here, whereas this volume consistently prints 'Sanātana' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0363-b0004"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Khalsa' appears without diacritics here, whereas this volume consistently prints 'Khālsā' (16 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0383-b0004"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'dépôt'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0383-b0004"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nanak' appears without diacritics here, whereas this volume consistently prints 'Nānak' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0383-b0006"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Khalsa' appears without diacritics here, whereas this volume consistently prints 'Khālsā' (16 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0383-b0006"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Amritsar' appears without diacritics here, whereas this volume consistently prints 'Amṛitsār' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0383-b0006"
+      },
+      {
+        "page_number": 383,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Amritsar' appears without diacritics here, whereas this volume consistently prints 'Amṛitsār' (11 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0383-b0006"
+      },
+      {
+        "page_number": 388,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Muhammadans' appears without diacritics here, whereas this volume consistently prints 'Muḥammadans' (46 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0388-b0004"
+      },
+      {
+        "page_number": 400,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Muhammadans' appears without diacritics here, whereas this volume consistently prints 'Muḥammadans' (46 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0400-b0006"
+      },
+      {
+        "page_number": 487,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Narayana' appears without diacritics here, whereas this volume consistently prints 'Nārāyaṇa' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0487-b0004"
+      },
+      {
+        "page_number": 505,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sarasvati' appears without diacritics here, whereas this volume consistently prints 'Sarasvatī' (22 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0505-b0044"
+      },
+      {
+        "page_number": 510,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ṣ' (U+1E62 LATIN CAPITAL LETTER S WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ṣadr'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0510-b0042"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-4-hydrogen",
+          "axis": "provenance",
+          "label": "Read: Gemini 4 Hydrogen",
+          "detail": "Models: gemini-4-hydrogen (499/499 pp.) · reader_profile=transliteration"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/modern-religious-movements-india.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 3 fixes · 35 pp. checked",
+          "detail": "3 anchored emendation(s) applied; 35 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 499 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:structured",
+          "axis": "provenance",
+          "label": "Tables: 5 Structured (No Printed Totals)",
+          "detail": "5 structured table(s) extracted; none carry printed summation rows"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 617 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1800-1914",
+        "regions": [
+          "All-India",
+          "Bengal",
+          "Bombay",
+          "Punjab",
+          "Madras"
+        ],
+        "subjects": [
+          "Religious Reform",
+          "Brahmo Samaj",
+          "Arya Samaj",
+          "Social Reform",
+          "Modern Indian Thought"
+        ],
+        "artifacts": [
+          "5 Statistical Tables",
+          "26 Archival Plates",
+          "617 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

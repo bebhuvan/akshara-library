@@ -1,0 +1,286 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "life-in-an-indian-village",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "village_and_society",
+  "cover_palette": "Terracotta Loom",
+  "edition_root": "library/general-heritage/life-in-an-indian-village",
+  "outputs": {
+    "book_ast": "library/general-heritage/life-in-an-indian-village/book_ast.json",
+    "rubric_score": "library/general-heritage/life-in-an-indian-village/rubric_score.json",
+    "editorial_note": "library/general-heritage/life-in-an-indian-village/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/life-in-an-indian-village/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/life-in-an-indian-village/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/life-in-an-indian-village/cover.svg",
+    "cover_webp": "library/general-heritage/life-in-an-indian-village/cover.webp",
+    "web_index": "library/general-heritage/life-in-an-indian-village/web/index.html",
+    "hugo_dir": "library/general-heritage/life-in-an-indian-village/web/hugo",
+    "hugo_manifest": "library/general-heritage/life-in-an-indian-village/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/life-in-an-indian-village/epub/life-in-an-indian-village.epub",
+    "markdown": "library/general-heritage/life-in-an-indian-village/markdown/life-in-an-indian-village.md",
+    "tei_xml": "library/general-heritage/life-in-an-indian-village/tei/life-in-an-indian-village.tei.xml",
+    "print_html": "library/general-heritage/life-in-an-indian-village/print/life-in-an-indian-village.print.html",
+    "pdf": "library/general-heritage/life-in-an-indian-village/print/life-in-an-indian-village.pdf",
+    "datasets": null,
+    "datapackage": null
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/life-in-an-indian-village",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (215/215 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/life-in-an-indian-village.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 5 fixes · 4 pp. checked",
+        "detail": "5 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 215 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "19th Century South India",
+      "regions": [
+        "Madras Presidency",
+        "Tamil Nadu",
+        "South India"
+      ],
+      "subjects": [
+        "Village Economy",
+        "Rural Society",
+        "Caste And Occupations",
+        "Agrarian Customs"
+      ],
+      "artifacts": [
+        "1 Archival Plates",
+        "5 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 215,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 4,
+      "machine_reread_page_count": 4,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        13,
+        15,
+        45,
+        61
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 4 of 215 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 3,
+      "total": 3
+    },
+    "corrections": {
+      "applied": 5,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0124-b0004-1",
+          "page_number": 124,
+          "matched_block_id": "p0124-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0124-b0006-2",
+          "page_number": 124,
+          "matched_block_id": "p0124-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0125-b0004-3",
+          "page_number": 125,
+          "matched_block_id": "p0125-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0203-b0006-4",
+          "page_number": 203,
+          "matched_block_id": "p0203-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "review-p0051-b0003-coconuts",
+          "page_number": 51,
+          "matched_block_id": "p0051-b0003",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 13,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 2 time(s) in this book, here in 'Puróhitā,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0013-b0007"
+      },
+      {
+        "page_number": 45,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 2 time(s) in this book, here in 'Puróhitā,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0045-b0002"
+      },
+      {
+        "page_number": 61,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'Kèlambakam'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0061-b0004"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (215/215 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/life-in-an-indian-village.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 5 fixes · 4 pp. checked",
+          "detail": "5 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 215 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "19th Century South India",
+        "regions": [
+          "Madras Presidency",
+          "Tamil Nadu",
+          "South India"
+        ],
+        "subjects": [
+          "Village Economy",
+          "Rural Society",
+          "Caste And Occupations",
+          "Agrarian Customs"
+        ],
+        "artifacts": [
+          "1 Archival Plates",
+          "5 Footnotes"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,967 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "religion-of-the-veda",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "classical_and_philological",
+  "cover_palette": "Birch & Carbon",
+  "edition_root": "library/general-heritage/religion-of-the-veda",
+  "outputs": {
+    "book_ast": "library/general-heritage/religion-of-the-veda/book_ast.json",
+    "rubric_score": "library/general-heritage/religion-of-the-veda/rubric_score.json",
+    "editorial_note": "library/general-heritage/religion-of-the-veda/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/religion-of-the-veda/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/religion-of-the-veda/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/religion-of-the-veda/cover.svg",
+    "cover_webp": "library/general-heritage/religion-of-the-veda/cover.webp",
+    "web_index": "library/general-heritage/religion-of-the-veda/web/index.html",
+    "hugo_dir": "library/general-heritage/religion-of-the-veda/web/hugo",
+    "hugo_manifest": "library/general-heritage/religion-of-the-veda/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/religion-of-the-veda/epub/religion-of-the-veda.epub",
+    "markdown": "library/general-heritage/religion-of-the-veda/markdown/religion-of-the-veda.md",
+    "tei_xml": "library/general-heritage/religion-of-the-veda/tei/religion-of-the-veda.tei.xml",
+    "print_html": "library/general-heritage/religion-of-the-veda/print/religion-of-the-veda.print.html",
+    "pdf": "library/general-heritage/religion-of-the-veda/print/religion-of-the-veda.pdf",
+    "datasets": null,
+    "datapackage": null
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/religion-of-the-veda",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (321/322 pp.), gemini-4-neon (1/322 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/religion-of-the-veda.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 25 fixes · 10 pp. checked",
+        "detail": "25 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 322 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:greek",
+        "axis": "diplomatic",
+        "label": "Script: Greek",
+        "detail": "Declared script: Greek"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 242 footnotes and 3 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "Vedic Period (c. 1500-500 BCE)",
+      "regions": [
+        "North India",
+        "Indo-Gangetic Plain"
+      ],
+      "subjects": [
+        "Vedic Religion",
+        "Rig Veda",
+        "Upanishads",
+        "Sanskrit Philology"
+      ],
+      "artifacts": [
+        "242 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 322,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 10,
+      "machine_reread_page_count": 10,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        16,
+        17,
+        21,
+        115,
+        158,
+        164,
+        165,
+        189,
+        202,
+        281
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 10 of 322 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 60,
+      "total": 60
+    },
+    "corrections": {
+      "applied": 25,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0021-b0006-1",
+          "page_number": 21,
+          "matched_block_id": "p0021-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0023-b0004-2",
+          "page_number": 23,
+          "matched_block_id": "p0023-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0024-b0003-3",
+          "page_number": 24,
+          "matched_block_id": "p0024-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0025-b0003-4",
+          "page_number": 25,
+          "matched_block_id": "p0025-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave1-v1-p0027-b0003-5",
+          "page_number": 27,
+          "matched_block_id": "p0027-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0002-b0002-drop",
+          "page_number": 2,
+          "matched_block_id": "p0002-b0002",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0002-b0004-drop",
+          "page_number": 2,
+          "matched_block_id": "p0002-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0003-b0001-drop",
+          "page_number": 3,
+          "matched_block_id": "p0003-b0001",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0016-b0001-drop",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0001",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0016-b0002-drop",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0002",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0016-b0003-drop",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0016-b0004-drop",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0016-b0005-drop",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0016-b0006-drop",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0017-b0001-drop",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0001",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0017-b0002-drop",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0002",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0017-b0003-drop",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0017-b0004-drop",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0017-b0005-drop",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0017-b0006-drop",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0017-b0007-drop",
+          "page_number": 17,
+          "matched_block_id": "p0017-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0040-b0003-space",
+          "page_number": 40,
+          "matched_block_id": "p0040-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0105-b0003-sup",
+          "page_number": 105,
+          "matched_block_id": "p0105-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0151-b0005-hangul",
+          "page_number": 151,
+          "matched_block_id": "p0151-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0158-b0004-anca",
+          "page_number": 158,
+          "matched_block_id": "p0158-b0004",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 16,
+        "severity": "informational",
+        "category": "text_omission_confirmed",
+        "message": "Page 16 extracted 0 alphabetic chars vs. 597 in the embedded OCR witness (0%).",
+        "expected_action": "Confirmed against scan (e.g. duplicate scan leaf or intentional boilerplate suppression).",
+        "validator": "witness_coverage",
+        "block_id": "p0016-b0006"
+      },
+      {
+        "page_number": 17,
+        "severity": "informational",
+        "category": "text_omission_confirmed",
+        "message": "Page 17 extracted 0 alphabetic chars vs. 687 in the embedded OCR witness (0%).",
+        "expected_action": "Confirmed against scan (e.g. duplicate scan leaf or intentional boilerplate suppression).",
+        "validator": "witness_coverage",
+        "block_id": "p0017-b0007"
+      },
+      {
+        "page_number": 21,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahmana' appears without diacritics here, whereas this volume consistently prints 'Brāhmaṇa' (29 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0021-b0003"
+      },
+      {
+        "page_number": 45,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἶ' (U+1F36 GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI) appears only 2 time(s) in this book, here in '(F)οἶδα,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0045-b0005"
+      },
+      {
+        "page_number": 52,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ï' (U+00EF LATIN SMALL LETTER I WITH DIAERESIS) appears only 2 time(s) in this book, here in 'naïveté'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0052-b0004"
+      },
+      {
+        "page_number": 70,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṣ' (U+1E63 LATIN SMALL LETTER S WITH DOT BELOW) appears only 2 time(s) in this book, here in '[rohiṇīṣ]—in'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0070-b0007"
+      },
+      {
+        "page_number": 79,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ḍ' (U+1E0D LATIN SMALL LETTER D WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Muṇḍaka'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0079-b0005"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'θ' (U+03B8 GREEK SMALL LETTER THETA) appears only 1 time(s) in this book, here in 'ὀφθαλμὸς'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'χ' (U+03C7 GREEK SMALL LETTER CHI) appears only 1 time(s) in this book, here in 'ἀρχή,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἀ' (U+1F00 GREEK SMALL LETTER ALPHA WITH PSILI) appears only 1 time(s) in this book, here in 'ἀρχή,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἐ' (U+1F10 GREEK SMALL LETTER EPSILON WITH PSILI) appears only 1 time(s) in this book, here in 'ἐκ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἰ' (U+1F30 GREEK SMALL LETTER IOTA WITH PSILI) appears only 1 time(s) in this book, here in 'ἰδὼν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὀ' (U+1F40 GREEK SMALL LETTER OMICRON WITH PSILI) appears only 2 time(s) in this book, here in 'ὀφθαλμὸς'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὶ' (U+1F76 GREEK SMALL LETTER IOTA WITH VARIA) appears only 2 time(s) in this book, here in 'καὶ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 111,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὼ' (U+1F7C GREEK SMALL LETTER OMEGA WITH VARIA) appears only 1 time(s) in this book, here in 'ἰδὼν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0111-b0003"
+      },
+      {
+        "page_number": 115,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 115 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['4', '5'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0115-b0006"
+      },
+      {
+        "page_number": 134,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Κ' (U+039A GREEK CAPITAL LETTER KAPPA) appears only 2 time(s) in this book, here in 'Κέρβερος,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0134-b0003"
+      },
+      {
+        "page_number": 136,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ë' (U+00EB LATIN SMALL LETTER E WITH DIAERESIS) appears only 2 time(s) in this book, here in 'dëvas,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0136-b0006"
+      },
+      {
+        "page_number": 137,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ę' (U+0119 LATIN SMALL LETTER E WITH OGONEK) appears only 1 time(s) in this book, here in 'svętŭ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0137-b0003"
+      },
+      {
+        "page_number": 137,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ŭ' (U+016D LATIN SMALL LETTER U WITH BREVE) appears only 2 time(s) in this book, here in 'bogŭ,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0137-b0003"
+      },
+      {
+        "page_number": 137,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ζ' (U+03B6 GREEK SMALL LETTER ZETA) appears only 2 time(s) in this book, here in 'ἅζομαι,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0137-b0003"
+      },
+      {
+        "page_number": 137,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἁ' (U+1F01 GREEK SMALL LETTER ALPHA WITH DASIA) appears only 1 time(s) in this book, here in 'ἁγ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0137-b0003"
+      },
+      {
+        "page_number": 137,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἅ' (U+1F05 GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA) appears only 1 time(s) in this book, here in 'ἅζομαι,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0137-b0003"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῦ' (U+1FE6 GREEK SMALL LETTER UPSILON WITH PERISPOMENI) appears only 2 time(s) in this book, here in '(Διὸσκοῦροι),'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0004"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Γ' (U+0393 GREEK CAPITAL LETTER GAMMA) appears only 2 time(s) in this book, here in 'Γῆν,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ζ' (U+03B6 GREEK SMALL LETTER ZETA) appears only 2 time(s) in this book, here in 'νομίζοντες'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἶ' (U+1F36 GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI) appears only 2 time(s) in this book, here in 'εἶναι'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὴ' (U+1F74 GREEK SMALL LETTER ETA WITH VARIA) appears only 2 time(s) in this book, here in 'τὴν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὶ' (U+1F76 GREEK SMALL LETTER IOTA WITH VARIA) appears only 2 time(s) in this book, here in 'καὶ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῆ' (U+1FC6 GREEK SMALL LETTER ETA WITH PERISPOMENI) appears only 2 time(s) in this book, here in 'Γῆν,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῖ' (U+1FD6 GREEK SMALL LETTER IOTA WITH PERISPOMENI) appears only 1 time(s) in this book, here in 'γυναῖκα.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 138,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῦ' (U+1FE6 GREEK SMALL LETTER UPSILON WITH PERISPOMENI) appears only 2 time(s) in this book, here in 'τοῦ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0138-b0005"
+      },
+      {
+        "page_number": 139,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ύ' (U+03CD GREEK SMALL LETTER UPSILON WITH TONOS) appears only 1 time(s) in this book, here in '(εὐρύοπα);'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0139-b0004"
+      },
+      {
+        "page_number": 144,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ũ' (U+0169 LATIN SMALL LETTER U WITH TILDE) appears only 1 time(s) in this book, here in '(Sũryā,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0144-b0003"
+      },
+      {
+        "page_number": 158,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 158 has inline note callout(s) ['1', '1'] vs. labelled footnote(s) ['1', '2'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0158-b0007"
+      },
+      {
+        "page_number": 164,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Unexpected combining mark U+032F COMBINING INVERTED BREVE BELOW on Latin base.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0164-b0004"
+      },
+      {
+        "page_number": 164,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ο' (U+039F GREEK CAPITAL LETTER OMICRON) appears only 1 time(s) in this book, here in 'Οὐρανός.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0164-b0004"
+      },
+      {
+        "page_number": 165,
+        "severity": "informational",
+        "category": "script_character_confirmed",
+        "message": "Unexpected combining mark U+032F COMBINING INVERTED BREVE BELOW on Latin base.",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "validator": "script_validator",
+        "block_id": "p0165-b0003"
+      },
+      {
+        "page_number": 170,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ë' (U+00EB LATIN SMALL LETTER E WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Pasiphaë'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0170-b0005"
+      },
+      {
+        "page_number": 171,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṣ' (U+1E63 LATIN SMALL LETTER S WITH DOT BELOW) appears only 2 time(s) in this book, here in '(manuṣvat),'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0171-b0004"
+      },
+      {
+        "page_number": 186,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ĭ' (U+012D LATIN SMALL LETTER I WITH BREVE) appears only 1 time(s) in this book, here in 'ognĭ.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0186-b0004"
+      },
+      {
+        "page_number": 189,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 189 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['1'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0189-b0004"
+      },
+      {
+        "page_number": 191,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἄ' (U+1F04 GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA) appears only 1 time(s) in this book, here in 'ἄγγελος'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0191-b0003"
+      },
+      {
+        "page_number": 201,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Æ' (U+00C6 LATIN CAPITAL LETTER AE) appears only 1 time(s) in this book, here in 'Æschylus,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0201-b0008"
+      },
+      {
+        "page_number": 201,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ἣ' (U+1F2B GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA) appears only 1 time(s) in this book, here in 'Ἣλιος'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0201-b0008"
+      },
+      {
+        "page_number": 202,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 202 has inline note callout(s) ['1', '2', '4'] vs. labelled footnote(s) ['1', '2'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0202-b0004"
+      },
+      {
+        "page_number": 216,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṁ' (U+1E41 LATIN SMALL LETTER M WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Saṁhitā'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0216-b0005"
+      },
+      {
+        "page_number": 225,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ï' (U+00EF LATIN SMALL LETTER I WITH DIAERESIS) appears only 2 time(s) in this book, here in 'naïveté'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0225-b0003"
+      },
+      {
+        "page_number": 246,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὀ' (U+1F40 GREEK SMALL LETTER OMICRON WITH PSILI) appears only 2 time(s) in this book, here in 'ὀνομάτων'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0246-b0003"
+      },
+      {
+        "page_number": 246,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὴ' (U+1F74 GREEK SMALL LETTER ETA WITH VARIA) appears only 2 time(s) in this book, here in 'μορφὴ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0246-b0003"
+      },
+      {
+        "page_number": 246,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῶ' (U+1FF6 GREEK SMALL LETTER OMEGA WITH PERISPOMENI) appears only 1 time(s) in this book, here in 'names—πολλῶν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0246-b0003"
+      },
+      {
+        "page_number": 265,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ἔ' (U+1F1C GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA) appears only 1 time(s) in this book, here in 'Ἔρως'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0265-b0006"
+      },
+      {
+        "page_number": 281,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 281 has inline note callout(s) ['2', '3'] vs. labelled footnote(s) ['1', '2', '3'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0281-b0004"
+      },
+      {
+        "page_number": 291,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṁ' (U+1E41 LATIN SMALL LETTER M WITH DOT ABOVE) appears only 2 time(s) in this book, here in '(saṁsāra)'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0291-b0003"
+      },
+      {
+        "page_number": 304,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὄ' (U+1F44 GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA) appears only 2 time(s) in this book, here in 'ὄντως'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0304-b0003"
+      },
+      {
+        "page_number": 309,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'à' (U+00E0 LATIN SMALL LETTER A WITH GRAVE) appears only 1 time(s) in this book, here in 'à'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0309-b0003"
+      },
+      {
+        "page_number": 310,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὑ' (U+1F51 GREEK SMALL LETTER UPSILON WITH DASIA) appears only 2 time(s) in this book, here in '(ὑλόβιοι)'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0310-b0004"
+      },
+      {
+        "page_number": 319,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'À' (U+00C0 LATIN CAPITAL LETTER A WITH GRAVE) appears only 1 time(s) in this book, here in 'À'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0319-b0019"
+      },
+      {
+        "page_number": 320,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Κ' (U+039A GREEK CAPITAL LETTER KAPPA) appears only 2 time(s) in this book, here in 'Κέρβερος,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0320-b0036"
+      },
+      {
+        "page_number": 322,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὑ' (U+1F51 GREEK SMALL LETTER UPSILON WITH DASIA) appears only 2 time(s) in this book, here in '(ὑλόβιοι),'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0322-b0034"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (321/322 pp.), gemini-4-neon (1/322 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/religion-of-the-veda.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 25 fixes · 10 pp. checked",
+          "detail": "25 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 322 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:greek",
+          "axis": "diplomatic",
+          "label": "Script: Greek",
+          "detail": "Declared script: Greek"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 242 footnotes and 3 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "Vedic Period (c. 1500-500 BCE)",
+        "regions": [
+          "North India",
+          "Indo-Gangetic Plain"
+        ],
+        "subjects": [
+          "Vedic Religion",
+          "Rig Veda",
+          "Upanishads",
+          "Sanskrit Philology"
+        ],
+        "artifacts": [
+          "242 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

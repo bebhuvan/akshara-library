@@ -1,0 +1,2181 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "people-of-india",
+  "run_id": "g4-hydrogen-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "survey_and_gazetteer",
+  "cover_palette": "Topographic Umber",
+  "edition_root": "library/general-heritage/people-of-india",
+  "outputs": {
+    "book_ast": "library/general-heritage/people-of-india/book_ast.json",
+    "rubric_score": "library/general-heritage/people-of-india/rubric_score.json",
+    "editorial_note": "library/general-heritage/people-of-india/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/people-of-india/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/people-of-india/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/people-of-india/cover.svg",
+    "cover_webp": "library/general-heritage/people-of-india/cover.webp",
+    "web_index": "library/general-heritage/people-of-india/web/index.html",
+    "hugo_dir": "library/general-heritage/people-of-india/web/hugo",
+    "hugo_manifest": "library/general-heritage/people-of-india/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/people-of-india/epub/people-of-india.epub",
+    "markdown": "library/general-heritage/people-of-india/markdown/people-of-india.md",
+    "tei_xml": "library/general-heritage/people-of-india/tei/people-of-india.tei.xml",
+    "print_html": "library/general-heritage/people-of-india/print/people-of-india.print.html",
+    "pdf": "library/general-heritage/people-of-india/print/people-of-india.pdf",
+    "datasets": "library/general-heritage/people-of-india/datasets/tables_manifest.json",
+    "datapackage": "library/general-heritage/people-of-india/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/people-of-india",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-4-hydrogen",
+        "axis": "provenance",
+        "label": "Read: Gemini 4 Hydrogen",
+        "detail": "Models: gemini-4-hydrogen (575/576 pp.), gemini-3.8-flash (1/576 pp.) · reader_profile=transliteration"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/people-of-india.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 129 fixes · 46 pp. checked",
+        "detail": "129 anchored emendation(s) applied; 46 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 576 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:structured",
+        "axis": "provenance",
+        "label": "Tables: 51 Structured (No Printed Totals)",
+        "detail": "51 structured table(s) extracted; none carry printed summation rows"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:greek",
+        "axis": "diplomatic",
+        "label": "Script: Greek",
+        "detail": "Declared script: Greek"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "genre:statistical_ledger",
+        "axis": "diplomatic",
+        "label": "Statistical Ledger",
+        "detail": "Contains 51 structured historical tables exported to CSV"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 216 footnotes and 262 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "1901-1915",
+      "regions": [
+        "All-India",
+        "Bengal",
+        "Punjab",
+        "Rajputana",
+        "South India"
+      ],
+      "subjects": [
+        "Ethnology",
+        "Caste And Tribes",
+        "Census Anthropometry",
+        "Proverbs",
+        "Social History"
+      ],
+      "artifacts": [
+        "51 Statistical Tables",
+        "126 Archival Plates",
+        "216 Footnotes",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 576,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 46,
+      "machine_reread_page_count": 46,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        14,
+        26,
+        32,
+        48,
+        52,
+        53,
+        62,
+        100,
+        101,
+        106,
+        118,
+        119,
+        136,
+        153,
+        160,
+        182,
+        184,
+        194,
+        195,
+        238,
+        257,
+        264,
+        296,
+        316,
+        392,
+        394,
+        402,
+        408,
+        429,
+        431,
+        453,
+        464,
+        465,
+        479,
+        480,
+        496,
+        503,
+        513,
+        520,
+        523,
+        524,
+        526,
+        527,
+        528,
+        530,
+        602
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 46 of 576 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 106,
+      "total": 106
+    },
+    "corrections": {
+      "applied": 129,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0428-b0006-tbl",
+          "page_number": 428,
+          "matched_block_id": "p0428-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0013-b0002-tok",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0438-b0034-tok",
+          "page_number": 438,
+          "matched_block_id": "p0438-b0034",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0443-b0001-tok",
+          "page_number": 443,
+          "matched_block_id": "p0443-b0001",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0450-b0006-tok",
+          "page_number": 450,
+          "matched_block_id": "p0450-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0451-b0001-tok",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0001",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0451-b0002-tok",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0451-b0004-tok",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0451-b0005-tok",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0457-b0002-tok",
+          "page_number": 457,
+          "matched_block_id": "p0457-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0457-b0003-tok",
+          "page_number": 457,
+          "matched_block_id": "p0457-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0096-b0005-applbl",
+          "page_number": 96,
+          "matched_block_id": "p0096-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave1-v1-p0251-b0008-applbl",
+          "page_number": 251,
+          "matched_block_id": "p0251-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0627-b0002-orient",
+          "page_number": 627,
+          "matched_block_id": "p0627-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0643-b0002-orient",
+          "page_number": 643,
+          "matched_block_id": "p0643-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0647-b0002-orient",
+          "page_number": 647,
+          "matched_block_id": "p0647-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0663-b0002-orient",
+          "page_number": 663,
+          "matched_block_id": "p0663-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0675-b0002-orient",
+          "page_number": 675,
+          "matched_block_id": "p0675-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0244-b0007-fnlbl",
+          "page_number": 244,
+          "matched_block_id": "p0244-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0270-b0008-fnlbl",
+          "page_number": 270,
+          "matched_block_id": "p0270-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0388-b0007-tbl",
+          "page_number": 388,
+          "matched_block_id": "p0388-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0390-b0006-tbl",
+          "page_number": 390,
+          "matched_block_id": "p0390-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0394-b0006-tbl",
+          "page_number": 394,
+          "matched_block_id": "p0394-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0396-b0006-tbl",
+          "page_number": 396,
+          "matched_block_id": "p0396-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0400-b0006-tbl",
+          "page_number": 400,
+          "matched_block_id": "p0400-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0410-b0006-tbl",
+          "page_number": 410,
+          "matched_block_id": "p0410-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0412-b0006-tbl",
+          "page_number": 412,
+          "matched_block_id": "p0412-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0414-b0006-tbl",
+          "page_number": 414,
+          "matched_block_id": "p0414-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0420-b0006-tbl",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0426-b0006-tbl",
+          "page_number": 426,
+          "matched_block_id": "p0426-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0390-b0011-fig",
+          "page_number": 390,
+          "matched_block_id": "p0390-b0011",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0390-b0012-drop",
+          "page_number": 390,
+          "matched_block_id": "p0390-b0012",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0390-b0013-drop",
+          "page_number": 390,
+          "matched_block_id": "p0390-b0013",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0390-b0014-drop",
+          "page_number": 390,
+          "matched_block_id": "p0390-b0014",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0390-b0015-drop",
+          "page_number": 390,
+          "matched_block_id": "p0390-b0015",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0011-fig",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0011",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0012-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0012",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0013-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0013",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0014-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0014",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0015-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0015",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0016-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0016",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0017-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0017",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0018-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0018",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0019-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0019",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0020-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0020",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0406-b0021-drop",
+          "page_number": 406,
+          "matched_block_id": "p0406-b0021",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0020-bbox",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0020",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0011-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0011",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0012-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0012",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0013-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0013",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0014-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0014",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0015-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0015",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0016-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0016",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0017-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0017",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0018-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0018",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0424-b0019-drop",
+          "page_number": 424,
+          "matched_block_id": "p0424-b0019",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0171-b0006-unc",
+          "page_number": 171,
+          "matched_block_id": "p0171-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0171-b0007-unc",
+          "page_number": 171,
+          "matched_block_id": "p0171-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0442-b0003-unc",
+          "page_number": 442,
+          "matched_block_id": "p0442-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0443-b0003-unc",
+          "page_number": 443,
+          "matched_block_id": "p0443-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0443-b0005-unc",
+          "page_number": 443,
+          "matched_block_id": "p0443-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0443-b0006-unc",
+          "page_number": 443,
+          "matched_block_id": "p0443-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0008-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0009-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0010-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0011-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0012-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0013-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0014-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0015-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0016-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0017-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0018-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0446-b0020-unc",
+          "page_number": 446,
+          "matched_block_id": "p0446-b0020",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0447-b0001-unc",
+          "page_number": 447,
+          "matched_block_id": "p0447-b0001",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0447-b0004-unc",
+          "page_number": 447,
+          "matched_block_id": "p0447-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0447-b0006-unc",
+          "page_number": 447,
+          "matched_block_id": "p0447-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0447-b0007-unc",
+          "page_number": 447,
+          "matched_block_id": "p0447-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0450-b0002-unc",
+          "page_number": 450,
+          "matched_block_id": "p0450-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0003-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0006-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0007-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0008-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0009-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0010-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0011-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0012-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0013-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0014-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0015-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0016-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0017-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0018-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0019-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0019",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0020-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0020",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0021-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0022-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0022",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0023-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0451-b0024-unc",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0024",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0457-b0001-unc",
+          "page_number": 457,
+          "matched_block_id": "p0457-b0001",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0457-b0004-unc",
+          "page_number": 457,
+          "matched_block_id": "p0457-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0460-b0001-unc",
+          "page_number": 460,
+          "matched_block_id": "p0460-b0001",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0460-b0005-unc",
+          "page_number": 460,
+          "matched_block_id": "p0460-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0460-b0006-unc",
+          "page_number": 460,
+          "matched_block_id": "p0460-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0461-b0006-unc",
+          "page_number": 461,
+          "matched_block_id": "p0461-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0461-b0007-unc",
+          "page_number": 461,
+          "matched_block_id": "p0461-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0461-b0008-unc",
+          "page_number": 461,
+          "matched_block_id": "p0461-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0461-b0040-unc",
+          "page_number": 461,
+          "matched_block_id": "p0461-b0040",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0464-b0002-unc",
+          "page_number": 464,
+          "matched_block_id": "p0464-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0001-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0001",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0003-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0004-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0005-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0006-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0027-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0027",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0028-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0028",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0029-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0029",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0030-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0030",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0031-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0031",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0032-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0032",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0033-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0033",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0034-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0034",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0035-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0035",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0036-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0036",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0037-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0037",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0038-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0038",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0039-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0039",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0040-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0040",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0465-b0041-unc",
+          "page_number": 465,
+          "matched_block_id": "p0465-b0041",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 14,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Charan' appears without diacritics here, whereas this volume consistently prints 'Chāran' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0014-b0005"
+      },
+      {
+        "page_number": 26,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Bhandarkar' appears without diacritics here, whereas this volume consistently prints 'Bhandārkar' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0026-b0008"
+      },
+      {
+        "page_number": 32,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sabha' appears without diacritics here, whereas this volume consistently prints 'Sabhā' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0032-b0029"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'θ' (U+03B8 GREEK SMALL LETTER THETA) appears only 2 time(s) in this book, here in 'θάλασσά'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ξ' (U+03BE GREEK SMALL LETTER XI) appears only 1 time(s) in this book, here in 'μεταξύ,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'χ' (U+03C7 GREEK SMALL LETTER CHI) appears only 1 time(s) in this book, here in 'ἠχήεσσα'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ό' (U+03CC GREEK SMALL LETTER OMICRON WITH TONOS) appears only 2 time(s) in this book, here in 'σκιόεντα'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ύ' (U+03CD GREEK SMALL LETTER UPSILON WITH TONOS) appears only 2 time(s) in this book, here in 'μεταξύ,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἐ' (U+1F10 GREEK SMALL LETTER EPSILON WITH PSILI) appears only 1 time(s) in this book, here in 'ἐπεὶ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἠ' (U+1F20 GREEK SMALL LETTER ETA WITH PSILI) appears only 1 time(s) in this book, here in 'ἠχήεσσα'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἦ' (U+1F26 GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI) appears only 1 time(s) in this book, here in 'ἦ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὔ' (U+1F54 GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA) appears only 1 time(s) in this book, here in 'οὔρεά'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 43,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὶ' (U+1F76 GREEK SMALL LETTER IOTA WITH VARIA) appears only 1 time(s) in this book, here in 'ἐπεὶ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0043-b0004"
+      },
+      {
+        "page_number": 48,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Punjabi' appears without diacritics here, whereas this volume consistently prints 'Punjābī' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0048-b0003"
+      },
+      {
+        "page_number": 51,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ä' (U+00E4 LATIN SMALL LETTER A WITH DIAERESIS) appears only 2 time(s) in this book, here in 'nämlich'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0051-b0003"
+      },
+      {
+        "page_number": 52,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Bhumij' appears without diacritics here, whereas this volume consistently prints 'Bhūmij' (19 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0052-b0006"
+      },
+      {
+        "page_number": 52,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Santals' appears without diacritics here, whereas this volume consistently prints 'Santāls' (53 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0052-b0008"
+      },
+      {
+        "page_number": 53,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Bhumij' appears without diacritics here, whereas this volume consistently prints 'Bhūmij' (19 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0053-b0008"
+      },
+      {
+        "page_number": 62,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Jagannath' appears without diacritics here, whereas this volume consistently prints 'Jagannāth' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0062-b0003"
+      },
+      {
+        "page_number": 100,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kachhi' appears without diacritics here, whereas this volume consistently prints 'Kāchhi' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0100-b0004"
+      },
+      {
+        "page_number": 101,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kushan' appears without diacritics here, whereas this volume consistently prints 'Kushān' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0101-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Α' (U+0391 GREEK CAPITAL LETTER ALPHA) appears only 1 time(s) in this book, here in '’Αγάμεμνον,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'η' (U+03B7 GREEK SMALL LETTER ETA) appears only 1 time(s) in this book, here in 'φρήτρη'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ύ' (U+03CD GREEK SMALL LETTER UPSILON WITH TONOS) appears only 2 time(s) in this book, here in 'φύλοις.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἀ' (U+1F00 GREEK SMALL LETTER ALPHA WITH PSILI) appears only 2 time(s) in this book, here in 'ἀρήγῃ,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἄ' (U+1F04 GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA) appears only 1 time(s) in this book, here in 'ἄνδρας'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὡ' (U+1F61 GREEK SMALL LETTER OMEGA WITH DASIA) appears only 1 time(s) in this book, here in 'ὡς'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ὲ' (U+1F72 GREEK SMALL LETTER EPSILON WITH VARIA) appears only 1 time(s) in this book, here in 'δὲ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῃ' (U+1FC3 GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI) appears only 2 time(s) in this book, here in 'φρήτρῃφιν'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῖ' (U+1FD6 GREEK SMALL LETTER IOTA WITH PERISPOMENI) appears only 2 time(s) in this book, here in 'κρῖν’'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 104,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῦ' (U+1FE6 GREEK SMALL LETTER UPSILON WITH PERISPOMENI) appears only 2 time(s) in this book, here in 'φῦλα,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0104-b0003"
+      },
+      {
+        "page_number": 106,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahui' appears without diacritics here, whereas this volume consistently prints 'Brāhūi' (48 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0106-b0008"
+      },
+      {
+        "page_number": 106,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 2 time(s) in this book, here in 'Kacháris,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0106-b0010"
+      },
+      {
+        "page_number": 118,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Bagdi' appears without diacritics here, whereas this volume consistently prints 'Bāgdi' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0118-b0003"
+      },
+      {
+        "page_number": 119,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Musalman' appears without diacritics here, whereas this volume consistently prints 'Musalmān' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0119-b0003"
+      },
+      {
+        "page_number": 136,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Musalman' appears without diacritics here, whereas this volume consistently prints 'Musalmān' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0136-b0003"
+      },
+      {
+        "page_number": 153,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Musalman' appears without diacritics here, whereas this volume consistently prints 'Musalmān' (32 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0153-b0003"
+      },
+      {
+        "page_number": 153,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Musalmans' appears without diacritics here, whereas this volume consistently prints 'Musalmāns' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0153-b0003"
+      },
+      {
+        "page_number": 160,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Chandals' appears without diacritics here, whereas this volume consistently prints 'Chandāls' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0160-b0006"
+      },
+      {
+        "page_number": 164,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 2 time(s) in this book, here in 'Não'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0164-b0004"
+      },
+      {
+        "page_number": 182,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mulla' appears without diacritics here, whereas this volume consistently prints 'Mullā' (23 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0182-b0006"
+      },
+      {
+        "page_number": 183,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ṣ' (U+1E63 LATIN SMALL LETTER S WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Kaṣhmīri.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0183-b0006"
+      },
+      {
+        "page_number": 184,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Parsi' appears without diacritics here, whereas this volume consistently prints 'Pārsi' (41 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0184-b0005"
+      },
+      {
+        "page_number": 194,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Gujarati' appears without diacritics here, whereas this volume consistently prints 'Gujarāti' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0194-b0021"
+      },
+      {
+        "page_number": 195,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Panjabi' appears without diacritics here, whereas this volume consistently prints 'Panjābi' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0195-b0016"
+      },
+      {
+        "page_number": 212,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ï' (U+00EF LATIN SMALL LETTER I WITH DIAERESIS) appears only 1 time(s) in this book, here in 'ruïn'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0212-b0003"
+      },
+      {
+        "page_number": 238,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sabha' appears without diacritics here, whereas this volume consistently prints 'Sabhā' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0238-b0004"
+      },
+      {
+        "page_number": 249,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 2 time(s) in this book, here in 'Fernão'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0249-b0007"
+      },
+      {
+        "page_number": 257,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nagar' appears without diacritics here, whereas this volume consistently prints 'Nāgar' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0257-b0004"
+      },
+      {
+        "page_number": 258,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ä' (U+00E4 LATIN SMALL LETTER A WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Vergängliche'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0258-b0004"
+      },
+      {
+        "page_number": 264,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mulla' appears without diacritics here, whereas this volume consistently prints 'Mullā' (23 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0264-b0003"
+      },
+      {
+        "page_number": 281,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'θ' (U+03B8 GREEK SMALL LETTER THETA) appears only 2 time(s) in this book, here in 'παθεῖν.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0281-b0003"
+      },
+      {
+        "page_number": 281,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ῖ' (U+1FD6 GREEK SMALL LETTER IOTA WITH PERISPOMENI) appears only 2 time(s) in this book, here in 'παθεῖν.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0281-b0003"
+      },
+      {
+        "page_number": 283,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ζ' (U+03B6 GREEK SMALL LETTER ZETA) appears only 1 time(s) in this book, here in 'ἀναπεμπαζόμενος,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0283-b0014"
+      },
+      {
+        "page_number": 283,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ό' (U+03CC GREEK SMALL LETTER OMICRON WITH TONOS) appears only 2 time(s) in this book, here in 'ἀναπεμπαζόμενος,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0283-b0014"
+      },
+      {
+        "page_number": 283,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ἀ' (U+1F00 GREEK SMALL LETTER ALPHA WITH PSILI) appears only 2 time(s) in this book, here in 'ἀναπεμπαζόμενος,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0283-b0014"
+      },
+      {
+        "page_number": 296,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Musalmans' appears without diacritics here, whereas this volume consistently prints 'Musalmāns' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0296-b0005"
+      },
+      {
+        "page_number": 296,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Aryas' appears without diacritics here, whereas this volume consistently prints 'Āryas' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0296-b0005"
+      },
+      {
+        "page_number": 302,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ś' (U+015A LATIN CAPITAL LETTER S WITH ACUTE) appears only 1 time(s) in this book, here in 'Śāka,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0302-b0003"
+      },
+      {
+        "page_number": 302,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ḍ' (U+1E0D LATIN SMALL LETTER D WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Drāviḍa,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0302-b0003"
+      },
+      {
+        "page_number": 309,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'έ' (U+03AD GREEK SMALL LETTER EPSILON WITH TONOS) appears only 1 time(s) in this book, here in 'γένος'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0309-b0005"
+      },
+      {
+        "page_number": 309,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'υ' (U+03C5 GREEK SMALL LETTER UPSILON) appears only 1 time(s) in this book, here in 'φυλή'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0309-b0005"
+      },
+      {
+        "page_number": 311,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'É' (U+00C9 LATIN CAPITAL LETTER E WITH ACUTE) appears only 2 time(s) in this book, here in 'l’État'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0311-b0003"
+      },
+      {
+        "page_number": 316,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Chitral' appears without diacritics here, whereas this volume consistently prints 'Chitrāl' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0316-b0003"
+      },
+      {
+        "page_number": 392,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Dehwar' appears without diacritics here, whereas this volume consistently prints 'Dehwār' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0392-b0005"
+      },
+      {
+        "page_number": 394,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kakar' appears without diacritics here, whereas this volume consistently prints 'Kākar' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0394-b0005"
+      },
+      {
+        "page_number": 402,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nagar' appears without diacritics here, whereas this volume consistently prints 'Nāgar' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0402-b0005"
+      },
+      {
+        "page_number": 408,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Vellala' appears without diacritics here, whereas this volume consistently prints 'Vellāla' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0408-b0005"
+      },
+      {
+        "page_number": 429,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 429 has inline note callout(s) [] vs. labelled footnote(s) ['*'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0429-b0004"
+      },
+      {
+        "page_number": 431,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 431 has inline note callout(s) [] vs. labelled footnote(s) ['*', '†'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0431-b0004"
+      },
+      {
+        "page_number": 446,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ō' (U+014D LATIN SMALL LETTER O WITH MACRON) appears only 2 time(s) in this book, here in '(Sōn)'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0446-b0012"
+      },
+      {
+        "page_number": 453,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Anaimalai' appears without diacritics here, whereas this volume consistently prints 'Ānaimalai' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0453-b0042"
+      },
+      {
+        "page_number": 453,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Bhumij' appears without diacritics here, whereas this volume consistently prints 'Bhūmij' (19 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0453-b0056"
+      },
+      {
+        "page_number": 464,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Newar' appears without diacritics here, whereas this volume consistently prints 'Newār' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0464-b0035"
+      },
+      {
+        "page_number": 464,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 464 has inline note callout(s) ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '†', '*', '*', '†', '*'] vs. labelled footnote(s) ['*'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0464-b0043"
+      },
+      {
+        "page_number": 465,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Page 465 has inline note callout(s) [] vs. labelled footnote(s) ['†'].",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0465-b0047"
+      },
+      {
+        "page_number": 479,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Pathans' appears without diacritics here, whereas this volume consistently prints 'Pathāns' (12 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0479-b0008"
+      },
+      {
+        "page_number": 480,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Ahirs' appears without diacritics here, whereas this volume consistently prints 'Ahīrs' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0480-b0004"
+      },
+      {
+        "page_number": 480,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Ahirs' appears without diacritics here, whereas this volume consistently prints 'Ahīrs' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0480-b0004"
+      },
+      {
+        "page_number": 480,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Lohars' appears without diacritics here, whereas this volume consistently prints 'Lohārs' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0480-b0004"
+      },
+      {
+        "page_number": 480,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Machhi' appears without diacritics here, whereas this volume consistently prints 'Māchhi' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0480-b0004"
+      },
+      {
+        "page_number": 480,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Machhi' appears without diacritics here, whereas this volume consistently prints 'Māchhi' (6 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0480-b0004"
+      },
+      {
+        "page_number": 480,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Chamar' appears without diacritics here, whereas this volume consistently prints 'Chamār' (38 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0480-b0005"
+      },
+      {
+        "page_number": 480,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Chamar' appears without diacritics here, whereas this volume consistently prints 'Chamār' (38 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0480-b0005"
+      },
+      {
+        "page_number": 483,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'plutôt'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0483-b0007"
+      },
+      {
+        "page_number": 484,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'É' (U+00C9 LATIN CAPITAL LETTER E WITH ACUTE) appears only 2 time(s) in this book, here in 'd’État.'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0484-b0003"
+      },
+      {
+        "page_number": 488,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 2 time(s) in this book, here in 'Giríndranáth'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0488-b0003"
+      },
+      {
+        "page_number": 488,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 2 time(s) in this book, here in 'Giríndranáth'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0488-b0003"
+      },
+      {
+        "page_number": 496,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Rarhi' appears without diacritics here, whereas this volume consistently prints 'Rārhi' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0496-b0010"
+      },
+      {
+        "page_number": 496,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Rarhi' appears without diacritics here, whereas this volume consistently prints 'Rārhi' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0496-b0026"
+      },
+      {
+        "page_number": 503,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Rarhi' appears without diacritics here, whereas this volume consistently prints 'Rārhi' (9 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0503-b0004"
+      },
+      {
+        "page_number": 513,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Manjhi' appears without diacritics here, whereas this volume consistently prints 'Mānjhi' (15 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0513-b0004"
+      },
+      {
+        "page_number": 513,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Paramanik' appears without diacritics here, whereas this volume consistently prints 'Paramānik' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0513-b0004"
+      },
+      {
+        "page_number": 513,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ō' (U+014D LATIN SMALL LETTER O WITH MACRON) appears only 2 time(s) in this book, here in '(Hōs)'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0513-b0011"
+      },
+      {
+        "page_number": 513,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Oraon' appears without diacritics here, whereas this volume consistently prints 'Orāon' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0513-b0012"
+      },
+      {
+        "page_number": 520,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ē' (U+0112 LATIN CAPITAL LETTER E WITH MACRON) appears only 1 time(s) in this book, here in 'BĀNDĒ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0520-b0036"
+      },
+      {
+        "page_number": 520,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'BARAHSENI' appears without diacritics here, whereas this volume consistently prints 'Bārahseni' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0520-b0041"
+      },
+      {
+        "page_number": 520,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'RAJBANSI' appears without diacritics here, whereas this volume consistently prints 'Rājbansi' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0520-b0048"
+      },
+      {
+        "page_number": 521,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 2 time(s) in this book, here in 'Bítanni'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0521-b0030"
+      },
+      {
+        "page_number": 523,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Dubla' appears without diacritics here, whereas this volume consistently prints 'Dublā' (5 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0523-b0051"
+      },
+      {
+        "page_number": 524,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Gujar' appears without diacritics here, whereas this volume consistently prints 'Gūjar' (24 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0524-b0063"
+      },
+      {
+        "page_number": 526,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kachhi' appears without diacritics here, whereas this volume consistently prints 'Kāchhi' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0526-b0036"
+      },
+      {
+        "page_number": 527,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Kirar' appears without diacritics here, whereas this volume consistently prints 'Kirār' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0527-b0051"
+      },
+      {
+        "page_number": 528,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'KULANCHI' appears without diacritics here, whereas this volume consistently prints 'Kulānchi' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0528-b0006"
+      },
+      {
+        "page_number": 530,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nagar' appears without diacritics here, whereas this volume consistently prints 'Nāgar' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0530-b0038"
+      },
+      {
+        "page_number": 602,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Oraon' appears without diacritics here, whereas this volume consistently prints 'Orāon' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0602-b0004"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-4-hydrogen",
+          "axis": "provenance",
+          "label": "Read: Gemini 4 Hydrogen",
+          "detail": "Models: gemini-4-hydrogen (575/576 pp.), gemini-3.8-flash (1/576 pp.) · reader_profile=transliteration"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/people-of-india.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 129 fixes · 46 pp. checked",
+          "detail": "129 anchored emendation(s) applied; 46 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 576 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:structured",
+          "axis": "provenance",
+          "label": "Tables: 51 Structured (No Printed Totals)",
+          "detail": "51 structured table(s) extracted; none carry printed summation rows"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:greek",
+          "axis": "diplomatic",
+          "label": "Script: Greek",
+          "detail": "Declared script: Greek"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "genre:statistical_ledger",
+          "axis": "diplomatic",
+          "label": "Statistical Ledger",
+          "detail": "Contains 51 structured historical tables exported to CSV"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 216 footnotes and 262 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "1901-1915",
+        "regions": [
+          "All-India",
+          "Bengal",
+          "Punjab",
+          "Rajputana",
+          "South India"
+        ],
+        "subjects": [
+          "Ethnology",
+          "Caste And Tribes",
+          "Census Anthropometry",
+          "Proverbs",
+          "Social History"
+        ],
+        "artifacts": [
+          "51 Statistical Tables",
+          "126 Archival Plates",
+          "216 Footnotes",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}
