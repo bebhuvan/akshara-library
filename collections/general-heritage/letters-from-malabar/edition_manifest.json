@@ -1,0 +1,439 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "letters-from-malabar",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "maritime_company_records",
+  "cover_palette": "Admiralty Slate",
+  "edition_root": "library/general-heritage/letters-from-malabar",
+  "outputs": {
+    "book_ast": "library/general-heritage/letters-from-malabar/book_ast.json",
+    "rubric_score": "library/general-heritage/letters-from-malabar/rubric_score.json",
+    "editorial_note": "library/general-heritage/letters-from-malabar/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/letters-from-malabar/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/letters-from-malabar/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/letters-from-malabar/cover.svg",
+    "cover_webp": "library/general-heritage/letters-from-malabar/cover.webp",
+    "web_index": "library/general-heritage/letters-from-malabar/web/index.html",
+    "hugo_dir": "library/general-heritage/letters-from-malabar/web/hugo",
+    "hugo_manifest": "library/general-heritage/letters-from-malabar/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/letters-from-malabar/epub/letters-from-malabar.epub",
+    "markdown": "library/general-heritage/letters-from-malabar/markdown/letters-from-malabar.md",
+    "tei_xml": "library/general-heritage/letters-from-malabar/tei/letters-from-malabar.tei.xml",
+    "print_html": "library/general-heritage/letters-from-malabar/print/letters-from-malabar.print.html",
+    "pdf": "library/general-heritage/letters-from-malabar/print/letters-from-malabar.pdf",
+    "datasets": "library/general-heritage/letters-from-malabar/datasets/tables_manifest.json",
+    "datapackage": "library/general-heritage/letters-from-malabar/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/letters-from-malabar",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (204/204 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/letters-from-malabar.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 13 fixes · 1 pp. checked",
+        "detail": "13 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 204 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:structured",
+        "axis": "provenance",
+        "label": "Tables: 5 Structured (No Printed Totals)",
+        "detail": "5 structured table(s) extracted; none carry printed summation rows"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 42 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "18th Century Malabar",
+      "regions": [
+        "Malabar Coast",
+        "Travancore",
+        "Cochin",
+        "Kerala"
+      ],
+      "subjects": [
+        "Dutch East India Company",
+        "Malabar History",
+        "Travelogue",
+        "Social History",
+        "Maritime Trade"
+      ],
+      "artifacts": [
+        "5 Statistical Tables",
+        "42 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 204,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 1,
+      "machine_reread_page_count": 1,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        147
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 1 of 204 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 11,
+      "total": 11
+    },
+    "corrections": {
+      "applied": 13,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0004-1",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0006-2",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0008-3",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0010-4",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0012-5",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0012",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0014-6",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0014",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0016-7",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0016",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0018-8",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0018",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0020-9",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0020",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0015-b0022-10",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0022",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0198-b0003-11",
+          "page_number": 198,
+          "matched_block_id": "p0198-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave2-v1-p0126-b0006-tok",
+          "page_number": 126,
+          "matched_block_id": "p0126-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0147-b0004-unclear-resolved",
+          "page_number": 147,
+          "matched_block_id": "p0147-b0004",
+          "op": "set_text",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 26,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'Daçima,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0026-b0004"
+      },
+      {
+        "page_number": 29,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'à' (U+00E0 LATIN SMALL LETTER A WITH GRAVE) appears only 2 time(s) in this book, here in 'Cheramperumàl'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0029-b0004"
+      },
+      {
+        "page_number": 29,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'à' (U+00E0 LATIN SMALL LETTER A WITH GRAVE) appears only 2 time(s) in this book, here in 'Cheramperumàl'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0029-b0006"
+      },
+      {
+        "page_number": 57,
+        "severity": "informational",
+        "category": "overlong_heading",
+        "message": "Block p0057-b0002 is classified as a heading (254 chars) but contains multi-sentence body prose; compiler will demote to paragraph.",
+        "expected_action": "Confirm whether block is a bold-lead paragraph rather than a display heading.",
+        "validator": "layout_order",
+        "block_id": "p0057-b0002"
+      },
+      {
+        "page_number": 75,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 1 time(s) in this book, here in 'vivá'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0075-b0004"
+      },
+      {
+        "page_number": 110,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ę' (U+0119 LATIN SMALL LETTER E WITH OGONEK) appears only 1 time(s) in this book, here in 'Menezęz,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0110-b0006"
+      },
+      {
+        "page_number": 145,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'Bayadères'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0145-b0007"
+      },
+      {
+        "page_number": 180,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Cudungalûr,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0180-b0005"
+      },
+      {
+        "page_number": 195,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 2 time(s) in this book, here in 'Kœnig'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0195-b0003"
+      },
+      {
+        "page_number": 196,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'dépôt'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0196-b0006"
+      },
+      {
+        "page_number": 196,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 2 time(s) in this book, here in 'Phœnix'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0196-b0006"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (204/204 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/letters-from-malabar.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 13 fixes · 1 pp. checked",
+          "detail": "13 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 204 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:structured",
+          "axis": "provenance",
+          "label": "Tables: 5 Structured (No Printed Totals)",
+          "detail": "5 structured table(s) extracted; none carry printed summation rows"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 42 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "18th Century Malabar",
+        "regions": [
+          "Malabar Coast",
+          "Travancore",
+          "Cochin",
+          "Kerala"
+        ],
+        "subjects": [
+          "Dutch East India Company",
+          "Malabar History",
+          "Travelogue",
+          "Social History",
+          "Maritime Trade"
+        ],
+        "artifacts": [
+          "5 Statistical Tables",
+          "42 Footnotes"
+        ]
+      }
+    }
+  }
+}

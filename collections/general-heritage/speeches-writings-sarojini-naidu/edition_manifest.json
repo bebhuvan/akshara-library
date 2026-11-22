@@ -1,0 +1,331 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "speeches-writings-sarojini-naidu",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "epistolary_and_speeches",
+  "cover_palette": "Fitzcarraldo Ultramarine",
+  "edition_root": "library/general-heritage/speeches-writings-sarojini-naidu",
+  "outputs": {
+    "book_ast": "library/general-heritage/speeches-writings-sarojini-naidu/book_ast.json",
+    "rubric_score": "library/general-heritage/speeches-writings-sarojini-naidu/rubric_score.json",
+    "editorial_note": "library/general-heritage/speeches-writings-sarojini-naidu/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/speeches-writings-sarojini-naidu/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/speeches-writings-sarojini-naidu/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/speeches-writings-sarojini-naidu/cover.svg",
+    "cover_webp": "library/general-heritage/speeches-writings-sarojini-naidu/cover.webp",
+    "web_index": "library/general-heritage/speeches-writings-sarojini-naidu/web/index.html",
+    "hugo_dir": "library/general-heritage/speeches-writings-sarojini-naidu/web/hugo",
+    "hugo_manifest": "library/general-heritage/speeches-writings-sarojini-naidu/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/speeches-writings-sarojini-naidu/epub/speeches-writings-sarojini-naidu.epub",
+    "markdown": "library/general-heritage/speeches-writings-sarojini-naidu/markdown/speeches-writings-sarojini-naidu.md",
+    "tei_xml": "library/general-heritage/speeches-writings-sarojini-naidu/tei/speeches-writings-sarojini-naidu.tei.xml",
+    "print_html": "library/general-heritage/speeches-writings-sarojini-naidu/print/speeches-writings-sarojini-naidu.print.html",
+    "pdf": "library/general-heritage/speeches-writings-sarojini-naidu/print/speeches-writings-sarojini-naidu.pdf",
+    "datasets": null,
+    "datapackage": null
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/speeches-writings-sarojini-naidu",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (486/486 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/speeches-writings-sarojini-naidu.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 15 fixes · 1 pp. checked",
+        "detail": "15 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 486 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "Early 20th Century India (1905–1925)",
+      "regions": [
+        "All-India",
+        "Hyderabad",
+        "Madras",
+        "Bombay",
+        "South Africa",
+        "East Africa"
+      ],
+      "subjects": [
+        "Indian National Movement",
+        "Womens Education",
+        "Hindu Muslim Unity",
+        "Swaraj",
+        "Speeches"
+      ],
+      "artifacts": [
+        "1 Archival Plates",
+        "Linked Index"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 486,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 1,
+      "machine_reread_page_count": 1,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        404
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 1 of 486 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 1,
+      "total": 1
+    },
+    "corrections": {
+      "applied": 15,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-crop-d49-wave2-v1-p0244-b0006-tok",
+          "page_number": 244,
+          "matched_block_id": "p0244-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-d49-wave2-v1-p0416-b0003-tok",
+          "page_number": 416,
+          "matched_block_id": "p0416-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0038-b0004-asterisks",
+          "page_number": 38,
+          "matched_block_id": "p0038-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0056-b0005-quads",
+          "page_number": 56,
+          "matched_block_id": "p0056-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0187-b0001-roman-ii",
+          "page_number": 187,
+          "matched_block_id": "p0187-b0001",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0243-b0003-gutter",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0416-b0003-broken-type",
+          "page_number": 416,
+          "matched_block_id": "p0416-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0483-b0002-index-colhdr",
+          "page_number": 483,
+          "matched_block_id": "p0483-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0483-b0003-index-colhdr",
+          "page_number": 483,
+          "matched_block_id": "p0483-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0484-b0003-index-colhdr",
+          "page_number": 484,
+          "matched_block_id": "p0484-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0484-b0042-index-colhdr",
+          "page_number": 484,
+          "matched_block_id": "p0484-b0042",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0485-b0003-index-colhdr",
+          "page_number": 485,
+          "matched_block_id": "p0485-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0485-b0045-index-colhdr",
+          "page_number": 485,
+          "matched_block_id": "p0485-b0045",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0486-b0003-index-colhdr",
+          "page_number": 486,
+          "matched_block_id": "p0486-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0486-b0042-index-colhdr",
+          "page_number": 486,
+          "matched_block_id": "p0486-b0042",
+          "op": "set_type",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 404,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'thât'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0404-b0005"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (486/486 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/speeches-writings-sarojini-naidu.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 15 fixes · 1 pp. checked",
+          "detail": "15 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 486 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "Early 20th Century India (1905–1925)",
+        "regions": [
+          "All-India",
+          "Hyderabad",
+          "Madras",
+          "Bombay",
+          "South Africa",
+          "East Africa"
+        ],
+        "subjects": [
+          "Indian National Movement",
+          "Womens Education",
+          "Hindu Muslim Unity",
+          "Swaraj",
+          "Speeches"
+        ],
+        "artifacts": [
+          "1 Archival Plates",
+          "Linked Index"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+# A Note On This Edition — *Lays of Ancient India*
+
+This digital edition was produced by transcribing a scanned copy of the original printed book. This note records where the scan came from, what we normalized from the printed page, and what we know still awaits human eyes, so that you can judge the text for yourself and consult the original scan where it matters.
+
+## 1. The Copy We Worked From
+
+- **Title**: *Lays of Ancient India* (1894)
+- **Author(s)**: Romesh Chunder Dutt
+- **Imprint**: London: Kegan Paul, Trench, Trübner & Co., Ltd.
+- **Internet Archive Scan**: [`laysofancientind00dutt`](https://archive.org/details/laysofancientind00dutt)
+- **Source File**: `lays-of-ancient-india.originals.pdf`
+- **Source SHA-256**: `3834f25b7648a385ecee1dfb9c59749f81c96008eb878e89df644eb6f098b922`
+- **Leaf Accounting**: 266 PDF leaves — **254** content leaves transcribed, **12** blank/tissue leaves (`24, 28, 38, 40, 92, 122, 130, 132, 140, 142, 166, 260`), **0** failed leaves.
+- **Edition Status**: `machine_checked` (**100.0 / 100** Rubric Score)
+
+## 2. Editorial Policy: Presentation vs. Historical Text
+
+- **Modernized (Presentation Only)**: Running heads and institutional library stamps (24 flyleaf/stamp block(s)) are excluded from reading prose; **5** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **1** cross-page split footnotes and **1** multi-page tables were stitched; and **75** end-of-line hyphens were resolved against intra-book attestation.
+- **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (18 distinct non-ASCII characters across 156 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+
+## 3. Transcription Provenance & Remaining Open Checks
+
+- **Models**: `gemini-4-hydrogen` (254 pp.).
+- **Reader**: Read by gemini-4-hydrogen on 254 of 254 pages. Declared reader profile: transliteration (new readings use gemini-4-hydrogen).
+- **Human Proofing**: 5 replayed correction(s). Machine-checked; 6 of 254 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+
+Rather than pretend machine transcription is infallible, here is what our validators still flag:
+
+- **6 finding(s) across 6 leaf(s)** (pp. 5, 7, 11, 22, 119, 155): attested compositor spelling variants preserved diplomatically from the scan.
+- **4 finding(s) across 4 leaf(s)** (pp. 7, 8, 12, 21): rare character.
+
+If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

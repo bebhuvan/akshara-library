@@ -1,8 +1,25 @@
 {
   "version": "akshara-library-v1",
-  "book_count": 58,
-  "total_tables": 1308,
+  "book_count": 64,
+  "total_tables": 1320,
   "books": [
+    {
+      "book_id": "brief-history-indian-peoples",
+      "title": "A Brief History of the Indian Peoples",
+      "subtitle": "Twenty-Fourth Edition. Ninety-Second Thousand (Revised by Rev. W. H. Hutton)",
+      "authors": [
+        "Sir William Wilson Hunter"
+      ],
+      "publication_year": 1907,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 266,
+      "tables_count": 3,
+      "footnotes_count": 7,
+      "archive_id": "briefhistoryofin00hunt",
+      "path": "collections/general-heritage/brief-history-indian-peoples"
+    },
     {
       "book_id": "early-history-of-india-1924",
       "title": "The Early History of India",
@@ -36,6 +53,57 @@
       "footnotes_count": 378,
       "archive_id": "indiawhatcanitte00mluoft",
       "path": "collections/general-heritage/india-what-can-it-teach-us"
+    },
+    {
+      "book_id": "lays-of-ancient-india",
+      "title": "Lays of Ancient India",
+      "subtitle": "Selections from Indian Poetry Rendered into English Verse",
+      "authors": [
+        "Romesh Chunder Dutt"
+      ],
+      "publication_year": 1894,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 266,
+      "tables_count": 1,
+      "footnotes_count": 88,
+      "archive_id": "laysofancientind00dutt",
+      "path": "collections/general-heritage/lays-of-ancient-india"
+    },
+    {
+      "book_id": "letters-from-malabar",
+      "title": "Letters from Malabar",
+      "subtitle": "Now First Translated from the Original Dutch; to Which Is Added An Account of Travancore, and Fra Bartolomeo's Travels in That Country, by Major Heber Drury",
+      "authors": [
+        "Jacob Canter Visscher"
+      ],
+      "publication_year": 1862,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 204,
+      "tables_count": 5,
+      "footnotes_count": 42,
+      "archive_id": "bub_gb_HMFw5dFAEK8C",
+      "path": "collections/general-heritage/letters-from-malabar"
+    },
+    {
+      "book_id": "life-and-letters-of-toru-dutt",
+      "title": "Life and Letters of Toru Dutt",
+      "subtitle": "With a Foreword by the Right Hon. H. A. L. Fisher, M.P.",
+      "authors": [
+        "Harihar Das"
+      ],
+      "publication_year": 1921,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 408,
+      "tables_count": 0,
+      "footnotes_count": 72,
+      "archive_id": "lifelettersoftor00duttuoft",
+      "path": "collections/general-heritage/life-and-letters-of-toru-dutt"
     },
     {
       "book_id": "life-in-an-indian-village",
@@ -138,6 +206,40 @@
       "footnotes_count": 242,
       "archive_id": "religionveda00bloouoft",
       "path": "collections/general-heritage/religion-of-the-veda"
+    },
+    {
+      "book_id": "rig-veda-vedic-religion",
+      "title": "The Rig-Veda and Vedic Religion",
+      "subtitle": "With Readings from the Vedas",
+      "authors": [
+        "A. C. Clayton"
+      ],
+      "publication_year": 1913,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 312,
+      "tables_count": 3,
+      "footnotes_count": 236,
+      "archive_id": "rigvedavedicreli00clayiala",
+      "path": "collections/general-heritage/rig-veda-vedic-religion"
+    },
+    {
+      "book_id": "speeches-writings-sarojini-naidu",
+      "title": "Speeches and Writings of Sarojini Naidu",
+      "subtitle": "Third Edition",
+      "authors": [
+        "Sarojini Naidu"
+      ],
+      "publication_year": 1925,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 490,
+      "tables_count": 0,
+      "footnotes_count": 0,
+      "archive_id": "speecheswritings00naiduoft",
+      "path": "collections/general-heritage/speeches-writings-sarojini-naidu"
     },
     {
       "book_id": "while-sewing-sandals",

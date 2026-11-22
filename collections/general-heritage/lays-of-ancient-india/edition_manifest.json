@@ -1,0 +1,379 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "lays-of-ancient-india",
+  "run_id": "g4-hydrogen-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "classical_and_philological",
+  "cover_palette": "Ivory & Rubric",
+  "edition_root": "library/general-heritage/lays-of-ancient-india",
+  "outputs": {
+    "book_ast": "library/general-heritage/lays-of-ancient-india/book_ast.json",
+    "rubric_score": "library/general-heritage/lays-of-ancient-india/rubric_score.json",
+    "editorial_note": "library/general-heritage/lays-of-ancient-india/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/lays-of-ancient-india/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/lays-of-ancient-india/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/lays-of-ancient-india/cover.svg",
+    "cover_webp": "library/general-heritage/lays-of-ancient-india/cover.webp",
+    "web_index": "library/general-heritage/lays-of-ancient-india/web/index.html",
+    "hugo_dir": "library/general-heritage/lays-of-ancient-india/web/hugo",
+    "hugo_manifest": "library/general-heritage/lays-of-ancient-india/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/lays-of-ancient-india/epub/lays-of-ancient-india.epub",
+    "markdown": "library/general-heritage/lays-of-ancient-india/markdown/lays-of-ancient-india.md",
+    "tei_xml": "library/general-heritage/lays-of-ancient-india/tei/lays-of-ancient-india.tei.xml",
+    "print_html": "library/general-heritage/lays-of-ancient-india/print/lays-of-ancient-india.print.html",
+    "pdf": "library/general-heritage/lays-of-ancient-india/print/lays-of-ancient-india.pdf",
+    "datasets": "library/general-heritage/lays-of-ancient-india/datasets/tables_manifest.json",
+    "datapackage": "library/general-heritage/lays-of-ancient-india/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/lays-of-ancient-india",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-4-hydrogen",
+        "axis": "provenance",
+        "label": "Read: Gemini 4 Hydrogen",
+        "detail": "Models: gemini-4-hydrogen (254/254 pp.) · reader_profile=transliteration"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/lays-of-ancient-india.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 5 fixes · 6 pp. checked",
+        "detail": "5 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 254 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:structured",
+        "axis": "provenance",
+        "label": "Tables: 1 Structured (No Printed Totals)",
+        "detail": "1 structured table(s) extracted; none carry printed summation rows"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 88 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "Vedic to Classical India",
+      "regions": [
+        "All-India",
+        "Northern India",
+        "Magadha"
+      ],
+      "subjects": [
+        "Sanskrit Literature",
+        "Vedic Studies",
+        "Pali Literature",
+        "Indian Poetry",
+        "Translations"
+      ],
+      "artifacts": [
+        "1 Statistical Tables",
+        "1 Archival Plates",
+        "88 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 254,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 6,
+      "machine_reread_page_count": 6,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        5,
+        7,
+        11,
+        22,
+        119,
+        155
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 6 of 254 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 10,
+      "total": 10
+    },
+    "corrections": {
+      "applied": 5,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0036-b0003-1",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-d49-wave2-v1-p0037-b0004-2",
+          "page_number": 37,
+          "matched_block_id": "p0037-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0261-b0002-colspan",
+          "page_number": 261,
+          "matched_block_id": "p0261-b0002",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0261-b0003-colspan",
+          "page_number": 261,
+          "matched_block_id": "p0261-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "manual-p0261-b0047-colspan",
+          "page_number": 261,
+          "matched_block_id": "p0261-b0047",
+          "op": "set_cells",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 5,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'KALIDASA' appears without diacritics here, whereas this volume consistently prints 'Kâlidâsa' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0005-b0010"
+      },
+      {
+        "page_number": 7,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepâl' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0007-b0005"
+      },
+      {
+        "page_number": 7,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ú' (U+00FA LATIN SMALL LETTER U WITH ACUTE) appears only 1 time(s) in this book, here in 'Káthmándú,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0007-b0018"
+      },
+      {
+        "page_number": 8,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ñ' (U+00F1 LATIN SMALL LETTER N WITH TILDE) appears only 2 time(s) in this book, here in 'Heñkaku'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0008-b0023"
+      },
+      {
+        "page_number": 11,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Mahabharata' appears without diacritics here, whereas this volume consistently prints 'Mahâbhârata' (3 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0011-b0011"
+      },
+      {
+        "page_number": 12,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ā' (U+0100 LATIN CAPITAL LETTER A WITH MACRON) appears only 2 time(s) in this book, here in 'SĀNKHYA'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0012-b0015"
+      },
+      {
+        "page_number": 21,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Æ' (U+00C6 LATIN CAPITAL LETTER AE) appears only 1 time(s) in this book, here in 'MEDIÆVAL'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0021-b0015"
+      },
+      {
+        "page_number": 22,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Sakya' appears without diacritics here, whereas this volume consistently prints 'Sâkya' (4 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0022-b0004"
+      },
+      {
+        "page_number": 119,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Pushan' appears without diacritics here, whereas this volume consistently prints 'Pûshan' (14 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0119-b0004"
+      },
+      {
+        "page_number": 155,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Ganga' appears without diacritics here, whereas this volume consistently prints 'Gangâ' (13 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0155-b0006"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-4-hydrogen",
+          "axis": "provenance",
+          "label": "Read: Gemini 4 Hydrogen",
+          "detail": "Models: gemini-4-hydrogen (254/254 pp.) · reader_profile=transliteration"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/lays-of-ancient-india.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 5 fixes · 6 pp. checked",
+          "detail": "5 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 254 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:structured",
+          "axis": "provenance",
+          "label": "Tables: 1 Structured (No Printed Totals)",
+          "detail": "1 structured table(s) extracted; none carry printed summation rows"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 88 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "Vedic to Classical India",
+        "regions": [
+          "All-India",
+          "Northern India",
+          "Magadha"
+        ],
+        "subjects": [
+          "Sanskrit Literature",
+          "Vedic Studies",
+          "Pali Literature",
+          "Indian Poetry",
+          "Translations"
+        ],
+        "artifacts": [
+          "1 Statistical Tables",
+          "1 Archival Plates",
+          "88 Footnotes"
+        ]
+      }
+    }
+  }
+}

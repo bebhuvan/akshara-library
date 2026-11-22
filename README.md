@@ -1,6 +1,6 @@
 # Akshara Public-Domain Digital Library (`akshara-library`)
 
-**58 full scholarly editions · 1308 structured CSV/JSON statistical tables · CC0 Public Domain**
+**64 full scholarly editions · 1320 structured CSV/JSON statistical tables · CC0 Public Domain**
 
 Every edition in this repository is compiled from camera-original Archive.org JP2 scans with 100% diplomatic orthographic fidelity.
 
@@ -28,6 +28,7 @@ Heavy Print PDFs and de-blotted `.originals.pdf` camera scan backups live under 
 
 | Title | Author(s) | Year | Tier | Rubric | Tables |
 | :--- | :--- | :---: | :--- | ---: | ---: |
+| [A Brief History of the Indian Peoples](collections/general-heritage/brief-history-indian-peoples/README.md) | Sir William Wilson Hunter | 1907 | `machine_checked` | 100.0 | 3 |
 | [A Guide to the India Office Records, 1600–1858](collections/indian-economic-history/guide-to-india-office-records-1919/README.md) | William Foster | 1919 | `machine_checked` | 100.0 | 14 |
 | [A Journey from Madras through the Countries of Mysore, Canara, and Malabar](collections/indian-economic-history/journey-from-madras-vol-i/README.md) | Francis Buchanan | 1807 | `community` | 81.8 | 43 |
 | [A Journey from Madras through the Countries of Mysore, Canara, and Malabar](collections/indian-economic-history/journey-from-madras-vol-ii/README.md) | Francis Buchanan | 1807 | `community` | 75.6 | 64 |
@@ -47,6 +48,9 @@ Heavy Print PDFs and de-blotted `.originals.pdf` camera scan backups live under 
 | [Indian Finance](collections/indian-economic-history/indian-finance-moxon-1881/README.md) | Thomas Bouchier Moxon | 1881 | `machine_checked` | 100.0 | 9 |
 | [Indian Shipping](collections/indian-economic-history/indian-shipping/README.md) | Radhakumud Mookerji | 1912 | `machine_checked` | 100.0 | 7 |
 | [Introduction to the Peishwa's Diaries](collections/indian-economic-history/peishwas-diaries-intro/README.md) | Mahadev Govind Ranade | 1900 | `machine_checked` | 100.0 | 0 |
+| [Lays of Ancient India](collections/general-heritage/lays-of-ancient-india/README.md) | Romesh Chunder Dutt | 1894 | `machine_checked` | 100.0 | 1 |
+| [Letters from Malabar](collections/general-heritage/letters-from-malabar/README.md) | Jacob Canter Visscher | 1862 | `machine_checked` | 100.0 | 5 |
+| [Life and Letters of Toru Dutt](collections/general-heritage/life-and-letters-of-toru-dutt/README.md) | Harihar Das | 1921 | `machine_checked` | 100.0 | 0 |
 | [Life in an Indian Village](collections/general-heritage/life-in-an-indian-village/README.md) | T. Ramakrishna | 1891 | `machine_checked` | 100.0 | 0 |
 | [Modern Religious Movements in India](collections/general-heritage/modern-religious-movements-india/README.md) | John Nicol Farquhar | 1915 | `machine_checked` | 100.0 | 5 |
 | [Musalmans and Money-Lenders in the Punjab](collections/indian-economic-history/musalmans-and-money-lenders/README.md) | Septimus Smet Thorburn | 1886 | `community` | 99.4 | 13 |
@@ -55,6 +59,7 @@ Heavy Print PDFs and de-blotted `.originals.pdf` camera scan backups live under 
 | [Report on Past Famines in the Bombay Presidency](collections/indian-economic-history/report-past-famines-bombay-etheridge-1868/README.md) | A. T. Etheridge | 1868 | `community` | 90.0 | 63 |
 | [Some Aspects of Indian Commerce and Industry](collections/indian-economic-history/some-aspects-indian-commerce-industry-shirras-1911/README.md) | G. Findlay Shirras | 1911 | `machine_checked` | 100.0 | 2 |
 | [Speeches and Writings of Dadabhai Naoroji](collections/indian-economic-history/speeches-and-writings-naoroji-1918/README.md) | Dadabhai Naoroji | 1918 | `community` | 92.4 | 39 |
+| [Speeches and Writings of Sarojini Naidu](collections/general-heritage/speeches-writings-sarojini-naidu/README.md) | Sarojini Naidu | 1925 | `machine_checked` | 100.0 | 0 |
 | [The Early History of India](collections/general-heritage/early-history-of-india-1924/README.md) | Vincent A. Smith | 1924 | `community` | 86.3 | 15 |
 | [The Early History of the Tea Industry in North-East India](collections/indian-economic-history/early-history-tea-industry/README.md) | Harold H. Mann | 1918 | `community` | 97.0 | 3 |
 | [The East India Trade in the XVIIth Century, in Its Political and Economic Aspects](collections/indian-economic-history/east-india-trade-17th-century-khan/README.md) | Shafaat Ahmad Khan | 1923 | `community` | 92.0 | 13 |
@@ -84,5 +89,6 @@ Heavy Print PDFs and de-blotted `.originals.pdf` camera scan backups live under 
 | [The Pālas of Bengal](collections/general-heritage/palas-of-bengal/README.md) | R. D. Banerji | 1915 | `community` | 86.4 | 0 |
 | [The Register of Letters &c. of the Governour and Company of Merchants of London Trading into the East Indies, 1600–1619](collections/indian-economic-history/eic-first-letter-book-1600-1619/README.md) | George Birdwood, William Foster | 1893 | `community` | 96.8 | 21 |
 | [The Religion of the Veda](collections/general-heritage/religion-of-the-veda/README.md) | Maurice Bloomfield | 1908 | `machine_checked` | 100.0 | 0 |
+| [The Rig-Veda and Vedic Religion](collections/general-heritage/rig-veda-vedic-religion/README.md) | A. C. Clayton | 1913 | `machine_checked` | 100.0 | 3 |
 | [The Truth About Indian Opium](collections/indian-economic-history/truth-about-indian-opium/README.md) | G. Graham Dixon, Great Britain. India Office | 1922 | `machine_checked` | 100.0 | 13 |
 | [While Sewing Sandals](collections/general-heritage/while-sewing-sandals/README.md) | Emma Rauschenbusch-Clough | 1899 | `machine_checked` | 100.0 | 1 |
