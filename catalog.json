@@ -1,7 +1,7 @@
 {
   "version": "akshara-library-v1",
-  "book_count": 64,
-  "total_tables": 1320,
+  "book_count": 66,
+  "total_tables": 1322,
   "books": [
     {
       "book_id": "brief-history-indian-peoples",
@@ -19,6 +19,40 @@
       "footnotes_count": 7,
       "archive_id": "briefhistoryofin00hunt",
       "path": "collections/general-heritage/brief-history-indian-peoples"
+    },
+    {
+      "book_id": "comprehensive-history-india-v1",
+      "title": "A Comprehensive History of India, Vol. I",
+      "subtitle": "Civil, Military, and Social, from the First Landing of the English, to the Suppression of the Sepoy Revolt; Including an Outline of the Early History of Hindoostan",
+      "authors": [
+        "Henry Beveridge"
+      ],
+      "publication_year": 1862,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 746,
+      "tables_count": 2,
+      "footnotes_count": 83,
+      "archive_id": "comprehensivehis01beve",
+      "path": "collections/general-heritage/comprehensive-history-india-v1"
+    },
+    {
+      "book_id": "comprehensive-history-india-v2",
+      "title": "A Comprehensive History of India, Vol. II",
+      "subtitle": "Civil, Military, and Social, from the First Landing of the English, to the Suppression of the Sepoy Revolt; Including an Outline of the Early History of Hindoostan",
+      "authors": [
+        "Henry Beveridge"
+      ],
+      "publication_year": 1862,
+      "collection": "general-heritage",
+      "edition_tier": "machine_checked",
+      "rubric_score": 100.0,
+      "pages": 892,
+      "tables_count": 0,
+      "footnotes_count": 89,
+      "archive_id": "comprehensivehis02beveuoft",
+      "path": "collections/general-heritage/comprehensive-history-india-v2"
     },
     {
       "book_id": "early-history-of-india-1924",

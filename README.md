@@ -1,6 +1,6 @@
 # Akshara Public-Domain Digital Library (`akshara-library`)
 
-**64 full scholarly editions · 1320 structured CSV/JSON statistical tables · CC0 Public Domain**
+**66 full scholarly editions · 1322 structured CSV/JSON statistical tables · CC0 Public Domain**
 
 Every edition in this repository is compiled from camera-original Archive.org JP2 scans with 100% diplomatic orthographic fidelity.
 
@@ -29,6 +29,8 @@ Heavy Print PDFs and de-blotted `.originals.pdf` camera scan backups live under 
 | Title | Author(s) | Year | Tier | Rubric | Tables |
 | :--- | :--- | :---: | :--- | ---: | ---: |
 | [A Brief History of the Indian Peoples](collections/general-heritage/brief-history-indian-peoples/README.md) | Sir William Wilson Hunter | 1907 | `machine_checked` | 100.0 | 3 |
+| [A Comprehensive History of India, Vol. I](collections/general-heritage/comprehensive-history-india-v1/README.md) | Henry Beveridge | 1862 | `machine_checked` | 100.0 | 2 |
+| [A Comprehensive History of India, Vol. II](collections/general-heritage/comprehensive-history-india-v2/README.md) | Henry Beveridge | 1862 | `machine_checked` | 100.0 | 0 |
 | [A Guide to the India Office Records, 1600–1858](collections/indian-economic-history/guide-to-india-office-records-1919/README.md) | William Foster | 1919 | `machine_checked` | 100.0 | 14 |
 | [A Journey from Madras through the Countries of Mysore, Canara, and Malabar](collections/indian-economic-history/journey-from-madras-vol-i/README.md) | Francis Buchanan | 1807 | `community` | 81.8 | 43 |
 | [A Journey from Madras through the Countries of Mysore, Canara, and Malabar](collections/indian-economic-history/journey-from-madras-vol-ii/README.md) | Francis Buchanan | 1807 | `community` | 75.6 | 64 |

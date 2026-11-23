@@ -1,0 +1,547 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "comprehensive-history-india-v1",
+  "run_id": "g4-hydrogen-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "court_and_chronicle",
+  "cover_palette": "Imperial Cinnabar",
+  "edition_root": "library/general-heritage/comprehensive-history-india-v1",
+  "outputs": {
+    "book_ast": "library/general-heritage/comprehensive-history-india-v1/book_ast.json",
+    "rubric_score": "library/general-heritage/comprehensive-history-india-v1/rubric_score.json",
+    "editorial_note": "library/general-heritage/comprehensive-history-india-v1/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/comprehensive-history-india-v1/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/comprehensive-history-india-v1/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/comprehensive-history-india-v1/cover.svg",
+    "cover_webp": "library/general-heritage/comprehensive-history-india-v1/cover.webp",
+    "web_index": "library/general-heritage/comprehensive-history-india-v1/web/index.html",
+    "hugo_dir": "library/general-heritage/comprehensive-history-india-v1/web/hugo",
+    "hugo_manifest": "library/general-heritage/comprehensive-history-india-v1/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/comprehensive-history-india-v1/epub/comprehensive-history-india-v1.epub",
+    "markdown": "library/general-heritage/comprehensive-history-india-v1/markdown/comprehensive-history-india-v1.md",
+    "tei_xml": "library/general-heritage/comprehensive-history-india-v1/tei/comprehensive-history-india-v1.tei.xml",
+    "print_html": "library/general-heritage/comprehensive-history-india-v1/print/comprehensive-history-india-v1.print.html",
+    "pdf": "library/general-heritage/comprehensive-history-india-v1/print/comprehensive-history-india-v1.pdf",
+    "datasets": "library/general-heritage/comprehensive-history-india-v1/datasets/tables_manifest.json",
+    "datapackage": "library/general-heritage/comprehensive-history-india-v1/datasets/datapackage.json"
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/comprehensive-history-india-v1",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-4-hydrogen",
+        "axis": "provenance",
+        "label": "Read: Gemini 4 Hydrogen",
+        "detail": "Models: gemini-4-hydrogen (733/733 pp.) · reader_profile=transliteration"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/comprehensive-history-india-v1.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 30 fixes · 2 pp. checked",
+        "detail": "30 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 733 extracted pages signed off by a human reviewer"
+      },
+      {
+        "id": "tables:arithmetic",
+        "axis": "provenance",
+        "label": "Tables: 2/2 Arithmetic-Checked",
+        "detail": "2 of 2 tables pass arithmetic & column checks; 3 printed compositor discrepancy(ies) confirmed on scan"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 83 footnotes and 2279 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "Ancient India to 1765",
+      "regions": [
+        "All-India",
+        "Bengal",
+        "Carnatic",
+        "Deccan",
+        "Delhi"
+      ],
+      "subjects": [
+        "Indian History",
+        "Ancient India",
+        "Mughal Empire",
+        "East India Company",
+        "Anglo French Wars",
+        "Battle Of Plassey"
+      ],
+      "artifacts": [
+        "2 Statistical Tables",
+        "183 Archival Plates",
+        "83 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 733,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 2,
+      "machine_reread_page_count": 2,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        313,
+        640
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 2 of 733 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 9,
+      "total": 9
+    },
+    "corrections": {
+      "applied": 30,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0031-b0002-1",
+          "page_number": 31,
+          "matched_block_id": "p0031-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0049-b0004-2",
+          "page_number": 49,
+          "matched_block_id": "p0049-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0096-b0011-3",
+          "page_number": 96,
+          "matched_block_id": "p0096-b0011",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0178-b0005-4",
+          "page_number": 178,
+          "matched_block_id": "p0178-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0229-b0009-5",
+          "page_number": 229,
+          "matched_block_id": "p0229-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0262-b0005-6",
+          "page_number": 262,
+          "matched_block_id": "p0262-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0262-b0010-7",
+          "page_number": 262,
+          "matched_block_id": "p0262-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0271-b0005-8",
+          "page_number": 271,
+          "matched_block_id": "p0271-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0271-b0006-9",
+          "page_number": 271,
+          "matched_block_id": "p0271-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0535-b0009-10",
+          "page_number": 535,
+          "matched_block_id": "p0535-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0564-b0008-11",
+          "page_number": 564,
+          "matched_block_id": "p0564-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0581-b0005-12",
+          "page_number": 581,
+          "matched_block_id": "p0581-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0628-b0009-13",
+          "page_number": 628,
+          "matched_block_id": "p0628-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-struct-audit-v1-p0679-b0005-14",
+          "page_number": 679,
+          "matched_block_id": "p0679-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-audit-v1-p0016-b0005-tok",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-audit-v1-p0235-b0010-tok",
+          "page_number": 235,
+          "matched_block_id": "p0235-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "autoqa-crop-audit-v1-p0243-b0008-tok",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0019-b0066",
+          "page_number": 19,
+          "matched_block_id": "p0019-b0066",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0033-b0003",
+          "page_number": 33,
+          "matched_block_id": "p0033-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0254-b0008",
+          "page_number": 254,
+          "matched_block_id": "p0254-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0600-b0004",
+          "page_number": 600,
+          "matched_block_id": "p0600-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0739-b0010",
+          "page_number": 739,
+          "matched_block_id": "p0739-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0058-b0007",
+          "page_number": 58,
+          "matched_block_id": "p0058-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0295-b0007",
+          "page_number": 295,
+          "matched_block_id": "p0295-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0474-b0006",
+          "page_number": 474,
+          "matched_block_id": "p0474-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0537-b0006",
+          "page_number": 537,
+          "matched_block_id": "p0537-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0727-b0009",
+          "page_number": 727,
+          "matched_block_id": "p0727-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0073-b0010",
+          "page_number": 73,
+          "matched_block_id": "p0073-b0010",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0463-b0010",
+          "page_number": 463,
+          "matched_block_id": "p0463-b0010",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "comp-v1-p0474-b0007",
+          "page_number": 474,
+          "matched_block_id": "p0474-b0007",
+          "op": "set_type",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 313,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 2 states total 185589 but its 22 contributing cells sum to 557764 (difference 372175).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0313-b0033"
+      },
+      {
+        "page_number": 313,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 3 states total 7 but its 22 contributing cells sum to 71 (difference 64).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0313-b0033"
+      },
+      {
+        "page_number": 313,
+        "severity": "informational",
+        "category": "table_compositor_arithmetic_variant",
+        "message": "Column 4 states total 0 but its 22 contributing cells sum to 24 (difference 24).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "validator": "table_arithmetic",
+        "block_id": "p0313-b0033"
+      },
+      {
+        "page_number": 368,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'entrepôt'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0368-b0007"
+      },
+      {
+        "page_number": 404,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Lüneburg,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0404-b0006"
+      },
+      {
+        "page_number": 405,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 2 time(s) in this book, here in 'Lüneburg'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0405-b0006"
+      },
+      {
+        "page_number": 626,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Æ' (U+00C6 LATIN CAPITAL LETTER AE) appears only 1 time(s) in this book, here in 'Æacide,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0626-b0005"
+      },
+      {
+        "page_number": 640,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Thome' appears without diacritics here, whereas this volume consistently prints 'Thomé' (12 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0640-b0007"
+      },
+      {
+        "page_number": 678,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'Grève,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0678-b0008"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-4-hydrogen",
+          "axis": "provenance",
+          "label": "Read: Gemini 4 Hydrogen",
+          "detail": "Models: gemini-4-hydrogen (733/733 pp.) · reader_profile=transliteration"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/comprehensive-history-india-v1.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 30 fixes · 2 pp. checked",
+          "detail": "30 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 733 extracted pages signed off by a human reviewer"
+        },
+        {
+          "id": "tables:arithmetic",
+          "axis": "provenance",
+          "label": "Tables: 2/2 Arithmetic-Checked",
+          "detail": "2 of 2 tables pass arithmetic & column checks; 3 printed compositor discrepancy(ies) confirmed on scan"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 83 footnotes and 2279 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "Ancient India to 1765",
+        "regions": [
+          "All-India",
+          "Bengal",
+          "Carnatic",
+          "Deccan",
+          "Delhi"
+        ],
+        "subjects": [
+          "Indian History",
+          "Ancient India",
+          "Mughal Empire",
+          "East India Company",
+          "Anglo French Wars",
+          "Battle Of Plassey"
+        ],
+        "artifacts": [
+          "2 Statistical Tables",
+          "183 Archival Plates",
+          "83 Footnotes"
+        ]
+      }
+    }
+  }
+}

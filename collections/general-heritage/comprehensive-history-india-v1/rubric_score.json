@@ -1,0 +1,40 @@
+{
+  "version": "rubric-v2",
+  "book_id": "comprehensive-history-india-v1",
+  "run_id": "g4-hydrogen-batch-v1",
+  "total_score": 100.0,
+  "max_score": 100.0,
+  "recommended_gate": "machine_checked",
+  "pillars": {
+    "structural_completeness": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "apparatus_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "tabular_accuracy": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    },
+    "orthographic_fidelity": {
+      "score": 25.0,
+      "max": 25.0,
+      "deductions": []
+    }
+  },
+  "issue_counts_by_code": {
+    "table_compositor_arithmetic_variant": 3,
+    "rare_character": 5,
+    "orthographic_compositor_variant": 1
+  },
+  "human_proof_coverage": 0.0,
+  "scan_audit_coverage": 0.0027,
+  "next_actions": [
+    "Ready to ship as Machine-Checked Edition (no open validator hotspots; 0.3% of pages re-read; 0.0% verified by a person toward Source-Certified)."
+  ]
+}
