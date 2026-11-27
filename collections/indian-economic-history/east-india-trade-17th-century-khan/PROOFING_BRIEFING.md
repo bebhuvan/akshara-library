@@ -34,7 +34,9 @@ Welcome! You do **not** need to read all 336 leaves from start to finish to make
 - [ ] Leaves **142 -> 143**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **209 -> 210**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **246 -> 247**: Confirm cross-page footnote `2` joins smoothly across the page turn.
+- [ ] Leaves **252 -> 253**: Confirm cross-page footnote `3` joins smoothly across the page turn.
 - [ ] Leaves **281 -> 282**: Confirm cross-page footnote `2` joins smoothly across the page turn.
+- [ ] Leaves **292 -> 293**: Confirm cross-page footnote `5` joins smoothly across the page turn.
 - [ ] Leaves **293 -> 294**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 
 ---

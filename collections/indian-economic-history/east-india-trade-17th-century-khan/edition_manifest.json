@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/east-india-trade-17th-century-khan/epub/east-india-trade-17th-century-khan.epub",
     "markdown": "library/indian-economic-history/east-india-trade-17th-century-khan/markdown/east-india-trade-17th-century-khan.md",
     "tei_xml": "library/indian-economic-history/east-india-trade-17th-century-khan/tei/east-india-trade-17th-century-khan.tei.xml",
-    "print_html": "library/indian-economic-history/east-india-trade-17th-century-khan/print/east-india-trade-17th-century-khan.print.html",
+    "print_source": "library/indian-economic-history/east-india-trade-17th-century-khan/print/east-india-trade-17th-century-khan.typ",
     "pdf": "library/indian-economic-history/east-india-trade-17th-century-khan/print/east-india-trade-17th-century-khan.pdf",
+    "onepage_html": "library/indian-economic-history/east-india-trade-17th-century-khan/html/east-india-trade-17th-century-khan.html",
     "datasets": "library/indian-economic-history/east-india-trade-17th-century-khan/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/east-india-trade-17th-century-khan/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 8 fixes · 7 pp. checked",
-        "detail": "8 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 13 fixes · 7 pp. checked",
+        "detail": "13 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -166,7 +167,7 @@
       "total": 10
     },
     "corrections": {
-      "applied": 8,
+      "applied": 13,
       "unmatched": 0,
       "details": [
         {
@@ -224,6 +225,41 @@
           "matched_block_id": "p0318-b0014",
           "op": "set_cells",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0253-b0004",
+          "page_number": 253,
+          "matched_block_id": "p0253-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0254-b0003",
+          "page_number": 254,
+          "matched_block_id": "p0254-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0293-b0004",
+          "page_number": 293,
+          "matched_block_id": "p0293-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0267-b0004-dual-year-1703-4",
+          "page_number": 267,
+          "matched_block_id": "p0267-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0288-b0008-dual-year-1703-4",
+          "page_number": 288,
+          "matched_block_id": "p0288-b0008",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -269,7 +305,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 141 has inline note callout(s) ['1', '2', '4', '5'] vs. labelled footnote(s) ['1', '2', '3', '4', '5'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0141-b0007"
       },
@@ -287,7 +323,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 1165311 but its 7 contributing cells sum to 1165309 (difference -2).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0180-b0013"
       },
@@ -296,7 +332,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 16 but its 7 contributing cells sum to 52 (difference 36).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0180-b0013"
       },
@@ -305,7 +341,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 6 but its 7 contributing cells sum to 54 (difference 48).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0180-b0013"
       },
@@ -342,8 +378,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 8 fixes · 7 pp. checked",
-          "detail": "8 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 13 fixes · 7 pp. checked",
+          "detail": "13 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

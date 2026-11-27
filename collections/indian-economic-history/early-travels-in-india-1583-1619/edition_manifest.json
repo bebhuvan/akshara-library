@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/early-travels-in-india-1583-1619/epub/early-travels-in-india-1583-1619.epub",
     "markdown": "library/indian-economic-history/early-travels-in-india-1583-1619/markdown/early-travels-in-india-1583-1619.md",
     "tei_xml": "library/indian-economic-history/early-travels-in-india-1583-1619/tei/early-travels-in-india-1583-1619.tei.xml",
-    "print_html": "library/indian-economic-history/early-travels-in-india-1583-1619/print/early-travels-in-india-1583-1619.print.html",
+    "print_source": "library/indian-economic-history/early-travels-in-india-1583-1619/print/early-travels-in-india-1583-1619.typ",
     "pdf": "library/indian-economic-history/early-travels-in-india-1583-1619/print/early-travels-in-india-1583-1619.pdf",
+    "onepage_html": "library/indian-economic-history/early-travels-in-india-1583-1619/html/early-travels-in-india-1583-1619.html",
     "datasets": "library/indian-economic-history/early-travels-in-india-1583-1619/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/early-travels-in-india-1583-1619/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 19 fixes · 9 pp. checked",
-        "detail": "19 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 27 fixes · 9 pp. checked",
+        "detail": "27 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -158,7 +159,7 @@
       "total": 55
     },
     "corrections": {
-      "applied": 19,
+      "applied": 27,
       "unmatched": 0,
       "details": [
         {
@@ -293,6 +294,62 @@
           "matched_block_id": "p0285-b0001",
           "op": "set_type",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0026-b0005",
+          "page_number": 26,
+          "matched_block_id": "p0026-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0026-b0006",
+          "page_number": 26,
+          "matched_block_id": "p0026-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0053-b0004",
+          "page_number": 53,
+          "matched_block_id": "p0053-b0004",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0027-b0003",
+          "page_number": 27,
+          "matched_block_id": "p0027-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0167-b0006-glue",
+          "page_number": 167,
+          "matched_block_id": "p0167-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0045-b0002",
+          "page_number": 45,
+          "matched_block_id": "p0045-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0171-b0002",
+          "page_number": 171,
+          "matched_block_id": "p0171-b0002",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0161-b0004-can-channa",
+          "page_number": 161,
+          "matched_block_id": "p0161-b0004",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -338,7 +395,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Allahabad' appears without diacritics here, whereas this volume consistently prints 'Allahābād' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0022-b0016"
       },
@@ -356,7 +413,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 71 has inline note callout(s) ['1', '1'] vs. labelled footnote(s) ['1', '2'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0071-b0007"
       },
@@ -365,7 +422,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jahan' appears without diacritics here, whereas this volume consistently prints 'Jahān' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0120-b0004"
       },
@@ -374,7 +431,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jahan' appears without diacritics here, whereas this volume consistently prints 'Jahān' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0129-b0003"
       },
@@ -383,7 +440,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hakim' appears without diacritics here, whereas this volume consistently prints 'Hakīm' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0131-b0003"
       },
@@ -401,7 +458,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 161 has inline note callout(s) ['1', '3', '4', '5', '6'] vs. labelled footnote(s) ['1', '2', '3', '4', '5', '6'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0161-b0008"
       },
@@ -437,7 +494,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kashgar' appears without diacritics here, whereas this volume consistently prints 'Kāshgar' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0215-b0003"
       },
@@ -707,7 +764,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ibrahim' appears without diacritics here, whereas this volume consistently prints 'Ibrāhīm' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0358-b0004"
       },
@@ -779,7 +836,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Firoz' appears without diacritics here, whereas this volume consistently prints 'Fīroz' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0381-b0050"
       },
@@ -816,8 +873,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 19 fixes · 9 pp. checked",
-          "detail": "19 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 27 fixes · 9 pp. checked",
+          "detail": "27 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

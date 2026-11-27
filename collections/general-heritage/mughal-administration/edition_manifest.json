@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/mughal-administration/epub/mughal-administration.epub",
     "markdown": "library/general-heritage/mughal-administration/markdown/mughal-administration.md",
     "tei_xml": "library/general-heritage/mughal-administration/tei/mughal-administration.tei.xml",
-    "print_html": "library/general-heritage/mughal-administration/print/mughal-administration.print.html",
+    "print_source": "library/general-heritage/mughal-administration/print/mughal-administration.typ",
     "pdf": "library/general-heritage/mughal-administration/print/mughal-administration.pdf",
+    "onepage_html": "library/general-heritage/mughal-administration/html/mughal-administration.html",
     "datasets": null,
     "datapackage": null
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 2 fixes · 7 pp. checked",
-        "detail": "2 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 3 fixes · 7 pp. checked",
+        "detail": "3 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -155,7 +156,7 @@
       "total": 3
     },
     "corrections": {
-      "applied": 2,
+      "applied": 3,
       "unmatched": 0,
       "details": [
         {
@@ -169,6 +170,13 @@
           "correction_id": "mughal-p0047-b0007-karkhanahs",
           "page_number": 47,
           "matched_block_id": "p0047-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0050-b0006-village-life",
+          "page_number": 50,
+          "matched_block_id": "p0050-b0006",
           "op": "set_text",
           "status": "applied"
         }
@@ -226,8 +234,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 2 fixes · 7 pp. checked",
-          "detail": "2 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 3 fixes · 7 pp. checked",
+          "detail": "3 anchored emendation(s) applied; 7 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -17,17 +17,18 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Modernized (Presentation Only)**: Running heads and institutional library stamps (29 flyleaf/stamp block(s)) are excluded from reading prose; **111** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **1** cross-page split footnotes and **3** multi-page tables were stitched; and **381** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (12 distinct non-ASCII characters across 19 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+- **Reading Editions Only**: In the web chapters, the one-page edition, the EPUB and the PDF, the space the compositor set before `! ? ; :` and inside quotation marks is closed up (**92** places); **199** straight quotation marks and apostrophes are set as curly ones. The TEI XML and Markdown keep the page exactly as printed.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
 - **Models**: `gemini-3.8-flash` (177 pp.).
 - **Reader**: Read by gemini-3.8-flash on 177 of 177 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 31 replayed correction(s). Automated reading (37 open review items); 35 of 177 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 32 replayed correction(s). Automated reading (38 open review items); 35 of 177 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
-- **37 finding(s) across 37 leaf(s)** (pp. 26, 28, 29, 33, 37, 42, 49, 57, 61, 70 (+27 more)): pages where a footnote marker and note body could not be paired automatically.
-- **26 finding(s) across 26 leaf(s)** (pp. 32, 36, 43, 47, 51, 52, 53, 54, 55, 66 (+16 more)): attested compositor footnote callout/note variants preserved diplomatically from the scan.
+- **38 finding(s) across 38 leaf(s)** (pp. 26, 28, 29, 33, 37, 42, 49, 57, 61, 70 (+28 more)): pages where a footnote marker and note body could not be paired automatically.
+- **24 finding(s) across 24 leaf(s)** (pp. 32, 36, 43, 47, 51, 52, 53, 54, 55, 66 (+14 more)): attested compositor footnote callout/note variants preserved diplomatically from the scan.
 - **7 finding(s) across 5 leaf(s)** (pp. 92, 115, 148, 158, 165): rare character.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

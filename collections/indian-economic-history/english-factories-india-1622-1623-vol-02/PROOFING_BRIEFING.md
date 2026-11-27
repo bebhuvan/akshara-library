@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 430 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **85.0 / 100** (`community`)
+- **Current Edition Score**: **86.0 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 430** leaves verified
 - **Original Camera Scans**: [Internet Archive (`tdl.46404-the-english-factories-in-india-1622-1623-a-calendar-of-documents-in-th`)](https://archive.org/details/tdl.46404-the-english-factories-in-india-1622-1623-a-calendar-of-documents-in-th)
 
@@ -17,6 +17,7 @@ Welcome! You do **not** need to read all 430 leaves from start to finish to make
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
 - [ ] Leaves **28 -> 29**: Confirm cross-page footnote `1` joins smoothly across the page turn.
+- [ ] Leaves **55 -> 56**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **136 -> 137**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **283 -> 284**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **290 -> 291**: Confirm cross-page footnote `3` joins smoothly across the page turn.
@@ -83,7 +84,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Frontmatter | `1–3` | 3 | 0 | 0 / 3 |
 | PREFACE | `4–5` | 2 | 0 | 0 / 2 |
 | INTRODUCTION | `6–39` | 34 | 1 | 0 / 34 |
-| The English Factories in India, 1622 | `40–218` | 179 | 173 | 0 / 179 |
-| The English Factories in India, 1623 | `218–386` | 169 | 152 | 0 / 169 |
+| The English Factories in India, 1622 | `40–218` | 179 | 174 | 0 / 179 |
+| The English Factories in India, 1623 | `218–386` | 169 | 150 | 0 / 169 |
 | ADDENDUM TO PREVIOUS VOLUME | `387–387` | 1 | 0 | 0 / 1 |
 | INDEX | `388–430` | 43 | 63 | 0 / 43 |

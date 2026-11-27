@@ -75,7 +75,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `410` prose joins, `0` split footnotes stitched, `4` multi-page tables unified, `0` total footnotes.
+- **Cross-Page Assembly**: `412` prose joins, `0` split footnotes stitched, `4` multi-page tables unified, `0` total footnotes.
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`137` — verify no epigraph/dedication was caught)**:
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"Library of the Theological Seminary, PRINCETON, N. J. Purchased by the Mary Cheves Dulles "*
   - Leaf `5` `p0005-b0005` (`noise`): *"—"*

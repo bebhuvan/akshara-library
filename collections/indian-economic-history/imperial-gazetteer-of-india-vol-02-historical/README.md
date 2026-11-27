@@ -4,7 +4,7 @@
 - **Publication Year**: 1908
 - **Imprint**: Oxford: Clarendon Press
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**96.8 / 100**)
+- **Edition Tier**: `community` (**99.8 / 100**)
 - **Internet Archive Source**: https://archive.org/details/imperialgazette02hunt
 
 ## Files in This Folder

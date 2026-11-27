@@ -74,16 +74,16 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Frontmatter | `1–10` | 9 | 5 | 0 / 9 |
 | PREFACE | `11–34` | 24 | 1 | 0 / 24 |
 | CONTENTS | `35–43` | 9 | 0 | 0 / 9 |
-| CHAPTER I: A Historical Retrospect | `43–81` | 38 | 0 | 0 / 38 |
-| PART II: India and the British Industrial Revolution | `83–108` | 26 | 0 | 0 / 26 |
+| CHAPTER I: A Historical Retrospect | `43–79` | 37 | 0 | 0 / 37 |
+| PART II: India and the British Industrial Revolution | `81–108` | 27 | 0 | 0 / 27 |
 | CHAPTER III: “Tribute” or “Drain” | `109–142` | 34 | 1 | 0 / 34 |
-| CHAPTER IV: IV How India Has Helped England Make Her Empir | `143–159` | 17 | 0 | 0 / 17 |
-| PART III: V. The Cotton Industry of India | `161–201` | 41 | 1 | 0 / 41 |
+| CHAPTER IV: IV How India Has Helped England Make Her Empir | `143–158` | 16 | 0 | 0 / 16 |
+| PART III: V. The Cotton Industry of India | `159–201` | 42 | 1 | 0 / 42 |
 | CHAPTER VI: Shipbuilding, Shipping, and Minor Occupations | `202–212` | 11 | 0 | 0 / 11 |
 | CHAPTER VII: Miscellaneous Industrial, Agricultural, and M | `213–220` | 8 | 0 | 0 / 8 |
-| CHAPTER VIII: Agriculture | `221–284` | 64 | 1 | 0 / 64 |
-| PART IV: IX. Economic Conditions of the People | `285–302` | 18 | 0 | 0 / 18 |
-| PART V: X. Famines and Their Causes | `303–322` | 20 | 1 | 0 / 20 |
+| CHAPTER VIII: Agriculture | `221–282` | 62 | 1 | 0 / 62 |
+| PART IV: IX. Economic Conditions of the People | `283–300` | 18 | 0 | 0 / 18 |
+| PART V: X. Famines and Their Causes | `301–322` | 22 | 1 | 0 / 22 |
 | CHAPTER XI: Railways and Irrigation | `323–338` | 16 | 0 | 0 / 16 |
 | CHAPTER XII: Education and Literacy | `339–347` | 9 | 2 | 0 / 9 |
 | CHAPTER XIII: Certain Fallacies About the “Prosperity of I | `348–353` | 6 | 0 | 0 / 6 |

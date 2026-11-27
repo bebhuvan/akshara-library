@@ -4,7 +4,7 @@
 - **Publication Year**: 1923
 - **Imprint**: Oxford: Clarendon Press
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**94.0 / 100**)
+- **Edition Tier**: `community` (**97.0 / 100**)
 - **Internet Archive Source**: https://archive.org/details/englishfactories11fost
 
 ## Files in This Folder

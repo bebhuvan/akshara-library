@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/life-in-an-indian-village/epub/life-in-an-indian-village.epub",
     "markdown": "library/general-heritage/life-in-an-indian-village/markdown/life-in-an-indian-village.md",
     "tei_xml": "library/general-heritage/life-in-an-indian-village/tei/life-in-an-indian-village.tei.xml",
-    "print_html": "library/general-heritage/life-in-an-indian-village/print/life-in-an-indian-village.print.html",
+    "print_source": "library/general-heritage/life-in-an-indian-village/print/life-in-an-indian-village.typ",
     "pdf": "library/general-heritage/life-in-an-indian-village/print/life-in-an-indian-village.pdf",
+    "onepage_html": "library/general-heritage/life-in-an-indian-village/html/life-in-an-indian-village.html",
     "datasets": null,
     "datapackage": null
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 5 fixes · 4 pp. checked",
-        "detail": "5 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
+        "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -141,7 +142,7 @@
       "total": 3
     },
     "corrections": {
-      "applied": 5,
+      "applied": 6,
       "unmatched": 0,
       "details": [
         {
@@ -176,6 +177,13 @@
           "correction_id": "review-p0051-b0003-coconuts",
           "page_number": 51,
           "matched_block_id": "p0051-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-village-p0042-b0005-exccuted",
+          "page_number": 42,
+          "matched_block_id": "p0042-b0005",
           "op": "set_text",
           "status": "applied"
         }
@@ -233,8 +241,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 5 fixes · 4 pp. checked",
-          "detail": "5 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
+          "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

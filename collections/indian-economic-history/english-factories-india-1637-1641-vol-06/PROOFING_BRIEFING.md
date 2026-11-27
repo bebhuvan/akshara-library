@@ -50,7 +50,6 @@ Welcome! You do **not** need to read all 393 leaves from start to finish to make
 - [ ] Leaf **178**: 'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 1 time(s) in this book, here in 'Sávta,'.
 - [ ] Leaf **200**: Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (31 occurrences).
 - [ ] Leaf **202**: Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (31 occurrences).
-- [ ] Leaf **214**: Page 214 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['1'].
 - [ ] Leaf **216**: Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (31 occurrences).
 - [ ] Leaf **251**: Token 'Sehwan' appears without diacritics here, whereas this volume consistently prints 'Sehwān' (6 occurrences).
 - [ ] Leaf **291**: 'Ī' (U+012A LATIN CAPITAL LETTER I WITH MACRON) appears only 1 time(s) in this book, here in 'BĪJĀPUR'.
@@ -74,7 +73,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | INTRODUCTION | `11–52` | 42 | 0 | 0 / 42 |
 | The English Factories in India, 1637 | `53–87` | 34 | 1 | 0 / 34 |
 | The English Factories in India, 1638 | `88–146` | 59 | 0 | 0 / 59 |
-| The English Factories in India, 1639 | `146–277` | 132 | 11 | 0 / 132 |
+| The English Factories in India, 1639 | `146–277` | 132 | 10 | 0 / 132 |
 | The English Factories in India, 1640 | `277–351` | 75 | 2 | 0 / 75 |
 | The English Factories in India, 1641 | `351–370` | 20 | 1 | 0 / 20 |
 | INDEX | `371–398` | 27 | 3 | 0 / 27 |

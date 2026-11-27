@@ -71,8 +71,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `255` prose joins, `13` split footnotes stitched, `0` multi-page tables unified, `614` total footnotes.
-  - Stitched cross-page footnotes: p.50->p.51 (`2`), p.53->p.54 (`3`), p.55->p.56 (`5`), p.106->p.107 (`2`), p.129->p.130 (`2`), p.130->p.131 (`6`), p.175->p.176 (`4`), p.184->p.185 (`5`), p.189->p.190 (`5`), p.202->p.203 (`3`), p.210->p.211 (`1`), p.267->p.268 (`1`), p.365->p.366 (`2`)
+- **Cross-Page Assembly**: `256` prose joins, `15` split footnotes stitched, `0` multi-page tables unified, `614` total footnotes.
+  - Stitched cross-page footnotes: p.25->p.26 (`2`), p.50->p.51 (`2`), p.52->p.53 (`5`), p.53->p.54 (`3`), p.55->p.56 (`5`), p.106->p.107 (`2`), p.129->p.130 (`2`), p.130->p.131 (`6`), p.175->p.176 (`4`), p.184->p.185 (`5`), p.189->p.190 (`5`), p.202->p.203 (`3`), p.210->p.211 (`1`), p.267->p.268 (`1`), p.365->p.366 (`2`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`53` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 01096999 6"*
   - Leaf `3` `p0003-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2008 with funding from Microsoft Corporation"*
@@ -94,4 +94,4 @@
 
 - **Detected Scripts**: `latin`: 646,965 chars, `greek`: 111 chars
 - **Distinct Non-ASCII Glyphs (`74` across `250` leaves)**: Æ à á â ã æ ç è é ê ñ ú û ü Ā ā ē ė ġ ģ ĥ ħ Ī ī ı ō œ š ť ū ʾ ʿ Ζ έ ή ί α β δ ε ζ η θ ι μ ν ο π ρ ς σ τ χ ψ ω ό ύ Ḥ ḥ ṇ
-- **Corrections Replayed**: `19` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `27` applied, `0` orphaned/unmatched

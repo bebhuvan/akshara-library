@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/economic-history-india-victorian-age-dutt/epub/economic-history-india-victorian-age-dutt.epub",
     "markdown": "library/indian-economic-history/economic-history-india-victorian-age-dutt/markdown/economic-history-india-victorian-age-dutt.md",
     "tei_xml": "library/indian-economic-history/economic-history-india-victorian-age-dutt/tei/economic-history-india-victorian-age-dutt.tei.xml",
-    "print_html": "library/indian-economic-history/economic-history-india-victorian-age-dutt/print/economic-history-india-victorian-age-dutt.print.html",
+    "print_source": "library/indian-economic-history/economic-history-india-victorian-age-dutt/print/economic-history-india-victorian-age-dutt.typ",
     "pdf": "library/indian-economic-history/economic-history-india-victorian-age-dutt/print/economic-history-india-victorian-age-dutt.pdf",
+    "onepage_html": "library/indian-economic-history/economic-history-india-victorian-age-dutt/html/economic-history-india-victorian-age-dutt.html",
     "datasets": "library/indian-economic-history/economic-history-india-victorian-age-dutt/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/economic-history-india-victorian-age-dutt/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
-        "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 11 fixes · 4 pp. checked",
+        "detail": "11 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -159,7 +160,7 @@
       "total": 15
     },
     "corrections": {
-      "applied": 6,
+      "applied": 11,
       "unmatched": 0,
       "details": [
         {
@@ -201,6 +202,41 @@
           "correction_id": "vic-0006",
           "page_number": 650,
           "matched_block_id": "p0650-b0082",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0514-b0005",
+          "page_number": 514,
+          "matched_block_id": "p0514-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0514-b0006",
+          "page_number": 514,
+          "matched_block_id": "p0514-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-vic-p0579-b0004-bengal",
+          "page_number": 579,
+          "matched_block_id": "p0579-b0004",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-vic-p0579-b0006-punjab",
+          "page_number": 579,
+          "matched_block_id": "p0579-b0006",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-vic-p0579-b0008-madras",
+          "page_number": 579,
+          "matched_block_id": "p0579-b0008",
           "op": "split_block",
           "status": "applied"
         }
@@ -248,7 +284,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 1018502 but its 18 contributing cells sum to 1018501 (difference -1).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0119-b0024"
       },
@@ -257,7 +293,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 1060989 but its 18 contributing cells sum to 1060988 (difference -1).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0119-b0024"
       },
@@ -266,7 +302,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 227 has inline note callout(s) ['2'] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0227-b0005"
       },
@@ -311,7 +347,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 1446600 but its 15 contributing cells sum to 1446630 (difference 30).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0519-b0020"
       },
@@ -320,7 +356,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 1886854 but its 15 contributing cells sum to 1810954 (difference -75900).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0519-b0020"
       },
@@ -329,7 +365,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 17368655 but its 8 contributing cells sum to 17359705 (difference -8950).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0632-b0013"
       },
@@ -366,8 +402,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 6 fixes · 4 pp. checked",
-          "detail": "6 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 11 fixes · 4 pp. checked",
+          "detail": "11 anchored emendation(s) applied; 4 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

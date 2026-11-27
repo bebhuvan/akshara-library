@@ -17,12 +17,13 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Modernized (Presentation Only)**: Running heads and institutional library stamps (89 flyleaf/stamp block(s)) are excluded from reading prose; **195** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **16** cross-page split footnotes and **1** multi-page tables were stitched; and **700** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (27 distinct non-ASCII characters across 326 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+- **Reading Editions Only**: In the web chapters, the one-page edition, the EPUB and the PDF, the space the compositor set before `! ? ; :` and inside quotation marks is closed up (**268** places); **1593** straight quotation marks and apostrophes are set as curly ones. The TEI XML and Markdown keep the page exactly as printed.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
 - **Models**: `gemini-3.6-flash` (3 pp.), `gemini-3.8-flash` (439 pp.).
 - **Reader**: Read by gemini-3.8-flash on 439 of 442 pages, gemini-3.6-flash on 3 of 442 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 15 replayed correction(s). Automated reading (1 open review item); 12 of 442 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 16 replayed correction(s). Automated reading (1 open review item); 12 of 442 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 

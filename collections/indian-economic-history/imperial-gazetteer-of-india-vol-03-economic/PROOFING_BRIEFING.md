@@ -39,7 +39,9 @@ Welcome! You do **not** need to read all 561 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
+- [ ] Leaves **508 -> 509**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **524 -> 525**: Confirm cross-page footnote `1` joins smoothly across the page turn.
+- [ ] Leaves **539 -> 540**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 
 ---
 

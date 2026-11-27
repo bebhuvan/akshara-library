@@ -17,7 +17,6 @@
 - `markdown/lays-of-ancient-india.md` — Complete Scholarly Markdown
 - `tei/lays-of-ancient-india.tei.xml` — TEI P5 XML archival master
 - `datasets/` — Diplomatic 2D & Tidy unpivoted statistical CSV/JSON datasets (`datapackage.json`)
-- `figures/` — 1 cropped archival plates/maps
 
 ## Binary Release Assets
 

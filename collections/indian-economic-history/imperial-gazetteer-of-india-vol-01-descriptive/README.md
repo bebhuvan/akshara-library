@@ -4,7 +4,7 @@
 - **Publication Year**: 1907
 - **Imprint**: Oxford: Clarendon Press
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**80.0 / 100**)
+- **Edition Tier**: `community` (**89.0 / 100**)
 - **Internet Archive Source**: https://archive.org/details/imperialgazette01hunt
 
 ## Files in This Folder

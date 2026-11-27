@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/epub/english-factories-india-1665-1667-vol-12.epub",
     "markdown": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/markdown/english-factories-india-1665-1667-vol-12.md",
     "tei_xml": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/tei/english-factories-india-1665-1667-vol-12.tei.xml",
-    "print_html": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/print/english-factories-india-1665-1667-vol-12.print.html",
+    "print_source": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/print/english-factories-india-1665-1667-vol-12.typ",
     "pdf": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/print/english-factories-india-1665-1667-vol-12.pdf",
+    "onepage_html": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/html/english-factories-india-1665-1667-vol-12.html",
     "datasets": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/english-factories-india-1665-1667-vol-12/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 20 fixes · 6 pp. checked",
-        "detail": "20 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 21 fixes · 6 pp. checked",
+        "detail": "21 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -167,7 +168,7 @@
       "total": 18
     },
     "corrections": {
-      "applied": 20,
+      "applied": 21,
       "unmatched": 0,
       "details": [
         {
@@ -309,6 +310,13 @@
           "matched_block_id": "p0163-b0008",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0162-b0006-glue",
+          "page_number": 162,
+          "matched_block_id": "p0162-b0006",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -363,7 +371,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Shiraz' appears without diacritics here, whereas this volume consistently prints 'Shirāz' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0186-b0005"
       },
@@ -381,7 +389,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nawab' appears without diacritics here, whereas this volume consistently prints 'Nawāb' (12 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0274-b0005"
       },
@@ -399,7 +407,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahim' appears without diacritics here, whereas this volume consistently prints 'Māhīm' (12 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0316-b0003"
       },
@@ -408,7 +416,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahim' appears without diacritics here, whereas this volume consistently prints 'Māhīm' (12 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0320-b0005"
       },
@@ -417,7 +425,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vadala' appears without diacritics here, whereas this volume consistently prints 'Vadāla' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0321-b0007"
       },
@@ -453,7 +461,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Neknam' appears without diacritics here, whereas this volume consistently prints 'Neknām' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0361-b0034"
       },
@@ -499,8 +507,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 20 fixes · 6 pp. checked",
-          "detail": "20 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 21 fixes · 6 pp. checked",
+          "detail": "21 anchored emendation(s) applied; 6 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/letters-from-malabar/epub/letters-from-malabar.epub",
     "markdown": "library/general-heritage/letters-from-malabar/markdown/letters-from-malabar.md",
     "tei_xml": "library/general-heritage/letters-from-malabar/tei/letters-from-malabar.tei.xml",
-    "print_html": "library/general-heritage/letters-from-malabar/print/letters-from-malabar.print.html",
+    "print_source": "library/general-heritage/letters-from-malabar/print/letters-from-malabar.typ",
     "pdf": "library/general-heritage/letters-from-malabar/print/letters-from-malabar.pdf",
+    "onepage_html": "library/general-heritage/letters-from-malabar/html/letters-from-malabar.html",
     "datasets": "library/general-heritage/letters-from-malabar/datasets/tables_manifest.json",
     "datapackage": "library/general-heritage/letters-from-malabar/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 13 fixes · 1 pp. checked",
-        "detail": "13 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 24 fixes · 1 pp. checked",
+        "detail": "24 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -152,7 +153,7 @@
       "total": 11
     },
     "corrections": {
-      "applied": 13,
+      "applied": 24,
       "unmatched": 0,
       "details": [
         {
@@ -245,6 +246,83 @@
           "matched_block_id": "p0147-b0004",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-malabar-p0049-b0004-chetwa",
+          "page_number": 49,
+          "matched_block_id": "p0049-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-malabar-p0051-b0014-mondanbelli",
+          "page_number": 51,
+          "matched_block_id": "p0051-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0034-b0005",
+          "page_number": 34,
+          "matched_block_id": "p0034-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0036-b0003",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0085-b0004",
+          "page_number": 85,
+          "matched_block_id": "p0085-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0104-b0005",
+          "page_number": 104,
+          "matched_block_id": "p0104-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0110-b0006",
+          "page_number": 110,
+          "matched_block_id": "p0110-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0158-b0012",
+          "page_number": 158,
+          "matched_block_id": "p0158-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0162-b0005",
+          "page_number": 162,
+          "matched_block_id": "p0162-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0163-b0003",
+          "page_number": 163,
+          "matched_block_id": "p0163-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-letters-p0189-b0004",
+          "page_number": 189,
+          "matched_block_id": "p0189-b0004",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -295,15 +373,6 @@
         "block_id": "p0075-b0004"
       },
       {
-        "page_number": 110,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'ę' (U+0119 LATIN SMALL LETTER E WITH OGONEK) appears only 1 time(s) in this book, here in 'Menezęz,'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0110-b0006"
-      },
-      {
         "page_number": 145,
         "severity": "informational",
         "category": "rare_character",
@@ -311,6 +380,15 @@
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0145-b0007"
+      },
+      {
+        "page_number": 179,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'summâ'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0179-b0005"
       },
       {
         "page_number": 180,
@@ -372,8 +450,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 13 fixes · 1 pp. checked",
-          "detail": "13 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 24 fixes · 1 pp. checked",
+          "detail": "24 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

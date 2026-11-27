@@ -15,14 +15,15 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
-- **Modernized (Presentation Only)**: Running heads and institutional library stamps (68 flyleaf/stamp block(s)) are excluded from reading prose; **299** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **8** cross-page split footnotes and **0** multi-page tables were stitched; and **952** end-of-line hyphens were resolved against intra-book attestation.
+- **Modernized (Presentation Only)**: Running heads and institutional library stamps (68 flyleaf/stamp block(s)) are excluded from reading prose; **299** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **8** cross-page split footnotes and **7** multi-page tables were stitched; and **952** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (86 distinct non-ASCII characters across 393 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+- **Reading Editions Only**: In the web chapters, the one-page edition, the EPUB and the PDF, the space the compositor set before `! ? ; :` and inside quotation marks is closed up (**1916** places); **349** straight quotation marks and apostrophes are set as curly ones. The TEI XML and Markdown keep the page exactly as printed.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
 - **Models**: `gemini-3.8-flash` (1 pp.), `gemini-4-hydrogen` (575 pp.).
 - **Reader**: Read by gemini-4-hydrogen on 575 of 576 pages, gemini-3.8-flash on 1 of 576 pages. Declared reader profile: transliteration (new readings use gemini-4-hydrogen).
-- **Human Proofing**: 129 replayed correction(s). Machine-checked; 46 of 576 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 143 replayed correction(s). Machine-checked; 46 of 576 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 

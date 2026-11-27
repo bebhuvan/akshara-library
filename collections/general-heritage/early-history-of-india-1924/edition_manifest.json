@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "general-heritage",
   "edition_tier": "community",
-  "rubric_score": 86.3,
+  "rubric_score": 84.3,
   "cover_archetype": "court_and_chronicle",
   "cover_palette": "Imperial Cinnabar",
   "edition_root": "library/general-heritage/early-history-of-india-1924",
@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/early-history-of-india-1924/epub/early-history-of-india-1924.epub",
     "markdown": "library/general-heritage/early-history-of-india-1924/markdown/early-history-of-india-1924.md",
     "tei_xml": "library/general-heritage/early-history-of-india-1924/tei/early-history-of-india-1924.tei.xml",
-    "print_html": "library/general-heritage/early-history-of-india-1924/print/early-history-of-india-1924.print.html",
+    "print_source": "library/general-heritage/early-history-of-india-1924/print/early-history-of-india-1924.typ",
     "pdf": "library/general-heritage/early-history-of-india-1924/print/early-history-of-india-1924.pdf",
+    "onepage_html": "library/general-heritage/early-history-of-india-1924/html/early-history-of-india-1924.html",
     "datasets": "library/general-heritage/early-history-of-india-1924/datasets/tables_manifest.json",
     "datapackage": "library/general-heritage/early-history-of-india-1924/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 65 fixes · 138 pp. checked",
-        "detail": "65 anchored emendation(s) applied; 138 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 121 fixes · 136 pp. checked",
+        "detail": "121 anchored emendation(s) applied; 136 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -137,11 +138,11 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 8,
+      "open_hotspots": 10,
       "extracted_page_count": 575,
       "p1_proofed_page_count": 0,
-      "reread_page_count": 138,
-      "machine_reread_page_count": 138,
+      "reread_page_count": 136,
+      "machine_reread_page_count": 136,
       "human_verified_page_count": 0,
       "two_person_verified_page_count": 0,
       "unevidenced_stamp_count": 0,
@@ -217,7 +218,6 @@
         335,
         336,
         337,
-        338,
         342,
         345,
         346,
@@ -254,7 +254,6 @@
         477,
         478,
         480,
-        483,
         492,
         503,
         505,
@@ -286,17 +285,17 @@
         589
       ],
       "human_verified_pages": [],
-      "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (8 open review items); 138 of 575 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "stale_proof_page_count": 2,
+      "provenance_statement": "Automated reading (10 open review items); 136 of 575 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 8,
+      "review": 10,
       "informational": 148,
-      "total": 156
+      "total": 158
     },
     "corrections": {
-      "applied": 65,
+      "applied": 121,
       "unmatched": 0,
       "details": [
         {
@@ -646,7 +645,7 @@
           "correction_id": "scan-check-2026-11-15-p0020-b0007",
           "page_number": 20,
           "matched_block_id": "p0020-b0007",
-          "op": "set_text",
+          "op": "set_cells",
           "status": "applied"
         },
         {
@@ -753,18 +752,410 @@
           "matched_block_id": "p0473-b0007",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0265-b0011",
+          "page_number": 265,
+          "matched_block_id": "p0265-b0011",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0265-b0012",
+          "page_number": 265,
+          "matched_block_id": "p0265-b0012",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0389-b0029",
+          "page_number": 389,
+          "matched_block_id": "p0389-b0029",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0389-b0030",
+          "page_number": 389,
+          "matched_block_id": "p0389-b0030",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0483-b0010",
+          "page_number": 483,
+          "matched_block_id": "p0483-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0483-b0011",
+          "page_number": 483,
+          "matched_block_id": "p0483-b0011",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0323-b0001",
+          "page_number": 323,
+          "matched_block_id": "p0323-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0434-b0001",
+          "page_number": 434,
+          "matched_block_id": "p0434-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0494-b0001",
+          "page_number": 494,
+          "matched_block_id": "p0494-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0537-b0001",
+          "page_number": 537,
+          "matched_block_id": "p0537-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0549-b0001",
+          "page_number": 549,
+          "matched_block_id": "p0549-b0001",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0068-b0010-note",
+          "page_number": 68,
+          "matched_block_id": "p0068-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0070-b0011-note",
+          "page_number": 70,
+          "matched_block_id": "p0070-b0011",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0150-b0005-note",
+          "page_number": 150,
+          "matched_block_id": "p0150-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-ehi-p0536-b0011-gangai-konda",
+          "page_number": 536,
+          "matched_block_id": "p0536-b0011",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-ehi-p0536-b0010-margin-konda",
+          "page_number": 536,
+          "matched_block_id": "p0536-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-ehi-p0054-b0003-malwa",
+          "page_number": 54,
+          "matched_block_id": "p0054-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-ehi-p0054-b0010-sakya",
+          "page_number": 54,
+          "matched_block_id": "p0054-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-ehi-p0455-b0010-afghanistan",
+          "page_number": 455,
+          "matched_block_id": "p0455-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0047-b0014",
+          "page_number": 47,
+          "matched_block_id": "p0047-b0014",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0047-b0016",
+          "page_number": 47,
+          "matched_block_id": "p0047-b0016",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0056-b0006",
+          "page_number": 56,
+          "matched_block_id": "p0056-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0072-b0011",
+          "page_number": 72,
+          "matched_block_id": "p0072-b0011",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0199-b0014",
+          "page_number": 199,
+          "matched_block_id": "p0199-b0014",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0251-b0006",
+          "page_number": 251,
+          "matched_block_id": "p0251-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0258-b0007",
+          "page_number": 258,
+          "matched_block_id": "p0258-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0260-b0008",
+          "page_number": 260,
+          "matched_block_id": "p0260-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0266-b0009",
+          "page_number": 266,
+          "matched_block_id": "p0266-b0009",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0394-b0005",
+          "page_number": 394,
+          "matched_block_id": "p0394-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0447-b0005",
+          "page_number": 447,
+          "matched_block_id": "p0447-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0447-b0009",
+          "page_number": 447,
+          "matched_block_id": "p0447-b0009",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0447-b0011",
+          "page_number": 447,
+          "matched_block_id": "p0447-b0011",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0451-b0003",
+          "page_number": 451,
+          "matched_block_id": "p0451-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0482-b0003",
+          "page_number": 482,
+          "matched_block_id": "p0482-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0482-b0008",
+          "page_number": 482,
+          "matched_block_id": "p0482-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0485-b0012",
+          "page_number": 485,
+          "matched_block_id": "p0485-b0012",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0495-b0008",
+          "page_number": 495,
+          "matched_block_id": "p0495-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0503-b0016",
+          "page_number": 503,
+          "matched_block_id": "p0503-b0016",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0543-b0003",
+          "page_number": 543,
+          "matched_block_id": "p0543-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0560-b0053",
+          "page_number": 560,
+          "matched_block_id": "p0560-b0053",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0560-b0066",
+          "page_number": 560,
+          "matched_block_id": "p0560-b0066",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0562-b0019",
+          "page_number": 562,
+          "matched_block_id": "p0562-b0019",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0562-b0021",
+          "page_number": 562,
+          "matched_block_id": "p0562-b0021",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0564-b0013",
+          "page_number": 564,
+          "matched_block_id": "p0564-b0013",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0568-b0035",
+          "page_number": 568,
+          "matched_block_id": "p0568-b0035",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0571-b0029",
+          "page_number": 571,
+          "matched_block_id": "p0571-b0029",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0573-b0005",
+          "page_number": 573,
+          "matched_block_id": "p0573-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0574-b0018",
+          "page_number": 574,
+          "matched_block_id": "p0574-b0018",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0577-b0018",
+          "page_number": 577,
+          "matched_block_id": "p0577-b0018",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0579-b0017",
+          "page_number": 579,
+          "matched_block_id": "p0579-b0017",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0581-b0013",
+          "page_number": 581,
+          "matched_block_id": "p0581-b0013",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0581-b0015",
+          "page_number": 581,
+          "matched_block_id": "p0581-b0015",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0581-b0057",
+          "page_number": 581,
+          "matched_block_id": "p0581-b0057",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0582-b0062",
+          "page_number": 582,
+          "matched_block_id": "p0582-b0062",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-early-p0587-b0029",
+          "page_number": 587,
+          "matched_block_id": "p0587-b0029",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-ehi-p0536-b0016-kadaram",
+          "page_number": 536,
+          "matched_block_id": "p0536-b0016",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
     "review_items": [
       {
-        "page_number": 150,
+        "page_number": 199,
         "severity": "review",
-        "category": "unlabelled_footnote",
-        "message": "Footnote has no note_label and is not marked continues_from_prev.",
-        "expected_action": "Check whether this note continues from the previous page or missed its symbol.",
-        "validator": "apparatus_parity",
-        "block_id": "p0150-b0006"
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Kusinagara' appears without diacritics here, whereas this volume consistently prints 'Kuśinagara' (6 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0199-b0008"
       },
       {
         "page_number": 269,
@@ -794,13 +1185,22 @@
         "block_id": null
       },
       {
-        "page_number": 473,
+        "page_number": 360,
         "severity": "review",
-        "category": "script_anomaly",
-        "message": "Out-of-alphabet Latin character U+0161 LATIN SMALL LETTER S WITH CARON (likely meant 'ś').",
-        "expected_action": "Compare glyph against source scan.",
-        "validator": "script_validator",
-        "block_id": "p0473-b0005"
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Kusinagara' appears without diacritics here, whereas this volume consistently prints 'Kuśinagara' (6 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0360-b0003"
+      },
+      {
+        "page_number": 397,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Gauda' appears without diacritics here, whereas this volume consistently prints 'Gauḍa' (6 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0397-b0007"
       },
       {
         "page_number": 483,
@@ -810,6 +1210,15 @@
         "expected_action": "Check whether this note continues from the previous page or missed its symbol.",
         "validator": "apparatus_parity",
         "block_id": "p0483-b0015"
+      },
+      {
+        "page_number": 495,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Gauda' appears without diacritics here, whereas this volume consistently prints 'Gauḍa' (6 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0495-b0006"
       },
       {
         "page_number": 505,
@@ -834,7 +1243,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kanchi' appears without diacritics here, whereas this volume consistently prints 'Kānchī' (47 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0014-b0003"
       },
@@ -843,7 +1252,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kanva' appears without diacritics here, whereas this volume consistently prints 'Kāṇva' (20 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0018-b0005"
       },
@@ -852,7 +1261,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kumaragupta' appears without diacritics here, whereas this volume consistently prints 'Kumāragupta' (24 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0018-b0014"
       },
@@ -870,7 +1279,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gondophares' appears without diacritics here, whereas this volume consistently prints 'Gondopharēs' (22 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0020-b0008"
       },
@@ -897,7 +1306,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Tungabhadra' appears without diacritics here, whereas this volume consistently prints 'Tungabhadrā' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0029-b0004"
       },
@@ -915,7 +1324,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Chitor' appears without diacritics here, whereas this volume consistently prints 'Chitōr' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0041-b0003"
       },
@@ -924,7 +1333,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Meghavarna' appears without diacritics here, whereas this volume consistently prints 'Meghavarṇa' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0045-b0008"
       },
@@ -942,7 +1351,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nalanda' appears without diacritics here, whereas this volume consistently prints 'Nālandā' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0051-b0010"
       },
@@ -951,7 +1360,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kunika' appears without diacritics here, whereas this volume consistently prints 'Kūnika' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0058-b0012"
       },
@@ -978,7 +1387,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mudra' appears without diacritics here, whereas this volume consistently prints 'Mudrā' (12 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0069-b0007"
       },
@@ -987,7 +1396,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rakshasa' appears without diacritics here, whereas this volume consistently prints 'Rākshasa' (12 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0069-b0007"
       },
@@ -996,7 +1405,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahavira' appears without diacritics here, whereas this volume consistently prints 'Mahāvīra' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0073-b0008"
       },
@@ -1005,7 +1414,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kunika' appears without diacritics here, whereas this volume consistently prints 'Kūnika' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0074-b0005"
       },
@@ -1032,7 +1441,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Meros' appears without diacritics here, whereas this volume consistently prints 'Mēros' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0081-b0005"
       },
@@ -1041,7 +1450,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ambhi' appears without diacritics here, whereas this volume consistently prints 'Āmbhi' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0087-b0009"
       },
@@ -1050,7 +1459,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Akesines' appears without diacritics here, whereas this volume consistently prints 'Akesinēs' (26 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0087-b0010"
       },
@@ -1059,7 +1468,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Poros' appears without diacritics here, whereas this volume consistently prints 'Pōros' (48 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0088-b0011"
       },
@@ -1068,7 +1477,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rajputs' appears without diacritics here, whereas this volume consistently prints 'Rājpūts' (25 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0094-b0009"
       },
@@ -1104,7 +1513,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sakala' appears without diacritics here, whereas this volume consistently prints 'Sākala' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0105-b0012"
       },
@@ -1113,7 +1522,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kabul' appears without diacritics here, whereas this volume consistently prints 'Kābul' (58 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0106-b0010"
       },
@@ -1176,7 +1585,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Multan' appears without diacritics here, whereas this volume consistently prints 'Multān' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0130-b0007"
       },
@@ -1203,7 +1612,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Makran' appears without diacritics here, whereas this volume consistently prints 'Makrān' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0143-b0010"
       },
@@ -1221,7 +1630,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sanchi' appears without diacritics here, whereas this volume consistently prints 'Sāñchī' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0160-b0009"
       },
@@ -1239,7 +1648,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Surat' appears without diacritics here, whereas this volume consistently prints 'Sūrat' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0161-b0008"
       },
@@ -1293,7 +1702,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bhima' appears without diacritics here, whereas this volume consistently prints 'Bhīma' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0188-b0009"
       },
@@ -1302,7 +1711,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ghats' appears without diacritics here, whereas this volume consistently prints 'Ghāts' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0188-b0009"
       },
@@ -1347,7 +1756,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Maharaja' appears without diacritics here, whereas this volume consistently prints 'Mahārāja' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0192-b0010"
       },
@@ -1356,7 +1765,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Allahabad' appears without diacritics here, whereas this volume consistently prints 'Allāhābād' (15 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0193-b0005"
       },
@@ -1374,7 +1783,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kautiliya' appears without diacritics here, whereas this volume consistently prints 'Kauṭilīya' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0193-b0011"
       },
@@ -1383,7 +1792,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (73 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0202-b0004"
       },
@@ -1392,7 +1801,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jalandhar' appears without diacritics here, whereas this volume consistently prints 'Jālandhar' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0209-b0014"
       },
@@ -1419,7 +1828,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Khandesh' appears without diacritics here, whereas this volume consistently prints 'Khāndēsh' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0227-b0005"
       },
@@ -1446,7 +1855,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Patanjali' appears without diacritics here, whereas this volume consistently prints 'Patañjali' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0230-b0008"
       },
@@ -1455,7 +1864,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Brihadratha' appears without diacritics here, whereas this volume consistently prints 'Bṛihadratha' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0240-b0003"
       },
@@ -1464,7 +1873,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'KANVA' appears without diacritics here, whereas this volume consistently prints 'Kāṇva' (20 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0002"
       },
@@ -1473,7 +1882,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Brihadratha' appears without diacritics here, whereas this volume consistently prints 'Bṛihadratha' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0006"
       },
@@ -1482,7 +1891,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kanvas' appears without diacritics here, whereas this volume consistently prints 'Kāṇvas' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0008"
       },
@@ -1491,7 +1900,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Andhras' appears without diacritics here, whereas this volume consistently prints 'Āndhras' (22 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0254-b0011"
       },
@@ -1500,7 +1909,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kambojas' appears without diacritics here, whereas this volume consistently prints 'Kāmbojas' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0254-b0011"
       },
@@ -1509,7 +1918,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gondophares' appears without diacritics here, whereas this volume consistently prints 'Gondopharēs' (22 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0256-b0008"
       },
@@ -1527,7 +1936,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Satakarni' appears without diacritics here, whereas this volume consistently prints 'Sātakarṇi' (33 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0266-b0003"
       },
@@ -1536,7 +1945,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nasik' appears without diacritics here, whereas this volume consistently prints 'Nāsik' (15 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0266-b0003"
       },
@@ -1545,7 +1954,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gopala' appears without diacritics here, whereas this volume consistently prints 'Gopāla' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0266-b0004"
       },
@@ -1554,7 +1963,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Patalene' appears without diacritics here, whereas this volume consistently prints 'Patalēnē' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0275-b0010"
       },
@@ -1599,7 +2008,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Shahdheri' appears without diacritics here, whereas this volume consistently prints 'Shāhdhērī' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0293-b0006"
       },
@@ -1608,7 +2017,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nagar' appears without diacritics here, whereas this volume consistently prints 'Nāgar' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0305-b0011"
       },
@@ -1626,7 +2035,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vasishka' appears without diacritics here, whereas this volume consistently prints 'Vāsishka' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0309-b0008"
       },
@@ -1653,7 +2062,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'KUMARAGUPTA' appears without diacritics here, whereas this volume consistently prints 'Kumāragupta' (24 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0337-b0002"
       },
@@ -1662,7 +2071,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ganjam' appears without diacritics here, whereas this volume consistently prints 'Ganjām' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0342-b0008"
       },
@@ -1671,7 +2080,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kanchi' appears without diacritics here, whereas this volume consistently prints 'Kānchī' (47 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0345-b0003"
       },
@@ -1680,7 +2089,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kangra' appears without diacritics here, whereas this volume consistently prints 'Kāngrā' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0346-b0004"
       },
@@ -1689,7 +2098,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Karatoya' appears without diacritics here, whereas this volume consistently prints 'Karatōya' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0346-b0004"
       },
@@ -1698,7 +2107,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bihar' appears without diacritics here, whereas this volume consistently prints 'Bihār' (50 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0355-b0003"
       },
@@ -1707,7 +2116,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Lakhnauti' appears without diacritics here, whereas this volume consistently prints 'Lakhnautī' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0394-b0009"
       },
@@ -1716,7 +2125,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Harsa' appears without diacritics here, whereas this volume consistently prints 'Harṣa' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0398-b0010"
       },
@@ -1725,7 +2134,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (73 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0429-b0010"
       },
@@ -1752,7 +2161,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Patanjali' appears without diacritics here, whereas this volume consistently prints 'Patañjali' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0438-b0006"
       },
@@ -1761,7 +2170,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hindi' appears without diacritics here, whereas this volume consistently prints 'Hindī' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0450-b0008"
       },
@@ -1770,7 +2179,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (23 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0455-b0005"
       },
@@ -1779,7 +2188,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Palas' appears without diacritics here, whereas this volume consistently prints 'Pālas' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0455-b0013"
       },
@@ -1788,7 +2197,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Chandel' appears without diacritics here, whereas this volume consistently prints 'Chandēl' (36 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0457-b0009"
       },
@@ -1797,7 +2206,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Amoghavarsha' appears without diacritics here, whereas this volume consistently prints 'Amōghavarsha' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0013"
       },
@@ -1806,7 +2215,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bhopal' appears without diacritics here, whereas this volume consistently prints 'Bhopāl' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0459-b0009"
       },
@@ -1815,7 +2224,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Lakhnauti' appears without diacritics here, whereas this volume consistently prints 'Lakhnautī' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0461-b0009-s1"
       },
@@ -1823,8 +2232,8 @@
         "page_number": 466,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
-        "message": "Token 'Choraganga' appears without diacritics here, whereas this volume consistently prints 'Choṛaganga' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "message": "Token 'Choraganga' appears without diacritics here, whereas this volume consistently prints 'Choṛagaṅga' (7 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0466-b0009"
       },
@@ -1833,25 +2242,16 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bihar' appears without diacritics here, whereas this volume consistently prints 'Bihār' (50 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0468-b0003"
       },
       {
         "page_number": 473,
         "severity": "informational",
-        "category": "rare_character",
-        "message": "'š' (U+0161 LATIN SMALL LETTER S WITH CARON) appears only 1 time(s) in this book, here in 'Rājpšt'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0473-b0005"
-      },
-      {
-        "page_number": 473,
-        "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kabul' appears without diacritics here, whereas this volume consistently prints 'Kābul' (58 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0473-b0007"
       },
@@ -1860,7 +2260,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rajputs' appears without diacritics here, whereas this volume consistently prints 'Rājpūts' (25 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0476-b0008"
       },
@@ -1869,7 +2269,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Solankis' appears without diacritics here, whereas this volume consistently prints 'Solankīs' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0478-b0005"
       },
@@ -1878,7 +2278,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gujarat' appears without diacritics here, whereas this volume consistently prints 'Gujarāt' (42 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0492-b0008"
       },
@@ -1914,7 +2314,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Malakotta' appears without diacritics here, whereas this volume consistently prints 'Malakoṭṭa' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0522-b0007"
       },
@@ -1923,7 +2323,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kulottunga' appears without diacritics here, whereas this volume consistently prints 'Kulottuṅga' (13 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0529-b0003"
       },
@@ -1932,7 +2332,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rajendra' appears without diacritics here, whereas this volume consistently prints 'Rājendra' (23 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0529-b0009"
       },
@@ -1941,7 +2341,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Uraiyur' appears without diacritics here, whereas this volume consistently prints 'Uraiyūr' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0530-b0012"
       },
@@ -1950,7 +2350,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Karikala' appears without diacritics here, whereas this volume consistently prints 'Karikāla' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0532-b0008"
       },
@@ -1959,7 +2359,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kulottunga' appears without diacritics here, whereas this volume consistently prints 'Kulottuṅga' (13 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0540-b0010"
       },
@@ -1968,7 +2368,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vaishnava' appears without diacritics here, whereas this volume consistently prints 'Vaishṇava' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0541-b0006"
       },
@@ -1977,7 +2377,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sudras' appears without diacritics here, whereas this volume consistently prints 'Śūdras' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0545-b0009"
       },
@@ -1986,7 +2386,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Paramesvara' appears without diacritics here, whereas this volume consistently prints 'Parameśvara' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0548-b0008"
       },
@@ -1995,7 +2395,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Varaguna' appears without diacritics here, whereas this volume consistently prints 'Varaguṇa' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0551-b0007"
       },
@@ -2004,7 +2404,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ahavamalla' appears without diacritics here, whereas this volume consistently prints 'Āhavamalla' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0557-b0035"
       },
@@ -2013,7 +2413,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ambhi' appears without diacritics here, whereas this volume consistently prints 'Āmbhi' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0557-b0051"
       },
@@ -2022,7 +2422,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ambhi' appears without diacritics here, whereas this volume consistently prints 'Āmbhi' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0558-b0019"
       },
@@ -2031,7 +2431,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Amoghavarsha' appears without diacritics here, whereas this volume consistently prints 'Amōghavarsha' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0558-b0023"
       },
@@ -2040,7 +2440,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Anandapura' appears without diacritics here, whereas this volume consistently prints 'Ānandapura' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0558-b0031"
       },
@@ -2049,7 +2449,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Chakshu' appears without diacritics here, whereas this volume consistently prints 'Chakshū' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0563-b0014"
       },
@@ -2058,7 +2458,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Chasi' appears without diacritics here, whereas this volume consistently prints 'Chāsi' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0563-b0041"
       },
@@ -2067,7 +2467,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (73 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0565-b0028"
       },
@@ -2076,7 +2476,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kashgaria' appears without diacritics here, whereas this volume consistently prints 'Kāshgaria' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0567-b0009"
       },
@@ -2085,16 +2485,25 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vengi' appears without diacritics here, whereas this volume consistently prints 'Vengī' (13 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0568-b0031"
       },
       {
         "page_number": 568,
         "severity": "informational",
+        "category": "rare_character",
+        "message": "'Ḥ' (U+1E24 LATIN CAPITAL LETTER H WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Ḥasan'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0568-b0035"
+      },
+      {
+        "page_number": 568,
+        "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Herat' appears without diacritics here, whereas this volume consistently prints 'Herāt' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0568-b0050"
       },
@@ -2103,7 +2512,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Adityasena' appears without diacritics here, whereas this volume consistently prints 'Ādityasena' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0569-b0008"
       },
@@ -2112,7 +2521,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nasik' appears without diacritics here, whereas this volume consistently prints 'Nāsik' (15 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0574-b0014"
       },
@@ -2121,7 +2530,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kalidasa' appears without diacritics here, whereas this volume consistently prints 'Kālidāsa' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0576-b0039"
       },
@@ -2130,7 +2539,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mathura' appears without diacritics here, whereas this volume consistently prints 'Mathurā' (39 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0579-b0025"
       },
@@ -2139,7 +2548,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Malin' appears without diacritics here, whereas this volume consistently prints 'Mālin' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0582-b0020"
       },
@@ -2148,7 +2557,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Samatata' appears without diacritics here, whereas this volume consistently prints 'Samataṭa' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0583-b0004"
       },
@@ -2157,7 +2566,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gangas' appears without diacritics here, whereas this volume consistently prints 'Gaṅgas' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0589-b0007"
       }
@@ -2185,8 +2594,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 65 fixes · 138 pp. checked",
-          "detail": "65 anchored emendation(s) applied; 138 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 121 fixes · 136 pp. checked",
+          "detail": "121 anchored emendation(s) applied; 136 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

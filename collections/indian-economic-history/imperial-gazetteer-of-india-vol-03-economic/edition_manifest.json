@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/epub/imperial-gazetteer-of-india-vol-03-economic.epub",
     "markdown": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/markdown/imperial-gazetteer-of-india-vol-03-economic.md",
     "tei_xml": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/tei/imperial-gazetteer-of-india-vol-03-economic.tei.xml",
-    "print_html": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/print/imperial-gazetteer-of-india-vol-03-economic.print.html",
+    "print_source": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/print/imperial-gazetteer-of-india-vol-03-economic.typ",
     "pdf": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/print/imperial-gazetteer-of-india-vol-03-economic.pdf",
+    "onepage_html": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/html/imperial-gazetteer-of-india-vol-03-economic.html",
     "datasets": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/imperial-gazetteer-of-india-vol-03-economic/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 74 fixes · 24 pp. checked",
-        "detail": "74 anchored emendation(s) applied; 24 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 82 fixes · 24 pp. checked",
+        "detail": "82 anchored emendation(s) applied; 24 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -181,7 +182,7 @@
       "total": 65
     },
     "corrections": {
-      "applied": 74,
+      "applied": 82,
       "unmatched": 0,
       "details": [
         {
@@ -701,6 +702,62 @@
           "matched_block_id": "p0514-b0008",
           "op": "set_cells",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0509-b0007",
+          "page_number": 509,
+          "matched_block_id": "p0509-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0540-b0012",
+          "page_number": 540,
+          "matched_block_id": "p0540-b0012",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0540-b0013",
+          "page_number": 540,
+          "matched_block_id": "p0540-b0013",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0540-b0014",
+          "page_number": 540,
+          "matched_block_id": "p0540-b0014",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "join-hyphen-p0177-b0003",
+          "page_number": 177,
+          "matched_block_id": "p0177-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0171-b0016-drop-false-sh",
+          "page_number": 171,
+          "matched_block_id": "p0171-b0016-sh1",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0171-b0016-restore-stub",
+          "page_number": 171,
+          "matched_block_id": "p0171-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0090-b0005-harvesting",
+          "page_number": 90,
+          "matched_block_id": "p0090-b0005",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -809,7 +866,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 3.30 but its 3 contributing cells sum to 9.40 (difference 6.10).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0059-b0013"
       },
@@ -818,7 +875,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 5.30 but its 3 contributing cells sum to 13.90 (difference 8.60).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0059-b0013"
       },
@@ -827,7 +884,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 6 states total 2.60 but its 3 contributing cells sum to 6.40 (difference 3.80).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0059-b0013"
       },
@@ -836,7 +893,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 17.50 but its 3 contributing cells sum to 43.80 (difference 26.30).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0059-b0013"
       },
@@ -845,7 +902,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 13795362 but its 2 contributing cells sum to 4592571 (difference -9202791).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0143-b0019"
       },
@@ -854,7 +911,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 49270216 but its 2 contributing cells sum to 24359383 (difference -24910833).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0143-b0019"
       },
@@ -863,7 +920,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bikaner' appears without diacritics here, whereas this volume consistently prints 'Bīkaner' (27 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0143-b0020-s6"
       },
@@ -872,7 +929,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 3455565 but its 14 contributing cells sum to 3455564 (difference -1).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0172-b0022"
       },
@@ -881,7 +938,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kheri' appears without diacritics here, whereas this volume consistently prints 'Kherī' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0232-b0009"
       },
@@ -890,7 +947,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 12.66 but its 1 contributing cells sum to 98.21 (difference 85.55).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0296-b0012"
       },
@@ -899,7 +956,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 47.95 but its 9 breakdown rows sum to 218.87 (difference 170.92).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0296-b0039"
       },
@@ -908,7 +965,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 316.87 but its 9 breakdown rows sum to 1855.88 (difference 1539.01).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0296-b0039"
       },
@@ -917,7 +974,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 28522623 but its 12 breakdown rows sum to 205423208 (difference 176900585).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0350-b0057"
       },
@@ -935,7 +992,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 1439207204 but its 16 contributing cells sum to 1496696232 (difference 57489028).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0351-b0028"
       },
@@ -944,7 +1001,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 14197672 but its 4 breakdown rows sum to 320687974 (difference 306490302).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0351-b0045"
       },
@@ -953,7 +1010,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 1371993 but its 9 contributing cells sum to 256648962 (difference 255276969).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0351-b0045"
       },
@@ -962,7 +1019,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 352 has inline note callout(s) ['*', '*'] vs. labelled footnote(s) [].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0352-b0045"
       },
@@ -980,7 +1037,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 1741365396 but its 40 contributing cells sum to 3526421729 (difference 1785056333).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0352-b0053"
       },
@@ -989,7 +1046,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kashmir' appears without diacritics here, whereas this volume consistently prints 'Kashmīr' (84 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0355-b0011"
       },
@@ -1007,7 +1064,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'KARACHI' appears without diacritics here, whereas this volume consistently prints 'Karāchi' (48 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0357-b0006"
       },
@@ -1016,7 +1073,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 4279 but its 62 contributing cells sum to 12326 (difference 8047).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0374-b0039"
       },
@@ -1025,7 +1082,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 14040919 but its 62 contributing cells sum to 40086953 (difference 26046034).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0374-b0039"
       },
@@ -1043,7 +1100,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nagpur' appears without diacritics here, whereas this volume consistently prints 'Nāgpur' (46 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0456-b0010"
       },
@@ -1052,7 +1109,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nagpur' appears without diacritics here, whereas this volume consistently prints 'Nāgpur' (46 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0457-b0015"
       },
@@ -1061,7 +1118,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nagpur' appears without diacritics here, whereas this volume consistently prints 'Nāgpur' (46 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0457-b0015"
       },
@@ -1070,7 +1127,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rajputana' appears without diacritics here, whereas this volume consistently prints 'Rājputāna' (120 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0457-b0034"
       },
@@ -1079,7 +1136,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Malwa' appears without diacritics here, whereas this volume consistently prints 'Mālwā' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0457-b0034"
       },
@@ -1088,7 +1145,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Himalayan' appears without diacritics here, whereas this volume consistently prints 'Himālayan' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0457-b0039"
       },
@@ -1097,7 +1154,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Himalayan' appears without diacritics here, whereas this volume consistently prints 'Himālayan' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0457-b0039"
       },
@@ -1106,7 +1163,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bikaner' appears without diacritics here, whereas this volume consistently prints 'Bīkaner' (27 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0012"
       },
@@ -1115,7 +1172,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bikaner' appears without diacritics here, whereas this volume consistently prints 'Bīkaner' (27 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0012"
       },
@@ -1124,7 +1181,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hyderabad' appears without diacritics here, whereas this volume consistently prints 'Hyderābād' (59 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0012"
       },
@@ -1133,7 +1190,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kolar' appears without diacritics here, whereas this volume consistently prints 'Kolār' (12 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0015"
       },
@@ -1142,7 +1199,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Godavari' appears without diacritics here, whereas this volume consistently prints 'Godāvari' (29 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0017"
       },
@@ -1151,7 +1208,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hyderabad' appears without diacritics here, whereas this volume consistently prints 'Hyderābād' (59 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0017"
       },
@@ -1160,7 +1217,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kohat' appears without diacritics here, whereas this volume consistently prints 'Kohāt' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0018"
       },
@@ -1169,7 +1226,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kashmir' appears without diacritics here, whereas this volume consistently prints 'Kashmīr' (84 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0018"
       },
@@ -1178,7 +1235,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ludhiana' appears without diacritics here, whereas this volume consistently prints 'Ludhiāna' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0458-b0018"
       },
@@ -1187,7 +1244,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hardwar' appears without diacritics here, whereas this volume consistently prints 'Hardwār' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0459-b0006"
       },
@@ -1196,7 +1253,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hardwar' appears without diacritics here, whereas this volume consistently prints 'Hardwār' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0459-b0007"
       },
@@ -1214,7 +1271,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 10 states total 2.20 but its 12 contributing cells sum to 26.70 (difference 24.50).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0470-b0020"
       },
@@ -1223,7 +1280,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 11 states total 39.70 but its 12 contributing cells sum to 588.20 (difference 548.50).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0470-b0020"
       },
@@ -1232,7 +1289,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 44 but its 12 contributing cells sum to 576 (difference 532).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0477-b0023"
       },
@@ -1277,7 +1334,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahal' appears without diacritics here, whereas this volume consistently prints 'Mahāl' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0552-b0028"
       },
@@ -1286,7 +1343,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahal' appears without diacritics here, whereas this volume consistently prints 'Mahāl' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0560-b0007"
       }
@@ -1314,8 +1371,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 74 fixes · 24 pp. checked",
-          "detail": "74 anchored emendation(s) applied; 24 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 82 fixes · 24 pp. checked",
+          "detail": "82 anchored emendation(s) applied; 24 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

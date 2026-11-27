@@ -85,7 +85,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | List of Authorities Consulted | `27–33` | 7 | 3 | 0 / 7 |
 | I. Isolation and Intercourse | `35–40` | 6 | 0 | 0 / 6 |
 | II. Evidences | `40–42` | 3 | 0 | 0 / 3 |
-| III. Epochs | `43–50` | 7 | 1 | 0 / 7 |
+| III. Epochs | `43–49` | 7 | 1 | 0 / 7 |
 | Book I, Part I, Chapter I.—Direct Evidences from Sanskrit  | `51–65` | 14 | 11 | 0 / 14 |
 | Book I, Part I, Chapter II.—Direct Evidences from Indian S | `66–104` | 30 | 5 | 0 / 30 |
 | Book I, Part I, Chapter III.—Indirect Evidences: Sanskrit  | `105–130` | 26 | 19 | 0 / 26 |
@@ -101,8 +101,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Book I, Part II, Chapter X.—Retrospect | `230–234` | 5 | 1 | 0 / 5 |
 | Book II, Chapter I.—The Pre-Mogul Period | `235–256` | 21 | 2 | 0 / 21 |
 | Book II, Chapter II.—The Mogul Period: The Reign of Akbar | `257–275` | 19 | 6 | 0 / 19 |
-| Book II, Chapter III.—The Mogul Period (continued): Akbar  | `276–300` | 22 | 1 | 0 / 22 |
-| Book II, Chapter IV.—Later Times | `301–324` | 17 | 1 | 0 / 17 |
+| Book II, Chapter III.—The Mogul Period (continued): Akbar  | `276–299` | 22 | 1 | 0 / 22 |
+| Book II, Chapter IV.—Later Times | `301–323` | 17 | 1 | 0 / 17 |
 | Conclusion | `325–328` | 4 | 0 | 0 / 4 |
 | Index I.—Subjects | `329–340` | 12 | 3 | 0 / 12 |
 | Index II.—Proper Names | `341–358` | 17 | 12 | 0 / 17 |

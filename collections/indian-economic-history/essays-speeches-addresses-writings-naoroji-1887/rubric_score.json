@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "essays-speeches-addresses-writings-naoroji-1887",
   "run_id": "g38-batch-v1",
-  "total_score": 83.9,
+  "total_score": 79.7,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -19,35 +19,35 @@
       ]
     },
     "tabular_accuracy": {
-      "score": 14.5,
+      "score": 9.5,
       "max": 25.0,
       "deductions": [
-        "-5.0: 1 Blind Totals Strip disagreement(s)",
+        "-10.0: 2 Blind Totals Strip disagreement(s)",
         "-4.0: 1 collapsed/jammed table row warning(s)",
         "-1.5: 1 ragged table geometry warning(s)"
       ]
     },
     "orthographic_fidelity": {
-      "score": 22.4,
+      "score": 23.2,
       "max": 25.0,
       "deductions": [
-        "-2.6: 13 `<unclear>` ink span(s) awaiting scan check"
+        "-1.8: 9 `<unclear>` ink span(s) awaiting scan check"
       ]
     }
   },
   "issue_counts_by_code": {
+    "table_blind_total_disagreement": 2,
     "table_collapsed_rows": 1,
-    "unclear_ink_span": 13,
+    "unclear_ink_span": 9,
     "footnote_marker_mismatch": 1,
-    "table_blind_total_disagreement": 1,
     "table_ragged_columns": 1,
     "orthographic_compositor_variant": 1,
     "rare_character": 8,
-    "table_blind_total_confirmed": 32,
-    "table_compositor_arithmetic_variant": 45
+    "table_blind_total_confirmed": 31,
+    "table_compositor_arithmetic_variant": 44
   },
   "human_proof_coverage": 0.0,
-  "scan_audit_coverage": 0.0675,
+  "scan_audit_coverage": 0.0659,
   "next_actions": [
     "Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.",
     "Resolve 1 unmatched footnote marker(s) via anchor-matched corrections."

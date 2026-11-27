@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 99.4,
+  "rubric_score": 96.4,
   "cover_archetype": "currency_and_finance",
   "cover_palette": "Reserve Plum",
   "edition_root": "library/indian-economic-history/musalmans-and-money-lenders",
@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/musalmans-and-money-lenders/epub/musalmans-and-money-lenders.epub",
     "markdown": "library/indian-economic-history/musalmans-and-money-lenders/markdown/musalmans-and-money-lenders.md",
     "tei_xml": "library/indian-economic-history/musalmans-and-money-lenders/tei/musalmans-and-money-lenders.tei.xml",
-    "print_html": "library/indian-economic-history/musalmans-and-money-lenders/print/musalmans-and-money-lenders.print.html",
+    "print_source": "library/indian-economic-history/musalmans-and-money-lenders/print/musalmans-and-money-lenders.typ",
     "pdf": "library/indian-economic-history/musalmans-and-money-lenders/print/musalmans-and-money-lenders.pdf",
+    "onepage_html": "library/indian-economic-history/musalmans-and-money-lenders/html/musalmans-and-money-lenders.html",
     "datasets": "library/indian-economic-history/musalmans-and-money-lenders/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/musalmans-and-money-lenders/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 22 fixes · 2 pp. checked",
-        "detail": "22 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 24 fixes · 2 pp. checked",
+        "detail": "24 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -105,7 +106,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 75 footnotes and 303 margin/shoulder notes"
+        "detail": "Linked apparatus with 74 footnotes and 298 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -122,7 +123,7 @@
       ],
       "artifacts": [
         "13 Statistical Tables",
-        "75 Footnotes",
+        "74 Footnotes",
         "Linked Index"
       ]
     }
@@ -134,7 +135,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 3,
+      "open_hotspots": 4,
       "extracted_page_count": 207,
       "p1_proofed_page_count": 0,
       "reread_page_count": 2,
@@ -148,16 +149,16 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (3 open review items); 2 of 207 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (4 open review items); 2 of 207 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 3,
+      "review": 4,
       "informational": 7,
-      "total": 10
+      "total": 11
     },
     "corrections": {
-      "applied": 22,
+      "applied": 24,
       "unmatched": 0,
       "details": [
         {
@@ -313,6 +314,20 @@
           "matched_block_id": "p0003-b0003",
           "op": "drop_residue",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0105-b0010-note",
+          "page_number": 105,
+          "matched_block_id": "p0105-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0138-b0015-note",
+          "page_number": 138,
+          "matched_block_id": "p0138-b0015",
+          "op": "set_type",
+          "status": "applied"
         }
       ]
     },
@@ -343,6 +358,15 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0079-b0008"
+      },
+      {
+        "page_number": 138,
+        "severity": "review",
+        "category": "unlabelled_footnote",
+        "message": "Footnote has no note_label and is not marked continues_from_prev.",
+        "expected_action": "Check whether this note continues from the previous page or missed its symbol.",
+        "validator": "apparatus_parity",
+        "block_id": "p0138-b0015"
       },
       {
         "page_number": 46,
@@ -431,8 +455,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 22 fixes · 2 pp. checked",
-          "detail": "22 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 24 fixes · 2 pp. checked",
+          "detail": "24 anchored emendation(s) applied; 2 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -476,7 +500,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 75 footnotes and 303 margin/shoulder notes"
+          "detail": "Linked apparatus with 74 footnotes and 298 margin/shoulder notes"
         }
       ],
       "archival_tags": {
@@ -493,7 +517,7 @@
         ],
         "artifacts": [
           "13 Statistical Tables",
-          "75 Footnotes",
+          "74 Footnotes",
           "Linked Index"
         ]
       }

@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 347 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **85.4 / 100** (`community`)
+- **Current Edition Score**: **87.9 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 347** leaves verified
 - **Original Camera Scans**: [Internet Archive (`cu31924022938264`)](https://archive.org/details/cu31924022938264)
 
@@ -11,6 +11,7 @@ Welcome! You do **not** need to read all 347 leaves from start to finish to make
 ## Mission 1 — Statistical Ledgers & Numerical Checks
 
 - **Sideways Broadside Tables to Eyeball**: PDF leaf(s) `316, 317` were printed rotated 90° and auto-oriented.
+- [ ] Leaf **310** (`p0310-b0010`): Table row p0310-b0010 expands to 26 columns vs. table body width 25 (even after accounting for colspan/rowspan).
 - [ ] Leaf **9** (`p0009-b0015`): Verify number `116` against scan (embedded OCR read `['113', '114']`).
 - [ ] Leaf **29** (`p0029-b0004`): Verify number `1813` against scan (embedded OCR read `['1812', '1823', '1833']`).
 - [ ] Leaf **97** (`p0097-b0017`): Verify number `1897` against scan (embedded OCR read `['1898']`).
@@ -43,7 +44,6 @@ Welcome! You do **not** need to read all 347 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
-- [ ] Leaf **310**: Table row p0310-b0012 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).
 - [ ] Leaf **311**: Uncertain glyph reading marked <unclear>t</unclear>.
 - [ ] Leaf **311**: Uncertain glyph reading marked <unclear>N</unclear>.
 - [ ] Leaf **312**: Uncertain glyph reading marked <unclear>ilege</unclear>.
@@ -65,9 +65,10 @@ Welcome! You do **not** need to read all 347 leaves from start to finish to make
 - [ ] Leaf **259**: 'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 2 time(s) in this book, here in 'Imām'.
 - [ ] Leaf **259**: 'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 2 time(s) in this book, here in '‘āshir'.
 - [ ] Leaf **278**: 'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 2 time(s) in this book, here in 'manœuvres'.
-- [ ] Leaf **311**: Column 1 states total 1 but its 16 contributing cells sum to 22 (difference 21).
-- [ ] Leaf **311**: Column 2 states total 4598117 but its 16 contributing cells sum to 9196234 (difference 4598117).
-- [ ] Leaf **311**: Column 3 states total 64 but its 16 contributing cells sum to 128 (difference 64).
+- [ ] Leaf **310**: Column 15 states total 2705556 but its 13 contributing cells sum to 2705560 (difference 4).
+- [ ] Leaf **312**: Column 7 states total 14 but its 3 breakdown rows sum to 13 (difference -1).
+- [ ] Leaf **312**: Column 12 states total 25 but its 13 contributing cells sum to 52 (difference 27).
+- [ ] Leaf **314**: Isolated 450-DPI TOTAL strip read ['<sc>Total</sc> .', '2,102', '26,16,336', '586', '14,07,998', '232', '7,35,433', '122', '4,95,531', '68', '3,33,502', '55', '3<unclear></unclear>'] vs. full-page pass ['<sc>Total</sc> .', '2,102', '26,16,336', '586', '14,07,998', '232', '7,35,433', '122', '4,95,531', '68', '3,33,502', '55', '3']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **310** (`p0310-b0018`): Faded ink `<unclear>India</unclear>` in *"…d not “Statutory Natives of India he sense that they are domi…"*
 - [ ] Leaf **311** (`p0311-b0004`): Faded ink `<unclear>th</unclear>` in *"…the House of Commons, dated 24…"*
 - [ ] Leaf **312** (`p0312-b0003`): Faded ink `<unclear>ilege</unclear>` in *"…ers on Leave, including Privilege…"*
@@ -122,7 +123,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Appendix S: Land Revenue under Hindu Rule | `248–258` | 11 | 4 | 0 / 11 |
 | Appendix T: Land Revenue under Mahomedan Rule | `259–269` | 11 | 2 | 0 / 11 |
 | Appendix U: Royal Commission on Indian Expenditure: Eviden | `269–309` | 41 | 1 | 0 / 41 |
-| Appendix V: Indian Salaries Return | `310–317` | 8 | 35 | 0 / 8 |
+| Appendix V: Indian Salaries Return | `310–317` | 8 | 22 | 0 / 8 |
 | Appendix W: Cost of Foreign Wars Charged to India | `318–318` | 1 | 0 | 0 / 1 |
 | Appendix X: Letter on Land Assessments in India | `318–323` | 6 | 0 | 0 / 6 |
 | Appendix Y: Letters on Indian Expenditure | `324–332` | 9 | 0 | 0 / 9 |

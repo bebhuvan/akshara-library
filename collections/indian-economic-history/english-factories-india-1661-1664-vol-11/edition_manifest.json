@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 94.0,
+  "rubric_score": 97.0,
   "cover_archetype": "maritime_company_records",
   "cover_palette": "Verdigris Trade",
   "edition_root": "library/indian-economic-history/english-factories-india-1661-1664-vol-11",
@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/epub/english-factories-india-1661-1664-vol-11.epub",
     "markdown": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/markdown/english-factories-india-1661-1664-vol-11.md",
     "tei_xml": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/tei/english-factories-india-1661-1664-vol-11.tei.xml",
-    "print_html": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/print/english-factories-india-1661-1664-vol-11.print.html",
+    "print_source": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/print/english-factories-india-1661-1664-vol-11.typ",
     "pdf": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/print/english-factories-india-1661-1664-vol-11.pdf",
+    "onepage_html": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/html/english-factories-india-1661-1664-vol-11.html",
     "datasets": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/english-factories-india-1661-1664-vol-11/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 18 fixes · 10 pp. checked",
-        "detail": "18 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 130 fixes · 10 pp. checked",
+        "detail": "130 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -133,7 +134,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 2,
+      "open_hotspots": 1,
       "extracted_page_count": 438,
       "p1_proofed_page_count": 0,
       "reread_page_count": 10,
@@ -155,16 +156,16 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (2 open review items); 10 of 438 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (1 open review item); 10 of 438 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 2,
-      "informational": 23,
-      "total": 25
+      "review": 1,
+      "informational": 22,
+      "total": 23
     },
     "corrections": {
-      "applied": 18,
+      "applied": 130,
       "unmatched": 0,
       "details": [
         {
@@ -292,19 +293,794 @@
           "matched_block_id": "p0422-b0007",
           "op": "set_type",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0196-b0006",
+          "page_number": 196,
+          "matched_block_id": "p0196-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0197-b0003",
+          "page_number": 197,
+          "matched_block_id": "p0197-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0035-b0006-glue",
+          "page_number": 35,
+          "matched_block_id": "p0035-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0193-b0004-glue",
+          "page_number": 193,
+          "matched_block_id": "p0193-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0419-b0014-list",
+          "page_number": 419,
+          "matched_block_id": "p0419-b0014",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0003-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0004-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0005-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0006-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0007-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0008-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0009-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0010-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0010",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0011-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0011",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0013-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0013",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0014-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0014",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0015-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0015",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0016-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0016",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0017-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0017",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0018-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0018",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0019-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0019",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0020-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0020",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0021-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0021",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0024-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0024",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0025-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0025",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0026-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0026",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0027-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0027",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0028-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0028",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0029-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0029",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0030-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0030",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0031-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0031",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0032-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0032",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0033-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0033",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0034-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0034",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0035-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0035",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0036-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0036",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0038-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0038",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0039-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0039",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0040-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0040",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0041-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0041",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0042-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0042",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0043-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0043",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0044-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0044",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0045-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0045",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0046-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0046",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0047-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0047",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0048-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0048",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0049-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0049",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0050-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0050",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0051-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0051",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0052-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0052",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0053-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0053",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0054-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0054",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0055-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0055",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0056-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0056",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0057-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0057",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0058-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0058",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0059-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0059",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0060-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0060",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0061-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0061",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0063-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0063",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0064-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0064",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0065-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0065",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0066-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0066",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0067-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0067",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0068-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0068",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0069-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0069",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0070-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0070",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0071-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0071",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0072-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0072",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0073-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0073",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0074-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0074",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0075-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0075",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0076-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0076",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0078-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0078",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0079-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0079",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0080-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0080",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0081-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0081",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0082-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0082",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0083-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0083",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0084-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0084",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0086-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0086",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0087-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0087",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0088-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0088",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0089-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0089",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0090-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0090",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0091-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0091",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0092-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0092",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0093-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0093",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0094-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0094",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0095-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0095",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0096-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0096",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0097-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0097",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0098-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0098",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0099-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0099",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0100-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0100",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0101-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0101",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0102-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0102",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0104-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0104",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0105-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0105",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0106-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0106",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0107-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0107",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0109-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0109",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0110-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0110",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0111-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0111",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0420-b0112-list",
+          "page_number": 420,
+          "matched_block_id": "p0420-b0112",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0421-b0003-list",
+          "page_number": 421,
+          "matched_block_id": "p0421-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0421-b0005-list",
+          "page_number": 421,
+          "matched_block_id": "p0421-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0421-b0007-list",
+          "page_number": 421,
+          "matched_block_id": "p0421-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "d70-refs-p0421-b0009-list",
+          "page_number": 421,
+          "matched_block_id": "p0421-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0186-b0007-note",
+          "page_number": 186,
+          "matched_block_id": "p0186-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0084-b0008-mir-sandwip",
+          "page_number": 84,
+          "matched_block_id": "p0084-b0008",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
     "review_items": [
-      {
-        "page_number": 84,
-        "severity": "review",
-        "category": "script_anomaly",
-        "message": "Out-of-alphabet Latin character U+0121 LATIN SMALL LETTER G WITH DOT ABOVE (likely meant 'ī').",
-        "expected_action": "Compare glyph against source scan.",
-        "validator": "script_validator",
-        "block_id": "p0084-b0008"
-      },
       {
         "page_number": 311,
         "severity": "review",
@@ -319,7 +1095,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sivaji' appears without diacritics here, whereas this volume consistently prints 'Sivāji' (79 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0013-b0015"
       },
@@ -328,7 +1104,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rajapur' appears without diacritics here, whereas this volume consistently prints 'Rājāpur' (42 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0023-b0008"
       },
@@ -337,7 +1113,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bijapur' appears without diacritics here, whereas this volume consistently prints 'Bījāpur' (35 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0023-b0008"
       },
@@ -346,7 +1122,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Diwan' appears without diacritics here, whereas this volume consistently prints 'Dīwān' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0069-b0003"
       },
@@ -355,25 +1131,16 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hugly' appears without diacritics here, whereas this volume consistently prints 'Hūgly' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0079-b0006"
-      },
-      {
-        "page_number": 84,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Mġr'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0084-b0008"
       },
       {
         "page_number": 101,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sivaji' appears without diacritics here, whereas this volume consistently prints 'Sivāji' (79 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0101-b0004"
       },
@@ -418,7 +1185,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bijapur' appears without diacritics here, whereas this volume consistently prints 'Bījāpur' (35 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0007"
       },
@@ -427,7 +1194,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bijapur' appears without diacritics here, whereas this volume consistently prints 'Bījāpur' (35 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0007"
       },
@@ -436,7 +1203,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Maratha' appears without diacritics here, whereas this volume consistently prints 'Marātha' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0007"
       },
@@ -445,7 +1212,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Dabhol' appears without diacritics here, whereas this volume consistently prints 'Dābhol' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0007"
       },
@@ -454,7 +1221,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kalyan' appears without diacritics here, whereas this volume consistently prints 'Kalyān' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0244-b0007"
       },
@@ -472,7 +1239,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ahmadabad' appears without diacritics here, whereas this volume consistently prints 'Ahmadābād' (26 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0354-b0005"
       },
@@ -481,7 +1248,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrza' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0411-b0004"
       },
@@ -490,7 +1257,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Bahadur' appears without diacritics here, whereas this volume consistently prints 'Bahādur' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0424-b0033"
       },
@@ -517,7 +1284,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Virji' appears without diacritics here, whereas this volume consistently prints 'Vīrji' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0442-b0003"
       }
@@ -545,8 +1312,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 18 fixes · 10 pp. checked",
-          "detail": "18 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 130 fixes · 10 pp. checked",
+          "detail": "130 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

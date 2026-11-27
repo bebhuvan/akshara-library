@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The English Factories in India, 1661–1664*
 
 - **Book ID**: `english-factories-india-1661-1664-vol-11` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`94.0 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`97.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 438 of 438 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `438` extracted, `8` blank/tissue, `0` failed (of `446` PDF leaves)
 - **Tracked API Spend**: **`$2.0249`** (`74.4%` cached input tokens: `3,502,686` / `4,707,611` in, `711,865` out, `0` thoughts)
@@ -15,7 +15,7 @@
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
-| **4. Orthographic, Script & Diacritics** | **19.0 / 25.0** | -6.0: 2 script/codepoint anomaly(ies) |
+| **4. Orthographic, Script & Diacritics** | **22.0 / 25.0** | -3.0: 1 script/codepoint anomaly(ies) |
 
 ### Recommended Operator Next Actions
 - Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 2.3%) toward Source-Certified.
@@ -72,8 +72,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `327` prose joins, `7` split footnotes stitched, `0` multi-page tables unified, `398` total footnotes.
-  - Stitched cross-page footnotes: p.94->p.95 (`1`), p.123->p.124 (`2`), p.144->p.145 (`2`), p.185->p.186 (`2`), p.191->p.192 (`1`), p.203->p.204 (`1`), p.210->p.211 (`3`)
+- **Cross-Page Assembly**: `329` prose joins, `8` split footnotes stitched, `0` multi-page tables unified, `398` total footnotes.
+  - Stitched cross-page footnotes: p.94->p.95 (`1`), p.123->p.124 (`2`), p.144->p.145 (`2`), p.185->p.186 (`2`), p.191->p.192 (`1`), p.195->p.196 (`2`), p.203->p.204 (`1`), p.210->p.211 (`3`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`90` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"3 1761 08381414 5"*
   - Leaf `7` `p0007-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2010 with funding from University of Toronto"*
@@ -95,4 +95,4 @@
 
 - **Detected Scripts**: `latin`: 835,567 chars
 - **Distinct Non-ASCII Glyphs (`27` across `306` leaves)**: ­ À à ã ç é í ó ô õ Ā ā ē Ġ ġ Ī ī ı ō ū ſ ′ ⁄ ⅔ ⅛ ⅜ ⅝
-- **Corrections Replayed**: `18` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `130` applied, `0` orphaned/unmatched

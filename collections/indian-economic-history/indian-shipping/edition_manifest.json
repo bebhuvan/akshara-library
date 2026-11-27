@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/indian-shipping/epub/indian-shipping.epub",
     "markdown": "library/indian-economic-history/indian-shipping/markdown/indian-shipping.md",
     "tei_xml": "library/indian-economic-history/indian-shipping/tei/indian-shipping.tei.xml",
-    "print_html": "library/indian-economic-history/indian-shipping/print/indian-shipping.print.html",
+    "print_source": "library/indian-economic-history/indian-shipping/print/indian-shipping.typ",
     "pdf": "library/indian-economic-history/indian-shipping/print/indian-shipping.pdf",
+    "onepage_html": "library/indian-economic-history/indian-shipping/html/indian-shipping.html",
     "datasets": "library/indian-economic-history/indian-shipping/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/indian-shipping/datasets/datapackage.json"
   },
@@ -232,7 +233,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0031-b0002"
       },
@@ -241,7 +242,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0031-b0029"
       },
@@ -250,7 +251,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0032-b0025"
       },
@@ -304,7 +305,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0062-b0002"
       },
@@ -313,7 +314,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0062-b0003"
       },
@@ -322,7 +323,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0063-b0002"
       },
@@ -331,7 +332,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0063-b0003"
       },
@@ -340,7 +341,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0063-b0004"
       },
@@ -349,7 +350,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0063-b0006"
       },
@@ -358,7 +359,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0065-b0002"
       },
@@ -367,7 +368,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jataka' appears without diacritics here, whereas this volume consistently prints 'Jātaka' (48 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0070-b0002"
       },
@@ -376,7 +377,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0075-b0002"
       },
@@ -385,7 +386,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0082-b0003"
       },
@@ -394,7 +395,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0086-b0003"
       },
@@ -403,7 +404,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0086-b0004"
       },
@@ -439,7 +440,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0114-b0002"
       },
@@ -448,7 +449,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0114-b0003"
       },
@@ -475,7 +476,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0116-b0003"
       },
@@ -484,7 +485,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0121-b0004"
       },
@@ -493,7 +494,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0122-b0002"
       },
@@ -502,7 +503,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0122-b0003"
       },
@@ -511,7 +512,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0123-b0002"
       },
@@ -520,7 +521,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0124-b0002"
       },
@@ -529,7 +530,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0124-b0003"
       },
@@ -538,7 +539,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0125-b0002"
       },
@@ -547,7 +548,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sravasti' appears without diacritics here, whereas this volume consistently prints 'Srāvasti' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0125-b0002"
       },
@@ -556,7 +557,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jataka' appears without diacritics here, whereas this volume consistently prints 'Jātaka' (48 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0126-b0003"
       },
@@ -565,7 +566,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jataka' appears without diacritics here, whereas this volume consistently prints 'Jātaka' (48 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0126-b0004"
       },
@@ -574,7 +575,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Valahassa' appears without diacritics here, whereas this volume consistently prints 'Vālahassa' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0127-b0004"
       },
@@ -583,7 +584,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jatakas' appears without diacritics here, whereas this volume consistently prints 'Jātakas' (13 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0142-b0002"
       },
@@ -601,7 +602,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Yajna' appears without diacritics here, whereas this volume consistently prints 'Yajña' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0171-b0005"
       },
@@ -619,7 +620,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0182-b0002"
       },
@@ -628,7 +629,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gandhara' appears without diacritics here, whereas this volume consistently prints 'Gāndhāra' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0205-b0004"
       },
@@ -637,7 +638,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0208-b0002"
       },
@@ -646,7 +647,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0209-b0002"
       },
@@ -655,7 +656,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0211-b0002"
       },
@@ -664,7 +665,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0211-b0003"
       },
@@ -745,7 +746,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0213-b0002"
       },
@@ -754,7 +755,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0219-b0002"
       },
@@ -763,7 +764,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Varahamihira' appears without diacritics here, whereas this volume consistently prints 'Varāhamihira' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0232-b0003"
       },
@@ -790,7 +791,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Protapaditya' appears without diacritics here, whereas this volume consistently prints 'Protāpāditya' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0269-b0005"
       },
@@ -799,7 +800,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sinhala' appears without diacritics here, whereas this volume consistently prints 'Sińhala' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0274-b0002"
       },
@@ -844,7 +845,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0282-b0002"
       },
@@ -862,7 +863,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Dirgha' appears without diacritics here, whereas this volume consistently prints 'Dīrghā' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0335-b0015"
       },
@@ -871,7 +872,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0336-b0027"
       },
@@ -889,7 +890,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0344-b0061"
       },
@@ -898,7 +899,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0347-b0040"
       },
@@ -907,7 +908,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0348-b0066"
       },
@@ -916,7 +917,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0349-b0019"
       },
@@ -925,7 +926,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0351-b0059"
       },
@@ -934,7 +935,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sagara' appears without diacritics here, whereas this volume consistently prints 'Sāgara' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0352-b0024"
       },
@@ -943,7 +944,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0353-b0003"
       },
@@ -952,7 +953,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0353-b0010"
       },
@@ -961,7 +962,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0353-b0011"
       },
@@ -970,7 +971,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0353-b0012"
       },
@@ -979,7 +980,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Unnata' appears without diacritics here, whereas this volume consistently prints 'Unnatā' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0354-b0056"
       },
@@ -988,7 +989,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Out-of-alphabet Latin character U+0144 LATIN SMALL LETTER N WITH ACUTE.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0355-b0022"
       }

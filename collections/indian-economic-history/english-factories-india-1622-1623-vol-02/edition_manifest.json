@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 85.0,
+  "rubric_score": 86.0,
   "cover_archetype": "maritime_company_records",
   "cover_palette": "Pelagic Indigo",
   "edition_root": "library/indian-economic-history/english-factories-india-1622-1623-vol-02",
@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/epub/english-factories-india-1622-1623-vol-02.epub",
     "markdown": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/markdown/english-factories-india-1622-1623-vol-02.md",
     "tei_xml": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/tei/english-factories-india-1622-1623-vol-02.tei.xml",
-    "print_html": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/print/english-factories-india-1622-1623-vol-02.print.html",
+    "print_source": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/print/english-factories-india-1622-1623-vol-02.typ",
     "pdf": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/print/english-factories-india-1622-1623-vol-02.pdf",
+    "onepage_html": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/html/english-factories-india-1622-1623-vol-02.html",
     "datasets": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/english-factories-india-1622-1623-vol-02/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 41 fixes · 9 pp. checked",
-        "detail": "41 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 77 fixes · 9 pp. checked",
+        "detail": "77 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -140,7 +141,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 368,
+      "open_hotspots": 367,
       "extracted_page_count": 430,
       "p1_proofed_page_count": 0,
       "reread_page_count": 9,
@@ -161,16 +162,16 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (368 open review items); 9 of 430 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (367 open review items); 9 of 430 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 368,
+      "review": 367,
       "informational": 21,
-      "total": 389
+      "total": 388
     },
     "corrections": {
-      "applied": 41,
+      "applied": 77,
       "unmatched": 0,
       "details": [
         {
@@ -459,6 +460,258 @@
           "matched_block_id": "p0403-b0038",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0056-b0005",
+          "page_number": 56,
+          "matched_block_id": "p0056-b0005",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0056-b0006",
+          "page_number": 56,
+          "matched_block_id": "p0056-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0149-b0007-glue",
+          "page_number": 149,
+          "matched_block_id": "p0149-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-efi02-p0272-b0006-seeminge",
+          "page_number": 272,
+          "matched_block_id": "p0272-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-efi02-p0376-b0004-begunn-a",
+          "page_number": 376,
+          "matched_block_id": "p0376-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0025-b0005",
+          "page_number": 25,
+          "matched_block_id": "p0025-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0051-b0003",
+          "page_number": 51,
+          "matched_block_id": "p0051-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0051-b0005",
+          "page_number": 51,
+          "matched_block_id": "p0051-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0112-b0003",
+          "page_number": 112,
+          "matched_block_id": "p0112-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0127-b0007",
+          "page_number": 127,
+          "matched_block_id": "p0127-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0156-b0003",
+          "page_number": 156,
+          "matched_block_id": "p0156-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0179-b0003",
+          "page_number": 179,
+          "matched_block_id": "p0179-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0194-b0005",
+          "page_number": 194,
+          "matched_block_id": "p0194-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0210-b0003",
+          "page_number": 210,
+          "matched_block_id": "p0210-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0237-b0004",
+          "page_number": 237,
+          "matched_block_id": "p0237-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0237-b0006",
+          "page_number": 237,
+          "matched_block_id": "p0237-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0237-b0008",
+          "page_number": 237,
+          "matched_block_id": "p0237-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0239-b0004",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0239-b0007",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0265-b0005",
+          "page_number": 265,
+          "matched_block_id": "p0265-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0283-b0005",
+          "page_number": 283,
+          "matched_block_id": "p0283-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0284-b0008",
+          "page_number": 284,
+          "matched_block_id": "p0284-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0350-b0003",
+          "page_number": 350,
+          "matched_block_id": "p0350-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0399-b0012",
+          "page_number": 399,
+          "matched_block_id": "p0399-b0012",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0005",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0008",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0015",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0015",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0018",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0018",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0019",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0019",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0020",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0020",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0024",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0024",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0025",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0025",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0026",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0026",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0403-b0033",
+          "page_number": 403,
+          "matched_block_id": "p0403-b0033",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0407-b0030",
+          "page_number": 407,
+          "matched_block_id": "p0407-b0030",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-english-p0419-b0024",
+          "page_number": 419,
+          "matched_block_id": "p0419-b0024",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -732,6 +985,15 @@
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0121-b0002"
+      },
+      {
+        "page_number": 135,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Handia' appears without diacritics here, whereas this volume consistently prints 'Handiā' (4 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0135-b0003"
       },
       {
         "page_number": 140,
@@ -1931,15 +2193,6 @@
         "block_id": "p0195-b0008"
       },
       {
-        "page_number": 239,
-        "severity": "review",
-        "category": "script_anomaly",
-        "message": "Out-of-alphabet Latin character U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE (likely meant 'Ī').",
-        "expected_action": "Compare glyph against source scan.",
-        "validator": "script_validator",
-        "block_id": "p0239-b0004"
-      },
-      {
         "page_number": 251,
         "severity": "review",
         "category": "orthographic_diacritic_drift",
@@ -2798,7 +3051,7 @@
         "page_number": 284,
         "severity": "review",
         "category": "orthographic_diacritic_drift",
-        "message": "Token 'Mandu' appears without diacritics here, whereas this volume consistently prints 'Māndū' (29 occurrences).",
+        "message": "Token 'Mandu' appears without diacritics here, whereas this volume consistently prints 'Māndū' (30 occurrences).",
         "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
         "validator": "orthographic_drift",
         "block_id": "p0284-b0005"
@@ -3123,15 +3376,6 @@
         "severity": "review",
         "category": "unclear_ink_span",
         "message": "Uncertain glyph reading marked <unclear>...</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0284-b0008"
-      },
-      {
-        "page_number": 284,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>the out-houses</unclear>.",
         "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
         "validator": "unclear_detector",
         "block_id": "p0284-b0008"
@@ -3780,7 +4024,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Pasha' appears without diacritics here, whereas this volume consistently prints 'Pāshā' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0028-b0004"
       },
@@ -3789,7 +4033,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Samana' appears without diacritics here, whereas this volume consistently prints 'Samāna' (17 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0048-b0006"
       },
@@ -3806,7 +4050,7 @@
         "page_number": 102,
         "severity": "informational",
         "category": "rare_character",
-        "message": "'Ġ' (U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'JAHĀNGĠRPUR'.",
+        "message": "'Ġ' (U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE) appears only 1 time(s) in this book, here in 'JAHĀNGĠRPUR'.",
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0102-b0005"
@@ -3816,7 +4060,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gurdas' appears without diacritics here, whereas this volume consistently prints 'Gurdās' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0112-b0003"
       },
@@ -3825,7 +4069,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (37 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0150-b0003"
       },
@@ -3843,7 +4087,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gurdas' appears without diacritics here, whereas this volume consistently prints 'Gurdās' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0164-b0003"
       },
@@ -3861,7 +4105,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 181 has inline note callout(s) [] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0181-b0008"
       },
@@ -3870,7 +4114,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 195 has inline note callout(s) [] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0195-b0008"
       },
@@ -3879,7 +4123,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Shiraz' appears without diacritics here, whereas this volume consistently prints 'Shīrāz' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0220-b0003"
       },
@@ -3887,7 +4131,7 @@
         "page_number": 234,
         "severity": "informational",
         "category": "rare_character",
-        "message": "'Ī' (U+012A LATIN CAPITAL LETTER I WITH MACRON) appears only 1 time(s) in this book, here in 'JAHĀNGĪRPUR'.",
+        "message": "'Ī' (U+012A LATIN CAPITAL LETTER I WITH MACRON) appears only 2 time(s) in this book, here in 'JAHĀNGĪRPUR'.",
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0234-b0006"
@@ -3896,7 +4140,7 @@
         "page_number": 239,
         "severity": "informational",
         "category": "rare_character",
-        "message": "'Ġ' (U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'JAHĀNGĠRPUR'.",
+        "message": "'Ī' (U+012A LATIN CAPITAL LETTER I WITH MACRON) appears only 2 time(s) in this book, here in 'JAHĀNGĪRPUR'.",
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0239-b0004"
@@ -3933,7 +4177,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Biana' appears without diacritics here, whereas this volume consistently prints 'Biāna' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0323-b0010"
       },
@@ -3988,8 +4232,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 41 fixes · 9 pp. checked",
-          "detail": "41 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 77 fixes · 9 pp. checked",
+          "detail": "77 anchored emendation(s) applied; 9 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

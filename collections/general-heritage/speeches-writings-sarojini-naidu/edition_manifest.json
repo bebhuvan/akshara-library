@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/speeches-writings-sarojini-naidu/epub/speeches-writings-sarojini-naidu.epub",
     "markdown": "library/general-heritage/speeches-writings-sarojini-naidu/markdown/speeches-writings-sarojini-naidu.md",
     "tei_xml": "library/general-heritage/speeches-writings-sarojini-naidu/tei/speeches-writings-sarojini-naidu.tei.xml",
-    "print_html": "library/general-heritage/speeches-writings-sarojini-naidu/print/speeches-writings-sarojini-naidu.print.html",
+    "print_source": "library/general-heritage/speeches-writings-sarojini-naidu/print/speeches-writings-sarojini-naidu.typ",
     "pdf": "library/general-heritage/speeches-writings-sarojini-naidu/print/speeches-writings-sarojini-naidu.pdf",
+    "onepage_html": "library/general-heritage/speeches-writings-sarojini-naidu/html/speeches-writings-sarojini-naidu.html",
     "datasets": null,
     "datapackage": null
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 15 fixes · 1 pp. checked",
-        "detail": "15 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 17 fixes · 1 pp. checked",
+        "detail": "17 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -136,7 +137,7 @@
       "total": 1
     },
     "corrections": {
-      "applied": 15,
+      "applied": 17,
       "unmatched": 0,
       "details": [
         {
@@ -243,6 +244,20 @@
           "matched_block_id": "p0486-b0042",
           "op": "set_type",
           "status": "applied"
+        },
+        {
+          "correction_id": "join-hyphen-p0457-b0003",
+          "page_number": 457,
+          "matched_block_id": "p0457-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0450-b0004-dr-francois",
+          "page_number": 450,
+          "matched_block_id": "p0450-b0004",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -280,8 +295,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 15 fixes · 1 pp. checked",
-          "detail": "15 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 17 fixes · 1 pp. checked",
+          "detail": "17 anchored emendation(s) applied; 1 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

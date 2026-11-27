@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/life-and-letters-of-toru-dutt/epub/life-and-letters-of-toru-dutt.epub",
     "markdown": "library/general-heritage/life-and-letters-of-toru-dutt/markdown/life-and-letters-of-toru-dutt.md",
     "tei_xml": "library/general-heritage/life-and-letters-of-toru-dutt/tei/life-and-letters-of-toru-dutt.tei.xml",
-    "print_html": "library/general-heritage/life-and-letters-of-toru-dutt/print/life-and-letters-of-toru-dutt.print.html",
+    "print_source": "library/general-heritage/life-and-letters-of-toru-dutt/print/life-and-letters-of-toru-dutt.typ",
     "pdf": "library/general-heritage/life-and-letters-of-toru-dutt/print/life-and-letters-of-toru-dutt.pdf",
+    "onepage_html": "library/general-heritage/life-and-letters-of-toru-dutt/html/life-and-letters-of-toru-dutt.html",
     "datasets": null,
     "datapackage": null
   },
@@ -255,7 +256,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Orleans' appears without diacritics here, whereas this volume consistently prints 'Orléans' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0391-b0005"
       }

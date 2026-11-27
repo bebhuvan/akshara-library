@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 438 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **94.0 / 100** (`community`)
+- **Current Edition Score**: **97.0 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 438** leaves verified
 - **Original Camera Scans**: [Internet Archive (`englishfactories11fost`)](https://archive.org/details/englishfactories11fost)
 
@@ -35,6 +35,7 @@ Welcome! You do **not** need to read all 438 leaves from start to finish to make
 - [ ] Leaves **144 -> 145**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **185 -> 186**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **191 -> 192**: Confirm cross-page footnote `1` joins smoothly across the page turn.
+- [ ] Leaves **195 -> 196**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **203 -> 204**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **210 -> 211**: Confirm cross-page footnote `3` joins smoothly across the page turn.
 
@@ -42,14 +43,12 @@ Welcome! You do **not** need to read all 438 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
-- [ ] Leaf **84**: Out-of-alphabet Latin character U+0121 LATIN SMALL LETTER G WITH DOT ABOVE (likely meant 'ī').
 - [ ] Leaf **311**: Out-of-alphabet Latin character U+0120 LATIN CAPITAL LETTER G WITH DOT ABOVE (likely meant 'Ī').
 - [ ] Leaf **13**: Token 'Sivaji' appears without diacritics here, whereas this volume consistently prints 'Sivāji' (79 occurrences).
 - [ ] Leaf **23**: Token 'Rajapur' appears without diacritics here, whereas this volume consistently prints 'Rājāpur' (42 occurrences).
 - [ ] Leaf **23**: Token 'Bijapur' appears without diacritics here, whereas this volume consistently prints 'Bījāpur' (35 occurrences).
 - [ ] Leaf **69**: Token 'Diwan' appears without diacritics here, whereas this volume consistently prints 'Dīwān' (14 occurrences).
 - [ ] Leaf **79**: Token 'Hugly' appears without diacritics here, whereas this volume consistently prints 'Hūgly' (5 occurrences).
-- [ ] Leaf **84**: 'ġ' (U+0121 LATIN SMALL LETTER G WITH DOT ABOVE) appears only 2 time(s) in this book, here in 'Mġr'.
 - [ ] Leaf **101**: Token 'Sivaji' appears without diacritics here, whereas this volume consistently prints 'Sivāji' (79 occurrences).
 - [ ] Leaf **150**: 'õ' (U+00F5 LATIN SMALL LETTER O WITH TILDE) appears only 1 time(s) in this book, here in 'Possessões'.
 - [ ] Leaf **161**: 'ó' (U+00F3 LATIN SMALL LETTER O WITH ACUTE) appears only 2 time(s) in this book, here in 'mór).'.
@@ -82,7 +81,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CONTENTS | `13–13` | 1 | 1 | 0 / 1 |
 | 1661. The Surat Presidency | `15–46` | 32 | 2 | 0 / 32 |
 | The Madras Agency | `46–73` | 28 | 1 | 0 / 28 |
-| The Bengal Agency | `74–85` | 12 | 3 | 0 / 12 |
+| The Bengal Agency | `74–85` | 12 | 1 | 0 / 12 |
 | 1662. The Close of Andrews's Administration at Surat | `86–105` | 20 | 1 | 0 / 20 |
 | Sir George Oxenden, President | `106–136` | 31 | 0 | 0 / 31 |
 | The Expedition to Bombay | `137–158` | 22 | 1 | 0 / 22 |

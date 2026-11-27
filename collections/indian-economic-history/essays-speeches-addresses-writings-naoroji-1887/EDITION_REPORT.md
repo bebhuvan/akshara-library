@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Essays, Speeches, Addresses and Writings (on Indian Politics) of the Hon'ble Dadabhai Naoroji*
 
 - **Book ID**: `essays-speeches-addresses-writings-naoroji-1887` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`83.9 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`79.7 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 607 of 607 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `607` extracted, `8` blank/tissue, `0` failed (of `615` PDF leaves)
 - **Tracked API Spend**: **`$3.2464`** (`67.9%` cached input tokens: `4,817,559` / `7,099,905` in, `1,060,547` out, `749` thoughts)
@@ -14,8 +14,8 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **22.0 / 25.0** | -3.0: 1 unresolved footnote callout/body mismatch(es) |
-| **3. Tabular & Numerical Accuracy** | **14.5 / 25.0** | -5.0: 1 Blind Totals Strip disagreement(s); -4.0: 1 collapsed/jammed table row warning(s); -1.5: 1 ragged table geometry warning(s) |
-| **4. Orthographic, Script & Diacritics** | **22.4 / 25.0** | -2.6: 13 `<unclear>` ink span(s) awaiting scan check |
+| **3. Tabular & Numerical Accuracy** | **9.5 / 25.0** | -10.0: 2 Blind Totals Strip disagreement(s); -4.0: 1 collapsed/jammed table row warning(s); -1.5: 1 ragged table geometry warning(s) |
+| **4. Orthographic, Script & Diacritics** | **23.2 / 25.0** | -1.8: 9 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
 - Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
@@ -66,8 +66,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `349` prose joins, `5` split footnotes stitched, `2` multi-page tables unified, `190` total footnotes.
-  - Stitched cross-page footnotes: p.31->p.32 (`†`), p.33->p.34 (`¶`), p.75->p.76 (`*`), p.134->p.135 (`*`), p.424->p.425 (`*`)
+- **Cross-Page Assembly**: `349` prose joins, `4` split footnotes stitched, `2` multi-page tables unified, `191` total footnotes.
+  - Stitched cross-page footnotes: p.31->p.32 (`†`), p.33->p.34 (`¶`), p.134->p.135 (`*`), p.424->p.425 (`*`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`120` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"Google"*
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"NYPL RESEARCH LIBRARIES 3 3433 08244334 6"*
@@ -89,4 +89,4 @@
 
 - **Detected Scripts**: `latin`: 1,139,866 chars, `katakana`: 2 chars
 - **Distinct Non-ASCII Glyphs (`29` across `101` leaves)**: ¡ ´ · à á â æ è é ì í ò ó ú ü œ ˙ „ ⁄ ℔ ⅓ ⅔ ⅚ ⅛ ⅝ ⅞ ● タ ン
-- **Corrections Replayed**: `102` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `118` applied, `0` orphaned/unmatched

@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 207 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **99.4 / 100** (`community`)
+- **Current Edition Score**: **96.4 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 207** leaves verified
 - **Original Camera Scans**: [Internet Archive (`cu31924013743848`)](https://archive.org/details/cu31924013743848)
 
@@ -31,7 +31,8 @@ Welcome! You do **not** need to read all 207 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
-All footnote callouts and cross-page continuations linked cleanly!
+- [ ] Leaf **138** (`p0138-b0015`): Footnote has no note_label and is not marked continues_from_prev.
+- [ ] Leaves **105 -> 106**: Confirm cross-page footnote `†` joins smoothly across the page turn.
 
 ---
 
@@ -72,7 +73,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER IX: RESTRICTION ON FREE TRADE IN LAND NECESSARY. | `105–110` | 6 | 0 | 0 / 6 |
 | CHAPTER X: restrictions on the free transfer of land. | `111–117` | 7 | 1 | 0 / 7 |
 | CHAPTER XI: REFORM IN OUR LAND REVENUE SYSTEM IN RAINLESS  | `118–127` | 10 | 1 | 0 / 10 |
-| CHAPTER XII: CIVIL JUSTICE FOR AGRICULTURISTS. | `128–150` | 23 | 1 | 0 / 23 |
+| CHAPTER XII: CIVIL JUSTICE FOR AGRICULTURISTS. | `128–150` | 23 | 2 | 0 / 23 |
 | CHAPTER XIII: REFORMS IN CIVIL LAW AND PROCEDURE. | `151–165` | 15 | 1 | 0 / 15 |
 | APPENDIX A: PRESENT CONDITION OF THE PEASANTRY IN THE EIGH | `167–180` | 14 | 0 | 0 / 14 |
 | APPENDIX B: Present Condition of the Peasantry in the Six  | `181–190` | 10 | 0 | 0 / 10 |

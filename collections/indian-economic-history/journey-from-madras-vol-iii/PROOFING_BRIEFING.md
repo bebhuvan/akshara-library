@@ -16,21 +16,10 @@ Welcome! You do **not** need to read all 570 leaves from start to finish to make
 - [ ] Leaf **11** (`p0011-b0136`): Compound Pag_Fan_An columns 29..31 state a total of Pag. 58581-4-2.50, but the 129 contributing rows sum to Pag. 58581-9-2.50.
 - [ ] Leaf **11** (`p0011-b0136`): Compound Pag_Fan_An columns 32..34 state a total of Pag. 11400-3-6, but the 129 contributing rows sum to Pag. 11500-1-5.
 - [ ] Leaf **11** (`p0011-b0136`): Compound Pag_Fan_An columns 35..37 state a total of Pag. 14200-5-0, but the 129 contributing rows sum to Pag. 14222-0-14.
-- [ ] Leaf **13** (`p0013-b0004`): Table row p0013-b0004 expands to 36 columns vs. table body width 34 (even after accounting for colspan/rowspan).
-- [ ] Leaf **13** (`p0013-b0094`): Column 11 states total 13641 but its 88 contributing cells sum to 40.75 (difference -13600.25).
-- [ ] Leaf **13** (`p0013-b0094`): Column 12 states total 6 but its 88 contributing cells sum to 13373 (difference 13367).
-- [ ] Leaf **13** (`p0013-b0094`): Column 13 states total 2 but its 88 contributing cells sum to 406 (difference 404).
-- [ ] Leaf **13** (`p0013-b0094`): Column 14 states total 1025 but its 88 contributing cells sum to 342 (difference -683).
-- [ ] Leaf **13** (`p0013-b0094`): Column 15 states total 1 but its 88 contributing cells sum to 991 (difference 990).
-- [ ] Leaf **13** (`p0013-b0094`): Column 16 states total 2 but its 88 contributing cells sum to 350 (difference 348).
-- [ ] Leaf **13** (`p0013-b0094`): Column 26 states total 68903 but its 88 contributing cells sum to 67723 (difference -1180).
-- [ ] Leaf **13** (`p0013-b0094`): Column 28 states total 3 but its 88 contributing cells sum to 146 (difference 143).
-- [ ] Leaf **13** (`p0013-b0094`): Column 29 states total 10347 but its 88 contributing cells sum to 10261 (difference -86).
-- [ ] Leaf **13** (`p0013-b0094`): Column 30 states total 7 but its 88 contributing cells sum to 147 (difference 140).
-- [ ] Leaf **13** (`p0013-b0094`): Column 31 states total 15 but its 88 contributing cells sum to 90 (difference 75).
-- [ ] Leaf **13** (`p0013-b0094`): Column 32 states total 11372 but its 88 contributing cells sum to 11079 (difference -293).
-- [ ] Leaf **13** (`p0013-b0094`): Column 33 states total 9 but its 88 contributing cells sum to 595 (difference 586).
-- [ ] Leaf **13** (`p0013-b0094`): Column 34 states total 1 but its 88 contributing cells sum to 526 (difference 525).
+- [ ] Leaf **13** (`p0013-b0094`): Compound Pag_Fan_An columns 14..16 state a total of Pag. 13641-6-2, but the 88 contributing rows sum to Pag. 13570-5-14.
+- [ ] Leaf **13** (`p0013-b0094`): Compound Pag_Fan_An columns 17..19 state a total of Pag. 1025-1-2, but the 88 contributing rows sum to Pag. 1025-5-8.
+- [ ] Leaf **13** (`p0013-b0094`): Compound Pag_Fan_An columns 33..35 state a total of Pag. 10347-7-15, but the 88 contributing rows sum to Pag. 10349-7-15.
+- [ ] Leaf **13** (`p0013-b0094`): Compound Pag_Fan_An columns 36..38 state a total of Pag. 11372-9-1, but the 88 contributing rows sum to Pag. 11375-3-4.
 - [ ] Leaf **15** (`p0015-b0091`): Table row p0015-b0091 expands to 38 columns vs. table body width 37 (even after accounting for colspan/rowspan).
 - [ ] Leaf **17** (`p0017-b0006`): Table row p0017-b0006 expands to 38 columns vs. table body width 37 (even after accounting for colspan/rowspan).
 - [ ] Leaf **17** (`p0017-b0129`): Compound Pag_Fan_An columns 10..12 state a total of Pag. 1453-1-6, but the 123 contributing rows sum to Pag. 926911-1-0.50.
@@ -41,6 +30,17 @@ Welcome! You do **not** need to read all 570 leaves from start to finish to make
 - [ ] Leaf **17** (`p0017-b0129`): Column 9 states total 2 but its 123 contributing cells sum to 0 (difference -2).
 - [ ] Leaf **17** (`p0017-b0129`): Column 16 states total 14 but its 123 contributing cells sum to 818 (difference 804).
 - [ ] Leaf **22** (`p0022-b0011`): Column 3 states total 79856 but its 122 contributing cells sum to 79622 (difference -234).
+- [ ] Leaf **22** (`p0022-b0011`): Column 4 states total 141681 but its 122 contributing cells sum to 141232 (difference -449).
+- [ ] Leaf **22** (`p0022-b0011`): Column 5 states total 64952 but its 122 contributing cells sum to 64789 (difference -163).
+- [ ] Leaf **22** (`p0022-b0011`): Column 6 states total 140302 but its 122 contributing cells sum to 139846 (difference -456).
+- [ ] Leaf **22** (`p0022-b0011`): Column 7 states total 49737 but its 122 contributing cells sum to 49586 (difference -151).
+- [ ] Leaf **22** (`p0022-b0011`): Column 8 states total 396672 but its 122 contributing cells sum to 395262 (difference -1410).
+- [ ] Leaf **121** (`p0121-b0016`): Compound GBP_s_d columns 15..17 state a total of £ 30-11-5.25, but the 7 contributing rows sum to £ 59-2-11.
+- [ ] Leaf **121** (`p0121-b0016`): Compound GBP_s_d columns 21..23 state a total of £ 1-8-7.50, but the 7 contributing rows sum to £ 9-17-4.25.
+- [ ] Leaf **121** (`p0121-b0016`): Column 3 states total 26076 but its 4 breakdown rows sum to 41022 (difference 14946).
+- [ ] Leaf **121** (`p0121-b0016`): Column 5 states total 32311875 but its 4 breakdown rows sum to 22769416 (difference -9542459).
+- [ ] Leaf **121** (`p0121-b0016`): Column 7 states total 124 but its 4 breakdown rows sum to 29309 (difference 29185).
+- [ ] Leaf **121** (`p0121-b0016`): Column 9 states total 717552 but its 4 breakdown rows sum to 1229083 (difference 511531).
 - [ ] Leaf **6** (`p0006-b0020`): Verify number `1000` against scan (embedded OCR read `['1800']`).
 - [ ] Leaf **7** (`p0007-b0007`): Verify number `111,` against scan (embedded OCR read `['181']`).
 - [ ] Leaf **19** (`p0019-b0014`): Verify number `161` against scan (embedded OCR read `['111', '151', '160']`).
@@ -124,12 +124,12 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | :--- | :---: | ---: | ---: | ---: |
 | Frontmatter | `3–3` | 1 | 0 | 0 / 1 |
 | CONTENTS | `5–6` | 2 | 0 | 0 / 2 |
-| CHAPTER XIV. Journey through the Southern Parts of Canara | `7–76` | 65 | 37 | 0 / 65 |
-| CHAPTER XV. Journey from Mangalore to Beiduru | `77–149` | 71 | 42 | 0 / 71 |
+| CHAPTER XIV. Journey through the Southern Parts of Canara | `7–76` | 65 | 26 | 0 / 65 |
+| CHAPTER XV. Journey from Mangalore to Beiduru | `77–149` | 71 | 50 | 0 / 71 |
 | CHAPTER XVI. Journey through the Northern Parts of Canara | `150–224` | 73 | 14 | 0 / 73 |
 | CHAPTER XVII. Journey from the Entrance into Karnata to Hy | `225–308` | 83 | 13 | 0 / 83 |
 | CHAPTER XVIII. Journey from Hyder-nagara to Heriuru, throu | `309–396` | 82 | 14 | 0 / 82 |
 | CHAPTER XIX. Journey from Heriuru to Seringapatam, through | `397–460` | 62 | 8 | 0 / 62 |
 | CHAPTER XX. Journey from Seringapatam to Madras | `461–527` | 64 | 7 | 0 / 64 |
 | APPENDIX: REPORT of the PRODUCTIONS, COMMERCE, and MANUFAC | `529–559` | 31 | 81 | 0 / 31 |
-| GENERAL INDEX. | `561–596` | 34 | 20 | 0 / 34 |
+| GENERAL INDEX. | `561–596` | 34 | 19 | 0 / 34 |

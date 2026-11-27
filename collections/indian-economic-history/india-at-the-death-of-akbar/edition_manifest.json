@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/india-at-the-death-of-akbar/epub/india-at-the-death-of-akbar.epub",
     "markdown": "library/indian-economic-history/india-at-the-death-of-akbar/markdown/india-at-the-death-of-akbar.md",
     "tei_xml": "library/indian-economic-history/india-at-the-death-of-akbar/tei/india-at-the-death-of-akbar.tei.xml",
-    "print_html": "library/indian-economic-history/india-at-the-death-of-akbar/print/india-at-the-death-of-akbar.print.html",
+    "print_source": "library/indian-economic-history/india-at-the-death-of-akbar/print/india-at-the-death-of-akbar.typ",
     "pdf": "library/indian-economic-history/india-at-the-death-of-akbar/print/india-at-the-death-of-akbar.pdf",
+    "onepage_html": "library/indian-economic-history/india-at-the-death-of-akbar/html/india-at-the-death-of-akbar.html",
     "datasets": "library/indian-economic-history/india-at-the-death-of-akbar/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/india-at-the-death-of-akbar/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 7 fixes · 17 pp. checked",
-        "detail": "7 anchored emendation(s) applied; 17 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 8 fixes · 17 pp. checked",
+        "detail": "8 anchored emendation(s) applied; 17 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -172,7 +173,7 @@
       "total": 7
     },
     "corrections": {
-      "applied": 7,
+      "applied": 8,
       "unmatched": 0,
       "details": [
         {
@@ -222,6 +223,13 @@
           "page_number": 345,
           "matched_block_id": "p0345-b0030",
           "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0329-b0001",
+          "page_number": 329,
+          "matched_block_id": "p0329-b0001",
+          "op": "set_type",
           "status": "applied"
         }
       ]
@@ -314,8 +322,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 7 fixes · 17 pp. checked",
-          "detail": "7 anchored emendation(s) applied; 17 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 8 fixes · 17 pp. checked",
+          "detail": "8 anchored emendation(s) applied; 17 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

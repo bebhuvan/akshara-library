@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/from-akbar-to-aurangzeb/epub/from-akbar-to-aurangzeb.epub",
     "markdown": "library/indian-economic-history/from-akbar-to-aurangzeb/markdown/from-akbar-to-aurangzeb.md",
     "tei_xml": "library/indian-economic-history/from-akbar-to-aurangzeb/tei/from-akbar-to-aurangzeb.tei.xml",
-    "print_html": "library/indian-economic-history/from-akbar-to-aurangzeb/print/from-akbar-to-aurangzeb.print.html",
+    "print_source": "library/indian-economic-history/from-akbar-to-aurangzeb/print/from-akbar-to-aurangzeb.typ",
     "pdf": "library/indian-economic-history/from-akbar-to-aurangzeb/print/from-akbar-to-aurangzeb.pdf",
+    "onepage_html": "library/indian-economic-history/from-akbar-to-aurangzeb/html/from-akbar-to-aurangzeb.html",
     "datasets": "library/indian-economic-history/from-akbar-to-aurangzeb/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/from-akbar-to-aurangzeb/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 26 fixes · 30 pp. checked",
-        "detail": "26 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 27 fixes · 30 pp. checked",
+        "detail": "27 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -191,7 +192,7 @@
       "total": 11
     },
     "corrections": {
-      "applied": 26,
+      "applied": 27,
       "unmatched": 0,
       "details": [
         {
@@ -375,6 +376,13 @@
           "matched_block_id": "p0358-b0007",
           "op": "set_cells",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0226-b0006-glue",
+          "page_number": 226,
+          "matched_block_id": "p0226-b0006",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -402,7 +410,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mardan' appears without diacritics here, whereas this volume consistently prints 'Mardān' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0218-b0005"
       },
@@ -411,7 +419,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Diwan' appears without diacritics here, whereas this volume consistently prints 'Dīwān' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0221-b0003"
       },
@@ -502,8 +510,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 26 fixes · 30 pp. checked",
-          "detail": "26 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 27 fixes · 30 pp. checked",
+          "detail": "27 anchored emendation(s) applied; 30 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

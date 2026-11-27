@@ -14,8 +14,8 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
-| **3. Tabular & Numerical Accuracy** | **8.0 / 25.0** | -12.0: 81 column total arithmetic mismatch(es); -5.0: 12 ragged table geometry warning(s) |
-| **4. Orthographic, Script & Diacritics** | **20.0 / 25.0** | -5.0: 84 `<unclear>` ink span(s) awaiting scan check |
+| **3. Tabular & Numerical Accuracy** | **8.0 / 25.0** | -12.0: 82 column total arithmetic mismatch(es); -5.0: 8 ragged table geometry warning(s) |
+| **4. Orthographic, Script & Diacritics** | **20.0 / 25.0** | -5.0: 83 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
 - Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
@@ -75,7 +75,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `343` prose joins, `0` split footnotes stitched, `20` multi-page tables unified, `2` total footnotes.
+- **Cross-Page Assembly**: `345` prose joins, `0` split footnotes stitched, `20` multi-page tables unified, `2` total footnotes.
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`136` — verify no epigraph/dedication was caught)**:
   - Leaf `3` `p0003-b0001` (`scanner_residue`): *"LIBRARY OF PRINCETON OCT 17 1913 THEOLOGICAL SEMINARY"*
   - Leaf `4` `p0004-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2016"*
@@ -97,4 +97,4 @@
 
 - **Detected Scripts**: `latin`: 879,722 chars, `greek`: 7 chars
 - **Distinct Non-ASCII Glyphs (`35` across `391` leaves)**: Æ á â ä æ é ë í ó ù ú ā œ ŕ ŭ ſ ε ι ν ο ρ ἱ ⁄ ₀ ₁ ⅓ ⅔ ⅕ ⅖ ⅗ ⅘ ⅙ ⅛ ⅜ ⅞
-- **Corrections Replayed**: `11` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `151` applied, `0` orphaned/unmatched

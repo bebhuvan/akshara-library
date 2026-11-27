@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "famines-and-land-assessments",
   "run_id": "g38-batch-v1",
-  "total_score": 85.4,
+  "total_score": 87.9,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -21,10 +21,10 @@
       ]
     },
     "tabular_accuracy": {
-      "score": 21.0,
+      "score": 23.5,
       "max": 25.0,
       "deductions": [
-        "-4.0: 1 collapsed/jammed table row warning(s)"
+        "-1.5: 1 ragged table geometry warning(s)"
       ]
     },
     "orthographic_fidelity": {
@@ -38,10 +38,10 @@
   "issue_counts_by_code": {
     "footnote_marker_mismatch": 2,
     "column_reading_order_zigzag": 1,
-    "table_collapsed_rows": 1,
+    "table_ragged_columns": 1,
     "unclear_ink_span": 13,
     "rare_character": 8,
-    "table_compositor_arithmetic_variant": 18,
+    "table_compositor_arithmetic_variant": 5,
     "table_blind_total_confirmed": 2
   },
   "human_proof_coverage": 0.0,

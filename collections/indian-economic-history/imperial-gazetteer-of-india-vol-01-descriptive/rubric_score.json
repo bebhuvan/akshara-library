@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "imperial-gazetteer-of-india-vol-01-descriptive",
   "run_id": "g38-batch-v1",
-  "total_score": 80.0,
+  "total_score": 89.0,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -25,18 +25,15 @@
       ]
     },
     "orthographic_fidelity": {
-      "score": 16.0,
+      "score": 25.0,
       "max": 25.0,
-      "deductions": [
-        "-9.0: 3 script/codepoint anomaly(ies)"
-      ]
+      "deductions": []
     }
   },
   "issue_counts_by_code": {
-    "script_anomaly": 3,
     "table_ragged_columns": 2,
     "table_collapsed_rows": 2,
-    "rare_character": 37,
+    "rare_character": 36,
     "orthographic_compositor_variant": 30,
     "footnote_compositor_variant": 1,
     "table_compositor_arithmetic_variant": 24,

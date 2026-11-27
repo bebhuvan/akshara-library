@@ -29,6 +29,7 @@ All footnote callouts and cross-page continuations linked cleanly!
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
 - [ ] Leaf **40**: 'ā' (U+0101 LATIN SMALL LETTER A WITH MACRON) appears only 1 time(s) in this book, here in 'pān'.
+- [ ] Leaf **71**: 'ī' (U+012B LATIN SMALL LETTER I WITH MACRON) appears only 2 time(s) in this book, here in 'Farīdpur'.
 - [ ] Leaf **92**: Column 4 states total 60000000 but its 8 contributing cells sum to 60037000 (difference 37000).
 - [ ] Leaf **121**: Column 2 states total 3 but its 9 contributing cells sum to 1 (difference -2).
 - [ ] Leaf **121**: Column 3 states total 8.25 but its 9 contributing cells sum to 32.25 (difference 24).
@@ -49,10 +50,11 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 
 | Section | PDF Leaves | Leaves | Open Hotspots | Verified |
 | :--- | :---: | ---: | ---: | ---: |
-| Frontmatter | `5–14` | 10 | 0 | 0 / 10 |
+| Frontmatter | `5–8` | 4 | 0 | 0 / 4 |
+| FOREWORD | `9–14` | 6 | 0 | 0 / 6 |
 | CONTENTS | `15–16` | 2 | 0 | 0 / 2 |
 | Chapter I The District and its inhabitants, their homes an | `17–58` | 42 | 1 | 0 / 42 |
-| Chapter II The Domestic Budget | `59–75` | 17 | 0 | 0 / 17 |
+| Chapter II The Domestic Budget | `59–75` | 17 | 1 | 0 / 17 |
 | Chapter III Income and economic condition of the people as | `76–99` | 24 | 1 | 0 / 24 |
 | Chapter IV Indebtedness | `100–116` | 17 | 0 | 0 / 17 |
 | Chapter V Taxation | `117–141` | 25 | 3 | 0 / 25 |

@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 575 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **86.3 / 100** (`community`)
+- **Current Edition Score**: **84.3 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 575** leaves verified
 - **Original Camera Scans**: [Internet Archive (`earlyhistoryofin0000smit_e6k6`)](https://archive.org/details/earlyhistoryofin0000smit_e6k6)
 
@@ -34,12 +34,11 @@ Welcome! You do **not** need to read all 575 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
-- [ ] Leaf **150** (`p0150-b0006`): Footnote has no note_label and is not marked continues_from_prev.
 - [ ] Leaf **483** (`p0483-b0015`): Footnote has no note_label and is not marked continues_from_prev.
 - [ ] Leaves **32 -> 33**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **42 -> 43**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 - [ ] Leaves **57 -> 58**: Confirm cross-page footnote `3` joins smoothly across the page turn.
-- [ ] Leaves **62 -> 63**: Confirm cross-page footnote `1` joins smoothly across the page turn.
+- [ ] Leaves **62 -> 63**: Confirm cross-page footnote `4` joins smoothly across the page turn.
 - [ ] Leaves **64 -> 65**: Confirm cross-page footnote `1` joins smoothly across the page turn.
 - [ ] Leaves **67 -> 68**: Confirm cross-page footnote `3` joins smoothly across the page turn.
 - [ ] Leaves **72 -> 73**: Confirm cross-page footnote `2` joins smoothly across the page turn.
@@ -56,8 +55,11 @@ Welcome! You do **not** need to read all 575 leaves from start to finish to make
 
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
+- [ ] Leaf **199**: Token 'Kusinagara' appears without diacritics here, whereas this volume consistently prints 'Kuśinagara' (6 occurrences).
 - [ ] Leaf **305**: Page 305: the reader's output held invisible control characters, which were removed.
-- [ ] Leaf **473**: Out-of-alphabet Latin character U+0161 LATIN SMALL LETTER S WITH CARON (likely meant 'ś').
+- [ ] Leaf **360**: Token 'Kusinagara' appears without diacritics here, whereas this volume consistently prints 'Kuśinagara' (6 occurrences).
+- [ ] Leaf **397**: Token 'Gauda' appears without diacritics here, whereas this volume consistently prints 'Gauḍa' (6 occurrences).
+- [ ] Leaf **495**: Token 'Gauda' appears without diacritics here, whereas this volume consistently prints 'Gauḍa' (6 occurrences).
 - [ ] Leaf **527**: Uncertain glyph reading marked <unclear>ḷ</unclear>.
 - [ ] Leaf **14**: Token 'Kanchi' appears without diacritics here, whereas this volume consistently prints 'Kānchī' (47 occurrences).
 - [ ] Leaf **18**: Token 'Kanva' appears without diacritics here, whereas this volume consistently prints 'Kāṇva' (20 occurrences).
@@ -78,9 +80,6 @@ Welcome! You do **not** need to read all 575 leaves from start to finish to make
 - [ ] Leaf **69**: Token 'Mudra' appears without diacritics here, whereas this volume consistently prints 'Mudrā' (12 occurrences).
 - [ ] Leaf **69**: Token 'Rakshasa' appears without diacritics here, whereas this volume consistently prints 'Rākshasa' (12 occurrences).
 - [ ] Leaf **73**: Token 'Mahavira' appears without diacritics here, whereas this volume consistently prints 'Mahāvīra' (18 occurrences).
-- [ ] Leaf **74**: Token 'Kunika' appears without diacritics here, whereas this volume consistently prints 'Kūnika' (6 occurrences).
-- [ ] Leaf **75**: Isolated 450-DPI TOTAL strip read ['<i>Total</i> . .', '<b>321</b>', '<i>c.</i> <b>229</b>', 'ity : 57 years allowed.'] vs. full-page pass ['', '<i>Total . .\nAverage .</i>', '321\n32·1', '<i>c.</i> 229\n22·9\n(maximum\npossible\n25·0)', 'The <i>Matsya</i> assigns either\n360 or ? 163 (Pargiter, p.\n69) to the dynasty, as a\nwhole.']. Full-page decoding often self-reconciles totals to misread addends above.
-- [ ] Leaf **76**: 'ἤ' (U+1F24 GREEK SMALL LETTER ETA WITH PSILI AND OXIA) appears only 2 time(s) in this book, here in 'ἤδη'.
 - [ ] Leaf **527** (`p0527-b0012`): Faded ink `<unclear>ḷ</unclear>` in *"…s marks the foundation of Koḷam (Quilon) by Sapīr Ēśō, wh…"*
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `bedrock` (leaf 24), `Marātha` (leaf 27), `Tungabhadra` (leaf 29), `disentanglement` (leaf 30), `revolutionary` (leaf 30), `répertoire` (leaf 32), `sinologists` (leaf 36), `familiarly` (leaf 37), `stratification` (leaf 38), `indischer` (leaf 41), `satisfactorily` (leaf 42), `synchron` (leaf 45), `Vishṇupurāṇa` (leaf 47), `susceptible` (leaf 52), `impossibility` (leaf 52).
 
@@ -103,11 +102,11 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER III: Alexander's Indian Campaign: the Advance | `76–108` | 32 | 12 | 0 / 32 |
 | Appendix D: Alexander's Camp: the Passage of the Hydaspes; | `108–117` | 10 | 4 | 0 / 10 |
 | Appendix E: The Date of the Battle of the Hydaspes | `117–119` | 3 | 0 | 0 / 3 |
-| CHAPTER IV: Alexander's Indian Campaign: the Retreat | `120–152` | 32 | 6 | 0 / 32 |
+| CHAPTER IV: Alexander's Indian Campaign: the Retreat | `120–152` | 32 | 5 | 0 / 32 |
 | CHAPTER V: Chandragupta Maurya and Bindusāra, from 322 to  | `153–190` | 38 | 15 | 0 / 38 |
 | Appendix F: The Extent of the Cession of Ariāna by Seleuko | `190–192` | 3 | 5 | 0 / 3 |
 | Appendix G: The Arthaśāstra or Kauṭi-līya-Śāstra | `192–193` | 2 | 4 | 0 / 2 |
-| CHAPTER VI: Asoka Maurya | `194–216` | 22 | 2 | 0 / 22 |
+| CHAPTER VI: Asoka Maurya | `194–216` | 22 | 3 | 0 / 22 |
 | Appendix H: The Inscriptions of Asoka; Bibliographical Not | `216–219` | 4 | 1 | 0 / 4 |
 | CHAPTER VII: Asoka Maurya (continued); and his Successors | `220–243` | 24 | 6 | 0 / 24 |
 | CHAPTER VIII: The Sunga, Kanva, and Āndhra Dynasties, from | `244–263` | 20 | 6 | 0 / 20 |
@@ -118,13 +117,13 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Appendix L: Synchronistic Table from about 280 b. c. to ab | `297–297` | 1 | 1 | 0 / 1 |
 | Appendix M: The Christians of St. Thomas | `298–300` | 3 | 0 | 0 / 3 |
 | CHAPTER X: The Kushān or Indo-Scythian Dynasty, from about | `301–336` | 35 | 6 | 0 / 35 |
-| CHAPTER XI: The Gupta Empire, and the Western Satraps ; Ch | `337–361` | 25 | 6 | 0 / 25 |
+| CHAPTER XI: The Gupta Empire, and the Western Satraps ; Ch | `337–361` | 25 | 7 | 0 / 25 |
 | CHAPTER XII: The Gupta Empire (continued) ; and the White  | `362–390` | 29 | 0 | 0 / 29 |
 | Appendix N: Vasubandhu and the Guptas | `390–391` | 2 | 0 | 0 / 2 |
-| CHAPTER XIII: The Reign of Harsha, from a. d. 606 to 647 | `392–419` | 27 | 2 | 0 / 27 |
-| CHAPTER XIV: The Mediaeval Kingdoms of the North, from a.  | `420–479` | 59 | 18 | 0 / 59 |
+| CHAPTER XIII: The Reign of Harsha, from a. d. 606 to 647 | `392–419` | 27 | 3 | 0 / 27 |
+| CHAPTER XIV: The Mediaeval Kingdoms of the North, from a.  | `420–479` | 59 | 16 | 0 / 59 |
 | Appendix O: The Origin and Chronology of the Sena Dynasty | `479–486` | 8 | 1 | 0 / 8 |
-| CHAPTER XV: The Kingdoms of the Deccan | `487–502` | 15 | 1 | 0 / 15 |
+| CHAPTER XV: The Kingdoms of the Deccan | `487–502` | 15 | 2 | 0 / 15 |
 | Appendix P: The Principal Dynasties of the Deccan | `503–505` | 3 | 2 | 0 / 3 |
 | CHAPTER XVI: The Kingdoms of the South | `506–555` | 48 | 13 | 0 / 48 |
-| INDEX | `557–596` | 36 | 18 | 0 / 36 |
+| INDEX | `557–596` | 36 | 19 | 0 / 36 |

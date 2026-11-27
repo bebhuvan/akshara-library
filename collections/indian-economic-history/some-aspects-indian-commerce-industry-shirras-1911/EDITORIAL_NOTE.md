@@ -17,6 +17,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Modernized (Presentation Only)**: Running heads and institutional library stamps (9 flyleaf/stamp block(s)) are excluded from reading prose; **19** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **0** cross-page split footnotes and **0** multi-page tables were stitched; and **94** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (4 distinct non-ASCII characters across 5 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+- **Reading Editions Only**: In the web chapters, the one-page edition, the EPUB and the PDF, the space the compositor set before `! ? ; :` and inside quotation marks is closed up (**24** places); **2** straight quotation marks and apostrophes are set as curly ones. The TEI XML and Markdown keep the page exactly as printed.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 

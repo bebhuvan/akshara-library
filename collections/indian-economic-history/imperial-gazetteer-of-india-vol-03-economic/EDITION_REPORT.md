@@ -78,8 +78,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `386` prose joins, `1` split footnotes stitched, `4` multi-page tables unified, `141` total footnotes.
-  - Stitched cross-page footnotes: p.524->p.525 (`1`)
+- **Cross-Page Assembly**: `384` prose joins, `3` split footnotes stitched, `4` multi-page tables unified, `141` total footnotes.
+  - Stitched cross-page footnotes: p.508->p.509 (`1`), p.524->p.525 (`1`), p.539->p.540 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`193` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 00114403 9"*
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2013"*
@@ -101,4 +101,4 @@
 
 - **Detected Scripts**: `latin`: 1,047,213 chars
 - **Distinct Non-ASCII Glyphs (`25` across `434` leaves)**: · â ç é ô ö ü Ā ā ġ ħ ī ū Ṭ „ ′ ″ ⁄ ⅓ ⅔ ⅛ ⅜ ⅞ ⎰ ⎱
-- **Corrections Replayed**: `74` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `82` applied, `0` orphaned/unmatched

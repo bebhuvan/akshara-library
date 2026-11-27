@@ -102,4 +102,4 @@
 
 - **Detected Scripts**: `latin`: 755,839 chars, `katakana`: 3 chars, `han`: 3 chars, `hiragana`: 2 chars
 - **Distinct Non-ASCII Glyphs (`44` across `333` leaves)**: à â ã ä æ ç è é ï ô Ā ā ē ġ ģ ĩ Ī ī ō š ţ ť ū ſ ̃ ḍ ṇ ṛ ṭ ′ ⁄ ⁱ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞ を イ ス ン 数 旪
-- **Corrections Replayed**: `18` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `19` applied, `0` orphaned/unmatched

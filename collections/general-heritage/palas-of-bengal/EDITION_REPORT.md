@@ -13,13 +13,12 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
-| **2. Scholarly Apparatus & Continuation** | **22.0 / 25.0** | -3.0: 1 unresolved footnote callout/body mismatch(es) |
+| **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
-| **4. Orthographic, Script & Diacritics** | **14.4 / 25.0** | -10.0: 20 intra-book diacritic drift cluster(s); -0.6: 3 `<unclear>` ink span(s) awaiting scan check |
+| **4. Orthographic, Script & Diacritics** | **11.4 / 25.0** | -3.0: 1 script/codepoint anomaly(ies); -10.0: 23 intra-book diacritic drift cluster(s); -0.6: 3 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Resolve 1 unmatched footnote marker(s) via anchor-matched corrections.
-- Standardize or verify 20 proper-noun diacritic drift cluster(s).
+- Standardize or verify 23 proper-noun diacritic drift cluster(s).
 
 ---
 
@@ -85,4 +84,4 @@
 
 - **Detected Scripts**: `latin`: 176,695 chars
 - **Distinct Non-ASCII Glyphs (`51` across `98` leaves)**: · Ñ Ü á â æ è é î ñ ö û ü Ā ā ē Ī ī ı ō ő œ Ś ś ū ̐ ̣ । ॥ Ḍ ḍ Ḥ ḥ ḷ ḻ ḿ ṁ ṃ ṅ Ṇ ṇ Ṛ ṛ ṝ Ṣ ṣ Ṭ ṭ ạ ∥ ❲
-- **Corrections Replayed**: `40` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `139` applied, `0` orphaned/unmatched

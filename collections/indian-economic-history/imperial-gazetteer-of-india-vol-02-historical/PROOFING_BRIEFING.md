@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 614 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **96.8 / 100** (`community`)
+- **Current Edition Score**: **99.8 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 614** leaves verified
 - **Original Camera Scans**: [Internet Archive (`imperialgazette02hunt`)](https://archive.org/details/imperialgazette02hunt)
 
@@ -38,7 +38,6 @@ Welcome! You do **not** need to read all 614 leaves from start to finish to make
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
 - [ ] Leaf **142**: Uncertain glyph reading marked <unclear>t</unclear>.
-- [ ] Leaf **420**: Page 420 extracted 348 alphabetic chars vs. 792 in the embedded OCR witness (44%).
 - [ ] Leaf **22**: Token 'Sutras' appears without diacritics here, whereas this volume consistently prints 'Sūtras' (43 occurrences).
 - [ ] Leaf **114**: Page 114 has inline note callout(s) ['1'] vs. labelled footnote(s) [].
 - [ ] Leaf **129**: Token 'Amaravati' appears without diacritics here, whereas this volume consistently prints 'Amarāvati' (24 occurrences).
@@ -62,6 +61,7 @@ Welcome! You do **not** need to read all 614 leaves from start to finish to make
 - [ ] Leaf **182**: 'έ' (U+03AD GREEK SMALL LETTER EPSILON WITH TONOS) appears only 1 time(s) in this book, here in 'βασιλέων,'.
 - [ ] Leaf **182**: 'β' (U+03B2 GREEK SMALL LETTER BETA) appears only 2 time(s) in this book, here in 'βασιλεὺς'.
 - [ ] Leaf **182**: 'ω' (U+03C9 GREEK SMALL LETTER OMEGA) appears only 1 time(s) in this book, here in 'βασιλέων,'.
+- [ ] Leaf **182**: 'ὺ' (U+1F7A GREEK SMALL LETTER UPSILON WITH VARIA) appears only 1 time(s) in this book, here in 'βασιλεὺς'.
 - [ ] Leaf **142** (`p0142-b0009`): Faded ink `<unclear>t</unclear>` in *"…Evans, The Ancient Stone Implements, &c., of G…"*
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `introducing` (leaf 47), `apocryphal` (leaf 48), `Vardhamāna-Mahāvīra` (leaf 50), `Tiruvārūr` (leaf 54), `Dīgha-Nikāya` (leaf 59), `Pravachanaparīkshā` (leaf 64), `Śrīvallabha` (leaf 64), `deciphering` (leaf 66), `Rāwalpiṇḍī` (leaf 67), `Shōlāpūr` (leaf 69), `Pallavamalla-Nandivarman` (leaf 71), `Nāgabhaṭṭa` (leaf 73), `signmanual` (leaf 75), `spoonshaped` (leaf 75), `Duṁdubhisara` (leaf 78).
 

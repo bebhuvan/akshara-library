@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/epub/economic-causes-of-famines-in-india-ray-1909.epub",
     "markdown": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/markdown/economic-causes-of-famines-in-india-ray-1909.md",
     "tei_xml": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/tei/economic-causes-of-famines-in-india-ray-1909.tei.xml",
-    "print_html": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/print/economic-causes-of-famines-in-india-ray-1909.print.html",
+    "print_source": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/print/economic-causes-of-famines-in-india-ray-1909.typ",
     "pdf": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/print/economic-causes-of-famines-in-india-ray-1909.pdf",
+    "onepage_html": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/html/economic-causes-of-famines-in-india-ray-1909.html",
     "datasets": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/economic-causes-of-famines-in-india-ray-1909/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 4 fixes · 11 pp. checked",
-        "detail": "4 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 5 fixes · 11 pp. checked",
+        "detail": "5 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -154,7 +155,7 @@
       "total": 3
     },
     "corrections": {
-      "applied": 4,
+      "applied": 5,
       "unmatched": 0,
       "details": [
         {
@@ -182,6 +183,13 @@
           "correction_id": "autoqa-crop-d49-shelf-v1-p0083-b0003-tok",
           "page_number": 83,
           "matched_block_id": "p0083-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-ray-p0090-b0003-martime",
+          "page_number": 90,
+          "matched_block_id": "p0090-b0003",
           "op": "set_text",
           "status": "applied"
         }
@@ -239,8 +247,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 4 fixes · 11 pp. checked",
-          "detail": "4 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 5 fixes · 11 pp. checked",
+          "detail": "5 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

@@ -17,6 +17,7 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Modernized (Presentation Only)**: Running heads and institutional library stamps (60 flyleaf/stamp block(s)) are excluded from reading prose; **230** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **20** cross-page split footnotes and **0** multi-page tables were stitched; and **769** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (180 distinct non-ASCII characters across 244 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+- **Reading Editions Only**: In the web chapters, the one-page edition, the EPUB and the PDF, the space the compositor set before `! ? ; :` and inside quotation marks is closed up (**445** places); **57** straight quotation marks and apostrophes are set as curly ones. The TEI XML and Markdown keep the page exactly as printed.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
@@ -28,8 +29,8 @@ Rather than pretend machine transcription is infallible, here is what our valida
 
 - **89 finding(s) across 37 leaf(s)** (pp. 45, 46, 70, 77, 100, 147, 178, 179, 189, 241 (+27 more)): rare character.
 - **22 finding(s) across 12 leaf(s)** (pp. 168, 186, 188, 193, 217, 245, 286, 309, 312, 324 (+2 more)): script character confirmed.
-- **6 finding(s) across 6 leaf(s)** (pp. 83, 114, 115, 153, 188, 189): attested compositor footnote callout/note variants preserved diplomatically from the scan.
 - **5 finding(s) across 5 leaf(s)** (pp. 123, 124, 214, 289, 319): attested compositor spelling variants preserved diplomatically from the scan.
+- **3 finding(s) across 3 leaf(s)** (pp. 83, 188, 189): attested compositor footnote callout/note variants preserved diplomatically from the scan.
 - **1 finding(s) across 1 leaf(s)** (pp. 315): table compositor arithmetic variant.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

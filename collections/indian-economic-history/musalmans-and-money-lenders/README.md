@@ -4,7 +4,7 @@
 - **Publication Year**: 1886
 - **Imprint**: Edinburgh & London: William Blackwood and Sons
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**99.4 / 100**)
+- **Edition Tier**: `community` (**96.4 / 100**)
 - **Internet Archive Source**: https://archive.org/details/cu31924013743848
 
 ## Files in This Folder

@@ -37,7 +37,8 @@ All footnote callouts and cross-page continuations linked cleanly!
 ## Mission 3 — Faded Ink (`<unclear>`), Diacritics & Hyphenation
 
 - [ ] Leaf **116**: 'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 2 time(s) in this book, here in 'françaises,'.
-- [ ] Leaf **120**: 'Ç' (U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'MONÇOES).'.
+- [ ] Leaf **120**: 'Ç' (U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'MONÇÕES).'.
+- [ ] Leaf **120**: 'Õ' (U+00D5 LATIN CAPITAL LETTER O WITH TILDE) appears only 1 time(s) in this book, here in 'MONÇÕES).'.
 - [ ] Leaf **121**: 'ã' (U+00E3 LATIN SMALL LETTER A WITH TILDE) appears only 1 time(s) in this book, here in 'Collecção'.
 - [ ] Leaf **121**: 'ç' (U+00E7 LATIN SMALL LETTER C WITH CEDILLA) appears only 2 time(s) in this book, here in 'Collecção'.
 - [ ] Leaf **154**: 'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Trübner'.
@@ -62,5 +63,5 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | The Agra Presidency | `86–87` | 2 | 0 | 0 / 2 |
 | Consultations, 67 ; Accounts | `87–89` | 3 | 0 | 0 / 3 |
 | Consultations, 68 ; Accounts | `89–101` | 13 | 0 | 0 / 13 |
-| Bombay | `101–142` | 42 | 4 | 0 / 42 |
+| Bombay | `101–142` | 42 | 5 | 0 / 42 |
 | Index | `143–156` | 11 | 1 | 0 / 11 |

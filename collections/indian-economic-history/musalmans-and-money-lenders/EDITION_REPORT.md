@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Musalmans and Money-Lenders in the Punjab*
 
 - **Book ID**: `musalmans-and-money-lenders` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`99.4 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`96.4 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 207 of 207 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `207` extracted, `9` blank/tissue, `0` failed (of `216` PDF leaves)
 - **Tracked API Spend**: **`$0.7968`** (`75.5%` cached input tokens: `1,638,612` / `2,171,388` in, `274,588` out, `0` thoughts)
@@ -13,12 +13,12 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
-| **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
+| **2. Scholarly Apparatus & Continuation** | **22.0 / 25.0** | -3.0: 1 unresolved footnote callout/body mismatch(es) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
 | **4. Orthographic, Script & Diacritics** | **24.4 / 25.0** | -0.6: 3 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 1.0%) toward Source-Certified.
+- Resolve 1 unmatched footnote marker(s) via anchor-matched corrections.
 
 ---
 
@@ -66,7 +66,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `129` prose joins, `0` split footnotes stitched, `0` multi-page tables unified, `75` total footnotes.
+- **Cross-Page Assembly**: `132` prose joins, `1` split footnotes stitched, `0` multi-page tables unified, `74` total footnotes.
+  - Stitched cross-page footnotes: p.105->p.106 (`†`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`85` — verify no epigraph/dedication was caught)**:
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"Cornell University Library BOUGHT WITH THE INCOME FROM THE SAGE ENDOWMENT FUND THE GIFT OF"*
   - Leaf `2` `p0002-b0002` (`scanner_residue`): *"7673-2"*
@@ -88,4 +89,4 @@
 
 - **Detected Scripts**: `latin`: 311,394 chars
 - **Distinct Non-ASCII Glyphs (`12` across `38` leaves)**: · À à á â æ é í ô ú ý „
-- **Corrections Replayed**: `22` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `24` applied, `0` orphaned/unmatched

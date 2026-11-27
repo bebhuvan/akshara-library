@@ -93,4 +93,4 @@
 
 - **Detected Scripts**: `latin`: 327,126 chars, `greek`: 311 chars, `hangul`: 1 chars
 - **Distinct Non-ASCII Glyphs (`94` across `232` leaves)**: À Æ Ç à á ä æ ç é ë ï ñ ô ö ü Ā ā ē ę ī ĭ ō œ ũ ū ŭ ̯ Γ Δ Ζ Κ Ο ά έ ή ί α β γ δ ε ζ η θ ι κ λ μ ν ο π ρ ς σ τ υ φ χ ω ό
-- **Corrections Replayed**: `25` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `30` applied, `0` orphaned/unmatched

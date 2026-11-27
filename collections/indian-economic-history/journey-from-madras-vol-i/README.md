@@ -17,7 +17,7 @@
 - `markdown/journey-from-madras-vol-i.md` — Complete Scholarly Markdown
 - `tei/journey-from-madras-vol-i.tei.xml` — TEI P5 XML archival master
 - `datasets/` — Diplomatic 2D & Tidy unpivoted statistical CSV/JSON datasets (`datapackage.json`)
-- `figures/` — 37 cropped archival plates/maps
+- `figures/` — 38 cropped archival plates/maps
 
 ## Binary Release Assets
 

@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/epub/english-factories-india-1651-1654-vol-09.epub",
     "markdown": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/markdown/english-factories-india-1651-1654-vol-09.md",
     "tei_xml": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/tei/english-factories-india-1651-1654-vol-09.tei.xml",
-    "print_html": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/print/english-factories-india-1651-1654-vol-09.print.html",
+    "print_source": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/print/english-factories-india-1651-1654-vol-09.typ",
     "pdf": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/print/english-factories-india-1651-1654-vol-09.pdf",
+    "onepage_html": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/html/english-factories-india-1651-1654-vol-09.html",
     "datasets": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/english-factories-india-1651-1654-vol-09/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 7 fixes · 5 pp. checked",
-        "detail": "7 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 9 fixes · 5 pp. checked",
+        "detail": "9 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -157,7 +158,7 @@
       "total": 13
     },
     "corrections": {
-      "applied": 7,
+      "applied": 9,
       "unmatched": 0,
       "details": [
         {
@@ -208,6 +209,20 @@
           "matched_block_id": "p0070-b0003",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0251-b0004",
+          "page_number": 251,
+          "matched_block_id": "p0251-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0096-b0003-glue",
+          "page_number": 96,
+          "matched_block_id": "p0096-b0003",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -244,7 +259,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Chhatarsal' appears without diacritics here, whereas this volume consistently prints 'Chhatarsāl' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0130-b0003"
       },
@@ -253,7 +268,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrzā' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0158-b0004"
       },
@@ -262,7 +277,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sultan' appears without diacritics here, whereas this volume consistently prints 'Sultān' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0227-b0003"
       },
@@ -289,7 +304,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Thome' appears without diacritics here, whereas this volume consistently prints 'Thomé' (21 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0283-b0003"
       },
@@ -307,7 +322,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kanappa' appears without diacritics here, whereas this volume consistently prints 'Kānappa' (23 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0286-b0003"
       },
@@ -353,8 +368,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 7 fixes · 5 pp. checked",
-          "detail": "7 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 9 fixes · 5 pp. checked",
+          "detail": "9 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

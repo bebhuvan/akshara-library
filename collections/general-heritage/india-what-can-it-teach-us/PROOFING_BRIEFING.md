@@ -57,8 +57,6 @@ Welcome! You do **not** need to read all 344 leaves from start to finish to make
 - [ ] Leaf **77**: 'ὁ' (U+1F41 GREEK SMALL LETTER OMICRON WITH DASIA) appears only 2 time(s) in this book, here in 'ὁμοίως'.
 - [ ] Leaf **83**: Page 83 has inline note callout(s) ['1', '2', '3', '4'] vs. labelled footnote(s) ['1', '2', '2', '4'].
 - [ ] Leaf **100**: 'ऽ' (U+093D DEVANAGARI SIGN AVAGRAHA) appears only 1 time(s) in this book, here in 'ऽ'.
-- [ ] Leaf **114**: Page 114 has inline note callout(s) ['1'] vs. labelled footnote(s) ['1', '*', '†'].
-- [ ] Leaf **115**: Page 115 has inline note callout(s) ['1'] vs. labelled footnote(s) ['1', '*', '†'].
 - [ ] Leaf **123**: Token 'Aryas' appears without diacritics here, whereas this volume consistently prints 'Âryas' (12 occurrences).
 - [ ] Leaf **124**: Token 'Aryas' appears without diacritics here, whereas this volume consistently prints 'Âryas' (12 occurrences).
 - [ ] Leaf **147**: 'ֶ' (U+05B6 HEBREW POINT SEGOL) appears only 1 time(s) in this book, here in '(מָנֶה),'.
@@ -66,7 +64,6 @@ Welcome! You do **not** need to read all 344 leaves from start to finish to make
 - [ ] Leaf **147**: 'ה' (U+05D4 HEBREW LETTER HE) appears only 1 time(s) in this book, here in '(מָנֶה),'.
 - [ ] Leaf **147**: 'מ' (U+05DE HEBREW LETTER MEM) appears only 1 time(s) in this book, here in '(מָנֶה),'.
 - [ ] Leaf **147**: 'נ' (U+05E0 HEBREW LETTER NUN) appears only 1 time(s) in this book, here in '(מָנֶה),'.
-- [ ] Leaf **153**: Page 153 has inline note callout(s) ['1'] vs. labelled footnote(s) ['1', '*', '†', '‡', '§'].
 - [ ] Leaf **168**: Out-of-alphabet Latin character U+0177 LATIN SMALL LETTER Y WITH CIRCUMFLEX.
 - [ ] Leaf **178**: 'Ο' (U+039F GREEK CAPITAL LETTER OMICRON) appears only 2 time(s) in this book, here in 'Οὐρανοῦ'.
 - [ ] Leaf **178**: 'Χ' (U+03A7 GREEK CAPITAL LETTER CHI) appears only 1 time(s) in this book, here in 'Χαῖρε'.
@@ -75,6 +72,9 @@ Welcome! You do **not** need to read all 344 leaves from start to finish to make
 - [ ] Leaf **179**: 'ὁ' (U+1F41 GREEK SMALL LETTER OMICRON WITH DASIA) appears only 2 time(s) in this book, here in 'ὁ'.
 - [ ] Leaf **179**: 'ὅ' (U+1F45 GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA) appears only 1 time(s) in this book, here in 'ὅθεν'.
 - [ ] Leaf **179**: 'ὑ' (U+1F51 GREEK SMALL LETTER UPSILON WITH DASIA) appears only 1 time(s) in this book, here in 'ὑγροβόλους'.
+- [ ] Leaf **186**: Out-of-alphabet Latin character U+1EA5 LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE.
+- [ ] Leaf **188**: Page 188 has inline note callout(s) ['1', '2', '3', '4', '5', '6'] vs. labelled footnote(s) ['1', '2', '3', '4'].
+- [ ] Leaf **188**: Out-of-alphabet Latin character U+1EA5 LATIN SMALL LETTER A WITH CIRCUMFLEX AND ACUTE.
 - [ ] Leaf **100** (`p0100-b0009`): Faded ink `<unclear>s</unclear>` in *"…on used is Khandaso âropemâ s ti.…"*
 - [ ] Leaf **245** (`p0245-b0006`): Faded ink `<unclear>g</unclear>` in *"…sometimes read of the great-grandfathers being in heaven,…"*
 - [ ] Leaf **245** (`p0245-b0006`): Faded ink `<unclear>e s</unclear>` in *"…aven, the grandfathers in the sky, the fathers on the earth…"*
@@ -93,8 +93,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Preface to Second Edition | `15–22` | 8 | 0 | 0 / 8 |
 | Lecture I. What can India teach us? | `23–55` | 33 | 2 | 0 / 33 |
 | Lecture II. On the truthful character of the Hindus | `56–97` | 42 | 4 | 0 / 42 |
-| Lecture III. The human interest of Sanskrit Literature | `98–135` | 38 | 5 | 0 / 38 |
-| Lecture IV. Objections | `136–162` | 27 | 6 | 0 / 27 |
+| Lecture III. The human interest of Sanskrit Literature | `98–135` | 38 | 3 | 0 / 38 |
+| Lecture IV. Objections | `136–162` | 27 | 5 | 0 / 27 |
 | Lecture V. The Lessons of the Veda | `163–197` | 35 | 14 | 0 / 35 |
 | Lecture VI. Vedic Deities | `198–223` | 26 | 2 | 0 / 26 |
 | Lecture VII. Veda and Vedânta | `224–277` | 54 | 9 | 0 / 54 |

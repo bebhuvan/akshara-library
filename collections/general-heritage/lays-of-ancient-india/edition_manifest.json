@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/lays-of-ancient-india/epub/lays-of-ancient-india.epub",
     "markdown": "library/general-heritage/lays-of-ancient-india/markdown/lays-of-ancient-india.md",
     "tei_xml": "library/general-heritage/lays-of-ancient-india/tei/lays-of-ancient-india.tei.xml",
-    "print_html": "library/general-heritage/lays-of-ancient-india/print/lays-of-ancient-india.print.html",
+    "print_source": "library/general-heritage/lays-of-ancient-india/print/lays-of-ancient-india.typ",
     "pdf": "library/general-heritage/lays-of-ancient-india/print/lays-of-ancient-india.pdf",
+    "onepage_html": "library/general-heritage/lays-of-ancient-india/html/lays-of-ancient-india.html",
     "datasets": "library/general-heritage/lays-of-ancient-india/datasets/tables_manifest.json",
     "datapackage": "library/general-heritage/lays-of-ancient-india/datasets/datapackage.json"
   },
@@ -118,7 +119,6 @@
       ],
       "artifacts": [
         "1 Statistical Tables",
-        "1 Archival Plates",
         "88 Footnotes"
       ]
     }
@@ -203,7 +203,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'KALIDASA' appears without diacritics here, whereas this volume consistently prints 'Kâlidâsa' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0005-b0010"
       },
@@ -212,7 +212,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepâl' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0007-b0005"
       },
@@ -239,7 +239,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahabharata' appears without diacritics here, whereas this volume consistently prints 'Mahâbhârata' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0011-b0011"
       },
@@ -266,7 +266,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sakya' appears without diacritics here, whereas this volume consistently prints 'Sâkya' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0022-b0004"
       },
@@ -275,7 +275,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Pushan' appears without diacritics here, whereas this volume consistently prints 'Pûshan' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0119-b0004"
       },
@@ -284,7 +284,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ganga' appears without diacritics here, whereas this volume consistently prints 'Gangâ' (13 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0155-b0006"
       }
@@ -370,7 +370,6 @@
         ],
         "artifacts": [
           "1 Statistical Tables",
-          "1 Archival Plates",
           "88 Footnotes"
         ]
       }

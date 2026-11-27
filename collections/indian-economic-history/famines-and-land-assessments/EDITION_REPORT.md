@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *Famines and Land Assessments in India*
 
 - **Book ID**: `famines-and-land-assessments` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`85.4 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`87.9 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 347 of 347 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `347` extracted, `5` blank/tissue, `0` failed (of `352` PDF leaves)
 - **Tracked API Spend**: **`$1.3052`** (`73.3%` cached input tokens: `2,764,108` / `3,771,184` in, `405,766` out, `0` thoughts)
@@ -14,7 +14,7 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **23.0 / 25.0** | -2.0: 1 multi-column zig-zag reading order warning(s) |
 | **2. Scholarly Apparatus & Continuation** | **19.0 / 25.0** | -6.0: 2 unresolved footnote callout/body mismatch(es) |
-| **3. Tabular & Numerical Accuracy** | **21.0 / 25.0** | -4.0: 1 collapsed/jammed table row warning(s) |
+| **3. Tabular & Numerical Accuracy** | **23.5 / 25.0** | -1.5: 1 ragged table geometry warning(s) |
 | **4. Orthographic, Script & Diacritics** | **22.4 / 25.0** | -2.6: 13 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
@@ -69,7 +69,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `229` prose joins, `4` split footnotes stitched, `5` multi-page tables unified, `61` total footnotes.
+- **Cross-Page Assembly**: `228` prose joins, `4` split footnotes stitched, `7` multi-page tables unified, `62` total footnotes.
   - Stitched cross-page footnotes: p.132->p.133 (`1`), p.310->p.311 (`Note`), p.314->p.315 (`Note`), p.314->p.315 (`*`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`44` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"ASIA"*
@@ -92,4 +92,4 @@
 
 - **Detected Scripts**: `latin`: 409,511 chars
 - **Distinct Non-ASCII Glyphs (`17` across `31` leaves)**: · Â Ü á â é ê î ô õ ü ā œ Ś ś ˙ „
-- **Corrections Replayed**: `67` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `124` applied, `0` orphaned/unmatched

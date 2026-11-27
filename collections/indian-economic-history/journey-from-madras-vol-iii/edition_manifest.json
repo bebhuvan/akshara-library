@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/journey-from-madras-vol-iii/epub/journey-from-madras-vol-iii.epub",
     "markdown": "library/indian-economic-history/journey-from-madras-vol-iii/markdown/journey-from-madras-vol-iii.md",
     "tei_xml": "library/indian-economic-history/journey-from-madras-vol-iii/tei/journey-from-madras-vol-iii.tei.xml",
-    "print_html": "library/indian-economic-history/journey-from-madras-vol-iii/print/journey-from-madras-vol-iii.print.html",
+    "print_source": "library/indian-economic-history/journey-from-madras-vol-iii/print/journey-from-madras-vol-iii.typ",
     "pdf": "library/indian-economic-history/journey-from-madras-vol-iii/print/journey-from-madras-vol-iii.pdf",
+    "onepage_html": "library/indian-economic-history/journey-from-madras-vol-iii/html/journey-from-madras-vol-iii.html",
     "datasets": "library/indian-economic-history/journey-from-madras-vol-iii/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/journey-from-madras-vol-iii/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 11 fixes · 37 pp. checked",
-        "detail": "11 anchored emendation(s) applied; 37 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 151 fixes · 37 pp. checked",
+        "detail": "151 anchored emendation(s) applied; 37 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -111,7 +112,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 2 footnotes and 1191 margin/shoulder notes"
+        "detail": "Linked apparatus with 2 footnotes and 1209 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -149,7 +150,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 177,
+      "open_hotspots": 173,
       "extracted_page_count": 570,
       "p1_proofed_page_count": 0,
       "reread_page_count": 37,
@@ -198,16 +199,16 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (177 open review items); 37 of 570 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (173 open review items); 37 of 570 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 177,
+      "review": 173,
       "informational": 59,
-      "total": 236
+      "total": 232
     },
     "corrections": {
-      "applied": 11,
+      "applied": 151,
       "unmatched": 0,
       "details": [
         {
@@ -246,20 +247,6 @@
           "status": "applied"
         },
         {
-          "correction_id": "scan-audit-v1-p0121-b0016",
-          "page_number": 121,
-          "matched_block_id": "p0121-b0016",
-          "op": "set_cells",
-          "status": "applied"
-        },
-        {
-          "correction_id": "scan-audit-v1-p0121-b0048",
-          "page_number": 121,
-          "matched_block_id": "p0121-b0048",
-          "op": "set_cells",
-          "status": "applied"
-        },
-        {
           "correction_id": "scan-audit-v1-p0236-b0008",
           "page_number": 236,
           "matched_block_id": "p0236-b0008",
@@ -285,6 +272,1000 @@
           "page_number": 584,
           "matched_block_id": "p0584-b0028",
           "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "jfm3-p0351-b0003-plate",
+          "page_number": 351,
+          "matched_block_id": "p0351-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0379-b0003-bbox",
+          "page_number": 379,
+          "matched_block_id": "p0379-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0382-b0003-bbox",
+          "page_number": 382,
+          "matched_block_id": "p0382-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0003",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0004",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0005",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0006",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0007",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0008",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0009",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0010",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0011",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0012",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0013",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0014",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0015",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0016",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0018",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0019",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0019",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-b0020-h2h3",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0020",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0021",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0022",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0022",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0023",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0024",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0024",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0025",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0025",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0026",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0026",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0027",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0027",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0028",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0028",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0029",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0029",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0031",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0031",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0032",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0032",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0033",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0033",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0034",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0034",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0035",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0035",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0036",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0036",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0037",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0037",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0038",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0038",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0039",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0039",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0040",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0040",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0041",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0041",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0042",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0042",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0043",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0043",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0044",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0044",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0045",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0045",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0046",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0046",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0047",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0047",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-madras3-p0121-p0121-b0048",
+          "page_number": 121,
+          "matched_block_id": "p0121-b0048",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-madras3-p0013-b0003-spans",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-madras3-p0013-b0004-spans",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p2-madras3-p0566-b0002-capala-425",
+          "page_number": 566,
+          "matched_block_id": "p0566-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0003",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0004",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0005",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0005",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0006",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0007",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0007",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0008",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0008",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0009",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0009",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0010",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0010",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0011",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0011",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0012",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0012",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0013",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0013",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0014",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0014",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0015",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0015",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0016",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0016",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0017",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0017",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0018",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0018",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0019",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0019",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0020",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0020",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0021",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0021",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0022",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0022",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0023",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0023",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0024",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0024",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0025",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0025",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0026",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0026",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0027",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0027",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0028",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0028",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0029",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0029",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0030",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0030",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0031",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0031",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0032",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0032",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0033",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0033",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0034",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0034",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0035",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0035",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0036",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0036",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0037",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0037",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0038",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0038",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0039",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0039",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0040",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0040",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0041",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0041",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0042",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0042",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0043",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0043",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0044",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0044",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0045",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0045",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0046",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0046",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0047",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0047",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0048",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0048",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0049",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0049",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0050",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0050",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0051",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0051",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0052",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0052",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0053",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0053",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0054",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0054",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0055",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0055",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0056",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0056",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0057",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0057",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0058",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0058",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0059",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0059",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0060",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0060",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0061",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0061",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0062",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0062",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0063",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0063",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0064",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0064",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0065",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0065",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0066",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0066",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0067",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0067",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0068",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0068",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0069",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0069",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0070",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0070",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0071",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0071",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0072",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0072",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0073",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0073",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0074",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0074",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0075",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0075",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0076",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0076",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0077",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0077",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0078",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0078",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0079",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0079",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0080",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0080",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0081",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0081",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0082",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0082",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0083",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0083",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0084",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0084",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0085",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0085",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0086",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0086",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0087",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0087",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0088",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0088",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0089",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0089",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0090",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0090",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0091",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0091",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0092",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0092",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0093",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0093",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p3-madras3-p0013-b0094",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0094",
+          "op": "set_cells",
           "status": "applied"
         }
       ]
@@ -338,18 +1319,9 @@
       {
         "page_number": 13,
         "severity": "review",
-        "category": "table_ragged_columns",
-        "message": "Table row p0013-b0004 expands to 36 columns vs. table body width 34 (even after accounting for colspan/rowspan).",
-        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
-        "validator": "table_geometry",
-        "block_id": "p0013-b0004"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 11 states total 13641 but its 88 contributing cells sum to 40.75 (difference -13600.25).",
-        "expected_action": "Compare column cells and total row against the source scan.",
+        "message": "Compound Pag_Fan_An columns 14..16 state a total of Pag. 13641-6-2, but the 88 contributing rows sum to Pag. 13570-5-14.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0013-b0094"
       },
@@ -357,8 +1329,8 @@
         "page_number": 13,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 12 states total 6 but its 88 contributing cells sum to 13373 (difference 13367).",
-        "expected_action": "Compare column cells and total row against the source scan.",
+        "message": "Compound Pag_Fan_An columns 17..19 state a total of Pag. 1025-1-2, but the 88 contributing rows sum to Pag. 1025-5-8.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0013-b0094"
       },
@@ -366,8 +1338,8 @@
         "page_number": 13,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 13 states total 2 but its 88 contributing cells sum to 406 (difference 404).",
-        "expected_action": "Compare column cells and total row against the source scan.",
+        "message": "Compound Pag_Fan_An columns 33..35 state a total of Pag. 10347-7-15, but the 88 contributing rows sum to Pag. 10349-7-15.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0013-b0094"
       },
@@ -375,98 +1347,8 @@
         "page_number": 13,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 14 states total 1025 but its 88 contributing cells sum to 342 (difference -683).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 15 states total 1 but its 88 contributing cells sum to 991 (difference 990).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 16 states total 2 but its 88 contributing cells sum to 350 (difference 348).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 26 states total 68903 but its 88 contributing cells sum to 67723 (difference -1180).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 28 states total 3 but its 88 contributing cells sum to 146 (difference 143).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 29 states total 10347 but its 88 contributing cells sum to 10261 (difference -86).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 30 states total 7 but its 88 contributing cells sum to 147 (difference 140).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 31 states total 15 but its 88 contributing cells sum to 90 (difference 75).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 32 states total 11372 but its 88 contributing cells sum to 11079 (difference -293).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 33 states total 9 but its 88 contributing cells sum to 595 (difference 586).",
-        "expected_action": "Compare column cells and total row against the source scan.",
-        "validator": "table_arithmetic",
-        "block_id": "p0013-b0094"
-      },
-      {
-        "page_number": 13,
-        "severity": "review",
-        "category": "table_total_mismatch",
-        "message": "Column 34 states total 1 but its 88 contributing cells sum to 526 (difference 525).",
-        "expected_action": "Compare column cells and total row against the source scan.",
+        "message": "Compound Pag_Fan_An columns 36..38 state a total of Pag. 11372-9-1, but the 88 contributing rows sum to Pag. 11375-3-4.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0013-b0094"
       },
@@ -626,17 +1508,17 @@
       {
         "page_number": 121,
         "severity": "review",
-        "category": "table_ragged_columns",
-        "message": "Table row p0121-b0013 expands to 21 columns vs. table body width 22 (even after accounting for colspan/rowspan).",
-        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
-        "validator": "table_geometry",
-        "block_id": "p0121-b0013"
+        "category": "table_total_mismatch",
+        "message": "Compound GBP_s_d columns 15..17 state a total of £ 30-11-5.25, but the 7 contributing rows sum to £ 59-2-11.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0016"
       },
       {
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Compound GBP_s_d columns 18..20 state a total of £ 331-16-1, but the 7 contributing rows sum to £ 69187-6-2.",
+        "message": "Compound GBP_s_d columns 21..23 state a total of £ 1-8-7.50, but the 7 contributing rows sum to £ 9-17-4.25.",
         "expected_action": "Compare compound colonial unit digits against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0016"
@@ -690,7 +1572,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 15 states total 11 but its 4 breakdown rows sum to 19 (difference 8).",
+        "message": "Column 12 states total 71 but its 4 breakdown rows sum to 120 (difference 49).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0016"
@@ -699,7 +1581,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 21 states total 8 but its 4 breakdown rows sum to 28.50 (difference 20.50).",
+        "message": "Column 13 states total 0 but its 4 breakdown rows sum to 3 (difference 3).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0016"
@@ -708,7 +1590,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 22 states total 7.50 but its 4 breakdown rows sum to 3 (difference -4.50).",
+        "message": "Column 14 states total 1.60 but its 4 breakdown rows sum to 7.60 (difference 6).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0016"
@@ -717,7 +1599,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 14 states total 30 but its 3 contributing cells sum to 7 (difference -23).",
+        "message": "Column 19 states total 275 but its 4 breakdown rows sum to 122537 (difference 122262).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0016"
@@ -726,7 +1608,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 16 states total 5.25 but its 3 contributing cells sum to 29.50 (difference 24.25).",
+        "message": "Column 20 states total 1136 but its 4 breakdown rows sum to 38785 (difference 37649).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0016"
@@ -734,18 +1616,9 @@
       {
         "page_number": 121,
         "severity": "review",
-        "category": "table_ragged_columns",
-        "message": "Table row p0121-b0029 expands to 13 columns vs. table body width 14 (even after accounting for colspan/rowspan).",
-        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
-        "validator": "table_geometry",
-        "block_id": "p0121-b0029"
-      },
-      {
-        "page_number": 121,
-        "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 6 states total 1078 but its 7 contributing cells sum to 833206 (difference 832128).",
-        "expected_action": "Compare column cells and total row against the source scan.",
+        "message": "Compound GBP_s_d columns 15..17 state a total of £ 0-19-2, but the 7 contributing rows sum to £ 6-18-9.50.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0029"
       },
@@ -753,7 +1626,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 11 states total 0 but its 7 contributing cells sum to 71768 (difference 71768).",
+        "message": "Column 4 states total 7734 but its 7 contributing cells sum to 7733753 (difference 7726019).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0029"
@@ -762,7 +1635,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 12 states total 19 but its 7 contributing cells sum to 2 (difference -17).",
+        "message": "Column 5 states total 640 but its 7 contributing cells sum to 637 (difference -3).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0029"
@@ -771,7 +1644,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 13 states total 2 but its 7 contributing cells sum to 94 (difference 92).",
+        "message": "Column 6 states total 25 but its 7 contributing cells sum to 155 (difference 130).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0029"
@@ -779,17 +1652,98 @@
       {
         "page_number": 121,
         "severity": "review",
-        "category": "table_ragged_columns",
-        "message": "Table row p0121-b0042 expands to 37 columns vs. table body width 38 (even after accounting for colspan/rowspan).",
-        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
-        "validator": "table_geometry",
-        "block_id": "p0121-b0042"
+        "category": "table_total_mismatch",
+        "message": "Column 7 states total 8344 but its 7 contributing cells sum to 833206 (difference 824862).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0029"
       },
       {
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 8 states total 1 but its 6 breakdown rows sum to 38664 (difference 38663).",
+        "message": "Column 8 states total 1078 but its 7 contributing cells sum to 40500 (difference 39422).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0029"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 9 states total 5909 but its 7 contributing cells sum to 5906 (difference -3).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0029"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 11 states total 7694838 but its 7 contributing cells sum to 6767233 (difference -927605).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0029"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 13 states total 8 but its 7 contributing cells sum to 126 (difference 118).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0029"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 14 states total 9955 but its 7 contributing cells sum to 71768 (difference 61813).",
+        "expected_action": "Compare column cells and total row against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0029"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Compound GBP_s_d columns 9..11 state a total of £ 1-4-6.50, but the 12 contributing rows sum to £ 13-6-7.50.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0048"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Compound GBP_s_d columns 18..20 state a total of £ 0-17-5, but the 12 contributing rows sum to £ 6-19-7.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0048"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Compound GBP_s_d columns 27..29 state a total of £ 0-7-1.50, but the 12 contributing rows sum to £ 3-9-4.50.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0048"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Compound GBP_s_d columns 36..38 state a total of £ 0-18-1, but the 12 contributing rows sum to £ 11-7-0.25.",
+        "expected_action": "Compare compound colonial unit digits against the source scan.",
+        "validator": "table_arithmetic",
+        "block_id": "p0121-b0048"
+      },
+      {
+        "page_number": 121,
+        "severity": "review",
+        "category": "table_total_mismatch",
+        "message": "Column 4 states total 91728 but its 6 breakdown rows sum to 40963 (difference -50765).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -798,7 +1752,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 9 states total 4 but its 6 breakdown rows sum to 12 (difference 8).",
+        "message": "Column 6 states total 829 but its 6 breakdown rows sum to 3964 (difference 3135).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -807,7 +1761,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 10 states total 6.50 but its 6 breakdown rows sum to 16.50 (difference 10).",
+        "message": "Column 8 states total 12692 but its 6 breakdown rows sum to 64172 (difference 51480).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -816,7 +1770,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 17 states total 0 but its 6 breakdown rows sum to 8825 (difference 8825).",
+        "message": "Column 13 states total 4122 but its 6 breakdown rows sum to 4978 (difference 856).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -825,7 +1779,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 18 states total 17 but its 6 breakdown rows sum to 34 (difference 17).",
+        "message": "Column 15 states total 804 but its 6 breakdown rows sum to 2787 (difference 1983).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -834,7 +1788,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 19 states total 5 but its 6 breakdown rows sum to 24.25 (difference 19.25).",
+        "message": "Column 17 states total 9009 but its 6 breakdown rows sum to 26736 (difference 17727).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -843,7 +1797,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 26 states total 0 but its 6 breakdown rows sum to 12529.62 (difference 12529.62).",
+        "message": "Column 22 states total 517 but its 6 breakdown rows sum to 12736 (difference 12219).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -852,7 +1806,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 27 states total 7 but its 6 breakdown rows sum to 14 (difference 7).",
+        "message": "Column 24 states total 782 but its 6 breakdown rows sum to 6159 (difference 5377).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -861,7 +1815,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 28 states total 1.50 but its 6 breakdown rows sum to 31.75 (difference 30.25).",
+        "message": "Column 26 states total 3795 but its 6 breakdown rows sum to 20261 (difference 16466).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -870,7 +1824,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 35 states total 0 but its 6 breakdown rows sum to 28642 (difference 28642).",
+        "message": "Column 31 states total 18474 but its 6 breakdown rows sum to 85281 (difference 66807).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -879,7 +1833,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 36 states total 18 but its 6 breakdown rows sum to 36 (difference 18).",
+        "message": "Column 33 states total 81 but its 6 breakdown rows sum to 5418 (difference 5337).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -888,7 +1842,7 @@
         "page_number": 121,
         "severity": "review",
         "category": "table_total_mismatch",
-        "message": "Column 37 states total 1 but its 6 breakdown rows sum to 49.25 (difference 48.25).",
+        "message": "Column 35 states total 948 but its 6 breakdown rows sum to 38376 (difference 37428).",
         "expected_action": "Compare column cells and total row against the source scan.",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0048"
@@ -1875,20 +2829,11 @@
         "block_id": "p0557-b0003"
       },
       {
-        "page_number": 566,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>2</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0566-b0002"
-      },
-      {
         "page_number": 30,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kankanies' appears without diacritics here, whereas this volume consistently prints 'Kankánies' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0030-b0004"
       },
@@ -1906,7 +2851,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Haryadika' appears without diacritics here, whereas this volume consistently prints 'Haryadiká' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0106-b0007"
       },
@@ -1915,7 +2860,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sannyasis' appears without diacritics here, whereas this volume consistently prints 'Sannyásis' (20 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0117-b0006"
       },
@@ -1924,7 +2869,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Paisachi' appears without diacritics here, whereas this volume consistently prints 'Paisáchi' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0119-b0004"
       },
@@ -1987,7 +2932,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rayalu' appears without diacritics here, whereas this volume consistently prints 'Ráyalu' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0138-b0007"
       },
@@ -2005,7 +2950,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Trinetra' appears without diacritics here, whereas this volume consistently prints 'Trinétra' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0186-b0004"
       },
@@ -2014,7 +2959,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jamal' appears without diacritics here, whereas this volume consistently prints 'Jamál' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0187-b0006"
       },
@@ -2023,7 +2968,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vairagis' appears without diacritics here, whereas this volume consistently prints 'Vairágis' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0198-b0005"
       },
@@ -2032,7 +2977,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Upadesa' appears without diacritics here, whereas this volume consistently prints 'Upadésa' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0208-b0006"
       },
@@ -2050,7 +2995,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 11 states total 44585 but its 89 contributing cells sum to 15706.50 (difference -28878.50).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0224-b0025"
       },
@@ -2059,7 +3004,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 20 states total 331532 but its 89 contributing cells sum to 73691 (difference -257841).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0224-b0025"
       },
@@ -2086,7 +3031,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vedas' appears without diacritics here, whereas this volume consistently prints 'Védas' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0255-b0009"
       },
@@ -2104,7 +3049,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 11 states total 108045 but its 26 contributing cells sum to 14248 (difference -93797).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0275-b0030"
       },
@@ -2113,7 +3058,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 20 states total 963833 but its 26 contributing cells sum to 850469 (difference -113364).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0275-b0030"
       },
@@ -2122,7 +3067,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Jamal' appears without diacritics here, whereas this volume consistently prints 'Jamál' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0277-b0009"
       },
@@ -2131,7 +3076,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Purana' appears without diacritics here, whereas this volume consistently prints 'Purána' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0293-b0004"
       },
@@ -2140,7 +3085,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Acharya' appears without diacritics here, whereas this volume consistently prints 'Achárya' (29 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0327-b0009"
       },
@@ -2149,7 +3094,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Acharya' appears without diacritics here, whereas this volume consistently prints 'Achárya' (29 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0328-b0004"
       },
@@ -2158,7 +3103,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Acharya' appears without diacritics here, whereas this volume consistently prints 'Achárya' (29 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0328-b0004"
       },
@@ -2167,7 +3112,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Varada' appears without diacritics here, whereas this volume consistently prints 'Varadá' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0339-b0008"
       },
@@ -2176,7 +3121,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Banawasi' appears without diacritics here, whereas this volume consistently prints 'Banawási' (25 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0350-b0006"
       },
@@ -2185,7 +3130,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vyasa' appears without diacritics here, whereas this volume consistently prints 'Vyása' (21 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0453-b0005"
       },
@@ -2194,7 +3139,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vedas' appears without diacritics here, whereas this volume consistently prints 'Védas' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0454-b0005"
       },
@@ -2203,7 +3148,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Vyasa' appears without diacritics here, whereas this volume consistently prints 'Vyása' (21 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0454-b0005"
       },
@@ -2212,7 +3157,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Hasina' appears without diacritics here, whereas this volume consistently prints 'Hásina' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0459-b0010"
       },
@@ -2221,7 +3166,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 2.50 but its 7 contributing cells sum to 2 (difference -0.50).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0493-b0015"
       },
@@ -2230,7 +3175,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nayakas' appears without diacritics here, whereas this volume consistently prints 'Náyakas' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0522-b0011"
       },
@@ -2239,7 +3184,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rayar' appears without diacritics here, whereas this volume consistently prints 'Ráyar' (13 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0525-b0011"
       },
@@ -2248,7 +3193,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sannyasi' appears without diacritics here, whereas this volume consistently prints 'Sannyási' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0564-b0051"
       },
@@ -2257,7 +3202,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sannyasis' appears without diacritics here, whereas this volume consistently prints 'Sannyásis' (20 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0564-b0051"
       },
@@ -2266,7 +3211,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Varma' appears without diacritics here, whereas this volume consistently prints 'Varmá' (14 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0565-b0029"
       },
@@ -2275,7 +3220,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Davana' appears without diacritics here, whereas this volume consistently prints 'Dávana' (13 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0568-b0005"
       },
@@ -2284,7 +3229,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Brahman' appears without diacritics here, whereas this volume consistently prints 'Bráhman' (71 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0568-b0065"
       },
@@ -2293,7 +3238,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rayada' appears without diacritics here, whereas this volume consistently prints 'Ráyada' (27 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0569-b0052"
       },
@@ -2302,7 +3247,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ganesa' appears without diacritics here, whereas this volume consistently prints 'Ganésa' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0572-b0007"
       },
@@ -2311,7 +3256,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Grama' appears without diacritics here, whereas this volume consistently prints 'Gráma' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0572-b0053"
       },
@@ -2320,7 +3265,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Gramas' appears without diacritics here, whereas this volume consistently prints 'Grámas' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0574-b0008"
       },
@@ -2329,7 +3274,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rayada' appears without diacritics here, whereas this volume consistently prints 'Ráyada' (27 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0576-b0026"
       },
@@ -2338,7 +3283,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Maharashtra' appears without diacritics here, whereas this volume consistently prints 'Mahárashtra' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0578-b0011"
       },
@@ -2347,7 +3292,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mlecha' appears without diacritics here, whereas this volume consistently prints 'Mlécha' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0578-b0072"
       },
@@ -2356,7 +3301,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Pujari' appears without diacritics here, whereas this volume consistently prints 'Pújári' (19 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0583-b0016"
       },
@@ -2365,7 +3310,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Pujari' appears without diacritics here, whereas this volume consistently prints 'Pújári' (19 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0583-b0028"
       },
@@ -2374,7 +3319,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nileswara' appears without diacritics here, whereas this volume consistently prints 'Niléswara' (10 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0583-b0053"
       },
@@ -2383,7 +3328,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Rayada' appears without diacritics here, whereas this volume consistently prints 'Ráyada' (27 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0584-b0002"
       },
@@ -2392,7 +3337,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sannyasis' appears without diacritics here, whereas this volume consistently prints 'Sannyásis' (20 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0585-b0050"
       },
@@ -2401,7 +3346,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Upadesa' appears without diacritics here, whereas this volume consistently prints 'Upadésa' (11 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0589-b0055"
       },
@@ -2410,7 +3355,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sudra' appears without diacritics here, whereas this volume consistently prints 'Súdra' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0591-b0036"
       }
@@ -2438,8 +3383,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 11 fixes · 37 pp. checked",
-          "detail": "11 anchored emendation(s) applied; 37 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 151 fixes · 37 pp. checked",
+          "detail": "151 anchored emendation(s) applied; 37 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -2489,7 +3434,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 2 footnotes and 1191 margin/shoulder notes"
+          "detail": "Linked apparatus with 2 footnotes and 1209 margin/shoulder notes"
         }
       ],
       "archival_tags": {

@@ -84,8 +84,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `401` prose joins, `7` split footnotes stitched, `1` multi-page tables unified, `218` total footnotes.
-  - Stitched cross-page footnotes: p.61->p.62 (`1`), p.70->p.71 (`1`), p.85->p.86 (`2`), p.198->p.199 (`2`), p.238->p.241 (`*`), p.261->p.262 (`1`), p.276->p.277 (`1`)
+- **Cross-Page Assembly**: `402` prose joins, `6` split footnotes stitched, `1` multi-page tables unified, `218` total footnotes.
+  - Stitched cross-page footnotes: p.61->p.62 (`1`), p.70->p.71 (`1`), p.85->p.86 (`2`), p.198->p.199 (`2`), p.238->p.241 (`*`), p.261->p.262 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`156` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 00114404 7"*
   - Leaf `3` `p0003-b0001` (`scanner_residue`): *"MICROFORMED BY PRESERVATION SERVICES DATE FEB 2 6 1987"*
@@ -107,4 +107,4 @@
 
 - **Detected Scripts**: `latin`: 1,161,268 chars
 - **Distinct Non-ASCII Glyphs (`26` across `389` leaves)**: · É ä ç è é ô ö ü Ā ā ē ġ ħ ī œ ū ḥ „ ′ ⁄ ⅓ ⅔ ⅗ ⅙ ⅛
-- **Corrections Replayed**: `63` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `64` applied, `0` orphaned/unmatched

@@ -69,7 +69,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Section | PDF Leaves | Leaves | Open Hotspots | Verified |
 | :--- | :---: | ---: | ---: | ---: |
 | Frontmatter | `5–8` | 3 | 0 | 0 / 3 |
-| CONTENTS | `9–11` | 2 | 0 | 0 / 2 |
+| CONTENTS | `9–9` | 1 | 0 | 0 / 1 |
+| FOREWORD | `11–11` | 1 | 0 | 0 / 1 |
 | INTRODUCTION | `13–17` | 5 | 0 | 0 / 5 |
 | DATE AND AUTHORSHIP OF THE PERIPLUS | `17–26` | 10 | 1 | 0 / 10 |
 | BIBLIOGRAPHY OF THE PERIPLUS | `27–31` | 5 | 0 | 0 / 5 |

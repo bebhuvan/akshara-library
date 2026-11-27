@@ -4,7 +4,7 @@
 - **Publication Year**: 1900
 - **Imprint**: London: Kegan Paul, Trench, Trübner & Co.
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**85.4 / 100**)
+- **Edition Tier**: `community` (**87.9 / 100**)
 - **Internet Archive Source**: https://archive.org/details/cu31924022938264
 
 ## Files in This Folder

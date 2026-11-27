@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/epub/indian-famines-causes-prevention-dutt-1901.epub",
     "markdown": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/markdown/indian-famines-causes-prevention-dutt-1901.md",
     "tei_xml": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/tei/indian-famines-causes-prevention-dutt-1901.tei.xml",
-    "print_html": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/print/indian-famines-causes-prevention-dutt-1901.print.html",
+    "print_source": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/print/indian-famines-causes-prevention-dutt-1901.typ",
     "pdf": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/print/indian-famines-causes-prevention-dutt-1901.pdf",
+    "onepage_html": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/html/indian-famines-causes-prevention-dutt-1901.html",
     "datasets": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/indian-famines-causes-prevention-dutt-1901/datasets/datapackage.json"
   },

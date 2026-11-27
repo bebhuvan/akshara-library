@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 92.0,
+  "rubric_score": 96.0,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Oxblood Ledger",
   "edition_root": "library/indian-economic-history/economic-history-india-early-british-dutt",
@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/economic-history-india-early-british-dutt/epub/economic-history-india-early-british-dutt.epub",
     "markdown": "library/indian-economic-history/economic-history-india-early-british-dutt/markdown/economic-history-india-early-british-dutt.md",
     "tei_xml": "library/indian-economic-history/economic-history-india-early-british-dutt/tei/economic-history-india-early-british-dutt.tei.xml",
-    "print_html": "library/indian-economic-history/economic-history-india-early-british-dutt/print/economic-history-india-early-british-dutt.print.html",
+    "print_source": "library/indian-economic-history/economic-history-india-early-british-dutt/print/economic-history-india-early-british-dutt.typ",
     "pdf": "library/indian-economic-history/economic-history-india-early-british-dutt/print/economic-history-india-early-british-dutt.pdf",
+    "onepage_html": "library/indian-economic-history/economic-history-india-early-british-dutt/html/economic-history-india-early-british-dutt.html",
     "datasets": "library/indian-economic-history/economic-history-india-early-british-dutt/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/economic-history-india-early-british-dutt/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 15 fixes · 8 pp. checked",
-        "detail": "15 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 24 fixes · 8 pp. checked",
+        "detail": "24 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -73,7 +74,7 @@
         "id": "tables:arithmetic",
         "axis": "provenance",
         "label": "Tables: 10/10 Arithmetic-Checked",
-        "detail": "10 of 10 tables pass arithmetic & column checks; 24 printed compositor discrepancy(ies) confirmed on scan"
+        "detail": "10 of 10 tables pass arithmetic & column checks; 23 printed compositor discrepancy(ies) confirmed on scan"
       }
     ],
     "diplomatic_and_script_tags": [
@@ -133,7 +134,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 2,
+      "open_hotspots": 1,
       "extracted_page_count": 466,
       "p1_proofed_page_count": 0,
       "reread_page_count": 8,
@@ -153,16 +154,16 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (2 open review items); 8 of 466 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (1 open review item); 8 of 466 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 2,
-      "informational": 27,
-      "total": 29
+      "review": 1,
+      "informational": 26,
+      "total": 27
     },
     "corrections": {
-      "applied": 15,
+      "applied": 24,
       "unmatched": 0,
       "details": [
         {
@@ -269,6 +270,69 @@
           "matched_block_id": "p0291-b0017",
           "op": "set_cells",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0306-b0006",
+          "page_number": 306,
+          "matched_block_id": "p0306-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0006",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0006",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0009",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0009",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0012",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0012",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0015",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0015",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0018",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0018",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0021",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0021",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0024",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0024",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-dutt-early-p0430-p0430-b0027",
+          "page_number": 430,
+          "matched_block_id": "p0430-b0027",
+          "op": "split_block",
+          "status": "applied"
         }
       ]
     },
@@ -281,15 +345,6 @@
         "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
         "validator": "table_geometry",
         "block_id": "p0259-b0005"
-      },
-      {
-        "page_number": 430,
-        "severity": "review",
-        "category": "table_collapsed_rows",
-        "message": "Table row p0430-b0006 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
-        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
-        "validator": "table_geometry",
-        "block_id": "p0430-b0006"
       },
       {
         "page_number": 7,
@@ -314,7 +369,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 897642 but its 12 contributing cells sum to 901636 (difference 3994).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0141-b0018"
       },
@@ -323,7 +378,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 33.75 but its 3 contributing cells sum to 133.75 (difference 100).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0164-b0007"
       },
@@ -332,7 +387,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 2 but its 7 contributing cells sum to 0 (difference -2).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0251-b0013"
       },
@@ -341,7 +396,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 3 but its 7 contributing cells sum to 40 (difference 37).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0251-b0013"
       },
@@ -350,7 +405,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 5.50 but its 7 contributing cells sum to 41.50 (difference 36).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0251-b0013"
       },
@@ -359,7 +414,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 3 but its 6 contributing cells sum to 1 (difference -2).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0251-b0022"
       },
@@ -368,7 +423,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 10 but its 6 contributing cells sum to 48 (difference 38).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0251-b0022"
       },
@@ -377,25 +432,16 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 8.75 but its 6 contributing cells sum to 32.75 (difference 24).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0251-b0022"
-      },
-      {
-        "page_number": 291,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 4 states total 25134672 but its 10 contributing cells sum to 8744689 (difference -16389983).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0291-b0016"
       },
       {
         "page_number": 389,
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 12 but its 8 contributing cells sum to 8 (difference -4).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0389-b0015"
       },
@@ -404,7 +450,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 2 but its 8 contributing cells sum to 82 (difference 80).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0389-b0015"
       },
@@ -511,8 +557,8 @@
         "page_number": 433,
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
-        "message": "Column 3 states total 20858820 but its 160 breakdown rows sum to 1478359217 (difference 1457500397).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "message": "Column 3 states total 20858820 but its 176 breakdown rows sum to 1478359217 (difference 1457500397).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0433-b0027"
       },
@@ -520,8 +566,8 @@
         "page_number": 433,
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
-        "message": "Column 4 states total 17553525 but its 160 breakdown rows sum to 1407295313 (difference 1389741788).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "message": "Column 4 states total 17553525 but its 176 breakdown rows sum to 1407295313 (difference 1389741788).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0433-b0027"
       },
@@ -530,7 +576,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 12671743 but its 5 contributing cells sum to 12158666 (difference -513077).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0433-b0027"
       }
@@ -558,8 +604,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 15 fixes · 8 pp. checked",
-          "detail": "15 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 24 fixes · 8 pp. checked",
+          "detail": "24 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -571,7 +617,7 @@
           "id": "tables:arithmetic",
           "axis": "provenance",
           "label": "Tables: 10/10 Arithmetic-Checked",
-          "detail": "10 of 10 tables pass arithmetic & column checks; 24 printed compositor discrepancy(ies) confirmed on scan"
+          "detail": "10 of 10 tables pass arithmetic & column checks; 23 printed compositor discrepancy(ies) confirmed on scan"
         }
       ],
       "diplomatic_and_script_tags": [

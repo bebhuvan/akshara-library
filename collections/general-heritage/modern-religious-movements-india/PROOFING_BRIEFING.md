@@ -55,13 +55,13 @@ Welcome! You do **not** need to read all 499 leaves from start to finish to make
 - [ ] Leaf **119**: 'Ḥ' (U+1E24 LATIN CAPITAL LETTER H WITH DOT BELOW) appears only 1 time(s) in this book, here in 'MUḤAMMADAN'.
 - [ ] Leaf **121**: 'ḵ' (U+1E35 LATIN SMALL LETTER K WITH LINE BELOW) appears only 1 time(s) in this book, here in 'Aḵẖlāq'.
 - [ ] Leaf **121**: 'ẖ' (U+1E96 LATIN SMALL LETTER H WITH LINE BELOW) appears only 1 time(s) in this book, here in 'Aḵẖlāq'.
-- [ ] Leaf **152**: Page 152 has inline note callout(s) ['1', '2', '3', '4', '5', '6', '7'] vs. labelled footnote(s) ['1', '2', '3', '4', '6', '7'].
 - [ ] Leaf **159**: Token 'Agnihotri' appears without diacritics here, whereas this volume consistently prints 'Agnihotṛi' (14 occurrences).
 - [ ] Leaf **159**: Token 'Agnihotri' appears without diacritics here, whereas this volume consistently prints 'Agnihotṛi' (14 occurrences).
 - [ ] Leaf **159**: 'Ṁ' (U+1E40 LATIN CAPITAL LETTER M WITH DOT ABOVE) appears only 1 time(s) in this book, here in 'PARAMAHAṀSA'.
 - [ ] Leaf **159**: 'Ṇ' (U+1E46 LATIN CAPITAL LETTER N WITH DOT BELOW) appears only 2 time(s) in this book, here in 'ŚIVANĀRĀYAṆA'.
 - [ ] Leaf **164**: Token 'Brahmas' appears without diacritics here, whereas this volume consistently prints 'Brāhmas' (21 occurrences).
 - [ ] Leaf **177**: Token 'Muhammad' appears without diacritics here, whereas this volume consistently prints 'Muḥammad' (13 occurrences).
+- [ ] Leaf **183**: 'í' (U+00ED LATIN SMALL LETTER I WITH ACUTE) appears only 1 time(s) in this book, here in 'Sàín'.
 - [ ] Leaf **278** (`p0278-b0005`): Faded ink `<unclear>sear</unclear>` in *"…y fortunate time, and the Research Society took full advanta…"*
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `varying` (leaf 11), `forthcoming` (leaf 12), `compress` (leaf 14), `Friedrich` (leaf 28), `Lansdowne` (leaf 47), `journalistic` (leaf 56), `unchanging` (leaf 56), `transgressions` (leaf 58), `abstain` (leaf 62), `crowning` (leaf 73), `intercaste` (leaf 73), `disunion` (leaf 75), `inculcated` (leaf 75), `substituting` (leaf 75), `forgiving` (leaf 85).
 
@@ -78,7 +78,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Contents | `17–20` | 4 | 0 | 0 / 4 |
 | Chapter I: Historical Outline of the Period | `21–48` | 28 | 0 | 0 / 28 |
 | Chapter II: Movements Favouring Serious Reform, 1828–1913 | `49–128` | 76 | 17 | 0 / 76 |
-| Chapter III: Reform Checked by Defence of the Old Faiths,  | `129–221` | 89 | 14 | 0 / 89 |
+| Chapter III: Reform Checked by Defence of the Old Faiths,  | `129–221` | 89 | 13 | 0 / 89 |
 | Chapter IV: Full Defence of the Old Religions, 1870–1913 | `222–393` | 170 | 30 | 0 / 170 |
 | Chapter V: Religious Nationalism, 1895–1913 | `394–428` | 34 | 1 | 0 / 34 |
 | Chapter VI: Social Reform and Service, 1828–1913 | `429–471` | 43 | 0 | 0 / 43 |

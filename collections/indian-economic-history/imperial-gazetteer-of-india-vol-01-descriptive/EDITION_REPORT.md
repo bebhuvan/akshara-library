@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Imperial Gazetteer of India: The Indian Empire, Vol. I — Descriptive*
 
 - **Book ID**: `imperial-gazetteer-of-india-vol-01-descriptive` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`80.0 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`89.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 607 of 607 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `607` extracted, `5` blank/tissue, `0` failed (of `612` PDF leaves)
 - **Tracked API Spend**: **`$3.2901`** (`73.8%` cached input tokens: `5,018,263` / `6,801,080` in, `1,213,915` out, `1,100` thoughts)
@@ -15,7 +15,7 @@
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **14.0 / 25.0** | -8.0: 2 collapsed/jammed table row warning(s); -3.0: 2 ragged table geometry warning(s) |
-| **4. Orthographic, Script & Diacritics** | **16.0 / 25.0** | -9.0: 3 script/codepoint anomaly(ies) |
+| **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
 - Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
@@ -75,8 +75,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `414` prose joins, `2` split footnotes stitched, `1` multi-page tables unified, `155` total footnotes.
-  - Stitched cross-page footnotes: p.234->p.235 (`2`), p.567->p.568 (`1`)
+- **Cross-Page Assembly**: `413` prose joins, `3` split footnotes stitched, `1` multi-page tables unified, `155` total footnotes.
+  - Stitched cross-page footnotes: p.153->p.154 (`1`), p.234->p.235 (`2`), p.567->p.568 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`182` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 00114401 3"*
   - Leaf `3` `p0003-b0001` (`scanner_residue`): *"MICROFORMED BY PRESERVATION SERVICES DATE FEB 2 5 1987"*
@@ -98,4 +98,4 @@
 
 - **Detected Scripts**: `latin`: 1,177,180 chars, `greek`: 72 chars
 - **Distinct Non-ASCII Glyphs (`86` across `532` leaves)**: ¯ ± ´ · É à á â ä å æ ç è é ê ë í î ï ñ ö ü Ā ā ē ġ ħ ī ō œ Ś ś ū ʻ Μ Π ά έ ή ί α γ δ ε θ ι κ λ μ ν ο π ρ ς τ υ φ ό Ḍ ḍ
-- **Corrections Replayed**: `66` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `86` applied, `0` orphaned/unmatched

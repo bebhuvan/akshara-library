@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/epub/english-factories-india-1637-1641-vol-06.epub",
     "markdown": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/markdown/english-factories-india-1637-1641-vol-06.md",
     "tei_xml": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/tei/english-factories-india-1637-1641-vol-06.tei.xml",
-    "print_html": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/print/english-factories-india-1637-1641-vol-06.print.html",
+    "print_source": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/print/english-factories-india-1637-1641-vol-06.typ",
     "pdf": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/print/english-factories-india-1637-1641-vol-06.pdf",
+    "onepage_html": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/html/english-factories-india-1637-1641-vol-06.html",
     "datasets": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/english-factories-india-1637-1641-vol-06/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 3 fixes · 10 pp. checked",
-        "detail": "3 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 7 fixes · 10 pp. checked",
+        "detail": "7 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -99,7 +100,7 @@
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 402 footnotes and 0 margin/shoulder notes"
+        "detail": "Linked apparatus with 403 footnotes and 0 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -121,7 +122,7 @@
       ],
       "artifacts": [
         "2 Archival Plates",
-        "402 Footnotes",
+        "403 Footnotes",
         "Linked Index"
       ]
     }
@@ -160,11 +161,11 @@
     "validation_summary": {
       "critical": 0,
       "review": 1,
-      "informational": 17,
-      "total": 18
+      "informational": 16,
+      "total": 17
     },
     "corrections": {
-      "applied": 3,
+      "applied": 7,
       "unmatched": 0,
       "details": [
         {
@@ -185,6 +186,34 @@
           "correction_id": "ef6-p0374-b0058",
           "page_number": 374,
           "matched_block_id": "p0374-b0058",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0330-b0003-glue",
+          "page_number": 330,
+          "matched_block_id": "p0330-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0364-b0003-glue",
+          "page_number": 364,
+          "matched_block_id": "p0364-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0214-b0009-fn2",
+          "page_number": 214,
+          "matched_block_id": "p0214-b0009",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-efi06-p0238-b0003-besids",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0003",
           "op": "set_text",
           "status": "applied"
         }
@@ -214,7 +243,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrzā' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0151-b0003"
       },
@@ -223,7 +252,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Darab' appears without diacritics here, whereas this volume consistently prints 'Dārāb' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0151-b0003"
       },
@@ -232,7 +261,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 156 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0156-b0003"
       },
@@ -241,7 +270,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sharif' appears without diacritics here, whereas this volume consistently prints 'Sharīf' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0158-b0007"
       },
@@ -250,7 +279,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sharif' appears without diacritics here, whereas this volume consistently prints 'Sharīf' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0158-b0007"
       },
@@ -268,7 +297,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (31 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0200-b0004"
       },
@@ -277,25 +306,16 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (31 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0202-b0003"
-      },
-      {
-        "page_number": 214,
-        "severity": "informational",
-        "category": "footnote_compositor_variant",
-        "message": "Page 214 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
-        "validator": "apparatus_parity",
-        "block_id": "p0214-b0006"
       },
       {
         "page_number": 216,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahmud' appears without diacritics here, whereas this volume consistently prints 'Mahmūd' (31 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0216-b0003"
       },
@@ -304,7 +324,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sehwan' appears without diacritics here, whereas this volume consistently prints 'Sehwān' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0251-b0003"
       },
@@ -322,7 +342,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mirza' appears without diacritics here, whereas this volume consistently prints 'Mīrzā' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0359-b0003"
       },
@@ -377,8 +397,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 3 fixes · 10 pp. checked",
-          "detail": "3 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 7 fixes · 10 pp. checked",
+          "detail": "7 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -416,7 +436,7 @@
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 402 footnotes and 0 margin/shoulder notes"
+          "detail": "Linked apparatus with 403 footnotes and 0 margin/shoulder notes"
         }
       ],
       "archival_tags": {
@@ -438,7 +458,7 @@
         ],
         "artifacts": [
           "2 Archival Plates",
-          "402 Footnotes",
+          "403 Footnotes",
           "Linked Index"
         ]
       }

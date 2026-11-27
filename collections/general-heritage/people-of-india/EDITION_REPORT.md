@@ -68,7 +68,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `299` prose joins, `8` split footnotes stitched, `0` multi-page tables unified, `216` total footnotes.
+- **Cross-Page Assembly**: `299` prose joins, `8` split footnotes stitched, `7` multi-page tables unified, `216` total footnotes.
   - Stitched cross-page footnotes: p.101->p.102 (`*`), p.219->p.220 (`†`), p.244->p.245 (`*`), p.247->p.248 (`*`), p.262->p.263 (`†`), p.438->p.439 (`*`), p.446->p.447 (`*`), p.460->p.461 (`*`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`68` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"ASIA"*
@@ -91,4 +91,4 @@
 
 - **Detected Scripts**: `latin`: 963,699 chars, `greek`: 186 chars
 - **Distinct Non-ASCII Glyphs (`86` across `393` leaves)**: · Æ É à á â ã ä æ ç è é ê ë í î ï ô ö ù û ü Ā ā Ē ē Ī ī ō ŏ œ Ś Ū ū Α ά έ ή ί α γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ
-- **Corrections Replayed**: `129` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `143` applied, `0` orphaned/unmatched

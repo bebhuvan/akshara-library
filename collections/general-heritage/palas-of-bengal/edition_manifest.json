@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/palas-of-bengal/epub/palas-of-bengal.epub",
     "markdown": "library/general-heritage/palas-of-bengal/markdown/palas-of-bengal.md",
     "tei_xml": "library/general-heritage/palas-of-bengal/tei/palas-of-bengal.tei.xml",
-    "print_html": "library/general-heritage/palas-of-bengal/print/palas-of-bengal.print.html",
+    "print_source": "library/general-heritage/palas-of-bengal/print/palas-of-bengal.typ",
     "pdf": "library/general-heritage/palas-of-bengal/print/palas-of-bengal.pdf",
+    "onepage_html": "library/general-heritage/palas-of-bengal/html/palas-of-bengal.html",
     "datasets": null,
     "datapackage": null
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 40 fixes · 5 pp. checked",
-        "detail": "40 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 139 fixes · 5 pp. checked",
+        "detail": "139 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -136,7 +137,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 24,
+      "open_hotspots": 27,
       "extracted_page_count": 105,
       "p1_proofed_page_count": 0,
       "reread_page_count": 5,
@@ -153,16 +154,16 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (24 open review items); 5 of 105 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (27 open review items); 5 of 105 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 24,
-      "informational": 25,
+      "review": 27,
+      "informational": 22,
       "total": 49
     },
     "corrections": {
-      "applied": 40,
+      "applied": 139,
       "unmatched": 0,
       "details": [
         {
@@ -444,6 +445,699 @@
           "matched_block_id": "p0113-b0007",
           "op": "set_type",
           "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0065-b0017",
+          "page_number": 65,
+          "matched_block_id": "p0065-b0017",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-23-p0065-b0019",
+          "page_number": 65,
+          "matched_block_id": "p0065-b0019",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0103-b0003-ramgaya",
+          "page_number": 103,
+          "matched_block_id": "p0103-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-palas-p0036-b0004-ottarjjita",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-palas-p0036-b0005-vigrahapala",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-palas-p0068-b0006-bhuvanesvara",
+          "page_number": 68,
+          "matched_block_id": "p0068-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-palas-p0068-b0007-adhahpattana",
+          "page_number": 68,
+          "matched_block_id": "p0068-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p2-palas-p0036-b0004-vratarppana",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0014-b0004",
+          "page_number": 14,
+          "matched_block_id": "p0014-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0014-b0007",
+          "page_number": 14,
+          "matched_block_id": "p0014-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0015-b0007",
+          "page_number": 15,
+          "matched_block_id": "p0015-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0016-b0003",
+          "page_number": 16,
+          "matched_block_id": "p0016-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0018-b0007",
+          "page_number": 18,
+          "matched_block_id": "p0018-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0020-b0007",
+          "page_number": 20,
+          "matched_block_id": "p0020-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0021-b0006",
+          "page_number": 21,
+          "matched_block_id": "p0021-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0022-b0004",
+          "page_number": 22,
+          "matched_block_id": "p0022-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0025-b0006",
+          "page_number": 25,
+          "matched_block_id": "p0025-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0027-b0005",
+          "page_number": 27,
+          "matched_block_id": "p0027-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0027-b0008",
+          "page_number": 27,
+          "matched_block_id": "p0027-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0028-b0003",
+          "page_number": 28,
+          "matched_block_id": "p0028-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0029-b0003",
+          "page_number": 29,
+          "matched_block_id": "p0029-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0030-b0003",
+          "page_number": 30,
+          "matched_block_id": "p0030-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0030-b0005",
+          "page_number": 30,
+          "matched_block_id": "p0030-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0031-b0003",
+          "page_number": 31,
+          "matched_block_id": "p0031-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0034-b0005",
+          "page_number": 34,
+          "matched_block_id": "p0034-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0034-b0006",
+          "page_number": 34,
+          "matched_block_id": "p0034-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0035-b0003",
+          "page_number": 35,
+          "matched_block_id": "p0035-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0035-b0004",
+          "page_number": 35,
+          "matched_block_id": "p0035-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0035-b0005",
+          "page_number": 35,
+          "matched_block_id": "p0035-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0035-b0006",
+          "page_number": 35,
+          "matched_block_id": "p0035-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0035-b0007",
+          "page_number": 35,
+          "matched_block_id": "p0035-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0037-b0003",
+          "page_number": 37,
+          "matched_block_id": "p0037-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0037-b0005",
+          "page_number": 37,
+          "matched_block_id": "p0037-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0038-b0006",
+          "page_number": 38,
+          "matched_block_id": "p0038-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0038-b0007",
+          "page_number": 38,
+          "matched_block_id": "p0038-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0039-b0003",
+          "page_number": 39,
+          "matched_block_id": "p0039-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0039-b0006",
+          "page_number": 39,
+          "matched_block_id": "p0039-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0041-b0006",
+          "page_number": 41,
+          "matched_block_id": "p0041-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0041-b0008",
+          "page_number": 41,
+          "matched_block_id": "p0041-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0042-b0006",
+          "page_number": 42,
+          "matched_block_id": "p0042-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0042-b0007",
+          "page_number": 42,
+          "matched_block_id": "p0042-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0043-b0007",
+          "page_number": 43,
+          "matched_block_id": "p0043-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0044-b0010",
+          "page_number": 44,
+          "matched_block_id": "p0044-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0045-b0004",
+          "page_number": 45,
+          "matched_block_id": "p0045-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0046-b0010",
+          "page_number": 46,
+          "matched_block_id": "p0046-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0047-b0005",
+          "page_number": 47,
+          "matched_block_id": "p0047-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0047-b0006",
+          "page_number": 47,
+          "matched_block_id": "p0047-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0048-b0004",
+          "page_number": 48,
+          "matched_block_id": "p0048-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0049-b0008",
+          "page_number": 49,
+          "matched_block_id": "p0049-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0050-b0005",
+          "page_number": 50,
+          "matched_block_id": "p0050-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0050-b0007",
+          "page_number": 50,
+          "matched_block_id": "p0050-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0051-b0012",
+          "page_number": 51,
+          "matched_block_id": "p0051-b0012",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0051-b0016",
+          "page_number": 51,
+          "matched_block_id": "p0051-b0016",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0053-b0005",
+          "page_number": 53,
+          "matched_block_id": "p0053-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0053-b0006",
+          "page_number": 53,
+          "matched_block_id": "p0053-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0056-b0003",
+          "page_number": 56,
+          "matched_block_id": "p0056-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0058-b0003",
+          "page_number": 58,
+          "matched_block_id": "p0058-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0059-b0003",
+          "page_number": 59,
+          "matched_block_id": "p0059-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0060-b0009",
+          "page_number": 60,
+          "matched_block_id": "p0060-b0009",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0060-b0010",
+          "page_number": 60,
+          "matched_block_id": "p0060-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0060-b0016",
+          "page_number": 60,
+          "matched_block_id": "p0060-b0016",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0062-b0011",
+          "page_number": 62,
+          "matched_block_id": "p0062-b0011",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0063-b0004",
+          "page_number": 63,
+          "matched_block_id": "p0063-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0063-b0008",
+          "page_number": 63,
+          "matched_block_id": "p0063-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0063-b0010",
+          "page_number": 63,
+          "matched_block_id": "p0063-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0065-b0005",
+          "page_number": 65,
+          "matched_block_id": "p0065-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0065-b0006",
+          "page_number": 65,
+          "matched_block_id": "p0065-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0065-b0008",
+          "page_number": 65,
+          "matched_block_id": "p0065-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0066-b0005",
+          "page_number": 66,
+          "matched_block_id": "p0066-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0066-b0008",
+          "page_number": 66,
+          "matched_block_id": "p0066-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0067-b0003",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0067-b0004",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0069-b0003",
+          "page_number": 69,
+          "matched_block_id": "p0069-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0069-b0006",
+          "page_number": 69,
+          "matched_block_id": "p0069-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0072-b0007",
+          "page_number": 72,
+          "matched_block_id": "p0072-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0073-b0012",
+          "page_number": 73,
+          "matched_block_id": "p0073-b0012",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0073-b0013",
+          "page_number": 73,
+          "matched_block_id": "p0073-b0013",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0075-b0004",
+          "page_number": 75,
+          "matched_block_id": "p0075-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0076-b0004",
+          "page_number": 76,
+          "matched_block_id": "p0076-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0076-b0008",
+          "page_number": 76,
+          "matched_block_id": "p0076-b0008",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0077-b0010",
+          "page_number": 77,
+          "matched_block_id": "p0077-b0010",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0081-b0003",
+          "page_number": 81,
+          "matched_block_id": "p0081-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0081-b0005",
+          "page_number": 81,
+          "matched_block_id": "p0081-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0081-b0007",
+          "page_number": 81,
+          "matched_block_id": "p0081-b0007",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0086-b0020",
+          "page_number": 86,
+          "matched_block_id": "p0086-b0020",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0086-b0024",
+          "page_number": 86,
+          "matched_block_id": "p0086-b0024",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0115-b0036",
+          "page_number": 115,
+          "matched_block_id": "p0115-b0036",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0117-b0059",
+          "page_number": 117,
+          "matched_block_id": "p0117-b0059",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0117-b0064",
+          "page_number": 117,
+          "matched_block_id": "p0117-b0064",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0117-b0083",
+          "page_number": 117,
+          "matched_block_id": "p0117-b0083",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0118-b0035",
+          "page_number": 118,
+          "matched_block_id": "p0118-b0035",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0118-b0065",
+          "page_number": 118,
+          "matched_block_id": "p0118-b0065",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0119-b0030",
+          "page_number": 119,
+          "matched_block_id": "p0119-b0030",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0119-b0032",
+          "page_number": 119,
+          "matched_block_id": "p0119-b0032",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0119-b0049",
+          "page_number": 119,
+          "matched_block_id": "p0119-b0049",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0119-b0072",
+          "page_number": 119,
+          "matched_block_id": "p0119-b0072",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0122-b0009",
+          "page_number": 122,
+          "matched_block_id": "p0122-b0009",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0122-b0020",
+          "page_number": 122,
+          "matched_block_id": "p0122-b0020",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p1-palas-p0122-b0023",
+          "page_number": 122,
+          "matched_block_id": "p0122-b0023",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -485,6 +1179,15 @@
         "block_id": "p0028-b0003"
       },
       {
+        "page_number": 30,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Narayanapala' appears without diacritics here, whereas this volume consistently prints 'Nārāyaṇapāla' (31 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0030-b0005"
+      },
+      {
         "page_number": 31,
         "severity": "review",
         "category": "orthographic_diacritic_drift",
@@ -512,6 +1215,15 @@
         "block_id": "p0032-b0008"
       },
       {
+        "page_number": 35,
+        "severity": "review",
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Gopaladeva' appears without diacritics here, whereas this volume consistently prints 'Gopāladeva' (8 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0035-b0006"
+      },
+      {
         "page_number": 36,
         "severity": "review",
         "category": "orthographic_diacritic_drift",
@@ -519,6 +1231,15 @@
         "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
         "validator": "orthographic_drift",
         "block_id": "p0036-b0005"
+      },
+      {
+        "page_number": 42,
+        "severity": "review",
+        "category": "script_anomaly",
+        "message": "Token 'bhūṣayantoऽnubhāvaiḥ' mixes Latin with devanagari script(s).",
+        "expected_action": "Inspect scan for cross-script OCR homoglyph substitution.",
+        "validator": "script_validator",
+        "block_id": "p0042-b0007"
       },
       {
         "page_number": 43,
@@ -541,11 +1262,11 @@
       {
         "page_number": 65,
         "severity": "review",
-        "category": "footnote_marker_mismatch",
-        "message": "Page 65 has inline note callout(s) ['1', '2', '3', '4', '5', '6', '7', '8', '9'] vs. labelled footnote(s) ['1', '2', '5', '4', '6', '6', '7', '8', '9'].",
-        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
-        "validator": "apparatus_parity",
-        "block_id": "p0065-b0005"
+        "category": "orthographic_diacritic_drift",
+        "message": "Token 'Yaksapala' appears without diacritics here, whereas this volume consistently prints 'Yakṣapāla' (9 occurrences).",
+        "expected_action": "Check scan to see whether diacritics were printed or dropped by the model.",
+        "validator": "orthographic_drift",
+        "block_id": "p0065-b0006"
       },
       {
         "page_number": 69,
@@ -677,7 +1398,7 @@
         "page_number": 28,
         "severity": "informational",
         "category": "rare_character",
-        "message": "'Ṭ' (U+1E6C LATIN CAPITAL LETTER T WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ṭabaqāt-i-Nāṣirī'.",
+        "message": "'Ṭ' (U+1E6C LATIN CAPITAL LETTER T WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ṭabaqāt-i-Nāṣiri'.",
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0028-b0003"
@@ -687,7 +1408,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Palas' appears without diacritics here, whereas this volume consistently prints 'Pālas' (47 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0028-b0007"
       },
@@ -696,7 +1417,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 34 has inline note callout(s) ['1', '3', '4'] vs. labelled footnote(s) ['1', '2', '3', '4'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0034-b0012"
       },
@@ -723,9 +1444,18 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Uddandapura' appears without diacritics here, whereas this volume consistently prints 'Uddaṇḍapura' (9 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0041-b0007"
+      },
+      {
+        "page_number": 42,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ऽ' (U+093D DEVANAGARI SIGN AVAGRAHA) appears only 1 time(s) in this book, here in 'Rāḍhām-akalita-carair=bhūṣayantoऽnubhāvaiḥ,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0042-b0007"
       },
       {
         "page_number": 48,
@@ -741,15 +1471,6 @@
         "severity": "informational",
         "category": "rare_character",
         "message": "'Ḥ' (U+1E24 LATIN CAPITAL LETTER H WITH DOT BELOW) appears only 1 time(s) in this book, here in 'Śrī-mad-GADĀDHĀRIṆAḤ'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0048-b0004"
-      },
-      {
-        "page_number": 48,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'Ṇ' (U+1E46 LATIN CAPITAL LETTER N WITH DOT BELOW) appears only 2 time(s) in this book, here in 'ŚRI-VAJRAPAṆINĀ'.",
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0048-b0004"
@@ -780,15 +1501,6 @@
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0066-b0005"
-      },
-      {
-        "page_number": 68,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'ē' (U+0113 LATIN SMALL LETTER E WITH MACRON) appears only 1 time(s) in this book, here in 'Bhuvanēśvara'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0068-b0006"
       },
       {
         "page_number": 74,
@@ -822,7 +1534,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Prajnaparamita' appears without diacritics here, whereas this volume consistently prints 'Prajñāpāramitā' (18 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0082-b0012"
       },
@@ -849,7 +1561,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ramacarita' appears without diacritics here, whereas this volume consistently prints 'Rāmacarita' (27 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0122-b0016"
       },
@@ -858,27 +1570,9 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Sandhyakara' appears without diacritics here, whereas this volume consistently prints 'Sandhyākara' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0122-b0016"
-      },
-      {
-        "page_number": 122,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'î' (U+00EE LATIN SMALL LETTER I WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Jîmûtavâhana.—By'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0122-b0020"
-      },
-      {
-        "page_number": 122,
-        "severity": "informational",
-        "category": "rare_character",
-        "message": "'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Jîmûtavâhana.—By'.",
-        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
-        "validator": "rare_characters",
-        "block_id": "p0122-b0020"
       },
       {
         "page_number": 122,
@@ -913,8 +1607,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 40 fixes · 5 pp. checked",
-          "detail": "40 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 139 fixes · 5 pp. checked",
+          "detail": "139 anchored emendation(s) applied; 5 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

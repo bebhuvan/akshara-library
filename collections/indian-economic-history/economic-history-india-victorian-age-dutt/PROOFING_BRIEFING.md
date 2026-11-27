@@ -67,8 +67,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | :--- | :---: | ---: | ---: | ---: |
 | Frontmatter | `7–10` | 3 | 1 | 0 / 3 |
 | PREFACE | `11–25` | 15 | 0 | 0 / 15 |
-| CONTENTS | `27–29` | 3 | 0 | 0 / 3 |
-| CHAPTER I: AUCKLAND AND ELLENBOROUGH | `31–41` | 11 | 0 | 0 / 11 |
+| CONTENTS | `27–28` | 2 | 0 | 0 / 2 |
+| CHAPTER I: AUCKLAND AND ELLENBOROUGH | `29–41` | 12 | 0 | 0 / 12 |
 | CHAPTER II: HARDINGE AND DALHOUSIE | `42–60` | 19 | 2 | 0 / 19 |
 | CHAPTER III: LAND SETTLEMENTS IN NORTHERN INDIA | `61–77` | 17 | 0 | 0 / 17 |
 | CHAPTER IV: LAND SETTLEMENTS IN BOMBAY | `78–94` | 17 | 0 | 0 / 17 |
@@ -81,8 +81,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER XI: IRRIGATION AND RAILWAYS | `194–206` | 13 | 0 | 0 / 13 |
 | CHAPTER XII: ADMINISTRATION | `207–237` | 31 | 1 | 0 / 31 |
 | CHAPTER XIII: INDIAN FINANCE. GENESIS OF THE INDIAN DEBT | `238–249` | 12 | 0 | 0 / 12 |
-| CHAPTER XIV: END OF THE COMPANY'S RULE | `250–265` | 15 | 0 | 0 / 15 |
-| CHAPTER I: CANNING, ELGIN, AND LAWRENCE | `267–279` | 13 | 1 | 0 / 13 |
+| CHAPTER XIV: END OF THE COMPANY'S RULE | `250–263` | 14 | 0 | 0 / 14 |
+| CHAPTER I: CANNING, ELGIN, AND LAWRENCE | `265–279` | 14 | 1 | 0 / 14 |
 | CHAPTER II: MAYO AND NORTHBROOK | `280–290` | 11 | 0 | 0 / 11 |
 | CHAPTER III: LAND REFORMS IN NORTHERN INDIA | `291–300` | 10 | 1 | 0 / 10 |
 | CHAPTER IV: PROPOSED PERMANENT SETTLEMENT FOR INDIA | `301–318` | 18 | 1 | 0 / 18 |
@@ -93,8 +93,8 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | CHAPTER IX: RAILWAYS AND IRRIGATION | `381–398` | 18 | 0 | 0 / 18 |
 | CHAPTER X: FINANCE AND THE INDIAN DEBT | `399–415` | 17 | 0 | 0 / 17 |
 | CHAPTER XI: LOCAL CESSES ON LAND | `416–428` | 13 | 0 | 0 / 13 |
-| CHAPTER XII: HISTORY OF TARIFFS | `429–445` | 17 | 0 | 0 / 17 |
-| CHAPTER I: LYTTON AND RIPON | `447–468` | 22 | 0 | 0 / 22 |
+| CHAPTER XII: HISTORY OF TARIFFS | `429–444` | 16 | 0 | 0 / 16 |
+| CHAPTER I: LYTTON AND RIPON | `445–468` | 23 | 0 | 0 / 23 |
 | CHAPTER II: DUFFERIN AND LANSDOWNE | `469–479` | 11 | 0 | 0 / 11 |
 | CHAPTER III: ELGIN AND CURZON | `480–487` | 8 | 0 | 0 / 8 |
 | CHAPTER IV: LAND ADMINISTRATION IN NORTHERN INDIA | `488–499` | 12 | 0 | 0 / 12 |

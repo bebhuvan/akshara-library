@@ -13,12 +13,12 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
-| **2. Scholarly Apparatus & Continuation** | **10.0 / 25.0** | -15.0: 37 unresolved footnote callout/body mismatch(es) |
+| **2. Scholarly Apparatus & Continuation** | **10.0 / 25.0** | -15.0: 38 unresolved footnote callout/body mismatch(es) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
-- Resolve 37 unmatched footnote marker(s) via anchor-matched corrections.
+- Resolve 38 unmatched footnote marker(s) via anchor-matched corrections.
 
 ---
 
@@ -75,4 +75,4 @@
 
 - **Detected Scripts**: `latin`: 198,581 chars
 - **Distinct Non-ASCII Glyphs (`12` across `19` leaves)**: · ä è é ê ô ö ü ā ī ṇ „
-- **Corrections Replayed**: `31` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `32` applied, `0` orphaned/unmatched

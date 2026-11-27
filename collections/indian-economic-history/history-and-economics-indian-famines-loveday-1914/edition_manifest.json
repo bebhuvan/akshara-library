@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/epub/history-and-economics-indian-famines-loveday-1914.epub",
     "markdown": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/markdown/history-and-economics-indian-famines-loveday-1914.md",
     "tei_xml": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/tei/history-and-economics-indian-famines-loveday-1914.tei.xml",
-    "print_html": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/print/history-and-economics-indian-famines-loveday-1914.print.html",
+    "print_source": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/print/history-and-economics-indian-famines-loveday-1914.typ",
     "pdf": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/print/history-and-economics-indian-famines-loveday-1914.pdf",
+    "onepage_html": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/html/history-and-economics-indian-famines-loveday-1914.html",
     "datasets": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/history-and-economics-indian-famines-loveday-1914/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 31 fixes · 35 pp. checked",
-        "detail": "31 anchored emendation(s) applied; 35 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 32 fixes · 35 pp. checked",
+        "detail": "32 anchored emendation(s) applied; 35 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -123,7 +124,7 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 37,
+      "open_hotspots": 38,
       "extracted_page_count": 177,
       "p1_proofed_page_count": 0,
       "reread_page_count": 35,
@@ -170,16 +171,16 @@
       ],
       "human_verified_pages": [],
       "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (37 open review items); 35 of 177 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "provenance_statement": "Automated reading (38 open review items); 35 of 177 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 37,
-      "informational": 33,
-      "total": 70
+      "review": 38,
+      "informational": 31,
+      "total": 69
     },
     "corrections": {
-      "applied": 31,
+      "applied": 32,
       "unmatched": 0,
       "details": [
         {
@@ -398,6 +399,13 @@
           "matched_block_id": "p0168-b0006",
           "op": "set_type",
           "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0083-b0003-italic-c",
+          "page_number": 83,
+          "matched_block_id": "p0083-b0003",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -511,15 +519,6 @@
         "block_id": "p0076-b0004"
       },
       {
-        "page_number": 83,
-        "severity": "review",
-        "category": "footnote_marker_mismatch",
-        "message": "Page 83 has inline note callout(s) ['a', 'b'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
-        "validator": "apparatus_parity",
-        "block_id": "p0083-b0006"
-      },
-      {
         "page_number": 84,
         "severity": "review",
         "category": "footnote_marker_mismatch",
@@ -565,6 +564,15 @@
         "block_id": "p0107-b0003"
       },
       {
+        "page_number": 115,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 115 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0115-b0004"
+      },
+      {
         "page_number": 126,
         "severity": "review",
         "category": "footnote_marker_mismatch",
@@ -599,6 +607,15 @@
         "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
         "validator": "apparatus_parity",
         "block_id": "p0147-b0006"
+      },
+      {
+        "page_number": 148,
+        "severity": "review",
+        "category": "footnote_marker_mismatch",
+        "message": "Page 148 has inline note callout(s) ['10', 'a'] vs. labelled footnote(s) ['a'].",
+        "expected_action": "Verify inline superscript marker and footnote label on the page scan.",
+        "validator": "apparatus_parity",
+        "block_id": "p0148-b0005"
       },
       {
         "page_number": 149,
@@ -740,7 +757,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 32 has inline note callout(s) ['4', 'a', 'b', 'c', 'd'] vs. labelled footnote(s) ['a', 'b', 'c', 'd'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0032-b0003"
       },
@@ -749,7 +766,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 36 has inline note callout(s) ['7', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0036-b0004"
       },
@@ -758,7 +775,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 43 has inline note callout(s) ['10', 'a'] vs. labelled footnote(s) ['a'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0043-b0003"
       },
@@ -767,7 +784,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 47 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0047-b0004"
       },
@@ -776,7 +793,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 51 has inline note callout(s) ['4', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0051-b0003"
       },
@@ -785,7 +802,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 52 has inline note callout(s) ['5', 'a', 'b', 'c', 'd', 'e', 'f'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e', 'f'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0052-b0003"
       },
@@ -794,7 +811,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 53 has inline note callout(s) ['6', '7', '8', 'a', 'b', 'c', 'd', 'e', 'f'] vs. labelled footnote(s) ['a', 'c', 'e', 'b', 'd', 'f'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0053-b0003"
       },
@@ -803,7 +820,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 54 has inline note callout(s) ['9', '10', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0054-b0003"
       },
@@ -812,7 +829,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 55 has inline note callout(s) ['11', '12', '13', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0055-b0004"
       },
@@ -821,7 +838,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 66 has inline note callout(s) ['2', 'a', 'b', 'c', 'd', 'e'] vs. labelled footnote(s) ['a', 'b', 'c', 'd', 'e'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0066-b0003"
       },
@@ -830,7 +847,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 68 has inline note callout(s) ['3', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0068-b0003"
       },
@@ -839,7 +856,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 72 has inline note callout(s) ['5', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0072-b0003"
       },
@@ -848,7 +865,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 80 has inline note callout(s) ['8', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0080-b0003"
       },
@@ -857,7 +874,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 85 has inline note callout(s) ['10', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0085-b0003"
       },
@@ -866,7 +883,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 88 has inline note callout(s) ['11', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0088-b0003"
       },
@@ -875,7 +892,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 89 has inline note callout(s) ['12', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0089-b0004"
       },
@@ -893,7 +910,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 99 has inline note callout(s) ['3', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0099-b0003"
       },
@@ -902,7 +919,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 100 has inline note callout(s) ['4', 'a'] vs. labelled footnote(s) ['a'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0100-b0003"
       },
@@ -911,18 +928,9 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 103 has inline note callout(s) ['5', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0103-b0003"
-      },
-      {
-        "page_number": 115,
-        "severity": "informational",
-        "category": "footnote_compositor_variant",
-        "message": "Page 115 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
-        "validator": "apparatus_parity",
-        "block_id": "p0115-b0004"
       },
       {
         "page_number": 115,
@@ -938,7 +946,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 119 has inline note callout(s) ['2', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0119-b0003"
       },
@@ -947,7 +955,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 124 has inline note callout(s) ['3', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0124-b0005"
       },
@@ -956,7 +964,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 125 has inline note callout(s) ['4', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0125-b0004"
       },
@@ -965,18 +973,9 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 136 has inline note callout(s) ['6', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0136-b0005"
-      },
-      {
-        "page_number": 148,
-        "severity": "informational",
-        "category": "footnote_compositor_variant",
-        "message": "Page 148 has inline note callout(s) ['10', 'a'] vs. labelled footnote(s) ['a'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
-        "validator": "apparatus_parity",
-        "block_id": "p0148-b0005"
       },
       {
         "page_number": 148,
@@ -992,7 +991,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 158 has inline note callout(s) ['10', '1', '2', '3', '4', '5', '6', '7', '8'] vs. labelled footnote(s) [].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0158-b0003"
       },
@@ -1056,8 +1055,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 31 fixes · 35 pp. checked",
-          "detail": "31 anchored emendation(s) applied; 35 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 32 fixes · 35 pp. checked",
+          "detail": "32 anchored emendation(s) applied; 35 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

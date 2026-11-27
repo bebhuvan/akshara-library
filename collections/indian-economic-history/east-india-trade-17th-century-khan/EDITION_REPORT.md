@@ -67,8 +67,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `244` prose joins, `6` split footnotes stitched, `0` multi-page tables unified, `955` total footnotes.
-  - Stitched cross-page footnotes: p.130->p.131 (`1`), p.142->p.143 (`2`), p.209->p.210 (`1`), p.246->p.247 (`2`), p.281->p.282 (`2`), p.293->p.294 (`1`)
+- **Cross-Page Assembly**: `245` prose joins, `8` split footnotes stitched, `0` multi-page tables unified, `955` total footnotes.
+  - Stitched cross-page footnotes: p.130->p.131 (`1`), p.142->p.143 (`2`), p.209->p.210 (`1`), p.246->p.247 (`2`), p.252->p.253 (`3`), p.281->p.282 (`2`), p.292->p.293 (`5`), p.293->p.294 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`78` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 01473009 7"*
   - Leaf `7` `p0007-b0004` (`scanner_residue`): *"[Embossed circular library stamp of the University of Toronto Library]"*
@@ -90,4 +90,4 @@
 
 - **Detected Scripts**: `latin`: 607,347 chars, `greek`: 34 chars
 - **Distinct Non-ASCII Glyphs (`8` across `47` leaves)**: · à è é ô ö Θ θ
-- **Corrections Replayed**: `8` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `13` applied, `0` orphaned/unmatched

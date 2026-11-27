@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/comprehensive-history-india-v2/epub/comprehensive-history-india-v2.epub",
     "markdown": "library/general-heritage/comprehensive-history-india-v2/markdown/comprehensive-history-india-v2.md",
     "tei_xml": "library/general-heritage/comprehensive-history-india-v2/tei/comprehensive-history-india-v2.tei.xml",
-    "print_html": "library/general-heritage/comprehensive-history-india-v2/print/comprehensive-history-india-v2.print.html",
+    "print_source": "library/general-heritage/comprehensive-history-india-v2/print/comprehensive-history-india-v2.typ",
     "pdf": "library/general-heritage/comprehensive-history-india-v2/print/comprehensive-history-india-v2.pdf",
+    "onepage_html": "library/general-heritage/comprehensive-history-india-v2/html/comprehensive-history-india-v2.html",
     "datasets": null,
     "datapackage": null
   },
@@ -419,7 +420,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 741 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0741-b0011"
       },
@@ -428,7 +429,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 742 has inline note callout(s) [] vs. labelled footnote(s) ['2'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0742-b0009"
       }

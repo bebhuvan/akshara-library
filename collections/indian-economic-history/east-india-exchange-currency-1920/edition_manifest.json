@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/east-india-exchange-currency-1920/epub/east-india-exchange-currency-1920.epub",
     "markdown": "library/indian-economic-history/east-india-exchange-currency-1920/markdown/east-india-exchange-currency-1920.md",
     "tei_xml": "library/indian-economic-history/east-india-exchange-currency-1920/tei/east-india-exchange-currency-1920.tei.xml",
-    "print_html": "library/indian-economic-history/east-india-exchange-currency-1920/print/east-india-exchange-currency-1920.print.html",
+    "print_source": "library/indian-economic-history/east-india-exchange-currency-1920/print/east-india-exchange-currency-1920.typ",
     "pdf": "library/indian-economic-history/east-india-exchange-currency-1920/print/east-india-exchange-currency-1920.pdf",
+    "onepage_html": "library/indian-economic-history/east-india-exchange-currency-1920/html/east-india-exchange-currency-1920.html",
     "datasets": "library/indian-economic-history/east-india-exchange-currency-1920/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/east-india-exchange-currency-1920/datasets/datapackage.json"
   },

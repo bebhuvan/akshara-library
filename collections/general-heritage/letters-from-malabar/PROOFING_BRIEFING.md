@@ -44,8 +44,8 @@ Welcome! You do **not** need to read all 204 leaves from start to finish to make
 - [ ] Leaf **29**: 'à' (U+00E0 LATIN SMALL LETTER A WITH GRAVE) appears only 2 time(s) in this book, here in 'Cheramperumàl'.
 - [ ] Leaf **57**: Block p0057-b0002 is classified as a heading (254 chars) but contains multi-sentence body prose; compiler will demote to paragraph.
 - [ ] Leaf **75**: 'á' (U+00E1 LATIN SMALL LETTER A WITH ACUTE) appears only 1 time(s) in this book, here in 'vivá'.
-- [ ] Leaf **110**: 'ę' (U+0119 LATIN SMALL LETTER E WITH OGONEK) appears only 1 time(s) in this book, here in 'Menezęz,'.
 - [ ] Leaf **145**: 'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'Bayadères'.
+- [ ] Leaf **179**: 'â' (U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'summâ'.
 - [ ] Leaf **180**: 'û' (U+00FB LATIN SMALL LETTER U WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'Cudungalûr,'.
 - [ ] Leaf **195**: 'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 2 time(s) in this book, here in 'Kœnig'.
 - [ ] Leaf **196**: 'ô' (U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX) appears only 1 time(s) in this book, here in 'dépôt'.
@@ -82,7 +82,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Letter XIII. Ecclesiastical and Temporal Grandees & Saluta | `93–98` | 6 | 0 | 0 / 6 |
 | Letter XIV. Customs of Women, Children & Weddings | `99–102` | 4 | 0 | 0 / 4 |
 | Letter XV. Account of the Topasses | `103–107` | 5 | 0 | 0 / 5 |
-| Letter XVI. St. Thomas or Syrian Christians | `108–117` | 10 | 1 | 0 / 10 |
+| Letter XVI. St. Thomas or Syrian Christians | `108–117` | 10 | 0 | 0 / 10 |
 | Letter XVII. Roman Catholic Priests & Converts | `118–121` | 4 | 0 | 0 / 4 |
 | Letter XVIII. The Jews, Black and White | `122–125` | 4 | 0 | 0 / 4 |
 | Letter XIX. Account of the Moors in Malabar | `126–129` | 4 | 0 | 0 / 4 |
@@ -94,4 +94,4 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Letter XXV. Chronologies & Feast Days of the Malabars | `157–160` | 4 | 0 | 0 / 4 |
 | Letter XXVI. Pepper, Turmeric, Cardamom & Areca | `161–166` | 6 | 0 | 0 / 6 |
 | Letter XXVII. Cocoa Palm, Cinnamon, Coffee & Fauna | `167–172` | 6 | 0 | 0 / 6 |
-| An Account of Travancore, and Fra Bartolomeo’s Travels | `173–204` | 32 | 4 | 0 / 32 |
+| An Account of Travancore, and Fra Bartolomeo’s Travels | `173–204` | 32 | 5 | 0 / 32 |

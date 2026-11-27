@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/truth-about-indian-opium/epub/truth-about-indian-opium.epub",
     "markdown": "library/indian-economic-history/truth-about-indian-opium/markdown/truth-about-indian-opium.md",
     "tei_xml": "library/indian-economic-history/truth-about-indian-opium/tei/truth-about-indian-opium.tei.xml",
-    "print_html": "library/indian-economic-history/truth-about-indian-opium/print/truth-about-indian-opium.print.html",
+    "print_source": "library/indian-economic-history/truth-about-indian-opium/print/truth-about-indian-opium.typ",
     "pdf": "library/indian-economic-history/truth-about-indian-opium/print/truth-about-indian-opium.pdf",
+    "onepage_html": "library/indian-economic-history/truth-about-indian-opium/html/truth-about-indian-opium.html",
     "datasets": "library/indian-economic-history/truth-about-indian-opium/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/truth-about-indian-opium/datasets/datapackage.json"
   },

@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Early History of India*
 
 - **Book ID**: `early-history-of-india-1924` | **Run ID**: `g38-batch-v1` | **Collection**: `general-heritage`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`86.3 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`84.3 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 559 of 575 pages, gemini-3.6-flash on 16 of 575 pages. Declared reader profile: transliteration (new readings use gemini-3.8-flash).
 - **Pages**: `575` extracted, `21` blank/tissue, `0` failed (of `596` PDF leaves)
 - **Tracked API Spend**: **`$3.2674`** (`71.3%` cached input tokens: `4,551,700` / `6,381,268` in, `1,190,120` out, `0` thoughts)
@@ -13,13 +13,14 @@
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
-| **2. Scholarly Apparatus & Continuation** | **19.0 / 25.0** | -6.0: 2 unresolved footnote callout/body mismatch(es) |
+| **2. Scholarly Apparatus & Continuation** | **22.0 / 25.0** | -3.0: 1 unresolved footnote callout/body mismatch(es) |
 | **3. Tabular & Numerical Accuracy** | **20.5 / 25.0** | -4.5: 3 ragged table geometry warning(s) |
-| **4. Orthographic, Script & Diacritics** | **21.8 / 25.0** | -3.0: 1 script/codepoint anomaly(ies); -0.2: 1 `<unclear>` ink span(s) awaiting scan check |
+| **4. Orthographic, Script & Diacritics** | **16.8 / 25.0** | -8.0: 4 intra-book diacritic drift cluster(s); -0.2: 1 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
 - Inspect flagged statistical table cells via akshara review-sheets or Akshara Proofing Studio.
-- Resolve 2 unmatched footnote marker(s) via anchor-matched corrections.
+- Resolve 1 unmatched footnote marker(s) via anchor-matched corrections.
+- Standardize or verify 4 proper-noun diacritic drift cluster(s).
 
 ---
 
@@ -68,8 +69,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `353` prose joins, `67` split footnotes stitched, `4` multi-page tables unified, `919` total footnotes.
-  - Stitched cross-page footnotes: p.32->p.33 (`2`), p.42->p.43 (`2`), p.57->p.58 (`3`), p.62->p.63 (`1`), p.64->p.65 (`1`), p.67->p.68 (`3`), p.72->p.73 (`2`), p.76->p.77 (`3`), p.80->p.81 (`2`), p.86->p.87 (`1`), p.104->p.105 (`2`), p.108->p.109 (`2`), p.137->p.138 (`2`), p.138->p.139 (`1`), p.157->p.158 (`3`)
+- **Cross-Page Assembly**: `356` prose joins, `71` split footnotes stitched, `5` multi-page tables unified, `919` total footnotes.
+  - Stitched cross-page footnotes: p.32->p.33 (`2`), p.42->p.43 (`2`), p.57->p.58 (`3`), p.62->p.63 (`4`), p.64->p.65 (`1`), p.67->p.68 (`3`), p.72->p.73 (`2`), p.76->p.77 (`3`), p.80->p.81 (`2`), p.86->p.87 (`1`), p.104->p.105 (`2`), p.108->p.109 (`2`), p.137->p.138 (`2`), p.138->p.139 (`1`), p.157->p.158 (`3`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`117` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 00115364 2"*
   - Leaf `4` `p0004-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2026 with funding from University of Toronto"*
@@ -91,4 +92,4 @@
 
 - **Detected Scripts**: `latin`: 1,011,293 chars, `greek`: 4,023 chars, `hangul`: 2 chars, `other`: 1 chars
 - **Distinct Non-ASCII Glyphs (`196` across `533` leaves)**: · Ç É Ü à á â ä ç è é ê ë î ï ñ ó ô ö û ü Ā ā ă č Ē ē ġ ĥ Ī ī Ł Ń Ō ō Ő ő Œ œ ŕ Ś ś š Ū ū ŭ ʻ ̄ ΐ Α Β Γ Δ Ε Ζ Η Ι Κ Λ Μ
-- **Corrections Replayed**: `65` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `121` applied, `0` orphaned/unmatched

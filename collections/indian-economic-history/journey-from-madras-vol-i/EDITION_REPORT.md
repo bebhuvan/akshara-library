@@ -65,7 +65,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `325` prose joins, `0` split footnotes stitched, `5` multi-page tables unified, `1` total footnotes.
+- **Cross-Page Assembly**: `326` prose joins, `0` split footnotes stitched, `5` multi-page tables unified, `1` total footnotes.
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`98` — verify no epigraph/dedication was caught)**:
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"SCD #3125 v.1 10.17.13. Library of the Theological Seminary, PRINCETON, N. J. Purchased by"*
   - Leaf `2` `p0002-b0002` (`scanner_residue`): *"6 E 15"*

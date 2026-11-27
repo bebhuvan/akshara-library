@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 273 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **90.0 / 100** (`community`)
+- **Current Edition Score**: **88.5 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 273** leaves verified
 - **Original Camera Scans**: [Internet Archive (`cu31924091209449`)](https://archive.org/details/cu31924091209449)
 
@@ -11,6 +11,7 @@ Welcome! You do **not** need to read all 273 leaves from start to finish to make
 ## Mission 1 — Statistical Ledgers & Numerical Checks
 
 - **Sideways Broadside Tables to Eyeball**: PDF leaf(s) `58, 59, 60, 61, 69, 176, 199, 200` were printed rotated 90° and auto-oriented.
+- [ ] Leaf **201** (`p0201-b0006`): Table row p0201-b0006 expands to 5 columns vs. table body width 15 (even after accounting for colspan/rowspan).
 - [ ] Leaf **12** (`p0012-b0005`): Verify number `1868` against scan (embedded OCR read `['1861', '1865', '1867']`).
 - [ ] Leaf **18** (`p0018-b0004`): Verify number `164` against scan (embedded OCR read `['163', '165']`).
 - [ ] Leaf **21** (`p0021-b0006`): Verify number `1844` against scan (embedded OCR read `['1846']`).
@@ -97,15 +98,15 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 
 | Section | PDF Leaves | Leaves | Open Hotspots | Verified |
 | :--- | :---: | ---: | ---: | ---: |
-| BOMBAY PRESIDENCY. | `9–38` | 29 | 17 | 0 / 29 |
+| BOMBAY PRESIDENCY. | `9–38` | 29 | 16 | 0 / 29 |
 | STATEMENT. | `39–57` | 19 | 4 | 0 / 19 |
-| PRICES DURING YEARS OF SCARCITY, OR FAMINE. | `58–168` | 111 | 38 | 0 / 111 |
+| PRICES DURING YEARS OF SCARCITY, OR FAMINE. | `58–168` | 111 | 37 | 0 / 111 |
 | APPENDIX A | `169–173` | 5 | 0 | 0 / 5 |
 | APPENDIX B | `174–179` | 6 | 16 | 0 / 6 |
 | APPENDIX C | `180–183` | 4 | 3 | 0 / 4 |
 | APPENDIX D | `184–193` | 10 | 9 | 0 / 10 |
 | APPENDIX E | `194–195` | 2 | 2 | 0 / 2 |
-| APPENDIX F | `196–201` | 6 | 20 | 0 / 6 |
+| APPENDIX F | `196–201` | 6 | 21 | 0 / 6 |
 | APPENDIX G | `202–205` | 4 | 8 | 0 / 4 |
 | APPENDIX H: Minute on the Famine of 1802 in the Bombay Pre | `206–241` | 36 | 1 | 0 / 36 |
-| SEPARATE CORRESPONDENCE BETWEEN THE GOVERNOR AND MR. HENSH | `241–282` | 37 | 13 | 0 / 37 |
+| SEPARATE CORRESPONDENCE BETWEEN THE GOVERNOR AND MR. HENSH | `241–282` | 37 | 4 | 0 / 37 |

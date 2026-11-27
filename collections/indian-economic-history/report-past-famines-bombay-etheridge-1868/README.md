@@ -4,7 +4,7 @@
 - **Publication Year**: 1868
 - **Imprint**: Bombay: Education Society's Press
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**90.0 / 100**)
+- **Edition Tier**: `community` (**88.5 / 100**)
 - **Internet Archive Source**: https://archive.org/details/cu31924091209449
 
 ## Files in This Folder

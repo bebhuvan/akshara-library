@@ -31,7 +31,7 @@ Welcome! You do **not** need to read all 105 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
-- [ ] Leaf **65** (`p0065-b0005`): Page 65 has inline note callout(s) ['1', '2', '3', '4', '5', '6', '7', '8', '9'] vs. labelled footnote(s) ['1', '2', '5', '4', '6', '6', '7', '8', '9'].
+All footnote callouts and cross-page continuations linked cleanly!
 
 ---
 
@@ -41,12 +41,16 @@ Welcome! You do **not** need to read all 105 leaves from start to finish to make
 - [ ] Leaf **16**: Token 'Prasada' appears without diacritics here, whereas this volume consistently prints 'Prasāda' (19 occurrences).
 - [ ] Leaf **26**: Token 'Kambojas' appears without diacritics here, whereas this volume consistently prints 'Kāmbojas' (8 occurrences).
 - [ ] Leaf **28**: Token 'Brahmana' appears without diacritics here, whereas this volume consistently prints 'Brāhmaṇa' (15 occurrences).
+- [ ] Leaf **30**: Token 'Narayanapala' appears without diacritics here, whereas this volume consistently prints 'Nārāyaṇapāla' (31 occurrences).
 - [ ] Leaf **31**: Token 'Sahitya' appears without diacritics here, whereas this volume consistently prints 'Sāhitya' (4 occurrences).
 - [ ] Leaf **31**: Token 'Patrika' appears without diacritics here, whereas this volume consistently prints 'Patrikā' (3 occurrences).
 - [ ] Leaf **32**: Token 'Rajendra' appears without diacritics here, whereas this volume consistently prints 'Rājendra' (14 occurrences).
+- [ ] Leaf **35**: Token 'Gopaladeva' appears without diacritics here, whereas this volume consistently prints 'Gopāladeva' (8 occurrences).
 - [ ] Leaf **36**: Token 'Vigrahapala' appears without diacritics here, whereas this volume consistently prints 'Vigrahapāla' (49 occurrences).
+- [ ] Leaf **42**: Token 'bhūṣayantoऽnubhāvaiḥ' mixes Latin with devanagari script(s).
 - [ ] Leaf **43**: Token 'Rajendra' appears without diacritics here, whereas this volume consistently prints 'Rājendra' (14 occurrences).
 - [ ] Leaf **62**: Token 'Ramapala' appears without diacritics here, whereas this volume consistently prints 'Rāmapāla' (105 occurrences).
+- [ ] Leaf **65**: Token 'Yaksapala' appears without diacritics here, whereas this volume consistently prints 'Yakṣapāla' (9 occurrences).
 - [ ] Leaf **69**: Token 'Sastri' appears without diacritics here, whereas this volume consistently prints 'Śāstrī' (24 occurrences).
 - [ ] Leaf **69**: Token 'Ramacarita' appears without diacritics here, whereas this volume consistently prints 'Rāmacarita' (27 occurrences).
 - [ ] Leaf **69**: Token 'Somesvara' appears without diacritics here, whereas this volume consistently prints 'Someśvara' (4 occurrences).
@@ -58,10 +62,6 @@ Welcome! You do **not** need to read all 105 leaves from start to finish to make
 - [ ] Leaf **105**: Uncertain glyph reading marked <unclear>tic Society.</unclear>.
 - [ ] Leaf **105**: Uncertain glyph reading marked <unclear>n.</unclear>.
 - [ ] Leaf **117**: Token 'Kambojas' appears without diacritics here, whereas this volume consistently prints 'Kāmbojas' (8 occurrences).
-- [ ] Leaf **118**: Token 'Umapati' appears without diacritics here, whereas this volume consistently prints 'Umāpati' (4 occurrences).
-- [ ] Leaf **120**: Token 'Devagrama' appears without diacritics here, whereas this volume consistently prints 'Devagrāma' (7 occurrences).
-- [ ] Leaf **19**: 'œ' (U+0153 LATIN SMALL LIGATURE OE) appears only 1 time(s) in this book, here in 'Hœrnle.'.
-- [ ] Leaf **28**: 'Ṭ' (U+1E6C LATIN CAPITAL LETTER T WITH DOT BELOW) appears only 2 time(s) in this book, here in 'Ṭabaqāt-i-Nāṣirī'.
 - [ ] Leaf **36** (`p0036-b0004`): Faded ink `<unclear>p</unclear>` in *"…mado Gauḍānāṁ vinaya-vratārppaṇa-gurus=Sāmudrā=nidrāharaḥ…"*
 - [ ] Leaf **105** (`p0105-b0003`): Faded ink `<unclear>ry.</unclear>` in *"…ramitā in the Bodleian Library.…"*
 - [ ] Leaf **105** (`p0105-b0005`): Faded ink `<unclear>tic Society.</unclear>` in *"…Collection of the Royal Asiatic Society.…"*
@@ -80,11 +80,11 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | PREFACE. | `11–11` | 1 | 0 | 0 / 1 |
 | CHAPTER I: Introduction. | `13–16` | 4 | 2 | 0 / 4 |
 | CHAPTER II: Gopāla I and Dharmmapāla. | `17–24` | 8 | 1 | 0 / 8 |
-| CHAPTER III: THE STRUGGLE WITH THE PRATĪHĀRAS. | `25–37` | 13 | 9 | 0 / 13 |
-| CHAPTER IV: THE SECOND EMPIRE. | `38–53` | 16 | 9 | 0 / 16 |
-| CHAPTER V: The Decline of the Pālas. | `54–70` | 17 | 7 | 0 / 17 |
+| CHAPTER III: THE STRUGGLE WITH THE PRATĪHĀRAS. | `25–37` | 13 | 11 | 0 / 13 |
+| CHAPTER IV: THE SECOND EMPIRE. | `38–53` | 16 | 10 | 0 / 16 |
+| CHAPTER V: The Decline of the Pālas. | `54–70` | 17 | 6 | 0 / 17 |
 | CHAPTER VI: The Last Kings. | `71–83` | 13 | 6 | 0 / 13 |
 | Memoirs of the Asiatic Society of Bengal | `85–86` | 2 | 3 | 0 / 2 |
 | PLATES TO ILLUSTRATE THE PĀLAS OF BENGAL. | `87–113` | 15 | 3 | 0 / 15 |
 | INDEX. | `115–120` | 6 | 3 | 0 / 6 |
-| Memoirs of the Asiatic Society of Bengal | `121–126` | 3 | 6 | 0 / 3 |
+| Memoirs of the Asiatic Society of Bengal | `121–126` | 3 | 4 | 0 / 3 |

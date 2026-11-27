@@ -11,23 +11,25 @@ This digital edition was produced by transcribing a scanned copy of the original
 - **Source File**: `musalmans-and-money-lenders.originals.pdf`
 - **Source SHA-256**: `791a2265304f982d994bd806308ede576db21c115b3b0273e61abb5a387ea7c0`
 - **Leaf Accounting**: 216 PDF leaves — **207** content leaves transcribed, **9** blank/tissue leaves (`11, 12, 166, 207, 211, 212, 213, 214, 215`), **0** failed leaves.
-- **Edition Status**: `community` (**99.4 / 100** Rubric Score)
+- **Edition Status**: `community` (**96.4 / 100** Rubric Score)
 
 ## 2. Editorial Policy: Presentation vs. Historical Text
 
-- **Modernized (Presentation Only)**: Running heads and institutional library stamps (85 flyleaf/stamp block(s)) are excluded from reading prose; **129** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **0** cross-page split footnotes and **0** multi-page tables were stitched; and **1002** end-of-line hyphens were resolved against intra-book attestation.
+- **Modernized (Presentation Only)**: Running heads and institutional library stamps (85 flyleaf/stamp block(s)) are excluded from reading prose; **132** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **1** cross-page split footnotes and **0** multi-page tables were stitched; and **1002** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (12 distinct non-ASCII characters across 38 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+- **Reading Editions Only**: In the web chapters, the one-page edition, the EPUB and the PDF, the space the compositor set before `! ? ; :` and inside quotation marks is closed up (**161** places); **410** straight quotation marks and apostrophes are set as curly ones. The TEI XML and Markdown keep the page exactly as printed.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
 - **Models**: `gemini-3.8-flash` (207 pp.).
 - **Reader**: Read by gemini-3.8-flash on 207 of 207 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 22 replayed correction(s). Automated reading (3 open review items); 2 of 207 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 24 replayed correction(s). Automated reading (4 open review items); 2 of 207 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
 - **5 finding(s) across 5 leaf(s)** (pp. 46, 93, 111, 140, 162): rare character.
 - **3 finding(s) across 1 leaf(s)** (pp. 79): faded or blotted `<unclear>` passages awaiting human scan inspection.
 - **2 finding(s) across 2 leaf(s)** (pp. 125, 191): table blind total confirmed.
+- **1 finding(s) across 1 leaf(s)** (pp. 138): footnote blocks without an explicit printed marker.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

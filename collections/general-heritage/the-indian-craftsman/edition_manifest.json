@@ -1,0 +1,454 @@
+{
+  "version": "edition-manifest-v2",
+  "book_id": "the-indian-craftsman",
+  "run_id": "g38-batch-v1",
+  "run_kind": "canonical",
+  "is_partial_pages": false,
+  "is_preview": false,
+  "collection": "general-heritage",
+  "edition_tier": "machine_checked",
+  "rubric_score": 100.0,
+  "cover_archetype": "village_and_society",
+  "cover_palette": "Terracotta Loom",
+  "edition_root": "library/general-heritage/the-indian-craftsman",
+  "outputs": {
+    "book_ast": "library/general-heritage/the-indian-craftsman/book_ast.json",
+    "rubric_score": "library/general-heritage/the-indian-craftsman/rubric_score.json",
+    "editorial_note": "library/general-heritage/the-indian-craftsman/EDITORIAL_NOTE.md",
+    "edition_report": "library/general-heritage/the-indian-craftsman/EDITION_REPORT.md",
+    "proofing_briefing": "library/general-heritage/the-indian-craftsman/PROOFING_BRIEFING.md",
+    "cover_svg": "library/general-heritage/the-indian-craftsman/cover.svg",
+    "cover_webp": "library/general-heritage/the-indian-craftsman/cover.webp",
+    "web_index": "library/general-heritage/the-indian-craftsman/web/index.html",
+    "hugo_dir": "library/general-heritage/the-indian-craftsman/web/hugo",
+    "hugo_manifest": "library/general-heritage/the-indian-craftsman/web/hugo/hugo_manifest.json",
+    "epub3": "library/general-heritage/the-indian-craftsman/epub/the-indian-craftsman.epub",
+    "markdown": "library/general-heritage/the-indian-craftsman/markdown/the-indian-craftsman.md",
+    "tei_xml": "library/general-heritage/the-indian-craftsman/tei/the-indian-craftsman.tei.xml",
+    "print_source": "library/general-heritage/the-indian-craftsman/print/the-indian-craftsman.typ",
+    "pdf": "library/general-heritage/the-indian-craftsman/print/the-indian-craftsman.pdf",
+    "onepage_html": "library/general-heritage/the-indian-craftsman/html/the-indian-craftsman.html",
+    "datasets": null,
+    "datapackage": null
+  },
+  "post_compile_validation": {
+    "ok": true,
+    "valid": true,
+    "edition_root": "library/general-heritage/the-indian-craftsman",
+    "error_count": 0,
+    "errors": []
+  },
+  "taxonomy": {
+    "version": "taxonomy-v1",
+    "tier": {
+      "code": "machine_checked",
+      "label": "Machine-Checked",
+      "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+    },
+    "provenance_tags": [
+      {
+        "id": "reader:gemini-3.8-flash",
+        "axis": "provenance",
+        "label": "Read: Gemini 3.8 Flash",
+        "detail": "Models: gemini-3.8-flash (153/153 pp.) · reader_profile=english_prose"
+      },
+      {
+        "id": "source:jp2_originals",
+        "axis": "provenance",
+        "label": "Source: Camera JP2 Originals",
+        "detail": "sources/the-indian-craftsman.originals.pdf"
+      },
+      {
+        "id": "audit:scan_triage",
+        "axis": "provenance",
+        "label": "Scan-Triaged: 21 fixes · 11 pp. checked",
+        "detail": "21 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+      },
+      {
+        "id": "human:0pct",
+        "axis": "provenance",
+        "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+        "detail": "0 of 153 extracted pages signed off by a human reviewer"
+      }
+    ],
+    "diplomatic_and_script_tags": [
+      {
+        "id": "method:diplomatic",
+        "axis": "diplomatic",
+        "label": "Diplomatic Orthography",
+        "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+      },
+      {
+        "id": "script:latin",
+        "axis": "diplomatic",
+        "label": "Script: Latin",
+        "detail": "Declared script: Latin"
+      },
+      {
+        "id": "script:diacritics",
+        "axis": "diplomatic",
+        "label": "IAST / Diacritics",
+        "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+      },
+      {
+        "id": "apparatus:critical",
+        "axis": "diplomatic",
+        "label": "Critical Apparatus",
+        "detail": "Linked apparatus with 63 footnotes and 0 margin/shoulder notes"
+      }
+    ],
+    "archival_tags": {
+      "period_covered": "Ancient to Early 20th Century",
+      "regions": [
+        "India",
+        "Ceylon",
+        "South Asia"
+      ],
+      "subjects": [
+        "Craft Guilds",
+        "Artisans",
+        "Indian Art",
+        "Village Economy",
+        "Economic History"
+      ],
+      "artifacts": [
+        "63 Footnotes"
+      ]
+    }
+  },
+  "quality_summary": {
+    "readiness": {
+      "eligible_tier": "machine_checked",
+      "community_edition_ready": true,
+      "machine_checked_ready": true,
+      "source_certified_ready": false,
+      "critical_blockers": 0,
+      "open_hotspots": 0,
+      "extracted_page_count": 153,
+      "p1_proofed_page_count": 0,
+      "reread_page_count": 11,
+      "machine_reread_page_count": 11,
+      "human_verified_page_count": 0,
+      "two_person_verified_page_count": 0,
+      "unevidenced_stamp_count": 0,
+      "reread_pages": [
+        16,
+        21,
+        69,
+        76,
+        78,
+        85,
+        93,
+        94,
+        99,
+        101,
+        122
+      ],
+      "human_verified_pages": [],
+      "stale_proof_page_count": 0,
+      "provenance_statement": "Machine-checked; 11 of 153 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+    },
+    "validation_summary": {
+      "critical": 0,
+      "review": 0,
+      "informational": 7,
+      "total": 7
+    },
+    "corrections": {
+      "applied": 21,
+      "unmatched": 0,
+      "details": [
+        {
+          "correction_id": "craftsman-p0013-b0002-skiil",
+          "page_number": 13,
+          "matched_block_id": "p0013-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0020-b0003-green-sickness",
+          "page_number": 20,
+          "matched_block_id": "p0020-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0034-b0003-imperial-gazetteer",
+          "page_number": 34,
+          "matched_block_id": "p0034-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0036-b0002-gem-cutters",
+          "page_number": 36,
+          "matched_block_id": "p0036-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0039-b0002-she-buffaloes",
+          "page_number": 39,
+          "matched_block_id": "p0039-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0066-b0004-date-range",
+          "page_number": 66,
+          "matched_block_id": "p0066-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0067-b0002-lime-burners",
+          "page_number": 67,
+          "matched_block_id": "p0067-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0073-b0003-extra-urban-hinajati",
+          "page_number": 73,
+          "matched_block_id": "p0073-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0080-b0002-spurious-quote",
+          "page_number": 80,
+          "matched_block_id": "p0080-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0084-b0003-dup-is",
+          "page_number": 84,
+          "matched_block_id": "p0084-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0086-b0005-italic-span",
+          "page_number": 86,
+          "matched_block_id": "p0086-b0005",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0095-b0003-split-cont",
+          "page_number": 95,
+          "matched_block_id": "p0095-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0097-b0002-old-fashioned",
+          "page_number": 97,
+          "matched_block_id": "p0097-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0107-b0003-fn-paragraph",
+          "page_number": 107,
+          "matched_block_id": "p0107-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0124-b0004-lotus-covered",
+          "page_number": 124,
+          "matched_block_id": "p0124-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0133-b0002-fellow-artists",
+          "page_number": 133,
+          "matched_block_id": "p0133-b0002",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0134-b0003-boat-builders",
+          "page_number": 134,
+          "matched_block_id": "p0134-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0135-b0004-endash",
+          "page_number": 135,
+          "matched_block_id": "p0135-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0136-b0003-house-carpenter",
+          "page_number": 136,
+          "matched_block_id": "p0136-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0148-b0004-italic-comma",
+          "page_number": 148,
+          "matched_block_id": "p0148-b0004",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "craftsman-p0152-b0003-biblio-list",
+          "page_number": 152,
+          "matched_block_id": "p0152-b0003",
+          "op": "split_block",
+          "status": "applied"
+        }
+      ]
+    },
+    "review_items": [
+      {
+        "page_number": 21,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ś' (U+015B LATIN SMALL LETTER S WITH ACUTE) appears only 2 time(s) in this book, here in 'Viśvakarma,'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0021-b0003"
+      },
+      {
+        "page_number": 69,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ñ' (U+00F1 LATIN SMALL LETTER N WITH TILDE) appears only 1 time(s) in this book, here in '(Tañjavūr)'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0069-b0002"
+      },
+      {
+        "page_number": 85,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'é' (U+00E9 LATIN SMALL LETTER E WITH ACUTE) appears only 2 time(s) in this book, here in 'papier-maché'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0085-b0002"
+      },
+      {
+        "page_number": 94,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ü' (U+00FC LATIN SMALL LETTER U WITH DIAERESIS) appears only 1 time(s) in this book, here in 'Grünwedel'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0094-b0003"
+      },
+      {
+        "page_number": 99,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahmans' appears without diacritics here, whereas this volume consistently prints 'Brāhmans' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0099-b0002"
+      },
+      {
+        "page_number": 101,
+        "severity": "informational",
+        "category": "orthographic_compositor_variant",
+        "message": "Token 'Brahmans' appears without diacritics here, whereas this volume consistently prints 'Brāhmans' (8 occurrences).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
+        "validator": "orthographic_drift",
+        "block_id": "p0101-b0003"
+      },
+      {
+        "page_number": 122,
+        "severity": "informational",
+        "category": "footnote_compositor_variant",
+        "message": "Footnote has no note_label and is not marked continues_from_prev.",
+        "expected_action": "Confirmed against scan as an unlabelled printed footnote (preserved per AGENTS.md §D4).",
+        "validator": "apparatus_parity",
+        "block_id": "p0122-b0003"
+      }
+    ],
+    "taxonomy": {
+      "version": "taxonomy-v1",
+      "tier": {
+        "code": "machine_checked",
+        "label": "Machine-Checked",
+        "contract": "100/100 rubric score and zero open validator hotspots across structure, apparatus, table arithmetic, and orthography; flagged anomalies resolved or confirmed on scan crops."
+      },
+      "provenance_tags": [
+        {
+          "id": "reader:gemini-3.8-flash",
+          "axis": "provenance",
+          "label": "Read: Gemini 3.8 Flash",
+          "detail": "Models: gemini-3.8-flash (153/153 pp.) · reader_profile=english_prose"
+        },
+        {
+          "id": "source:jp2_originals",
+          "axis": "provenance",
+          "label": "Source: Camera JP2 Originals",
+          "detail": "sources/the-indian-craftsman.originals.pdf"
+        },
+        {
+          "id": "audit:scan_triage",
+          "axis": "provenance",
+          "label": "Scan-Triaged: 21 fixes · 11 pp. checked",
+          "detail": "21 anchored emendation(s) applied; 11 machine re-read / scan-check page(s) in proof_ledger.json"
+        },
+        {
+          "id": "human:0pct",
+          "axis": "provenance",
+          "label": "Human Proofed: 0% (Machine + Scan-Crop Only)",
+          "detail": "0 of 153 extracted pages signed off by a human reviewer"
+        }
+      ],
+      "diplomatic_and_script_tags": [
+        {
+          "id": "method:diplomatic",
+          "axis": "diplomatic",
+          "label": "Diplomatic Orthography",
+          "detail": "Preserves printed historical spelling, ligatures, and scan-confirmed compositor variants"
+        },
+        {
+          "id": "script:latin",
+          "axis": "diplomatic",
+          "label": "Script: Latin",
+          "detail": "Declared script: Latin"
+        },
+        {
+          "id": "script:diacritics",
+          "axis": "diplomatic",
+          "label": "IAST / Diacritics",
+          "detail": "Contains accented Romanization and scholarly transliteration diacritics"
+        },
+        {
+          "id": "apparatus:critical",
+          "axis": "diplomatic",
+          "label": "Critical Apparatus",
+          "detail": "Linked apparatus with 63 footnotes and 0 margin/shoulder notes"
+        }
+      ],
+      "archival_tags": {
+        "period_covered": "Ancient to Early 20th Century",
+        "regions": [
+          "India",
+          "Ceylon",
+          "South Asia"
+        ],
+        "subjects": [
+          "Craft Guilds",
+          "Artisans",
+          "Indian Art",
+          "Village Economy",
+          "Economic History"
+        ],
+        "artifacts": [
+          "63 Footnotes"
+        ]
+      }
+    }
+  }
+}

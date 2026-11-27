@@ -30,7 +30,7 @@ Welcome! You do **not** need to read all 400 leaves from start to finish to make
 
 ## Mission 2 — Footnotes, Cross-Page Stitches & Structure
 
-All footnote callouts and cross-page continuations linked cleanly!
+- [ ] Leaves **92 -> 93**: Confirm cross-page footnote `2` joins smoothly across the page turn.
 
 ---
 

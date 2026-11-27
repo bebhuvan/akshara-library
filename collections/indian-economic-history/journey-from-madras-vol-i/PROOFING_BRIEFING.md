@@ -57,7 +57,7 @@ All footnote callouts and cross-page continuations linked cleanly!
 - [ ] Leaf **280**: Uncertain glyph reading marked <unclear>ay</unclear>.
 - [ ] Leaf **280**: Uncertain glyph reading marked <unclear>ey</unclear>.
 - [ ] Leaf **47**: Token 'Sudra' appears without diacritics here, whereas this volume consistently prints 'Súdra' (37 occurrences).
-- [ ] Leaf **49**: Token 'Satghadam' appears without diacritics here, whereas this volume consistently prints 'Sátghadam' (5 occurrences).
+- [ ] Leaf **49**: Token 'Satghadam' appears without diacritics here, whereas this volume consistently prints 'Sátghadam' (4 occurrences).
 - [ ] Leaf **82**: Token 'Zenana' appears without diacritics here, whereas this volume consistently prints 'Zenána' (3 occurrences).
 - [ ] Leaf **103**: Token 'Brahman' appears without diacritics here, whereas this volume consistently prints 'Bráhman' (73 occurrences).
 - [ ] Leaf **107**: Token 'Devanga' appears without diacritics here, whereas this volume consistently prints 'Dévánga' (4 occurrences).

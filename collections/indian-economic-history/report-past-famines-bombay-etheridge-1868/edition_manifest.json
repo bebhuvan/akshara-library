@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 90.0,
+  "rubric_score": 88.5,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Prussian Treasury",
   "edition_root": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868",
@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/epub/report-past-famines-bombay-etheridge-1868.epub",
     "markdown": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/markdown/report-past-famines-bombay-etheridge-1868.md",
     "tei_xml": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/tei/report-past-famines-bombay-etheridge-1868.tei.xml",
-    "print_html": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/print/report-past-famines-bombay-etheridge-1868.print.html",
+    "print_source": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/print/report-past-famines-bombay-etheridge-1868.typ",
     "pdf": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/print/report-past-famines-bombay-etheridge-1868.pdf",
+    "onepage_html": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/html/report-past-famines-bombay-etheridge-1868.html",
     "datasets": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/report-past-famines-bombay-etheridge-1868/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 88 fixes · 36 pp. checked",
-        "detail": "88 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 98 fixes · 34 pp. checked",
+        "detail": "98 anchored emendation(s) applied; 34 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -72,8 +73,8 @@
       {
         "id": "tables:arithmetic",
         "axis": "provenance",
-        "label": "Tables: 31/31 Arithmetic-Checked",
-        "detail": "31 of 31 tables pass arithmetic & column checks; 57 printed compositor discrepancy(ies) confirmed on scan"
+        "label": "Tables: 30/31 Arithmetic-Checked",
+        "detail": "30 of 31 tables pass arithmetic & column checks; 57 printed compositor discrepancy(ies) confirmed on scan; 1 flagged for scan review"
       }
     ],
     "diplomatic_and_script_tags": [
@@ -99,13 +100,13 @@
         "id": "genre:statistical_ledger",
         "axis": "diplomatic",
         "label": "Statistical Ledger",
-        "detail": "Contains 63 structured historical tables exported to CSV"
+        "detail": "Contains 62 structured historical tables exported to CSV"
       },
       {
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 17 footnotes and 144 margin/shoulder notes"
+        "detail": "Linked apparatus with 20 footnotes and 140 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -125,8 +126,8 @@
         "District Chronicles"
       ],
       "artifacts": [
-        "63 Statistical Tables",
-        "17 Footnotes"
+        "62 Statistical Tables",
+        "20 Footnotes"
       ]
     }
   },
@@ -137,17 +138,16 @@
       "machine_checked_ready": false,
       "source_certified_ready": false,
       "critical_blockers": 0,
-      "open_hotspots": 50,
+      "open_hotspots": 42,
       "extracted_page_count": 273,
       "p1_proofed_page_count": 0,
-      "reread_page_count": 36,
-      "machine_reread_page_count": 36,
+      "reread_page_count": 34,
+      "machine_reread_page_count": 34,
       "human_verified_page_count": 0,
       "two_person_verified_page_count": 0,
       "unevidenced_stamp_count": 0,
       "reread_pages": [
         15,
-        32,
         33,
         35,
         40,
@@ -157,7 +157,6 @@
         69,
         98,
         101,
-        111,
         142,
         174,
         176,
@@ -184,17 +183,17 @@
         263
       ],
       "human_verified_pages": [],
-      "stale_proof_page_count": 0,
-      "provenance_statement": "Automated reading (50 open review items); 36 of 273 pages had flagged passages re-read against the scan; no pages yet checked by a person."
+      "stale_proof_page_count": 2,
+      "provenance_statement": "Automated reading (42 open review items); 34 of 273 pages had flagged passages re-read against the scan; no pages yet checked by a person."
     },
     "validation_summary": {
       "critical": 0,
-      "review": 50,
-      "informational": 80,
-      "total": 130
+      "review": 42,
+      "informational": 78,
+      "total": 120
     },
     "corrections": {
-      "applied": 88,
+      "applied": 98,
       "unmatched": 0,
       "details": [
         {
@@ -812,6 +811,76 @@
           "matched_block_id": "p0259-b0012",
           "op": "set_cells",
           "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0193-b0003-body",
+          "page_number": 193,
+          "matched_block_id": "p0193-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0201-b0004-body",
+          "page_number": 201,
+          "matched_block_id": "p0201-b0004",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0201-b0006-row",
+          "page_number": 201,
+          "matched_block_id": "p0201-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "canon-p0201-b0006-cells",
+          "page_number": 201,
+          "matched_block_id": "p0201-b0006",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0032-b0006-star-note",
+          "page_number": 32,
+          "matched_block_id": "p0032-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0032-b0008-star-note",
+          "page_number": 32,
+          "matched_block_id": "p0032-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m4-p0111-b0007-star-note",
+          "page_number": 111,
+          "matched_block_id": "p0111-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-etheridge-p0182-b0003-ghee",
+          "page_number": 182,
+          "matched_block_id": "p0182-b0003",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3b-p2-etheridge-p0263-b0006-fraction-half",
+          "page_number": 263,
+          "matched_block_id": "p0263-b0006",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-r2-etheridge-p0263-b0004-drop-tear",
+          "page_number": 263,
+          "matched_block_id": "p0263-b0004",
+          "op": "drop_residue",
+          "status": "applied"
         }
       ]
     },
@@ -1159,6 +1228,15 @@
         "block_id": "p0101-b0002"
       },
       {
+        "page_number": 201,
+        "severity": "review",
+        "category": "table_ragged_columns",
+        "message": "Table row p0201-b0006 expands to 5 columns vs. table body width 15 (even after accounting for colspan/rowspan).",
+        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
+        "validator": "table_geometry",
+        "block_id": "p0201-b0006"
+      },
+      {
         "page_number": 241,
         "severity": "review",
         "category": "column_reading_order_zigzag",
@@ -1184,96 +1262,6 @@
         "expected_action": "Verify column reading order on scan.",
         "validator": "layout_order",
         "block_id": null
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>r</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>w</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>were</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>½</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>ch</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>bu</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>dis</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>and r</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 263,
-        "severity": "review",
-        "category": "unclear_ink_span",
-        "message": "Uncertain glyph reading marked <unclear>t of t</unclear>.",
-        "expected_action": "Check scan crop in Proofing UI and confirm or replace.",
-        "validator": "unclear_detector",
-        "block_id": "p0263-b0006"
-      },
-      {
-        "page_number": 32,
-        "severity": "informational",
-        "category": "footnote_compositor_variant",
-        "message": "Page 32 has inline note callout(s) ['*', '*'] vs. labelled footnote(s) [].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
-        "validator": "apparatus_parity",
-        "block_id": "p0032-b0007"
       },
       {
         "page_number": 33,
@@ -1406,7 +1394,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 40 has inline note callout(s) ['*', '*', '*'] vs. labelled footnote(s) ['*', '†'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0040-b0023"
       },
@@ -1415,7 +1403,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 41 has inline note callout(s) ['*', '*', '*'] vs. labelled footnote(s) [].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0041-b0001"
       },
@@ -1424,7 +1412,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 42 has inline note callout(s) ['*', '*', '*', '*'] vs. labelled footnote(s) [].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0042-b0001"
       },
@@ -1433,25 +1421,16 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 43 has inline note callout(s) ['*', '*', '*', '*', '*', '*', '†'] vs. labelled footnote(s) [].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0043-b0004"
-      },
-      {
-        "page_number": 111,
-        "severity": "informational",
-        "category": "footnote_compositor_variant",
-        "message": "Page 111 has inline note callout(s) ['*', '*'] vs. labelled footnote(s) [].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
-        "validator": "apparatus_parity",
-        "block_id": "p0111-b0007"
       },
       {
         "page_number": 142,
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Depot' appears without diacritics here, whereas this volume consistently prints 'Depôt' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0142-b0004"
       },
@@ -1460,7 +1439,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 10 states total 33 but its 23 contributing cells sum to 159 (difference 126).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0174-b0033"
       },
@@ -1469,7 +1448,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 13 states total 29 but its 23 contributing cells sum to 266 (difference 237).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0174-b0033"
       },
@@ -1487,7 +1466,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 1 states total 277472 but its 47 contributing cells sum to 2037472 (difference 1760000).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0176-b0029"
       },
@@ -1496,7 +1475,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 78834 but its 47 contributing cells sum to 886192 (difference 807358).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0176-b0029"
       },
@@ -1505,7 +1484,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 184586 but its 47 contributing cells sum to 1646440 (difference 1461854).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0176-b0029"
       },
@@ -1514,7 +1493,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 52766 but its 47 contributing cells sum to 737658 (difference 684892).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0176-b0029"
       },
@@ -1523,7 +1502,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 4161 but its 47 contributing cells sum to 668231 (difference 664070).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0176-b0029"
       },
@@ -1532,7 +1511,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 8 states total 1344 but its 47 contributing cells sum to 215104 (difference 213760).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0176-b0029"
       },
@@ -1541,7 +1520,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 1 states total 55001 but its 46 contributing cells sum to 542647 (difference 487646).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0178-b0028"
       },
@@ -1550,7 +1529,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 29169 but its 46 contributing cells sum to 247473 (difference 218304).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0178-b0028"
       },
@@ -1559,7 +1538,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 55824 but its 46 contributing cells sum to 130112 (difference 74288).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0178-b0028"
       },
@@ -1568,7 +1547,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 35333 but its 46 contributing cells sum to 57483 (difference 22150).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0178-b0028"
       },
@@ -1577,7 +1556,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 326028 but its 46 contributing cells sum to 496166 (difference 170138).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0178-b0028"
       },
@@ -1586,7 +1565,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 8 states total 257582 but its 46 contributing cells sum to 355164 (difference 97582).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0178-b0028"
       },
@@ -1595,7 +1574,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 134030 but its 21 contributing cells sum to 130030 (difference -4000).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0179-b0031"
       },
@@ -1622,7 +1601,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 8 states total 454220 but its 13 contributing cells sum to 454170 (difference -50).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0183-b0023"
       },
@@ -1631,7 +1610,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 136325 but its 12 contributing cells sum to 282765 (difference 146440).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0188-b0011"
       },
@@ -1640,7 +1619,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 109904 but its 12 contributing cells sum to 173472 (difference 63568).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0188-b0011"
       },
@@ -1649,7 +1628,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 8 states total 118510 but its 12 contributing cells sum to 280558 (difference 162048).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0188-b0011"
       },
@@ -1658,7 +1637,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 1 states total 303935 but its 11 contributing cells sum to 451737 (difference 147802).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0192-b0011"
       },
@@ -1667,7 +1646,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 154395 but its 11 contributing cells sum to 230417 (difference 76022).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0192-b0011"
       },
@@ -1676,7 +1655,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 130098 but its 11 contributing cells sum to 292138 (difference 162040).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0192-b0011"
       },
@@ -1685,7 +1664,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 60672 but its 11 contributing cells sum to 125234 (difference 64562).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0192-b0011"
       },
@@ -1694,7 +1673,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 290078 but its 11 contributing cells sum to 773306 (difference 483228).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0192-b0011"
       },
@@ -1703,7 +1682,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 8 states total 122657 but its 11 contributing cells sum to 337339 (difference 214682).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0192-b0011"
       },
@@ -1712,7 +1691,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 6 states total 2 but its 3 contributing cells sum to 7 (difference 5).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0195-b0013"
       },
@@ -1721,7 +1700,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 9 states total 5 but its 3 contributing cells sum to 22 (difference 17).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0195-b0013"
       },
@@ -1730,7 +1709,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 27 but its 20 contributing cells sum to 72 (difference 45).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0196-b0050"
       },
@@ -1739,7 +1718,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 10 states total 12 but its 20 contributing cells sum to 40 (difference 28).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0196-b0050"
       },
@@ -1748,7 +1727,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 1 states total 1191225 but its 78 contributing cells sum to 2284607 (difference 1093382).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1757,7 +1736,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 332429 but its 78 contributing cells sum to 426344 (difference 93915).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1766,7 +1745,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 28 but its 78 contributing cells sum to 643 (difference 615).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1775,7 +1754,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 678857 but its 78 contributing cells sum to 2225109 (difference 1546252).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1784,7 +1763,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 168307 but its 78 contributing cells sum to 330529 (difference 162222).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1793,7 +1772,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 6 states total 25 but its 78 contributing cells sum to 306 (difference 281).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1802,7 +1781,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 482685 but its 78 contributing cells sum to 1319915 (difference 837230).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1811,7 +1790,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 8 states total 134661 but its 78 contributing cells sum to 225341 (difference 90680).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1820,7 +1799,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 9 states total 16 but its 78 contributing cells sum to 366 (difference 350).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0198-b0046"
       },
@@ -1838,7 +1817,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 1 states total 307490 but its 59 contributing cells sum to 787114 (difference 479624).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0200-b0026"
       },
@@ -1847,7 +1826,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 8683 but its 59 contributing cells sum to 273559 (difference 264876).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0200-b0026"
       },
@@ -1856,7 +1835,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 606173 but its 59 contributing cells sum to 1837155 (difference 1230982).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0200-b0026"
       },
@@ -1865,7 +1844,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 179521 but its 59 contributing cells sum to 402991 (difference 223470).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0200-b0026"
       },
@@ -1874,7 +1853,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 205354 but its 59 contributing cells sum to 2777078 (difference 2571724).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0200-b0026"
       },
@@ -1883,7 +1862,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 8 states total 30143 but its 59 contributing cells sum to 946427 (difference 916284).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0200-b0026"
       },
@@ -1900,8 +1879,8 @@
         "page_number": 201,
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
-        "message": "Column 8 states total 256879 but its 41 contributing cells sum to 256859 (difference -20).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "message": "Column 8 states total 256879 but its 42 contributing cells sum to 256859 (difference -20).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0201-b0051"
       },
@@ -1928,7 +1907,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 13 states total 32 but its 20 contributing cells sum to 241 (difference 209).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0202-b0031"
       },
@@ -1937,7 +1916,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 291220 but its 29 contributing cells sum to 291369 (difference 149).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0203-b0035"
       },
@@ -1946,7 +1925,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 6 states total 27 but its 29 contributing cells sum to 279 (difference 252).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0203-b0035"
       },
@@ -1955,7 +1934,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 125563 but its 30 contributing cells sum to 125686 (difference 123).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0204-b0036"
       },
@@ -1964,7 +1943,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 6 states total 20 but its 30 contributing cells sum to 142 (difference 122).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0204-b0036"
       },
@@ -1982,7 +1961,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 64 but its 2 contributing cells sum to 6 (difference -58).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0251-b0009"
       }
@@ -2010,8 +1989,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 88 fixes · 36 pp. checked",
-          "detail": "88 anchored emendation(s) applied; 36 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 98 fixes · 34 pp. checked",
+          "detail": "98 anchored emendation(s) applied; 34 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -2022,8 +2001,8 @@
         {
           "id": "tables:arithmetic",
           "axis": "provenance",
-          "label": "Tables: 31/31 Arithmetic-Checked",
-          "detail": "31 of 31 tables pass arithmetic & column checks; 57 printed compositor discrepancy(ies) confirmed on scan"
+          "label": "Tables: 30/31 Arithmetic-Checked",
+          "detail": "30 of 31 tables pass arithmetic & column checks; 57 printed compositor discrepancy(ies) confirmed on scan; 1 flagged for scan review"
         }
       ],
       "diplomatic_and_script_tags": [
@@ -2049,13 +2028,13 @@
           "id": "genre:statistical_ledger",
           "axis": "diplomatic",
           "label": "Statistical Ledger",
-          "detail": "Contains 63 structured historical tables exported to CSV"
+          "detail": "Contains 62 structured historical tables exported to CSV"
         },
         {
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 17 footnotes and 144 margin/shoulder notes"
+          "detail": "Linked apparatus with 20 footnotes and 140 margin/shoulder notes"
         }
       ],
       "archival_tags": {
@@ -2075,8 +2054,8 @@
           "District Chronicles"
         ],
         "artifacts": [
-          "63 Statistical Tables",
-          "17 Footnotes"
+          "62 Statistical Tables",
+          "20 Footnotes"
         ]
       }
     }

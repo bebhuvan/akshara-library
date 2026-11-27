@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/epub/economics-in-india-inaugural-lecture-jevons-1915.epub",
     "markdown": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/markdown/economics-in-india-inaugural-lecture-jevons-1915.md",
     "tei_xml": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/tei/economics-in-india-inaugural-lecture-jevons-1915.tei.xml",
-    "print_html": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/print/economics-in-india-inaugural-lecture-jevons-1915.print.html",
+    "print_source": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/print/economics-in-india-inaugural-lecture-jevons-1915.typ",
     "pdf": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/print/economics-in-india-inaugural-lecture-jevons-1915.pdf",
+    "onepage_html": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/html/economics-in-india-inaugural-lecture-jevons-1915.html",
     "datasets": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/economics-in-india-inaugural-lecture-jevons-1915/datasets/datapackage.json"
   },

@@ -64,7 +64,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `342` prose joins, `1` split footnotes stitched, `0` multi-page tables unified, `617` total footnotes.
+- **Cross-Page Assembly**: `342` prose joins, `1` split footnotes stitched, `0` multi-page tables unified, `618` total footnotes.
   - Stitched cross-page footnotes: p.291->p.292 (`5`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`39` — verify no epigraph/dedication was caught)**:
   - Leaf `5` `p0005-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2007 with funding from Microsoft Corporation"*
@@ -87,4 +87,4 @@
 
 - **Detected Scripts**: `latin`: 711,854 chars
 - **Distinct Non-ASCII Glyphs (`37` across `365` leaves)**: à æ ç è é ê í ñ ô ö ú ü Ā ā Ī ī Ś ś ū ḍ Ḥ ḥ ḵ ḷ Ṁ ṁ ṅ Ṇ ṇ Ṛ ṛ Ṣ ṣ Ṭ ṭ ẖ ⅖
-- **Corrections Replayed**: `3` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `4` applied, `0` orphaned/unmatched

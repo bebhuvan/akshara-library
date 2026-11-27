@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/guide-to-india-office-records-1919/epub/guide-to-india-office-records-1919.epub",
     "markdown": "library/indian-economic-history/guide-to-india-office-records-1919/markdown/guide-to-india-office-records-1919.md",
     "tei_xml": "library/indian-economic-history/guide-to-india-office-records-1919/tei/guide-to-india-office-records-1919.tei.xml",
-    "print_html": "library/indian-economic-history/guide-to-india-office-records-1919/print/guide-to-india-office-records-1919.print.html",
+    "print_source": "library/indian-economic-history/guide-to-india-office-records-1919/print/guide-to-india-office-records-1919.typ",
     "pdf": "library/indian-economic-history/guide-to-india-office-records-1919/print/guide-to-india-office-records-1919.pdf",
+    "onepage_html": "library/indian-economic-history/guide-to-india-office-records-1919/html/guide-to-india-office-records-1919.html",
     "datasets": "library/indian-economic-history/guide-to-india-office-records-1919/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/guide-to-india-office-records-1919/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 1 fixes",
-        "detail": "1 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 2 fixes",
+        "detail": "2 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -150,17 +151,24 @@
     "validation_summary": {
       "critical": 0,
       "review": 0,
-      "informational": 5,
-      "total": 5
+      "informational": 6,
+      "total": 6
     },
     "corrections": {
-      "applied": 1,
+      "applied": 2,
       "unmatched": 0,
       "details": [
         {
           "correction_id": "scan-check-2026-11-17-p0063-b0003",
           "page_number": 63,
           "matched_block_id": "p0063-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-records-p0120-b0014-moncoes",
+          "page_number": 120,
+          "matched_block_id": "p0120-b0014",
           "op": "set_text",
           "status": "applied"
         }
@@ -180,7 +188,16 @@
         "page_number": 120,
         "severity": "informational",
         "category": "rare_character",
-        "message": "'Ç' (U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'MONÇOES).'.",
+        "message": "'Ç' (U+00C7 LATIN CAPITAL LETTER C WITH CEDILLA) appears only 1 time(s) in this book, here in 'MONÇÕES).'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0120-b0014"
+      },
+      {
+        "page_number": 120,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'Õ' (U+00D5 LATIN CAPITAL LETTER O WITH TILDE) appears only 1 time(s) in this book, here in 'MONÇÕES).'.",
         "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
         "validator": "rare_characters",
         "block_id": "p0120-b0014"
@@ -236,8 +253,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 1 fixes",
-          "detail": "1 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 2 fixes",
+          "detail": "2 anchored emendation(s) applied; 0 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

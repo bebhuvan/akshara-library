@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/early-history-tea-industry/epub/early-history-tea-industry.epub",
     "markdown": "library/indian-economic-history/early-history-tea-industry/markdown/early-history-tea-industry.md",
     "tei_xml": "library/indian-economic-history/early-history-tea-industry/tei/early-history-tea-industry.tei.xml",
-    "print_html": "library/indian-economic-history/early-history-tea-industry/print/early-history-tea-industry.print.html",
+    "print_source": "library/indian-economic-history/early-history-tea-industry/print/early-history-tea-industry.typ",
     "pdf": "library/indian-economic-history/early-history-tea-industry/print/early-history-tea-industry.pdf",
+    "onepage_html": "library/indian-economic-history/early-history-tea-industry/html/early-history-tea-industry.html",
     "datasets": "library/indian-economic-history/early-history-tea-industry/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/early-history-tea-industry/datasets/datapackage.json"
   },

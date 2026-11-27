@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Imperial Gazetteer of India: The Indian Empire, Vol. II — Historical*
 
 - **Book ID**: `imperial-gazetteer-of-india-vol-02-historical` | **Run ID**: `g4-hydrogen-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`96.8 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`99.8 / 100`** (`community`)
 - **Reader**: Read by gemini-4-hydrogen on 587 of 614 pages, gemini-3.6-flash on 27 of 614 pages. Declared reader profile: transliteration (new readings use gemini-4-hydrogen).
 - **Pages**: `614` extracted, `8` blank/tissue, `0` failed (of `622` PDF leaves)
 - **Tracked API Spend**: **`$12.9556`** (`3.4%` cached input tokens: `265,436` / `7,728,007` in, `1,047,505` out, `772,114` thoughts)
@@ -12,13 +12,13 @@
 
 | Pillar | Score | Deductions |
 | :--- | ---: | :--- |
-| **1. Structural & Page Completeness** | **22.0 / 25.0** | -3.0: 1 suspected text omission page(s) vs. OCR witness |
+| **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
 | **3. Tabular & Numerical Accuracy** | **25.0 / 25.0** | Clean (0 deductions) |
 | **4. Orthographic, Script & Diacritics** | **24.8 / 25.0** | -0.2: 1 `<unclear>` ink span(s) awaiting scan check |
 
 ### Recommended Operator Next Actions
-- Audit 1 page(s) flagged for low alphabetic coverage vs. OCR witness.
+- Ready to ship as Community Edition! Human page-proof coverage is 0.0% (pages re-read 7.3%) toward Source-Certified.
 
 ---
 
@@ -72,7 +72,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `434` prose joins, `2` split footnotes stitched, `0` multi-page tables unified, `138` total footnotes.
+- **Cross-Page Assembly**: `435` prose joins, `2` split footnotes stitched, `0` multi-page tables unified, `138` total footnotes.
   - Stitched cross-page footnotes: p.46->p.47 (`2`), p.49->p.50 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`122` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"UNIVERSITY OF TORONTO 3 1761 00114402 1"*
@@ -95,4 +95,4 @@
 
 - **Detected Scripts**: `latin`: 1,216,040 chars, `greek`: 64 chars
 - **Distinct Non-ASCII Glyphs (`88` across `582` leaves)**: · É à á â ã ä æ ç è é ê î ï ñ ô ö û ü Ā ā Ē ē Ī ī Ō ō Ś ś ũ ū ʿ ́ ͟ Η Σ ά έ ή ί α β δ ε η θ ι λ μ ν ο π ς σ τ υ ω Ḍ ḍ Ḥ
-- **Corrections Replayed**: `4` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `8` applied, `0` orphaned/unmatched

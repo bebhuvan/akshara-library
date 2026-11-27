@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/periplus-erythraean-sea/epub/periplus-erythraean-sea.epub",
     "markdown": "library/indian-economic-history/periplus-erythraean-sea/markdown/periplus-erythraean-sea.md",
     "tei_xml": "library/indian-economic-history/periplus-erythraean-sea/tei/periplus-erythraean-sea.tei.xml",
-    "print_html": "library/indian-economic-history/periplus-erythraean-sea/print/periplus-erythraean-sea.print.html",
+    "print_source": "library/indian-economic-history/periplus-erythraean-sea/print/periplus-erythraean-sea.typ",
     "pdf": "library/indian-economic-history/periplus-erythraean-sea/print/periplus-erythraean-sea.pdf",
+    "onepage_html": "library/indian-economic-history/periplus-erythraean-sea/html/periplus-erythraean-sea.html",
     "datasets": "library/indian-economic-history/periplus-erythraean-sea/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/periplus-erythraean-sea/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 63 fixes · 41 pp. checked",
-        "detail": "63 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 64 fixes · 41 pp. checked",
+        "detail": "64 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -191,7 +192,7 @@
       "total": 20
     },
     "corrections": {
-      "applied": 63,
+      "applied": 64,
       "unmatched": 0,
       "details": [
         {
@@ -634,6 +635,13 @@
           "matched_block_id": "p0120-b0030",
           "op": "set_cells",
           "status": "applied"
+        },
+        {
+          "correction_id": "plate-orient-p0241-b0002",
+          "page_number": 241,
+          "matched_block_id": "p0241-b0002",
+          "op": "set_type",
+          "status": "applied"
         }
       ]
     },
@@ -643,7 +651,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kathiawar' appears without diacritics here, whereas this volume consistently prints 'Kāthiāwār' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0020-b0005"
       },
@@ -661,7 +669,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Kathiawar' appears without diacritics here, whereas this volume consistently prints 'Kāthiāwār' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0080-b0005"
       },
@@ -697,7 +705,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Nepal' appears without diacritics here, whereas this volume consistently prints 'Nepāl' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0161-b0005"
       },
@@ -706,7 +714,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Ghats' appears without diacritics here, whereas this volume consistently prints 'Ghāts' (8 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0162-b0002"
       },
@@ -715,7 +723,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Mahanadi' appears without diacritics here, whereas this volume consistently prints 'Mahānadī' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0162-b0007"
       },
@@ -724,7 +732,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Purana' appears without diacritics here, whereas this volume consistently prints 'Purāna' (6 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0184-b0004"
       },
@@ -742,7 +750,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Puranas' appears without diacritics here, whereas this volume consistently prints 'Purānas' (7 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0212-b0006"
       },
@@ -769,7 +777,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Pandyas' appears without diacritics here, whereas this volume consistently prints 'Pāndyas' (4 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0291-b0009"
       },
@@ -778,7 +786,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Cheras' appears without diacritics here, whereas this volume consistently prints 'Chēras' (3 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0291-b0009"
       },
@@ -796,7 +804,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Uraiyur' appears without diacritics here, whereas this volume consistently prints 'Uraiyūr' (5 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0306-b0077"
       },
@@ -842,8 +850,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 63 fixes · 41 pp. checked",
-          "detail": "63 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 64 fixes · 41 pp. checked",
+          "detail": "64 anchored emendation(s) applied; 41 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

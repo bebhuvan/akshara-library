@@ -2,7 +2,7 @@
   "version": "rubric-v2",
   "book_id": "english-factories-india-1661-1664-vol-11",
   "run_id": "g38-batch-v1",
-  "total_score": 94.0,
+  "total_score": 97.0,
   "max_score": 100.0,
   "recommended_gate": "community",
   "pillars": {
@@ -22,17 +22,17 @@
       "deductions": []
     },
     "orthographic_fidelity": {
-      "score": 19.0,
+      "score": 22.0,
       "max": 25.0,
       "deductions": [
-        "-6.0: 2 script/codepoint anomaly(ies)"
+        "-3.0: 1 script/codepoint anomaly(ies)"
       ]
     }
   },
   "issue_counts_by_code": {
-    "script_anomaly": 2,
+    "script_anomaly": 1,
     "orthographic_compositor_variant": 15,
-    "rare_character": 8
+    "rare_character": 7
   },
   "human_proof_coverage": 0.0,
   "scan_audit_coverage": 0.0228,

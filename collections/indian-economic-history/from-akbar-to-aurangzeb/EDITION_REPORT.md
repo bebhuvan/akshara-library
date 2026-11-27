@@ -71,7 +71,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `260` prose joins, `11` split footnotes stitched, `0` multi-page tables unified, `195` total footnotes.
+- **Cross-Page Assembly**: `261` prose joins, `11` split footnotes stitched, `0` multi-page tables unified, `195` total footnotes.
   - Stitched cross-page footnotes: p.35->p.36 (`1`), p.48->p.49 (`2`), p.54->p.55 (`1`), p.86->p.87 (`1`), p.92->p.93 (`2`), p.142->p.143 (`1`), p.202->p.203 (`1`), p.256->p.257 (`2`), p.268->p.269 (`1`), p.354->p.355 (`1`), p.362->p.363 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`49` — verify no epigraph/dedication was caught)**:
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"BARNETT LIBRARY 45, WELLINGTON SQUARE OXFORD WITHDRAWN CANCELLED"*
@@ -94,4 +94,4 @@
 
 - **Detected Scripts**: `latin`: 659,881 chars
 - **Distinct Non-ASCII Glyphs (`27` across `104` leaves)**: ± · ã ç é ë õ Ā ā ġ ģ ĩ ī œ ū „ ⁄ ₉ ⅓ ⅔ ⅖ ⅗ ⅙ ⎧ ⎩ ⎫ ⎭
-- **Corrections Replayed**: `26` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `27` applied, `0` orphaned/unmatched

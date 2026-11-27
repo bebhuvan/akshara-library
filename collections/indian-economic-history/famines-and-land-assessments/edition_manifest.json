@@ -7,7 +7,7 @@
   "is_preview": false,
   "collection": "indian-economic-history",
   "edition_tier": "community",
-  "rubric_score": 85.4,
+  "rubric_score": 87.9,
   "cover_archetype": "political_economy_ledger",
   "cover_palette": "Prussian Treasury",
   "edition_root": "library/indian-economic-history/famines-and-land-assessments",
@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/famines-and-land-assessments/epub/famines-and-land-assessments.epub",
     "markdown": "library/indian-economic-history/famines-and-land-assessments/markdown/famines-and-land-assessments.md",
     "tei_xml": "library/indian-economic-history/famines-and-land-assessments/tei/famines-and-land-assessments.tei.xml",
-    "print_html": "library/indian-economic-history/famines-and-land-assessments/print/famines-and-land-assessments.print.html",
+    "print_source": "library/indian-economic-history/famines-and-land-assessments/print/famines-and-land-assessments.typ",
     "pdf": "library/indian-economic-history/famines-and-land-assessments/print/famines-and-land-assessments.pdf",
+    "onepage_html": "library/indian-economic-history/famines-and-land-assessments/html/famines-and-land-assessments.html",
     "datasets": "library/indian-economic-history/famines-and-land-assessments/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/famines-and-land-assessments/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 67 fixes · 8 pp. checked",
-        "detail": "67 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 124 fixes · 8 pp. checked",
+        "detail": "124 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -72,8 +73,8 @@
       {
         "id": "tables:arithmetic",
         "axis": "provenance",
-        "label": "Tables: 15/15 Arithmetic-Checked",
-        "detail": "15 of 15 tables pass arithmetic & column checks; 20 printed compositor discrepancy(ies) confirmed on scan"
+        "label": "Tables: 13/14 Arithmetic-Checked",
+        "detail": "13 of 14 tables pass arithmetic & column checks; 7 printed compositor discrepancy(ies) confirmed on scan; 1 flagged for scan review"
       }
     ],
     "diplomatic_and_script_tags": [
@@ -99,13 +100,13 @@
         "id": "genre:statistical_ledger",
         "axis": "diplomatic",
         "label": "Statistical Ledger",
-        "detail": "Contains 29 structured historical tables exported to CSV"
+        "detail": "Contains 27 structured historical tables exported to CSV"
       },
       {
         "id": "apparatus:critical",
         "axis": "diplomatic",
         "label": "Critical Apparatus",
-        "detail": "Linked apparatus with 61 footnotes and 0 margin/shoulder notes"
+        "detail": "Linked apparatus with 62 footnotes and 0 margin/shoulder notes"
       }
     ],
     "archival_tags": {
@@ -125,8 +126,8 @@
         "Civil Service Salaries"
       ],
       "artifacts": [
-        "29 Statistical Tables",
-        "61 Footnotes"
+        "27 Statistical Tables",
+        "62 Footnotes"
       ]
     }
   },
@@ -162,11 +163,11 @@
     "validation_summary": {
       "critical": 0,
       "review": 17,
-      "informational": 28,
-      "total": 45
+      "informational": 15,
+      "total": 32
     },
     "corrections": {
-      "applied": 67,
+      "applied": 124,
       "unmatched": 0,
       "details": [
         {
@@ -202,13 +203,6 @@
           "page_number": 37,
           "matched_block_id": "p0037-b0006",
           "op": "set_type",
-          "status": "applied"
-        },
-        {
-          "correction_id": "scan-check-2026-11-15-p0025-b0003",
-          "page_number": 25,
-          "matched_block_id": "p0025-b0004",
-          "op": "drop_residue",
           "status": "applied"
         },
         {
@@ -429,13 +423,6 @@
           "status": "applied"
         },
         {
-          "correction_id": "scan-check-2026-11-17-p0310-b0014",
-          "page_number": 310,
-          "matched_block_id": "p0310-b0014",
-          "op": "set_cells",
-          "status": "applied"
-        },
-        {
           "correction_id": "scan-check-2026-11-17-p0310-b0018",
           "page_number": 310,
           "matched_block_id": "p0310-b0018",
@@ -637,6 +624,419 @@
           "matched_block_id": "p0316-b0017",
           "op": "set_cells",
           "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-famines-p0310-p0310-b0012",
+          "page_number": 310,
+          "matched_block_id": "p0310-b0012",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-famines-p0310-p0310-b0013",
+          "page_number": 310,
+          "matched_block_id": "p0310-b0013",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-famines-p0310-p0310-b0014",
+          "page_number": 310,
+          "matched_block_id": "p0310-b0014",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-famines-p0310-p0310-b0015",
+          "page_number": 310,
+          "matched_block_id": "p0310-b0015",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e1-famines-p0310-p0310-b0016",
+          "page_number": 310,
+          "matched_block_id": "p0310-b0016",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0238-table",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0238-fold-p0238-b0004",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0238-fold-p0238-b0005",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0238-fold-p0238-b0006",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0238-fold-p0238-b0007",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0238-fold-p0238-b0008",
+          "page_number": 238,
+          "matched_block_id": "p0238-b0008",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0239-table",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0239-fold-p0239-b0004",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0239-fold-p0239-b0005",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0239-fold-p0239-b0006",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0239-fold-p0239-b0007",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0239-fold-p0239-b0008",
+          "page_number": 239,
+          "matched_block_id": "p0239-b0008",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0240-table",
+          "page_number": 240,
+          "matched_block_id": "p0240-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0240-fold-p0240-b0004",
+          "page_number": 240,
+          "matched_block_id": "p0240-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0240-fold-p0240-b0005",
+          "page_number": 240,
+          "matched_block_id": "p0240-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0240-fold-p0240-b0006",
+          "page_number": 240,
+          "matched_block_id": "p0240-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0240-fold-p0240-b0007",
+          "page_number": 240,
+          "matched_block_id": "p0240-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0240-fold-p0240-b0008",
+          "page_number": 240,
+          "matched_block_id": "p0240-b0008",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0241-table",
+          "page_number": 241,
+          "matched_block_id": "p0241-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0241-fold-p0241-b0004",
+          "page_number": 241,
+          "matched_block_id": "p0241-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0241-fold-p0241-b0005",
+          "page_number": 241,
+          "matched_block_id": "p0241-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0241-fold-p0241-b0006",
+          "page_number": 241,
+          "matched_block_id": "p0241-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0241-fold-p0241-b0007",
+          "page_number": 241,
+          "matched_block_id": "p0241-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0241-fold-p0241-b0008",
+          "page_number": 241,
+          "matched_block_id": "p0241-b0008",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0242-table",
+          "page_number": 242,
+          "matched_block_id": "p0242-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0242-fold-p0242-b0004",
+          "page_number": 242,
+          "matched_block_id": "p0242-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0242-fold-p0242-b0005",
+          "page_number": 242,
+          "matched_block_id": "p0242-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0242-fold-p0242-b0006",
+          "page_number": 242,
+          "matched_block_id": "p0242-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0242-fold-p0242-b0007",
+          "page_number": 242,
+          "matched_block_id": "p0242-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0243-table",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0243-fold-p0243-b0004",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0243-fold-p0243-b0005",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0243-fold-p0243-b0006",
+          "page_number": 243,
+          "matched_block_id": "p0243-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0245-table",
+          "page_number": 245,
+          "matched_block_id": "p0245-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0245-fold-p0245-b0004",
+          "page_number": 245,
+          "matched_block_id": "p0245-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0245-fold-p0245-b0005",
+          "page_number": 245,
+          "matched_block_id": "p0245-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0245-fold-p0245-b0006",
+          "page_number": 245,
+          "matched_block_id": "p0245-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0245-fold-p0245-b0007",
+          "page_number": 245,
+          "matched_block_id": "p0245-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0245-fold-p0245-b0008",
+          "page_number": 245,
+          "matched_block_id": "p0245-b0008",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0246-table",
+          "page_number": 246,
+          "matched_block_id": "p0246-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0246-fold-p0246-b0004",
+          "page_number": 246,
+          "matched_block_id": "p0246-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0246-fold-p0246-b0005",
+          "page_number": 246,
+          "matched_block_id": "p0246-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0246-fold-p0246-b0006",
+          "page_number": 246,
+          "matched_block_id": "p0246-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0246-fold-p0246-b0007",
+          "page_number": 246,
+          "matched_block_id": "p0246-b0007",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0246-fold-p0246-b0008",
+          "page_number": 246,
+          "matched_block_id": "p0246-b0008",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0247-table",
+          "page_number": 247,
+          "matched_block_id": "p0247-b0003",
+          "op": "split_block",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0247-fold-p0247-b0004",
+          "page_number": 247,
+          "matched_block_id": "p0247-b0004",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0247-fold-p0247-b0005",
+          "page_number": 247,
+          "matched_block_id": "p0247-b0005",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0247-fold-p0247-b0006",
+          "page_number": 247,
+          "matched_block_id": "p0247-b0006",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0244-b0003-drop-hdr",
+          "page_number": 244,
+          "matched_block_id": "p0244-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0244-b0004-clean",
+          "page_number": 244,
+          "matched_block_id": "p0244-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0248-b0003-drop-hdr",
+          "page_number": 248,
+          "matched_block_id": "p0248-b0003",
+          "op": "drop_residue",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-e2-famines-p0248-b0004-clean",
+          "page_number": 248,
+          "matched_block_id": "p0248-b0004",
+          "op": "set_cells",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6-r2-famines-p0311-b0012-gutter",
+          "page_number": 311,
+          "matched_block_id": "p0311-b0012",
+          "op": "set_cells",
+          "status": "applied"
         }
       ]
     },
@@ -662,11 +1062,11 @@
       {
         "page_number": 310,
         "severity": "review",
-        "category": "table_collapsed_rows",
-        "message": "Table row p0310-b0012 collapses/jams multiple rows or numeric values inside cells (suspected collapsed table).",
-        "expected_action": "Split collapsed multi-row/multi-column cells against the source scan.",
+        "category": "table_ragged_columns",
+        "message": "Table row p0310-b0010 expands to 26 columns vs. table body width 25 (even after accounting for colspan/rowspan).",
+        "expected_action": "Align header/body cell spans on scan so columns do not shift.",
         "validator": "table_geometry",
-        "block_id": "p0310-b0012"
+        "block_id": "p0310-b0010"
       },
       {
         "page_number": 311,
@@ -867,137 +1267,20 @@
         "block_id": "p0278-b0005"
       },
       {
-        "page_number": 311,
+        "page_number": 310,
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
-        "message": "Column 1 states total 1 but its 16 contributing cells sum to 22 (difference 21).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "message": "Column 15 states total 2705556 but its 13 contributing cells sum to 2705560 (difference 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 2 states total 4598117 but its 16 contributing cells sum to 9196234 (difference 4598117).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 3 states total 64 but its 16 contributing cells sum to 128 (difference 64).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 4 states total 2705556 but its 16 contributing cells sum to 5411116 (difference 2705560).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 5 states total 7 but its 16 contributing cells sum to 14 (difference 7).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 6 states total 370000 but its 16 contributing cells sum to 740000 (difference 370000).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 7 states total 15 but its 16 contributing cells sum to 30 (difference 15).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 8 states total 1013760 but its 16 contributing cells sum to 2027520 (difference 1013760).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 9 states total 1 but its 16 contributing cells sum to 2 (difference 1).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 10 states total 86000 but its 16 contributing cells sum to 172000 (difference 86000).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 11 states total 7 but its 16 contributing cells sum to 14 (difference 7).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 12 states total 916800 but its 16 contributing cells sum to 1833600 (difference 916800).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 13 states total 28041 but its 16 contributing cells sum to 56082 (difference 28041).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
-      },
-      {
-        "page_number": 311,
-        "severity": "informational",
-        "category": "table_compositor_arithmetic_variant",
-        "message": "Column 14 states total 120564770 but its 16 contributing cells sum to 241129540 (difference 120564770).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
-        "validator": "table_arithmetic",
-        "block_id": "p0311-b0028"
+        "block_id": "p0310-b0017"
       },
       {
         "page_number": 312,
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 14 but its 3 breakdown rows sum to 13 (difference -1).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0312-b0028"
       },
@@ -1006,7 +1289,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 12 states total 25 but its 13 contributing cells sum to 52 (difference 27).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0312-b0028"
       },
@@ -1024,7 +1307,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 13 states total 3 but its 2 breakdown rows sum to 2 (difference -1).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0314-b0030"
       },
@@ -1033,7 +1316,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 17 states total 76.38 but its 2 breakdown rows sum to 76380 (difference 76303.62).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0314-b0030"
       },
@@ -1070,8 +1353,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 67 fixes · 8 pp. checked",
-          "detail": "67 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 124 fixes · 8 pp. checked",
+          "detail": "124 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",
@@ -1082,8 +1365,8 @@
         {
           "id": "tables:arithmetic",
           "axis": "provenance",
-          "label": "Tables: 15/15 Arithmetic-Checked",
-          "detail": "15 of 15 tables pass arithmetic & column checks; 20 printed compositor discrepancy(ies) confirmed on scan"
+          "label": "Tables: 13/14 Arithmetic-Checked",
+          "detail": "13 of 14 tables pass arithmetic & column checks; 7 printed compositor discrepancy(ies) confirmed on scan; 1 flagged for scan review"
         }
       ],
       "diplomatic_and_script_tags": [
@@ -1109,13 +1392,13 @@
           "id": "genre:statistical_ledger",
           "axis": "diplomatic",
           "label": "Statistical Ledger",
-          "detail": "Contains 29 structured historical tables exported to CSV"
+          "detail": "Contains 27 structured historical tables exported to CSV"
         },
         {
           "id": "apparatus:critical",
           "axis": "diplomatic",
           "label": "Critical Apparatus",
-          "detail": "Linked apparatus with 61 footnotes and 0 margin/shoulder notes"
+          "detail": "Linked apparatus with 62 footnotes and 0 margin/shoulder notes"
         }
       ],
       "archival_tags": {
@@ -1135,8 +1418,8 @@
           "Civil Service Salaries"
         ],
         "artifacts": [
-          "29 Statistical Tables",
-          "61 Footnotes"
+          "27 Statistical Tables",
+          "62 Footnotes"
         ]
       }
     }

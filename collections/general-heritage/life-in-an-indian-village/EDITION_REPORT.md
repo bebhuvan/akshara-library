@@ -67,4 +67,4 @@
 
 - **Detected Scripts**: `latin`: 181,055 chars
 - **Distinct Non-ASCII Glyphs (`9` across `79` leaves)**: Á É á è é ó ú ü ā
-- **Corrections Replayed**: `5` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `6` applied, `0` orphaned/unmatched

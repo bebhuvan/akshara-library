@@ -25,8 +25,9 @@
     "epub3": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/epub/economic-life-bengal-district-faridpur-1916.epub",
     "markdown": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/markdown/economic-life-bengal-district-faridpur-1916.md",
     "tei_xml": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/tei/economic-life-bengal-district-faridpur-1916.tei.xml",
-    "print_html": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/print/economic-life-bengal-district-faridpur-1916.print.html",
+    "print_source": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/print/economic-life-bengal-district-faridpur-1916.typ",
     "pdf": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/print/economic-life-bengal-district-faridpur-1916.pdf",
+    "onepage_html": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/html/economic-life-bengal-district-faridpur-1916.html",
     "datasets": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/datasets/tables_manifest.json",
     "datapackage": "library/indian-economic-history/economic-life-bengal-district-faridpur-1916/datasets/datapackage.json"
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 32 fixes · 8 pp. checked",
-        "detail": "32 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 34 fixes · 8 pp. checked",
+        "detail": "34 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -148,11 +149,11 @@
     "validation_summary": {
       "critical": 0,
       "review": 0,
-      "informational": 11,
-      "total": 11
+      "informational": 12,
+      "total": 12
     },
     "corrections": {
-      "applied": 32,
+      "applied": 34,
       "unmatched": 0,
       "details": [
         {
@@ -378,6 +379,20 @@
           "matched_block_id": "p0029-b0002",
           "op": "drop_residue",
           "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-faridpur-p0131-b0003-plain",
+          "page_number": 131,
+          "matched_block_id": "p0131-b0003",
+          "op": "set_text",
+          "status": "applied"
+        },
+        {
+          "correction_id": "m6b-e3a-faridpur-p0131-b0004-plain",
+          "page_number": 131,
+          "matched_block_id": "p0131-b0004",
+          "op": "set_text",
+          "status": "applied"
         }
       ]
     },
@@ -392,11 +407,20 @@
         "block_id": "p0040-b0003"
       },
       {
+        "page_number": 71,
+        "severity": "informational",
+        "category": "rare_character",
+        "message": "'ī' (U+012B LATIN SMALL LETTER I WITH MACRON) appears only 2 time(s) in this book, here in 'Farīdpur'.",
+        "expected_action": "Look at the scan to confirm this character is printed; never change it automatically.",
+        "validator": "rare_characters",
+        "block_id": "p0071-b0003"
+      },
+      {
         "page_number": 92,
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 4 states total 60000000 but its 8 contributing cells sum to 60037000 (difference 37000).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0092-b0014"
       },
@@ -405,7 +429,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 2 states total 3 but its 9 contributing cells sum to 1 (difference -2).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0017"
       },
@@ -414,7 +438,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 3 states total 8.25 but its 9 contributing cells sum to 32.25 (difference 24).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0121-b0017"
       },
@@ -468,7 +492,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 5 states total 294397 but its 6 breakdown rows sum to 376313 (difference 81916).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0162-b0018"
       },
@@ -477,7 +501,7 @@
         "severity": "informational",
         "category": "table_compositor_arithmetic_variant",
         "message": "Column 7 states total 0.30 but its 4 contributing cells sum to 1.33 (difference 1.03).",
-        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor arithmetic discrepancy (preserved per AGENTS.md §D4).",
         "validator": "table_arithmetic",
         "block_id": "p0162-b0018"
       }
@@ -505,8 +529,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 32 fixes · 8 pp. checked",
-          "detail": "32 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 34 fixes · 8 pp. checked",
+          "detail": "34 anchored emendation(s) applied; 8 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

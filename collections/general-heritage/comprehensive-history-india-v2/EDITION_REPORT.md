@@ -62,7 +62,7 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `743` prose joins, `2` split footnotes stitched, `0` multi-page tables unified, `89` total footnotes.
+- **Cross-Page Assembly**: `745` prose joins, `2` split footnotes stitched, `0` multi-page tables unified, `89` total footnotes.
   - Stitched cross-page footnotes: p.739->p.740 (`1`), p.741->p.742 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`234` — verify no epigraph/dedication was caught)**:
   - Leaf `2` `p0002-b0001` (`scanner_residue`): *"Miss. Hist"*

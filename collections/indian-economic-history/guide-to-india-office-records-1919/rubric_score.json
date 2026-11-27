@@ -28,7 +28,7 @@
     }
   },
   "issue_counts_by_code": {
-    "rare_character": 5
+    "rare_character": 6
   },
   "human_proof_coverage": 0.0,
   "scan_audit_coverage": 0.0,

@@ -17,15 +17,16 @@ This digital edition was produced by transcribing a scanned copy of the original
 
 - **Modernized (Presentation Only)**: Running heads and institutional library stamps (57 flyleaf/stamp block(s)) are excluded from reading prose; **56** paragraphs running across page breaks were rejoined (preserving `[p. N]` folio markers); **0** cross-page split footnotes and **4** multi-page tables were stitched; and **177** end-of-line hyphens were resolved against intra-book attestation.
 - **Preserved Verbatim**: Period spellings, nineteenth-century romanization and diacritics (8 distinct non-ASCII characters across 8 leaves), and printed statistical figures (`Rs. a. p.`, `£ s. d.`, lakhs/crores). We never alter printed totals to force column arithmetic.
+- **Reading Editions Only**: In the web chapters, the one-page edition, the EPUB and the PDF, the space the compositor set before `! ? ; :` and inside quotation marks is closed up (**362** places); **577** straight quotation marks and apostrophes are set as curly ones. The TEI XML and Markdown keep the page exactly as printed.
 
 ## 3. Transcription Provenance & Remaining Open Checks
 
 - **Models**: `gemini-3.8-flash` (151 pp.).
 - **Reader**: Read by gemini-3.8-flash on 151 of 151 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
-- **Human Proofing**: 1 replayed correction(s). Machine-checked; 0 of 151 pages had flagged passages re-read against the scan; no pages yet checked by a person.
+- **Human Proofing**: 2 replayed correction(s). Machine-checked; 0 of 151 pages had flagged passages re-read against the scan; no pages yet checked by a person.
 
 Rather than pretend machine transcription is infallible, here is what our validators still flag:
 
-- **5 finding(s) across 4 leaf(s)** (pp. 116, 120, 121, 154): rare character.
+- **6 finding(s) across 4 leaf(s)** (pp. 116, 120, 121, 154): rare character.
 
 If you spot an error, the scan identified above is the final authority. We would rather be corrected than merely trusted.

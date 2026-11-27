@@ -116,7 +116,7 @@ There is talk of great adjustments being made in the British Empire, after the w
 For the benefit of the reader I reproduce the following interview which the Finance Minister of India is said to have given to a correspondent of the Associated Press:
 
 
-##### “<span class="sc">Finance Minister Denies that India Groans Under Tax. Total Revenue, Distributed Among</span> 244,000,000 <span class="sc">People, Seven Shillings Per Capita</span>
+#### “<span class="sc">Finance Minister Denies that India Groans Under Tax. Total Revenue, Distributed Among</span> 244,000,000 <span class="sc">People, Seven Shillings Per Capita</span>
 
 “Simla, India, Dec. 20. (Mail correspondence to the Associated Press.)—So far from the people of India groaning under an enormous burden of taxation, India is one of the most lightly taxed countries on the face of the earth, according to Sir William Meyer, minister of finance for India, in response to the charges of over-taxation preferred by so-called extremists.
 
@@ -125,7 +125,7 @@ For the benefit of the reader I reproduce the following interview which the Fina
 “The finance minister said the land revenue has been [p. vi] one of the points upon which opponents of the government have been most bitter, it being claimed that the farmer was kept in poverty by taxation. Sir William stated that of the total revenue of £86,500,000 for this year, about £22,000,000 was derived from the land, India being mainly an agricultural country.
 
 
-##### <span class="sc">STATE TAKES UNEARNED INCREMENT</span>
+#### <span class="sc">STATE TAKES UNEARNED INCREMENT</span>
 
 “According to immemorial traditions in India the state has always claimed a share in the produce of the soil, he continued. At the close of the eighteenth century the state share was commuted for a fixed money payment in various tracts, mostly in Bengal, but over the greater part of India we revise the money value of that share every 30 years or so with reference to the increase, or possible decrease, if that should occur, in the value of the agricultural produce. The state thus takes to itself a share of what is known to economists as the unearned increment, a policy that ought to find favour with enlightened socialists. Theoretically, after making liberal allowance for cultivation expenses, the state share is one-half of the resultant net profit, but as a matter of fact our recent settlements have been in practice much more lenient than this, and the amount we take is much less than was exacted by previous native rulers. Liberal remissions are also given when crops suffer from drought, flood or other calamities.”
 
@@ -181,14 +181,7 @@ According to this writer, "The services of India are [p. xiii] estimated at a va
 
 Evidently the raising of this new loan of $500,000,- 000 was in the air when he wrote the article and Mr. Yusaf Ali, who is permanently settled in London, with his English wife, thought it was his duty to raise a voice of protest. The fact that the article was published in the *Nineteenth Century and After* shows the high esteem in which the writer is held in journalistic circles in England. Mr. Yusaf Ali has never identified himself with the Nationalistic party and his views are those of a loyalist whose loyalty does not necessarily mean his supporting everything, just or unjust, which the Government does. His protest, however, proved to be a cry in the wilderness.
 
-In this connection it might be of interest to add the following extract from the Proceedings of the Government of India, in the Legislative Department: "Replying to the Hon. Maharaja Manindra Chandra
-
-
-<!-- page: 24 | folio: xiv -->
-
-### POST-SCRIPTUM
-
-Nandi’s question regarding contributions to the war by Indian Native States and Indian Provinces the Hon. Sir Reginald Craddock said: ‘Complete or detailed figures of the amounts subscribed in all the Provinces of India towards the war and the charities connected with it, cannot be given. The statement given below gives such information as is immediately available.’ ” Then follow the details of sums given, aggregating £2,047,375. “ In addition to the figures given in the statement, lavish contributions both in cash and kind have been made by the ruling Princes and Chiefs in India. It is regretted that details of these cannot conveniently be supplied.”
+In this connection it might be of interest to add the following extract from the Proceedings of the Government of India, in the Legislative Department: "Replying to the Hon. Maharaja Manindra Chandra [p. xiv] Nandi’s question regarding contributions to the war by Indian Native States and Indian Provinces the Hon. Sir Reginald Craddock said: ‘Complete or detailed figures of the amounts subscribed in all the Provinces of India towards the war and the charities connected with it, cannot be given. The statement given below gives such information as is immediately available.’ ” Then follow the details of sums given, aggregating £2,047,375. “ In addition to the figures given in the statement, lavish contributions both in cash and kind have been made by the ruling Princes and Chiefs in India. It is regretted that details of these cannot conveniently be supplied.”
 
 All these “ lavish ” contributions, however, failed to satisfy the British and the Government did not scruple to load an additional burden of $500,000,000 on the already crushed shoulders of the Indian ryot.
 
@@ -247,14 +240,7 @@ India would be content if even half of what has been said were realised in the n
 
 Those who read the speeches made by the Indian delegates to the Imperial War Conference in London, [p. xx] should bear in mind that neither of them were the spokesmen of the Indian Nationalist Party. One of them, Sir S. P. Sinha, did, no doubt, preside at an annual meeting of the Indian National Congress in 1915, but that was his only connection (first and last) with the movement. Before his election to the office of president of that session, he was a government man, and soon after he again became a government man. He is an official of the Government of India and owes his prosperity, his rank and his wealth to the Government.
 
-The Maharaja of Bikanir comes from an ancient royal family of India, though the state over which he rules is not a first-class principality. By heredity, instinct, and tradition he is an autocrat. For his elevation to the present position of prominence in Indian political life, he is under obligations to the British Government of India. He comes from a family which has, for the last four hundred years, kept well with the paramount authority, Mughal or British. Personally he is an enlightened and progressive ruler. Under these circumstances, he has rendered signal service to the cause of his country, worthy of the great ancestry from which he has sprung, in making some fairly bold and outspoken utterances about the aspirations of India. At last, in him, the princes of India have found a worthy representative, and the people of India a sincere, though by the limitations of his position, a rather halting champion of their rights. Speaking at the luncheon given by the Empire Parliamentary Association, he said that the unrest that exists in India is of two kinds:
-
-
-<!-- page: 31 | folio: xxi -->
-
-#### POST-SCRIPTUM
-
-> “That which the seditionists attempt to spread, happily with small results, has to be faced and is being faced and suitably tackled by the authorities, and it is our earnest hope that it may be possible gradually to eradicate the evil, which is a cancerous growth, not, however, peculiar to India. The other kind of unrest is what has been happily described by a British statesman as ‘legitimate.’ It is in the minds of people who are as loyal as you or I. (Hear, hear.) I decline to believe that British statesmanship will not rise to the occasion, and it depends on whether Indian problems are or are not handled with sympathy, with imagination, with broad-minded perspicacity, that that legitimate unrest will die out or continue. It is the strong opinion of many who have given the subject thought that if the people of India were given a greater voice and power in directions in which they have shown their fitness we should hear much less of the unrest, agitation, and irresponsible criticism which is certainly gaining ground. Desperation would give way to patience, for India has confidence in the word and good faith of England, and the enemies of order and good government would be foiled. The ‘unchanging East’ is changing very rapidly and beyond conception.” (Report in the *Daily Telegraph*, London.)
+The Maharaja of Bikanir comes from an ancient royal family of India, though the state over which he rules is not a first-class principality. By heredity, instinct, and tradition he is an autocrat. For his elevation to the present position of prominence in Indian political life, he is under obligations to the British Government of India. He comes from a family which has, for the last four hundred years, kept well with the paramount authority, Mughal or British. Personally he is an enlightened and progressive ruler. Under these circumstances, he has rendered signal service to the cause of his country, worthy of the great ancestry from which he has sprung, in making some fairly bold and outspoken utterances about the aspirations of India. At last, in him, the princes of India have found a worthy representative, and the people of India a sincere, though by the limitations of his position, a rather halting champion of their rights. Speaking at the luncheon given by the Empire Parliamentary Association, he said that the unrest that exists in India is of two kinds: [p. xxi] “That which the seditionists attempt to spread, happily with small results, has to be faced and is being faced and suitably tackled by the authorities, and it is our earnest hope that it may be possible gradually to eradicate the evil, which is a cancerous growth, not, however, peculiar to India. The other kind of unrest is what has been happily described by a British statesman as ‘legitimate.’ It is in the minds of people who are as loyal as you or I. (Hear, hear.) I decline to believe that British statesmanship will not rise to the occasion, and it depends on whether Indian problems are or are not handled with sympathy, with imagination, with broad-minded perspicacity, that that legitimate unrest will die out or continue. It is the strong opinion of many who have given the subject thought that if the people of India were given a greater voice and power in directions in which they have shown their fitness we should hear much less of the unrest, agitation, and irresponsible criticism which is certainly gaining ground. Desperation would give way to patience, for India has confidence in the word and good faith of England, and the enemies of order and good government would be foiled. The ‘unchanging East’ is changing very rapidly and beyond conception.” (Report in the *Daily Telegraph*, London.)
 
 The speech has evoked some pertinent comments in the British press. The *Daily Telegraph* remarks (April 25, 1917) :
 
@@ -268,14 +254,7 @@ It has since been given out that in future an Indian will represent India in the
 
 Says *India*, the organ of the Indian Congress in London, “Mr. Bonar Law informed the House of Commons on Friday last that the Imperial War Cabinet had unanimously accepted the principle that each part of the Empire, having due regard to the interest of our Allies, shall give specially favourable treatment and facilities to the produce and manufactures of other parts of the Empire,” that “there is no intention whatever of making any change during the war.” Mr. Lloyd George made a similar announcement in his speech in the city on the same day, after the usual preliminary denunciation of the wickedness and folly of adherence to old party systems and policies.
 
-“Nevertheless, the Prime Minister may rest assured that India intends to have something to say on this
-
-
-<!-- page: 34 | folio: xxiv -->
-
-### POST-SCRIPTUM
-
-matter. If she is to embark upon the career of commercial development which is being so confidently marked out for her, she must have protection for her growing industries: and her most formidable competitor is the British manufacturer. The application of the policy of Imperial Preference, which is now foreshadowed, will simply mean that India must take Lancashire goods at Lancashire's prices, while shutting out Japan and the United States from her markets. What, then, was the object of the flourish of trumpets with which Mr. Chamberlain heralded the increase in the import duties on cotton goods? Here is a fiscal change made during the war defended on the ground that it is consonant with Indian opinion, and marked already for a place on the political dust heap when the war is over."
+“Nevertheless, the Prime Minister may rest assured that India intends to have something to say on this [p. xxiv] matter. If she is to embark upon the career of commercial development which is being so confidently marked out for her, she must have protection for her growing industries: and her most formidable competitor is the British manufacturer. The application of the policy of Imperial Preference, which is now foreshadowed, will simply mean that India must take Lancashire goods at Lancashire's prices, while shutting out Japan and the United States from her markets. What, then, was the object of the flourish of trumpets with which Mr. Chamberlain heralded the increase in the import duties on cotton goods? Here is a fiscal change made during the war defended on the ground that it is consonant with Indian opinion, and marked already for a place on the political dust heap when the war is over."
 
 Are not the British past masters in the art of taking away with the left what they give by the right hand?
 
@@ -430,7 +409,7 @@ Mining Operations</span> . . . . . . 173
 - Central Provinces . . . . . . 239
 - The Present Policy as to Land Tax . . . 240
 
-### <span class="sc">PART IV</span>
+#### <span class="sc">PART IV</span>
 
 - <span class="sc">IX. Economic Conditions of the People</span> . . . 245
 - The Poverty of the Masses . . . . . 245
@@ -438,7 +417,7 @@ Mining Operations</span> . . . . . . 173
 - Testimony of English Public Men . . . . 248
 - Average Income of the People . . . . . 250
 
-### <span class="sc">PART V</span>
+#### <span class="sc">PART V</span>
 
 - <span class="sc">X. Famines and Their Causes</span> . . . . 263
 - Famines in the Past . . . . . . 263
@@ -636,7 +615,7 @@ Notwithstanding the misgovernment of Aurangzeb and the reign of a series of weak
 
 *Pre-British Period.* We are, however, more directly concerned with the economic condition of India in the period immediately preceding the establishment of British power. We have some vivid glimpses preserved for us in the accounts of the contemporary European travellers and Anglo-Indian administrators,— writers of the type of Malcolm, Elphinstone, Monroe, Orme, and Todd.
 
-*Principal Political Divisions of the Country.* The country was then divided into several political divisions. The rulers were practically independent masters of their respective territories, though some acknowledged a nominal suzerainty of the Grand Mogul. In the north, Bengal, Behar, and Orissa were ruled by the Nawab of Bengal, with his seat in Murshidabad. Oude was administered by the Nawab Vizir who had several feudatories, including the Rajah of Benares. The Mahrattas were practically supreme in Delhi where the Grand Mogul still maintained the shadow of his glory,— also in Rajputana, Central India and the Western Ghauts. The South was divided between the Nawab of Hyderabad, with the Nawab of Arcot and the Rajah of Tanjore under him, and the principality of Mysore, with a Hindu prince as sovereign and a Mohammedan minister as ruler. The Northwest, [p. 17] comprising the land of the Five Rivers and the territory between the Sutlej and the Jamna, were still nominally under the Mogul. By the time, however, that the British established themselves at Delhi, it had completely passed into the hands of the Sikhs, and it was from them that the British finally took it. Scindh was under the Amirs.
+*Principal Political Divisions of the Country.* The country was then divided into several political divisions. The rulers were practically independent masters of their respective territories, though some acknowledged a nominal suzerainty of the Grand Mogul. In the north, Bengal, Behar, and Orissa were ruled by the Nawab of Bengal, with his seat in Murshidabad. Oude was administered by the Nawab Vizir who had several feudatories, including the Rajah of Benares. The Mahrattas were practically supreme in Delhi where the Grand Mogul still maintained the shadow of his glory,— also in Rajputana, Central India and the Western Ghauts. The South was divided between the Nawab of Hyderabad, with the Nawab of Arcot and the Rajah of Tanjore under him, and the principality of Mysore, with a Hindu prince as sovereign and a Mohammedan minister as ruler. The North-west, [p. 17] comprising the land of the Five Rivers and the territory between the Sutlej and the Jamna, were still nominally under the Mogul. By the time, however, that the British established themselves at Delhi, it had completely passed into the hands of the Sikhs, and it was from them that the British finally took it. Scindh was under the Amirs.
 
 We will now briefly narrate the means whereby Britain acquired these territories, with a statement of their economic condition before and after British occupation.
 
@@ -774,11 +753,6 @@ Even now there are native states in India which are admittedly better governed t
 Dr. H. A. L. Fisher, the Minister of Education in the Lloyd George Cabinet says in his book “ The Empire and the Future,” “ *My impression is that the inhabitants of a well governed native state are on the whole happier and more contented than the inhabitants of British India. They are more lightly taxed; the pace of the administration is less urgent and exacting; their sentiment is gratified by the splendour of a native court and by the dominion of an Indian Government. They feel that they do things for themselves instead of having everything done for them by a cold and alien benevolence.*” [Italics mine. L. R.] We are sorry that consideration of space should have forced us to abridge many of the references given in this chapter. Independent enquirers are respectfully referred to the authorities quoted from.
 
 
-<!-- page: 81 | folio: 41 -->
-
-### PART TWO
-
-
 ### Notes
 
 [^sec-04-fn-001]: (1) "Early History of India" by V. R. Smith, 3d ed. p. 33.
@@ -820,6 +794,11 @@ Dr. H. A. L. Fisher, the Minister of Education in the Lloyd George Cabinet says 
 
 
 ## PART II: India and the British Industrial Revolution
+
+
+<!-- page: 81 | folio: 41 -->
+
+### PART TWO
 
 
 <!-- page: 83 | folio: 43 -->
@@ -1526,17 +1505,17 @@ In conclusion, we cite the words of Mr. Thorburn, page 350 of his book, “The P
 - 3. An agent trails his coat in Chitral, a war follows, India pays and the agent is knighted and promoted.
 - 4. The events of August 23, 1897, take place beyond the Khyber Pass, a serious war follows. Once more, India bleeds,—this time, happily, not quite in silence.”
 
-<!-- page: 159 | folio: 119 -->
-
-### PART THREE
-
-
 ### Notes
 
 [^sec-07-fn-001]: (1) Malcolm’s Sketch, p. 31, quoted by James Mill, Bk. VI, Ch. 9, p. 187.
 
 
 ## PART III: V. The Cotton Industry of India
+
+
+<!-- page: 159 | folio: 119 -->
+
+### PART THREE
 
 
 <!-- page: 161 | folio: 121 -->
@@ -1971,8 +1950,8 @@ We beg to make a present of these opinions to the East Indian Association of Lon
 ### Notes
 
 [^sec-08-fn-001]: (1) Orme: in “ Historical Fragments of The Mogul Empire,” p. 413; quoted by Baines, p. 65.
-[^sec-08-fn-002]: (Note) N. B. The importation of cotton goods other than from the East Indies, was inconsiderable until 1825.
-[^sec-08-fn-003]: (Note) (Digby, p. 90.)
+- **(Note)** N. B. The importation of cotton goods other than from the East Indies, was inconsiderable until 1825.
+- **(Note)** (Digby, p. 90.)
 [^sec-08-fn-004]: (2) “Minutes of Evidence, &c., on the Affairs of the East India Company” (1813), pp. 124, 127, 131.
 [^sec-08-fn-005]: (3) Sir John Malcolm, Governor of Bombay in 1830.
 [^sec-08-fn-006]: (4) Dutt: “India Under Early British Rule,” p. 300.
@@ -2758,19 +2737,6 @@ The general Government position on the subject has been given by us in the earli
 "The total increase in the gross land revenue during the past fifty years," says the writer of the Government memorandum (1909) "has been sixty per cent. [p. 242] measured in rupees; though as the gold value of the rupee has fallen from 24d. to 16d. the increase, if measured in gold, has been less than 6 per cent."
 
 
-<!-- page: 283 | folio: 243 -->
-
-### PART FOUR
-
-
-<!-- page: 284 | folio: 244 -->
-> _Even as we look on, India is becoming feebler and_  
-> _feebler. The very life-blood of the great multitude_  
-> _under our rule is slowly, yet ever faster, ebbing away._  
-> _— <span class="sc">H. M. Hyndman</span>,_  
-> _In “Bankruptcy of India,” page 152._
-
-
 ### Notes
 
 [^sec-11-fn-001]: (1) The values of exports are those of the ports from which these articles were shipped.
@@ -2806,6 +2772,19 @@ The general Government position on the subject has been given by us in the earli
 
 
 ## PART IV: IX. Economic Conditions of the People
+
+
+<!-- page: 283 | folio: 243 -->
+
+### PART FOUR
+
+
+<!-- page: 284 | folio: 244 -->
+> _Even as we look on, India is becoming feebler and_  
+> _feebler. The very life-blood of the great multitude_  
+> _under our rule is slowly, yet ever faster, ebbing away._  
+> _— <span class="sc">H. M. Hyndman</span>,_  
+> _In “Bankruptcy of India,” page 152._
 
 
 <!-- page: 285 | folio: 245 -->
@@ -2945,6 +2924,14 @@ As an independent observer, Mr. J. Ramsay Macdonald, M.P., the Labour leader of 
 For independent estimates of the existing conditions of life in the Bombay and Madras Presidencies see the Appendices for extracts from recent articles. We give the rates of wages also in an appendix. Some more opinions are given in other parts of the book (see the Preface and the Conclusion).
 
 
+### Notes
+
+[^sec-12-fn-001]: (1) Quoted from William Digby’s “Condition of the People of India,” 1902, pp. 14–15.
+
+
+## PART V: X. Famines and Their Causes
+
+
 <!-- page: 301 | folio: 261 -->
 
 ### PART FIVE
@@ -2954,14 +2941,6 @@ For independent estimates of the existing conditions of life in the Bombay and M
 > “The test of a people’s prosperity is not the extension of exports, the multiplication of manufactures, or other industries, the construction of cities. No. A prosperous country is one in which the great mass of the inhabitants are able to procure with moderate toil, what is necessary for living *human* lives, lives of frugal and assured comfort. Judged by this criterion, can India be called prosperous?
 
 > “Comfort of course is a relative term. In a tropical country like India, the standard is very low. Little clothing is required,— simple diet suffices. An unfailing well full of water, a plot of land and a bit of orchard — these will satisfy his heart’s desire, if needed, you add the cattle needful to him. Such is the ryot’s ideal — very few realise it. Millions of peasants in India are struggling to live on half an acre. Their existence is a constant struggle with starvation, ending too often in defeat. Their difficulty is not to live human lives,— lives up to the level of their poor standard of comfort,— but to live at all, and not die. We may well say that in India, except in the irrigated tracts, famine is chronic — endemic.” —“ India and Its Problems,” by W. S. Lily, pp. 284–85.
-
-
-### Notes
-
-[^sec-12-fn-001]: (1) Quoted from William Digby’s “Condition of the People of India,” 1902, pp. 14–15.
-
-
-## PART V: X. Famines and Their Causes
 
 
 <!-- page: 303 | folio: 263 -->
@@ -3060,7 +3039,7 @@ In 1911 the rainfall failed over a considerable area in Gujrat in the Bombay Pre
 - 2. That there have been a larger number of "general" famines, during British rule, than were ever known before in Indian history.
 - 3. That though Indian famines are primarily due sometimes to failure of monsoons, and at other times to floods and other causes beyond the control of man, yet the widespread distress and huge mortalities that have followed the failure of monsoons during British occupation are to a great extent due to the economic effects of Great Britain's fiscal policy in India, which annihilated indigenous industries, exacted exorbitant land revenues and impoverished the people.
 - 4. That the development of railway systems with an eye to furthering British trade, has been pushed to the detriment of canal construction and other methods of irrigation.
-- 5. That the widespread mortality and woful destitu-tion [p. 269] of the people during famine periods are preventable.
+- 5. That the widespread mortality and woful destitution [p. 269] of the people during famine periods are preventable.
 6\. That famine conditions are now chronic in India.
 
 7\. That the Indian famines of modern times are not famines of foodstuffs, but of money — there being at all times sufficient food in the country to feed the entire population, had the people the wherewithal to buy it at the prices demanded by export-merchants and dealers.
@@ -3332,7 +3311,7 @@ Whether (a) is a blessing or not depends on who profits by the foreign trade. We
 
 > "To sum up, the joint results of railways and free trade may be briefly stated in this way: India used to clothe itself, now England sends clothes, and Indian weavers have lost an enormous source of income, with the gain to the country of the difference in price between English and Indian goods. But to pay for these goods India has to export vast quantities of food and those who sell this food make larger profits than before. Therefore a certain portion of the community [p. 294] gain by cheaper cotton goods and higher prices for grain. But in order to attain this result they have had to pay the sums before mentioned to build the railways. Besides that, they have to support in years of scarcity a gigantic system of outdoor relief. Is it not obvious that, taking the economic changes as a whole, the country has lost an enormous source of wealth? If the import of cotton to India and the export of grain from India ceased to-morrow, the Indian people would be the gainers, though the Indian Government would be at its wit's end. In fact, the interests of the two are not identical. The Indian Government is now doing its best to stimulate the export of wheat in order to lessen its ‘loss by exchange’; but this will only result in higher food prices in India. We now see the explanation of Mr. Hunter's assertion that two-fifths of the people of British India enjoy a prosperity unknown under native rule; other two-fifths earn a fair, but diminishing, subsistence; but the remaining fifth, or forty millions, go through life on insufficient food. And in ten years, according to Mr. Caird, there will be twenty millions more people to feed. Can it, then, be maintained that the material condition of India has been improved by the enormous outlay on railways?
 
-“But you forget, replies the opponent of these heretical views, that in time of famine the railway brings food to starving districts. What would have become of the people of Madras, Bombay, and the NorthWest Province during the last famine if it had not been for the railways? My reply is: What did become of them? It is true, the railways brought grain; yet they had previously taken it away, and they brought it back at a quadrupled price, and the Government had to spend millions of pounds to enable the peasants to buy it, and even then could not prevent frightful mortality. What has been the native's custom from time immemorial of providing against bad years? Why, the simple method of Joseph in Egypt—that of storing [p. 295] grain. This is what the official report on the Mysore famine tells us:
+“But you forget, replies the opponent of these heretical views, that in time of famine the railway brings food to starving districts. What would have become of the people of Madras, Bombay, and the North-West Province during the last famine if it had not been for the railways? My reply is: What did become of them? It is true, the railways brought grain; yet they had previously taken it away, and they brought it back at a quadrupled price, and the Government had to spend millions of pounds to enable the peasants to buy it, and even then could not prevent frightful mortality. What has been the native's custom from time immemorial of providing against bad years? Why, the simple method of Joseph in Egypt—that of storing [p. 295] grain. This is what the official report on the Mysore famine tells us:
 
 > " ' The country had suffered in former years from deficient rainfall, but actual famine had been staved off by the consumption of the surplus ragi, a coarse millet, stored in underground pits, from which it is withdrawn in times of scarcity, as the grain will keep sound and good for forty and fifty years.' Only two of the Famine Commissioners, Messrs. Caird and Sullivan, seem to have recognised the importance of this custom. In the above-quoted very interesting appendix to the first part of the report, they write on the subject of grain storage as follows : ' The food of the people is of the simplest kind, grain, salt, and a few condiments for a relish. The grain is easy to handle, bears storage in pits for many years, and the people themselves grind it as they require it. The pits are made in the ground, in a manner with which the natives are familiar, and cost nothing beyond the encircling ring of baked clay and labour in construction.' It is this storage of grain, the easiest kind of Famine Insurance Fund, that the teachings of plain experience have forced the native to adopt throughout the length and breadth of India, though the amount of stores varies according to the necessities of each district.
 
@@ -4179,7 +4158,7 @@ Total of appointments on Rs. 800 per month or above = 2,501. Held by Indians, 10
 
 ### Notes
 
-[^sec-23-fn-001]: (Note) *Note.* The Royal Commission on Public Services has actually recommended a substantial increase in the salaries of European officials by the incorporation of what was temporarily allowed to them as exchange compensation allowance, in their salaries as also otherwise.
+- **(Note)** *Note.* The Royal Commission on Public Services has actually recommended a substantial increase in the salaries of European officials by the incorporation of what was temporarily allowed to them as exchange compensation allowance, in their salaries as also otherwise.
 
 
 ## Appendix F Further Notes

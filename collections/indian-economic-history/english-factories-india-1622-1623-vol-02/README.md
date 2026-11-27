@@ -4,7 +4,7 @@
 - **Publication Year**: 1908
 - **Imprint**: Oxford: Clarendon Press
 - **Collection**: `indian-economic-history`
-- **Edition Tier**: `community` (**85.0 / 100**)
+- **Edition Tier**: `community` (**86.0 / 100**)
 - **Internet Archive Source**: https://archive.org/details/tdl.46404-the-english-factories-in-india-1622-1623-a-calendar-of-documents-in-th
 
 ## Files in This Folder

@@ -2,7 +2,7 @@
 
 Welcome! You do **not** need to read all 607 leaves from start to finish to make a lasting scholarly contribution. Automated validators and cross-witness checks have narrowed the highest-value places needing human eyes into **four focused missions** below.
 
-- **Current Edition Score**: **83.9 / 100** (`community`)
+- **Current Edition Score**: **79.7 / 100** (`community`)
 - **Human Leaf Sign-Off Progress**: **0 / 607** leaves verified
 - **Original Camera Scans**: [Internet Archive (`essaysspeechesa00paregoog`)](https://archive.org/details/essaysspeechesa00paregoog)
 
@@ -11,6 +11,7 @@ Welcome! You do **not** need to read all 607 leaves from start to finish to make
 ## Mission 1 — Statistical Ledgers & Numerical Checks
 
 - **Sideways Broadside Tables to Eyeball**: PDF leaf(s) `453, 454, 458, 478` were printed rotated 90° and auto-oriented.
+- [ ] Leaf **76** (`p0076-b0028`): Isolated 450-DPI TOTAL strip read ['16,090,262'] vs. full-page pass ['', '£238,874,540(<i>a</i>)', '', '', '(<i>See preceding page</i>).']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **451** (`p0451-b0036`): Isolated 450-DPI TOTAL strip read ['Total.', '391,630', 'Average 646', '253,012,132', 'Average 6·34', '3,97,74,378', 'for lbs. 252,142,616 excluding the 2 quantities marked ‡'] vs. full-page pass ['Total.', '391,630', 'Average\n646', '253,012,132', 'Average\n6·34', '3,97,74,378', 'for lbs.\n252,142,616 ex.\ncluding the 2 quantities marked ‡']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **601** (`p0601-b0005`): Table row p0601-b0005 expands to 3 columns vs. table body width 5 (even after accounting for colspan/rowspan).
 
@@ -21,7 +22,6 @@ Welcome! You do **not** need to read all 607 leaves from start to finish to make
 - [ ] Leaf **237** (`p0237-b0029`): Page 237 has inline note callout(s) [] vs. labelled footnote(s) ['*'].
 - [ ] Leaves **31 -> 32**: Confirm cross-page footnote `†` joins smoothly across the page turn.
 - [ ] Leaves **33 -> 34**: Confirm cross-page footnote `¶` joins smoothly across the page turn.
-- [ ] Leaves **75 -> 76**: Confirm cross-page footnote `*` joins smoothly across the page turn.
 - [ ] Leaves **134 -> 135**: Confirm cross-page footnote `*` joins smoothly across the page turn.
 - [ ] Leaves **424 -> 425**: Confirm cross-page footnote `*` joins smoothly across the page turn.
 
@@ -35,10 +35,6 @@ Welcome! You do **not** need to read all 607 leaves from start to finish to make
 - [ ] Leaf **175**: Uncertain glyph reading marked <unclear>count</unclear>.
 - [ ] Leaf **177**: Uncertain glyph reading marked <unclear>r</unclear>.
 - [ ] Leaf **177**: Uncertain glyph reading marked <unclear>r</unclear>.
-- [ ] Leaf **254**: Uncertain glyph reading marked <unclear>7</unclear>.
-- [ ] Leaf **254**: Uncertain glyph reading marked <unclear>8</unclear>.
-- [ ] Leaf **254**: Uncertain glyph reading marked <unclear>7</unclear>.
-- [ ] Leaf **254**: Uncertain glyph reading marked <unclear>8</unclear>.
 - [ ] Leaf **301**: Uncertain glyph reading marked <unclear>M</unclear>.
 - [ ] Leaf **361**: Uncertain glyph reading marked <unclear>g</unclear>.
 - [ ] Leaf **413**: Uncertain glyph reading marked <unclear>r</unclear>.
@@ -50,10 +46,14 @@ Welcome! You do **not** need to read all 607 leaves from start to finish to make
 - [ ] Leaf **73**: Column 2 states total 488331000 but its 4 breakdown rows sum to 1408891000 (difference 920560000).
 - [ ] Leaf **74**: Isolated 450-DPI TOTAL strip read ['Total ...', '£ 596,528,000', '(One-tenth for <unclear>...</unclear>'] vs. full-page pass ['Total ...', '£596,528,000', '']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **74**: Isolated 450-DPI TOTAL strip read ['1647,983,000', '} Rough estimate of the amount of benefit derived by England from India as the result of English rule.'] vs. full-page pass ['', '1647,983,000', 'Rough estimate of the amount of benefit\nderived by England from India as the\nresult of English rule.']. Full-page decoding often self-reconciles totals to misread addends above.
-- [ ] Leaf **76**: Isolated 450-DPI TOTAL strip read ['16,090,262'] vs. full-page pass ['', '£238,874,540(<i>a</i>)', '', '', '(<i>See preceding page</i>).']. Full-page decoding often self-reconciles totals to misread addends above.
+- [ ] Leaf **74**: Column 2 states total 1647983000 but its 5 breakdown rows sum to 2244511000 (difference 596528000).
 - [ ] Leaf **77**: Column 4 states total 9360000 but its 3 breakdown rows sum to 18080000 (difference 8720000).
 - [ ] Leaf **173**: Isolated 450-DPI TOTAL strip read ['<b>Total...</b>', '<b>5,875,879</b>', '<b>144,500,000</b>', '<b>0 9¾ average</b>'] vs. full-page pass ['Total...', '5,875,879', '144,500,000', '0', '9¾average']. Full-page decoding often self-reconciles totals to misread addends above.
 - [ ] Leaf **173**: Column 4 states total 0 but its 7 contributing cells sum to 3 (difference 3).
+- [ ] Leaf **179**: Isolated 450-DPI TOTAL strip read ['Total...... 35 27', 'Total...... 29 77'] vs. full-page pass ['Total', '35', '27', 'Total', '29', '77']. Full-page decoding often self-reconciles totals to misread addends above.
+- [ ] Leaf **179**: Column 2 states total 35 but its 7 contributing cells sum to 34 (difference -1).
+- [ ] Leaf **179**: Column 3 states total 27 but its 7 contributing cells sum to 37 (difference 10).
+- [ ] Leaf **179**: Column 5 states total 29 but its 7 contributing cells sum to 28 (difference -1).
 - [ ] Leaf **167** (`p0167-b0018`): Faded ink `<unclear>n</unclear>` in *"…same standing, ability, and ntegrity ? A word of persuasi…"*
 - [ ] Leaf **167** (`p0167-b0018`): Faded ink `<unclear>p</unclear>` in *"…e from a native of official position will, in the nature…"*
 - [ ] Leaf **175** (`p0175-b0006`): Faded ink `<unclear>count</unclear>` in *"…very important element from count. He is well aware that, wha…"*
@@ -80,28 +80,32 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | Section | PDF Leaves | Leaves | Open Hotspots | Verified |
 | :--- | :---: | ---: | ---: | ---: |
 | Frontmatter | `1–13` | 10 | 0 | 0 / 10 |
-| PREFACE | `14–14` | 1 | 0 | 0 / 1 |
-| CONTENTS | `15–19` | 5 | 0 | 0 / 5 |
-| BIOGRAPHICAL SKETCH | `20–28` | 9 | 0 | 0 / 9 |
-| CHAPTER I: The European and Asiatic Races | `28–52` | 25 | 2 | 0 / 25 |
-| II.—England's Duties to India | `53–77` | 25 | 8 | 0 / 25 |
+| Preface | `14–14` | 1 | 0 | 0 / 1 |
+| Contents | `15–16` | 2 | 0 | 0 / 2 |
+| Press Notices (1886) | `17–19` | 3 | 0 | 0 / 3 |
+| Biographical Sketch | `20–27` | 8 | 0 | 0 / 8 |
+| Chapter I: I.—The European and Asiatic Races | `28–52` | 25 | 2 | 0 / 25 |
+| II.—England's Duties to India | `53–77` | 25 | 9 | 0 / 25 |
 | III.—Expenses of the Abyssinian War | `78–84` | 7 | 0 | 0 / 7 |
 | IV.—Mysore | `85–99` | 15 | 0 | 0 / 15 |
-| V.—Admission of Educated Natives into the Indian Civil Ser | `100–121` | 22 | 0 | 0 / 22 |
+| Chapter II: V.—Admission of Educated Natives into the Indi | `100–121` | 22 | 0 | 0 / 22 |
 | VI.—The Wants and Means of India | `122–136` | 15 | 0 | 0 / 15 |
 | VII.—On the Commerce of India | `137–159` | 23 | 0 | 0 / 23 |
 | VIII.—Financial Administration of India | `160–180` | 21 | 12 | 0 / 21 |
-| IX.—Poverty of India, Part I | `181–234` | 54 | 32 | 0 / 54 |
-| Poverty of India, Part II | `235–293` | 59 | 5 | 0 / 59 |
-| Reply to Criticisms.. .: | `293–308` | 16 | 4 | 0 / 16 |
-| I.—India's Interest in the Genenal Election (1886) | `309–400` | 92 | 1 | 0 / 92 |
-| I.—The Baroda Administration in 1874 (Reply to Parliamenta | `401–509` | 109 | 35 | 0 / 109 |
-| III.—Admission of Educated Natives into the Indian Civil S | `509–519` | 11 | 1 | 0 / 11 |
-| IV.—Indian Civil Service | `519–524` | 6 | 0 | 0 / 6 |
+| Chapter III: IX.—Poverty of India, Part I | `181–234` | 54 | 32 | 0 / 54 |
+| Poverty of India, Part II | `235–293` | 59 | 1 | 0 / 59 |
+| Reply to Criticisms | `293–308` | 16 | 4 | 0 / 16 |
+| Chapter IV: I.—India's Interest in the General Election (1 | `309–319` | 11 | 0 | 0 / 11 |
+| II.—The Election Speeches in England | `319–335` | 17 | 0 | 0 / 17 |
+| III.—The National Congresses (1885–1886) | `335–364` | 30 | 1 | 0 / 30 |
+| IV.—Miscellaneous Speeches and Addresses | `364–400` | 37 | 0 | 0 / 37 |
+| Chapter V: I.—The Baroda Administration in 1874 | `401–432` | 32 | 4 | 0 / 32 |
+| II.—Condition of India (Correspondence with the Secretary  | `433–509` | 77 | 29 | 0 / 77 |
+| Chapter VI: III.—Admission of Educated Natives into the In | `509–519` | 11 | 1 | 0 / 11 |
+| IV.—The Indian Civil Service (1884) | `519–524` | 6 | 0 | 0 / 6 |
 | V.—Indian Exchanges | `524–536` | 13 | 0 | 0 / 13 |
-| VI.—Bi-metallism | `536–540` | 5 | 0 | 0 / 5 |
+| VI.—Bimetallism | `536–540` | 5 | 0 | 0 / 5 |
 | VII.—The Indian Services | `540–552` | 13 | 0 | 0 / 13 |
-| VIII.—Replies to Questions put by the Public Service Commi | `553–563` | 11 | 0 | 0 / 11 |
-| IX.—Sir M. E. Grant Duff's Views about India (1) | `564–583` | 20 | 0 | 0 / 20 |
-| IX.—Sir M. E. Grant Duff's Views about India (2) | `583–607` | 25 | 3 | 0 / 25 |
-| Index | `608–615` | 3 | 0 | 0 / 3 |
+| VIII.—Replies to Questions put by the Public Service Commi | `553–566` | 14 | 0 | 0 / 14 |
+| Chapter VII: IX.—Sir M. E. Grant Duff's Views about India | `567–603` | 37 | 2 | 0 / 37 |
+| Index | `604–615` | 7 | 1 | 0 / 7 |

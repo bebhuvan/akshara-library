@@ -20,22 +20,22 @@
       "score": 8.0,
       "max": 25.0,
       "deductions": [
-        "-12.0: 81 column total arithmetic mismatch(es)",
-        "-5.0: 12 ragged table geometry warning(s)"
+        "-12.0: 82 column total arithmetic mismatch(es)",
+        "-5.0: 8 ragged table geometry warning(s)"
       ]
     },
     "orthographic_fidelity": {
       "score": 20.0,
       "max": 25.0,
       "deductions": [
-        "-5.0: 84 `<unclear>` ink span(s) awaiting scan check"
+        "-5.0: 83 `<unclear>` ink span(s) awaiting scan check"
       ]
     }
   },
   "issue_counts_by_code": {
-    "table_total_mismatch": 81,
-    "table_ragged_columns": 12,
-    "unclear_ink_span": 84,
+    "table_total_mismatch": 82,
+    "table_ragged_columns": 8,
+    "unclear_ink_span": 83,
     "orthographic_compositor_variant": 42,
     "rare_character": 10,
     "table_blind_total_confirmed": 2,

@@ -1,7 +1,7 @@
 # Edition Verification & Run Audit — *The Economic History of India Under Early British Rule*
 
 - **Book ID**: `economic-history-india-early-british-dutt` | **Run ID**: `g38-batch-v1` | **Collection**: `indian-economic-history`
-- **Edition Tier**: **`community`** | **Rubric Score**: **`92.0 / 100`** (`community`)
+- **Edition Tier**: **`community`** | **Rubric Score**: **`96.0 / 100`** (`community`)
 - **Reader**: Read by gemini-3.8-flash on 466 of 466 pages. Declared reader profile: english_prose (new readings use gemini-3.8-flash, with the book spelling note on prose pages).
 - **Pages**: `466` extracted, `2` blank/tissue, `0` failed (of `468` PDF leaves)
 - **Tracked API Spend**: **`$1.8143`** (`73.7%` cached input tokens: `3,688,856` / `5,003,183` in, `598,302` out, `0` thoughts)
@@ -14,7 +14,7 @@
 | :--- | ---: | :--- |
 | **1. Structural & Page Completeness** | **25.0 / 25.0** | Clean (0 deductions) |
 | **2. Scholarly Apparatus & Continuation** | **25.0 / 25.0** | Clean (0 deductions) |
-| **3. Tabular & Numerical Accuracy** | **17.0 / 25.0** | -8.0: 2 collapsed/jammed table row warning(s) |
+| **3. Tabular & Numerical Accuracy** | **21.0 / 25.0** | -4.0: 1 collapsed/jammed table row warning(s) |
 | **4. Orthographic, Script & Diacritics** | **25.0 / 25.0** | Clean (0 deductions) |
 
 ### Recommended Operator Next Actions
@@ -74,8 +74,8 @@
 
 ## 4. Structural Stitches, Flyleaf Filtering & Line-Wrap Audit
 
-- **Cross-Page Assembly**: `330` prose joins, `2` split footnotes stitched, `1` multi-page tables unified, `345` total footnotes.
-  - Stitched cross-page footnotes: p.173->p.174 (`2`), p.454->p.455 (`1`)
+- **Cross-Page Assembly**: `330` prose joins, `3` split footnotes stitched, `1` multi-page tables unified, `345` total footnotes.
+  - Stitched cross-page footnotes: p.173->p.174 (`2`), p.305->p.306 (`1`), p.454->p.455 (`1`)
 - **Suppressed Non-Authorial / Scanner Residue Blocks (`40` — verify no epigraph/dedication was caught)**:
   - Leaf `1` `p0001-b0001` (`scanner_residue`): *"3 1761 07489410 6"*
   - Leaf `6` `p0006-b0001` (`scanner_residue`): *"Digitized by the Internet Archive in 2010 with funding from University of Toronto"*
@@ -97,4 +97,4 @@
 
 - **Detected Scripts**: `latin`: 628,614 chars
 - **Distinct Non-ASCII Glyphs (`12` across `14` leaves)**: · É Ü ê ı œ ṣ „ ⁄ ⅓ ⅔ ⅛
-- **Corrections Replayed**: `15` applied, `0` orphaned/unmatched
+- **Corrections Replayed**: `24` applied, `0` orphaned/unmatched

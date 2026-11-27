@@ -25,8 +25,9 @@
     "epub3": "library/general-heritage/religion-of-the-veda/epub/religion-of-the-veda.epub",
     "markdown": "library/general-heritage/religion-of-the-veda/markdown/religion-of-the-veda.md",
     "tei_xml": "library/general-heritage/religion-of-the-veda/tei/religion-of-the-veda.tei.xml",
-    "print_html": "library/general-heritage/religion-of-the-veda/print/religion-of-the-veda.print.html",
+    "print_source": "library/general-heritage/religion-of-the-veda/print/religion-of-the-veda.typ",
     "pdf": "library/general-heritage/religion-of-the-veda/print/religion-of-the-veda.pdf",
+    "onepage_html": "library/general-heritage/religion-of-the-veda/html/religion-of-the-veda.html",
     "datasets": null,
     "datapackage": null
   },
@@ -60,8 +61,8 @@
       {
         "id": "audit:scan_triage",
         "axis": "provenance",
-        "label": "Scan-Triaged: 25 fixes · 10 pp. checked",
-        "detail": "25 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+        "label": "Scan-Triaged: 30 fixes · 10 pp. checked",
+        "detail": "30 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
       },
       {
         "id": "human:0pct",
@@ -158,7 +159,7 @@
       "total": 60
     },
     "corrections": {
-      "applied": 25,
+      "applied": 30,
       "unmatched": 0,
       "details": [
         {
@@ -335,6 +336,41 @@
           "matched_block_id": "p0158-b0004",
           "op": "set_text",
           "status": "applied"
+        },
+        {
+          "correction_id": "join-hyphen-p0145-b0003",
+          "page_number": 145,
+          "matched_block_id": "p0145-b0003",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0213-b0006-note",
+          "page_number": 213,
+          "matched_block_id": "p0213-b0006",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0213-b0007-note",
+          "page_number": 213,
+          "matched_block_id": "p0213-b0007",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0213-b0008-note",
+          "page_number": 213,
+          "matched_block_id": "p0213-b0008",
+          "op": "set_type",
+          "status": "applied"
+        },
+        {
+          "correction_id": "scan-check-2026-11-24-p0303-b0007-note",
+          "page_number": 303,
+          "matched_block_id": "p0303-b0007",
+          "op": "set_type",
+          "status": "applied"
         }
       ]
     },
@@ -362,7 +398,7 @@
         "severity": "informational",
         "category": "orthographic_compositor_variant",
         "message": "Token 'Brahmana' appears without diacritics here, whereas this volume consistently prints 'Brāhmaṇa' (29 occurrences).",
-        "expected_action": "Confirmed against scan as original compositor orthography (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor orthography (preserved per AGENTS.md §D4).",
         "validator": "orthographic_drift",
         "block_id": "p0021-b0003"
       },
@@ -479,7 +515,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 115 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['4', '5'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0115-b0006"
       },
@@ -650,7 +686,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 158 has inline note callout(s) ['1', '1'] vs. labelled footnote(s) ['1', '2'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0158-b0007"
       },
@@ -659,7 +695,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Unexpected combining mark U+032F COMBINING INVERTED BREVE BELOW on Latin base.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0164-b0004"
       },
@@ -677,7 +713,7 @@
         "severity": "informational",
         "category": "script_character_confirmed",
         "message": "Unexpected combining mark U+032F COMBINING INVERTED BREVE BELOW on Latin base.",
-        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as authentic printed glyph (preserved per AGENTS.md §D4).",
         "validator": "script_validator",
         "block_id": "p0165-b0003"
       },
@@ -713,7 +749,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 189 has inline note callout(s) ['1', '2'] vs. labelled footnote(s) ['1'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0189-b0004"
       },
@@ -749,7 +785,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 202 has inline note callout(s) ['1', '2', '4'] vs. labelled footnote(s) ['1', '2'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0202-b0004"
       },
@@ -812,7 +848,7 @@
         "severity": "informational",
         "category": "footnote_compositor_variant",
         "message": "Page 281 has inline note callout(s) ['2', '3'] vs. labelled footnote(s) ['1', '2', '3'].",
-        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per Rule 4).",
+        "expected_action": "Confirmed against scan as original compositor apparatus discrepancy (preserved per AGENTS.md §D4).",
         "validator": "apparatus_parity",
         "block_id": "p0281-b0004"
       },
@@ -903,8 +939,8 @@
         {
           "id": "audit:scan_triage",
           "axis": "provenance",
-          "label": "Scan-Triaged: 25 fixes · 10 pp. checked",
-          "detail": "25 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
+          "label": "Scan-Triaged: 30 fixes · 10 pp. checked",
+          "detail": "30 anchored emendation(s) applied; 10 machine re-read / scan-check page(s) in proof_ledger.json"
         },
         {
           "id": "human:0pct",

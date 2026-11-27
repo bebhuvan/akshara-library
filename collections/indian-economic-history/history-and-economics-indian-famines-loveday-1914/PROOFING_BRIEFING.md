@@ -37,19 +37,19 @@ Welcome! You do **not** need to read all 177 leaves from start to finish to make
 - [ ] Leaf **70** (`p0070-b0003`): Page 70 has inline note callout(s) ['4', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **73** (`p0073-b0004`): Page 73 has inline note callout(s) ['6', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **76** (`p0076-b0004`): Page 76 has inline note callout(s) ['7', 'a'] vs. labelled footnote(s) ['a'].
-- [ ] Leaf **83** (`p0083-b0006`): Page 83 has inline note callout(s) ['a', 'b'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **84** (`p0084-b0005`): Page 84 has inline note callout(s) ['9', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **90** (`p0090-b0004`): Page 90 has inline note callout(s) ['13', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **96** (`p0096-b0005`): Page 96 has inline note callout(s) ['1'] vs. labelled footnote(s) [].
 - [ ] Leaf **98** (`p0098-b0003`): Page 98 has inline note callout(s) ['2', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **107** (`p0107-b0003`): Page 107 has inline note callout(s) ['6', '7'] vs. labelled footnote(s) [].
+- [ ] Leaf **115** (`p0115-b0004`): Page 115 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **126** (`p0126-b0005`): Page 126 has inline note callout(s) ['5', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **139** (`p0139-b0003`): Page 139 has inline note callout(s) ['7', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **143** (`p0143-b0003`): Page 143 has inline note callout(s) ['8', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **147** (`p0147-b0006`): Page 147 has inline note callout(s) ['9'] vs. labelled footnote(s) [].
+- [ ] Leaf **148** (`p0148-b0005`): Page 148 has inline note callout(s) ['10', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **149** (`p0149-b0004`): Page 149 has inline note callout(s) ['11', '12', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **155** (`p0155-b0003`): Page 155 has inline note callout(s) ['1', '2', '3', '4'] vs. labelled footnote(s) [].
-- [ ] Leaf **156** (`p0156-b0006`): Page 156 has inline note callout(s) ['5', '6'] vs. labelled footnote(s) [].
 - [ ] Leaves **20 -> 21**: Confirm cross-page footnote `a` joins smoothly across the page turn.
 
 ---
@@ -76,11 +76,11 @@ Welcome! You do **not** need to read all 177 leaves from start to finish to make
 - [ ] Leaf **99**: Page 99 has inline note callout(s) ['3', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **100**: Page 100 has inline note callout(s) ['4', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **103**: Page 103 has inline note callout(s) ['5', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
-- [ ] Leaf **115**: Page 115 has inline note callout(s) ['1', 'a'] vs. labelled footnote(s) ['a'].
 - [ ] Leaf **115**: 'è' (U+00E8 LATIN SMALL LETTER E WITH GRAVE) appears only 1 time(s) in this book, here in 'guère—sauf'.
 - [ ] Leaf **119**: Page 119 has inline note callout(s) ['2', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
 - [ ] Leaf **124**: Page 124 has inline note callout(s) ['3', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] Leaf **125**: Page 125 has inline note callout(s) ['4', 'a', 'b'] vs. labelled footnote(s) ['a', 'b'].
+- [ ] Leaf **136**: Page 136 has inline note callout(s) ['6', 'a', 'b', 'c'] vs. labelled footnote(s) ['a', 'b', 'c'].
 - [ ] **Compound Hyphen Spot-Check**: Verify whether the author hyphenates `Macpherson` (leaf 13), `demonstration` (leaf 18), `meteorologists` (leaf 20), `perspective` (leaf 23), `occasionally` (leaf 27), `indeterminate` (leaf 27), `incapable` (leaf 28), `conqueror` (leaf 29), `attempting` (leaf 32), `correlation` (leaf 42), `inconsiderable` (leaf 43), `sojourners` (leaf 44), `indiscriminately` (leaf 59), `limitation` (leaf 62), `enforcement` (leaf 63).
 
 ---
@@ -97,7 +97,7 @@ Pick any short section below in the Proofing Studio, compare against the scan, a
 | INTRODUCTION | `17–24` | 8 | 0 | 0 / 8 |
 | CHAPTER I: CALAMITIES PREVIOUS TO 1770 | `25–44` | 20 | 9 | 0 / 20 |
 | CHAPTER II: CALAMITIES AND THE EAST INDIA COMPANY | `45–59` | 15 | 8 | 0 / 15 |
-| CHAPTER III: CALAMITIES FROM THE ABOLITION OF THE EAST IND | `60–94` | 35 | 15 | 0 / 35 |
+| CHAPTER III: CALAMITIES FROM THE ABOLITION OF THE EAST IND | `60–94` | 35 | 14 | 0 / 35 |
 | CHAPTER IV: RELIEF ORGANISATION | `95–112` | 18 | 6 | 0 / 18 |
 | CHAPTER V: PROTECTIVE MEASURES AND WIDER ECONOMIC PROBLEMS | `113–150` | 38 | 13 | 0 / 38 |
 | APPENDIX A: LIST OF FAMINES | `151–154` | 4 | 0 | 0 / 4 |
